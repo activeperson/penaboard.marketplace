@@ -1,0 +1,155 @@
+/*! Flickity v2.0.9
+http://flickity.metafizzy.co
+*/
+
+.flickity-enabled {
+	position: relative;
+}
+
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport {
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+
+.flickity-slider {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+	tap-highlight-color: transparent;
+	user-select: none;
+}
+
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+	position: absolute;
+	top: 50%;
+	width: 34px;
+	height: 34px;
+	border: none;
+	border-radius: 50%;
+	background: transparent;
+	cursor: pointer;
+	transform: translateY(-50%);
+	opacity: 0.6;
+	transition: all 0.1s ease-in-out;
+}
+
+.flickity-prev-next-button:hover {
+	opacity: 1;
+}
+
+.flickity-prev-next-button:focus {
+	outline: none;
+	box-shadow: 0 0 0 5px #09f;
+}
+
+.flickity-prev-next-button:active {
+	opacity: 0.6;
+}
+
+.flickity-prev-next-button.previous { left: 10px; }
+
+.flickity-prev-next-button.next { right: 10px; }
+
+/* right to left */
+.flickity-rtl .flickity-prev-next-button.previous {
+	left: auto;
+	right: 10px;
+}
+
+.flickity-rtl .flickity-prev-next-button.next {
+	right: auto;
+	left: 10px;
+}
+
+.flickity-prev-next-button:disabled {
+	opacity: 0.3;
+	cursor: auto;
+}
+
+.flickity-prev-next-button svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.flickity-prev-next-button .arrow {
+	fill: $white;
+}
+
+/* ---- page dots ---- */
+
+.flickity-page-dots {
+	position: absolute;
+	width: 100%;
+	bottom: -25px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots { direction: rtl; }
+
+
+.flickity-page-dots .dot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 8px;
+	background: gray("200");
+	border-radius: 50%;
+	transition: transform 0.2s ease-in;
+	cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+	transform: scale(1.2);
+	background-color: $black;
+}
+
+
+
+// Dots styling on image only sliders
+// ======================================
+
+.flickity--image {
+
+	.flickity-page-dots {
+		bottom: 20px;
+		z-index: 100;
+
+		@include media-breakpoint-up(md) {
+			bottom: 40px;
+		}
+	}
+
+	.flickity-page-dots .dot {
+		width: 12px;
+		height: 12px;
+		background: transparent;
+		border: 1px solid rgba($white, 0.3);
+		transition: transform 0.2s ease-in;
+	}
+
+	.flickity-page-dots .dot.is-selected {
+		transform: scale(1);
+		background-color: $white;
+		border-color: $white;
+		box-shadow: $box-shadow;
+	}
+}
+

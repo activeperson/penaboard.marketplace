@@ -1,0 +1,89 @@
+// ======================================================================================
+//
+// Metric Display
+//
+// ======================================================================================
+
+
+.metric-display {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 55px;
+	width: 100%;
+
+	@include media-breakpoint-down(sm) {
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+
+	.blockUI {
+		width: 100%;
+		flex: 1
+	}
+}
+
+
+.metric {
+	position: relative;
+	padding-left: 50px;
+	line-height: 1.5;
+
+	@include media-breakpoint-down(sm) {
+		margin-bottom: 25px;
+		padding-left: 38px;
+	}
+}
+
+// Quantity selector. Set the width based on number of elements.
+
+.metric:nth-last-of-type(3):first-child,
+.metric:nth-last-of-type(3):first-child ~ .metric {
+	flex: 0 0 (100% / 3);
+	max-width: (100% / 3);
+}
+
+.metric:nth-last-of-type(4):first-child,
+.metric:nth-last-of-type(4):first-child ~ .metric {
+	flex: 0 0 (100% / 4);
+	max-width: (100% / 4);
+
+	@include media-breakpoint-down(sm) {
+		flex-basis: calc(50% - 10px);
+		max-width: calc(50% - 10px);
+	}
+}
+
+
+.metric__value {
+	display: block;
+	font-size: $font-size-xl;
+	color: theme-color("dark");
+	line-height: 1.5;
+}
+
+
+// Variation with smaller type
+
+.metric--sm {
+	font-size: $font-size-sm;
+
+	.metric__value {
+		font-size: $font-size-base;
+	}
+}
+
+
+// Icons
+
+.metric .ico {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -17px;
+
+	@include media-breakpoint-down(sm) {
+		transform: scale(0.9);
+		transform-origin: 0 50%;
+	}
+}

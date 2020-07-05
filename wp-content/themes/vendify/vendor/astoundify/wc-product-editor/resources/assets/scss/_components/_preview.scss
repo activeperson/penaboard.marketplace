@@ -1,0 +1,17 @@
+.astoundify-wc-re-previewer {
+	position: absolute;
+	left: 100px;
+	right: auto;
+	top: $action-bar-height;
+	bottom: 0;
+	height: calc(100% - $action-bar-height);
+	width: 100%;
+	z-index: -1;
+
+	iframe {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		border: 0;
+	}
+}

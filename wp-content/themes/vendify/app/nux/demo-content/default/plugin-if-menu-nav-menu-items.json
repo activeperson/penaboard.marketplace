@@ -1,0 +1,28 @@
+[
+	{
+		"id": "nav-menu-item-signin",
+		"type": "nav-menu-item",
+		"priority": 0,
+		"data": {
+			"menu_name": "Left Menu",
+			"menu-item-title": "Sign In",
+			"menu-item-type": "custom",
+			"menu-item-endpoint": "/myaccount#sign-in",
+			"menu-item-role": "out",
+			"menu-item-position": 40
+		}
+	},
+	{
+		"id": "nav-menu-item-signup",
+		"type": "nav-menu-item",
+		"priority": 0,
+		"data": {
+			"menu_name": "Left Menu",
+			"menu-item-title": "Sign Up",
+			"menu-item-type": "custom",
+			"menu-item-endpoint": "/myaccount#sign-up",
+			"menu-item-role": "out",
+			"menu-item-position": 50
+		}
+	}
+]

@@ -1,0 +1,146 @@
+// ======================================================================================
+//
+// General widget tweaks for uncontrollable HTML.
+//
+// ======================================================================================
+
+// General lists.
+.widget > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	> li {
+		position: relative;
+		display: block;
+		padding: 15px 30px;
+		border-bottom: 1px solid gray("200");
+
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	.children {
+		font-size: 13px;
+		margin: 15px 0 0 12px;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+.cat-parent {
+	cursor: pointer;
+	position: relative;
+
+	&::after {
+		position: absolute;
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		top: 30px;
+		right: 30px;
+		margin-top: -6px;
+		background: $custom-select-indicator;
+		transform: rotate(0deg);
+		transition: transform 0.35s ease-in-out, filter 0.35s ease-in-out;
+		opacity: 0.75;
+		content: "";
+	}
+
+	&.is--expanded:after {
+		opacity: 1;
+		transform: rotate(180deg);
+	}
+}
+
+.current-cat > a {
+	font-weight: bold;
+}
+
+// General padding.
+.widget .tagcloud,
+.widget_calendar .card,
+.widget_categories form,
+.textwidget {
+	padding: 15px 30px;
+}
+
+.widget_archive select {
+	margin: 15px 30px;
+}
+
+// WP RSS.
+li .rsswidget {
+	display: block;
+}
+
+.rss-date {
+	font-size: 11px;
+	display: block;
+}
+
+// WP calendar.
+#wp-calendar {
+	border-collapse: collapse;
+	margin: 0 0 1.5em;
+	width: 100%;
+
+	thead th {
+		border-bottom: 2px solid gray("300");
+		padding-bottom: 0.5em;
+	}
+
+	th {
+		padding: 0.4em;
+		text-align: left;
+	}
+
+	tr {
+		border-bottom: 1px solid gray("200");
+	}
+
+	td {
+		padding: 0.4em;
+	}
+
+	th:first-child,
+	td:first-child {
+		padding-left: 0;
+	}
+
+	th:last-child,
+	td:last-child {
+		padding-right: 0;
+	}
+}
+
+// WC rating.
+.wc-layered-nav-rating {
+	line-height: 1;
+
+	a {
+		display: block;
+	}
+}
+
+// WC recent ratings.
+.widget_recent_reviews {
+
+	li {
+		flex-wrap: wrap;
+	}
+
+	img {
+		display: none;
+	}
+
+	.star-rating {
+		margin: 8px 0 12px;
+	}
+
+	.reviewer {
+		line-height: 1;
+		font-size: 11px;
+	}
+}

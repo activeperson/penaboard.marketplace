@@ -1,0 +1,210 @@
+// ======================================================================================
+//
+// Custom Search Field
+//
+// ======================================================================================
+
+// TODO: Clusterfuck, needs refactoring.
+// TODO: Indeed
+$custom-search-transition: all 0.4s ease-out;
+$custom-search-width--small: 140px;
+$custom-search-width--large: 180px;
+
+.custom-search {
+	position: relative;
+	cursor: pointer;
+}
+
+.custom-search:not(.custom-search--static) .custom-search__label {
+	position: relative;
+	z-index: 2;
+}
+
+.custom-search__label {
+	margin: 0;
+	width: 100%;
+	transition: $custom-search-transition;
+}
+
+.custom-search__icon {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	margin-top: -14px;
+	transition: $custom-search-transition;
+	content: "";
+
+	svg:hover {
+		fill: gray("400");
+	}
+
+	.widget_search & {
+		left: 14px;
+		z-index: 3;
+	}
+}
+
+.custom-search__close {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+	right: 1.2rem;
+	opacity: 0;
+	pointer-events: none;
+	transition: $custom-search-transition;
+
+	.form-control:focus + &, .custom-search__label--active & {
+		pointer-events: auto;
+		opacity: 1;
+		z-index: 3;
+	}
+}
+
+.custom-search .form-control {
+	background-color: $white;
+	border-radius: 50px;
+	width: 50px;
+	height: 48px;
+	font-size: $font-size-base;
+	opacity: 0;
+	border-color: transparent;
+	transition: $custom-search-transition;
+	cursor: pointer;
+
+	.widget_search & {
+		opacity: 0.8;
+		width: 100%;
+		padding-left: 50px;
+
+		&:focus {
+			width: 100%;
+		}
+	}
+}
+
+.custom-search .custom-search__label--active .form-control {
+	width: $custom-search-width--large;
+	padding-left: 3.5rem;
+	padding-right: 2.5rem;
+	background-position: left 1rem center;
+	border-color: $input-border-color;
+	opacity: 1;
+	transition: padding 0.4s ease-in-out, width 0.4s ease-out, opacity 0.4s 0.15s ease-in, border-color 0.4s  ease-out;
+	cursor: auto;
+}
+
+.custom-search__label--active {
+
+	& ~ .custom-search__icon {
+		z-index: 3;
+		left: 14px;
+	}
+}
+
+//  Left aligned
+// ======================================
+
+.custom-search--left {
+	margin-right: (-$custom-search-width--large + 50px); // Pull back whatver's next to it
+
+	.form-control:focus ~ .ico {
+		left: 1rem;
+	}
+
+	@include media-breakpoint-down(xl) {
+		display: none;
+	}
+
+	@include media-breakpoint-up(xl) {
+		display: inline-block;
+	}
+}
+
+
+// Right aligned
+// ======================================
+
+.custom-search--right {
+
+	.custom-search__icon {
+		right: 0;
+	}
+
+	.form-control:focus ~ .ico {
+		transform: translate(calc(#{-$custom-search-width--large} + 1rem + 28px));
+	}
+}
+
+
+
+
+// Static (no expanding)
+// ======================================
+
+.custom-search--static {
+
+	.form-control {
+		padding: $input-btn-padding-y-sm 1.5rem $input-btn-padding-y-sm 3rem !important;
+		width: $custom-search-width--large;
+		opacity: 1;
+		border-color: #fafafa;
+		background-color: #fafafa;
+		transition: $custom-search-transition;
+	}
+
+	.form-control:focus {
+		border-color: $input-border-color;
+	}
+
+	.custom-search__icon {
+		left: 14px;
+		z-index: 2;
+	}
+
+	.menu--left & .custom-search {
+		padding-bottom: 24px;
+	}
+}
+
+
+// Centered
+// ======================================
+
+.custom-search--centered {
+	display: block;
+
+	.form-control {
+		width: 100% !important;
+		color: #d3d3d3;
+		background-color: #efeeee;
+		border-color: #efeeee;
+		transition: $custom-search-transition;
+	}
+
+	.form-control:focus {
+		color: $gray-400;
+		background-color: $white;
+		border-color: $input-border-color;
+
+		~ .custom-search__icon {
+			left: calc(1rem + 14px);
+		}
+	}
+
+	.custom-search__icon {
+		filter: brightness(0.9);
+		left: 50%;
+		margin-left: -14px;
+	}
+}
+
+.custom-search--centered .custom-search__label--active ~ .custom-search__icon {
+	left: 28px;
+}
+
+//  Transparent header
+// ======================================
+.site-header--transparent .custom-search__label--active ~ .custom-search__icon .ico {
+	fill: gray("300");
+}

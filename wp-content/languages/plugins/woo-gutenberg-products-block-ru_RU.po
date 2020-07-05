@@ -1,0 +1,847 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-27 23:00:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:119
+#: assets/js/blocks/products-by-attribute/index.js:19
+msgid "Products by Attribute"
+msgstr "Товары по атрибутам"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:175
+msgid "All selected attributes"
+msgstr "Все выбранные атрибуты"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:168
+msgid "Any selected attributes"
+msgstr "Любой выбранные атрибут"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:125
+msgid "Display a grid of products from your selected attributes."
+msgstr "Вывод товаров по выбранным атрибутам"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:160
+msgid "Pick at least two attributes to use this setting."
+msgstr "Выберите хотя бы два атрибута, чтобы использовать эту настройку."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:65
+msgid "Filter by Product Attribute"
+msgstr "Фильтр по атрибутам"
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:69
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Количество терминов в атрибуте."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:63
+msgid "%s, has %d term"
+msgid_plural "%s, has %d terms"
+msgstr[0] "%s, содержит %d термин"
+msgstr[1] "%s, содержат %d термина"
+msgstr[2] "%s, содержит %d терминов"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:109
+msgid "Showing Products by Attribute block preview."
+msgstr "Предварительный просмотр блока \"Товары по атрибутам\"."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:125
+msgid "Show description"
+msgstr "Показать описание"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+msgid "Show price"
+msgstr "Показать цену"
+
+#: build/product-new-legacy.js:1 build/product-new.js:1
+#: assets/js/blocks/product-new/index.js:19
+msgid "Newest Products"
+msgstr "Новинки"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:156
+msgid "Pick at least two categories to use this setting."
+msgstr "Выберите как минимум две категории, чтобы использовать этот параметр."
+
+#: build/product-top-rated-legacy.js:1 build/product-top-rated.js:1
+#: assets/js/blocks/product-top-rated/index.js:21
+msgid "Top Rated Products"
+msgstr "Популярные товары"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Select at least one category to display its products."
+msgstr "Выберите хотя бы одну категорию для отображения товаров."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:99
+msgid "Edit media"
+msgstr "Изменить медиафайл"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: assets/js/blocks/featured-product/index.js:22
+msgid "Featured Product"
+msgstr "Рекомендуемый товар"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/cart-frontend.js:14 build/reviews-by-product.js:1
+#: build/reviews-by-category-legacy.js:1 build/single-product.js:1
+#: build/all-reviews-legacy.js:1 build/cart.js:1 build/all-reviews.js:1
+#: assets/js/blocks/single-product/edit/index.js:91
+#: assets/js/blocks/reviews/edit-utils.js:126
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:73
+#: assets/js/blocks/cart-checkout/cart/full-cart/cart-line-items-table.js:34
+msgid "Product"
+msgstr "Товар"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/featured-product.js:1 build/product-categories-legacy.js:1
+#: build/product-search-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/product-search.js:1
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/attribute-filter.js:1
+#: build/product-new.js:1 build/product-categories.js:1
+#: build/all-reviews-legacy.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/all-reviews.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/attribute-filter/edit.js:69
+#: assets/js/blocks/product-search/edit.js:41
+#: assets/js/blocks/products-by-attribute/block.js:54
+#: assets/js/blocks/product-top-rated/block.js:44
+#: assets/js/blocks/handpicked-products/block.js:80
+#: assets/js/blocks/product-categories/block.js:81
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:86
+#: assets/js/blocks/reviews/all-reviews/edit.js:29
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:90
+#: assets/js/blocks/product-tag/block.js:129
+#: assets/js/blocks/product-new/block.js:44
+#: assets/js/blocks/product-on-sale/block.js:60
+#: assets/js/blocks/featured-category/block.js:122
+#: assets/js/blocks/product-best-sellers/block.js:44
+#: assets/js/atomic/blocks/product/title/edit.js:21
+#: assets/js/atomic/blocks/product/image/edit.js:21
+msgid "Content"
+msgstr "Контент"
+
+#: build/product-new-legacy.js:1 build/product-new.js:1
+#: assets/js/blocks/product-new/index.js:26
+msgid "Display a grid of your newest products."
+msgstr "Отобразить сетку ваших новых товаров."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:130
+#: assets/js/blocks/handpicked-products/index.js:17
+msgid "Hand-picked Products"
+msgstr "Ручной подбор товаров"
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:307
+#: assets/js/components/product-attribute-term-control/index.js:105
+msgid "Product Attributes"
+msgstr "Атрибуты товара"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:110
+msgid "Search for product attributes"
+msgstr "Поиск атрибутов товара"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:171
+msgid "All selected categories"
+msgstr "Все выбранные категории"
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/single-product.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:52
+#: assets/js/components/product-control/index.js:49
+msgid "Product search results updated."
+msgstr "Результаты поиска товаров обновлены."
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/single-product.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:34
+#: assets/js/components/product-control/index.js:41
+msgid "Your store doesn't have any products."
+msgstr "В вашем магазине нет товаров."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:136
+#: assets/js/blocks/handpicked-products/index.js:27
+msgid "Display a selection of hand-picked products in a grid."
+msgstr "Отображение вручную выбранных товаров."
+
+#: build/product-on-sale-legacy.js:1 build/product-on-sale.js:1
+#: assets/js/blocks/product-on-sale/block.js:20
+#: assets/js/blocks/product-on-sale/index.js:19
+msgid "On Sale Products"
+msgstr "Товары со скидкой"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+msgid "No product is selected."
+msgstr "Товар не выбран."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:151
+msgid "Background Opacity"
+msgstr "Прозрачность фона"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:141
+msgid "Overlay Color"
+msgstr "Цвет наложения"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:136
+msgid "Overlay"
+msgstr "Наложение"
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:326
+#: assets/js/components/product-attribute-term-control/index.js:124
+msgid "Product attribute search results updated."
+msgstr "Обновлены результаты поиска атрибутов товаров."
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:318
+#: assets/js/components/product-attribute-term-control/index.js:116
+msgid "%d attribute selected"
+msgid_plural "%d attributes selected"
+msgstr[0] "%d атрибут выбран"
+msgstr[1] "%d атрибута выбрано"
+msgstr[2] "%d атрибутов выбрано"
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:308
+#: assets/js/components/product-attribute-term-control/index.js:106
+msgid "Your store doesn't have any product attributes."
+msgstr "В вашем магазине нет атрибутов товара."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:101
+msgid "Clear all product attributes"
+msgstr "Очистить все атрибуты товара"
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/single-product.js:1 assets/js/components/product-control/index.js:45
+msgid "Search for a product to display"
+msgstr "Поиск товара для отображения"
+
+#: build/product-top-rated-legacy.js:1 build/product-top-rated.js:1
+#: assets/js/blocks/product-top-rated/index.js:28
+msgid "Display a grid of your top rated products."
+msgstr "Отобразить сетку самых популярных товаров."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:120
+msgid "Showing Hand-picked Products block preview."
+msgstr "Предварительный просмотр блока \"Ручной подбор товаров\"."
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Showing Products by Category block preview."
+msgstr "Предварительный просмотр блока «Товары из категории»."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:184
+msgid "Showing Featured Product block preview."
+msgstr "Предварительный просмотр блока «Рекомендуемый товар»."
+
+#: build/product-best-sellers.js:1 build/product-best-sellers-legacy.js:1
+#: assets/js/blocks/product-best-sellers/index.js:26
+msgid "Display a grid of your all-time best selling products."
+msgstr "Показать самыe продаваемыe товары за все время."
+
+#: build/product-best-sellers.js:1 build/product-best-sellers-legacy.js:1
+#: assets/js/blocks/product-best-sellers/index.js:19
+msgid "Best Selling Products"
+msgstr "Самые продаваемые товары"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:164
+msgid "Any selected categories"
+msgstr "Любые выбранные категории"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:44
+msgid "%d product selected"
+msgid_plural "%d products selected"
+msgstr[0] "%d товар выбран"
+msgstr[1] "%d товара выбрано"
+msgstr[2] "%d товаров выбрано"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:32
+msgid "Clear all products"
+msgstr "Очистить все товары"
+
+#. Translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:119
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "Режим разработки блоков WooCommerce требует, чтобы файлы были собраны. Из каталога подключаемых модулей запустите %1$s для установки зависимостей, %2$s или %3$s  для сборки файлов и следите за изменениями."
+
+#: build/product-best-sellers.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/product-top-rated.js:1 build/product-on-sale.js:1
+#: assets/js/blocks/product-top-rated/block.js:55
+#: assets/js/blocks/product-new/block.js:55
+#: assets/js/blocks/product-on-sale/block.js:80
+#: assets/js/blocks/product-best-sellers/block.js:55
+msgid "Filter by Product Category"
+msgstr "Фильтр по категории"
+
+#: src/StoreApi/Routes/Products.php:271
+msgid "Operator to compare product category terms."
+msgstr "Оператор сравнивает термины категорий товаров."
+
+#: src/StoreApi/Routes/Products.php:352
+msgid "Operator to compare product attribute terms."
+msgstr "Оператор сравнивает термины атрибутов товаров."
+
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:200
+#: assets/js/blocks/featured-category/index.js:29
+msgid "Visually highlight a product category and encourage prompt action."
+msgstr "Визуально выделите товар и поощряйте ваших пользователей к активным действиям."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/index.js:113
+#: assets/js/blocks/featured-category/block.js:255
+#: assets/js/blocks/featured-category/index.js:113
+msgid "Shop now"
+msgstr "Магазин"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/product-top-rated-legacy.js:1 build/product-tag-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/product-top-rated.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-attribute-term-control/index.js:156
+#: assets/js/components/product-tag-control/index.js:147
+#: assets/js/components/product-category-control/index.js:152
+msgid "Display products matching"
+msgstr "Условия вывода товаров"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Product Category"
+msgstr " Категория продукта"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/checkout.js:1 build/featured-product.js:1
+#: build/product-categories-legacy.js:1 build/product-search-legacy.js:1
+#: build/blocks.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/product-search.js:1
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/blocks-legacy.js:1
+#: build/attribute-filter.js:1 build/product-new.js:1 build/single-product.js:1
+#: build/product-categories.js:1 build/all-reviews-legacy.js:1
+#: build/active-filters.js:1 build/cart.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/all-reviews.js:1 build/featured-category.js:1
+#: build/price-filter.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/index.js:21
+#: assets/js/blocks/attribute-filter/index.js:21
+#: assets/js/blocks/product-search/index.js:22
+#: assets/js/blocks/products/all-products/index.js:24
+#: assets/js/blocks/products-by-attribute/index.js:25
+#: assets/js/blocks/product-top-rated/index.js:27
+#: assets/js/blocks/handpicked-products/index.js:25
+#: assets/js/blocks/product-categories/index.js:22
+#: assets/js/blocks/single-product/index.js:27
+#: assets/js/blocks/product-category/index.js:29
+#: assets/js/blocks/featured-product/index.js:28
+#: assets/js/blocks/reviews/reviews-by-product/index.js:26
+#: assets/js/blocks/reviews/all-reviews/index.js:28
+#: assets/js/blocks/reviews/reviews-by-category/index.js:27
+#: assets/js/blocks/product-tag/index.js:25
+#: assets/js/blocks/product-new/index.js:25
+#: assets/js/blocks/product-on-sale/index.js:25
+#: assets/js/blocks/featured-category/index.js:28
+#: assets/js/blocks/active-filters/index.js:21
+#: assets/js/blocks/product-best-sellers/index.js:25
+#: assets/js/blocks/cart-checkout/checkout/index.js:23
+#: assets/js/blocks/cart-checkout/cart/index.js:26
+#: assets/js/blocks/price-filter/index.js:21
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+#: assets/js/blocks/product-category/index.js:23
+msgid "Products by Category"
+msgstr "Продукты по категориям"
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/single-product.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:100
+#: assets/js/components/products-control/index.js:33
+#: assets/js/components/product-control/index.js:40
+msgid "Products"
+msgstr "Товары"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:32
+msgid "Price - high to low"
+msgstr "Цены: по убыванию"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/all-products-frontend.js:6 build/single-product-frontend.js:6
+#: build/single-product.js:1 build/all-products.js:1
+#: assets/js/previews/products.js:51 assets/js/previews/products.js:52
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Search results updated."
+msgstr "Результаты поиска обновлены."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:38
+msgid "Search for products to display"
+msgstr "Поиск товаров для отображения"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 assets/js/components/grid-layout-control/index.js:40
+msgid "Rows"
+msgstr "Строки"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:46
+#: assets/js/components/grid-layout-control/index.js:28
+msgid "Columns"
+msgstr "Столбцы"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce Blocks"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:100
+msgid "Product Categories"
+msgstr "Категории товаров"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Results"
+msgstr "Результаты"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No items found."
+msgstr "Ничего не найдено."
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/index.js:82
+#: assets/js/base/components/product-list/no-matching-products.js:19
+msgid "No products found"
+msgstr "Товаров не обнаружено"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-category-legacy.js:1 build/checkout.js:1
+#: build/featured-product.js:1 build/product-tag-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/checkout-frontend.js:14
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/attribute-filter.js:1
+#: build/single-product.js:1 build/products-by-attribute.js:1
+#: build/all-products.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/base/components/cart-checkout/place-order-button/index.js:34
+#: assets/js/blocks/attribute-filter/edit.js:373
+#: assets/js/blocks/products-by-attribute/block.js:149
+#: assets/js/blocks/handpicked-products/block.js:149
+#: assets/js/blocks/single-product/edit/index.js:83
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:147
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:159
+#: assets/js/blocks/product-tag/block.js:206
+#: assets/js/blocks/featured-category/block.js:218
+msgid "Done"
+msgstr "Готово"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/attribute-filter.js:1
+#: build/single-product.js:1 build/all-reviews-legacy.js:1 build/cart.js:1
+#: build/products-by-attribute.js:1 build/all-products.js:1
+#: build/all-reviews.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/attribute-filter/edit.js:55
+#: assets/js/blocks/products-by-attribute/block.js:171
+#: assets/js/blocks/handpicked-products/block.js:171
+#: assets/js/blocks/single-product/edit/editor-block-controls.js:18
+#: assets/js/blocks/reviews/edit-utils.js:27
+#: assets/js/blocks/product-tag/block.js:272
+#: assets/js/blocks/cart-checkout/cart/edit.js:158
+msgid "Edit"
+msgstr "Изменить"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/single-product.js:1
+#: build/product-top-rated.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/products-by-attribute/block.js:43
+#: assets/js/blocks/product-top-rated/block.js:33
+#: assets/js/blocks/handpicked-products/block.js:42
+#: assets/js/blocks/single-product/edit/layout-editor.js:49
+#: assets/js/blocks/product-tag/block.js:118
+#: assets/js/blocks/product-new/block.js:33
+#: assets/js/blocks/product-on-sale/block.js:49
+#: assets/js/blocks/product-best-sellers/block.js:33
+msgid "Layout"
+msgstr "Разметка"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:119
+msgid "Category search results updated."
+msgstr "Результаты поиска по категориям обновлены."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:101
+msgid "Your store doesn't have any product categories."
+msgstr "В вашем магазине нет категорий товаров."
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "WooCommerce blocks для редактора Gutenberg."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:105
+msgid "Search for product categories"
+msgstr "Поиск категорий товаров"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:111
+msgid "%d category selected"
+msgid_plural "%d categories selected"
+msgstr[0] "%d категория выбрана"
+msgstr[1] "%d категории выбраны"
+msgstr[2] "%d категорий выбрано"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all"
+msgstr "Очистить всё"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all selected items"
+msgstr "Очистить все выбранные элементы"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No results for %s"
+msgstr "Ничего не найдено по запросу %s"
+
+#: build/all-products.js:1 assets/js/blocks/products/edit.js:36
+msgid "Order Products By"
+msgstr "Сортировать товары по"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:60
+msgid "Menu Order"
+msgstr "По порядку"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d элемент выбран"
+msgstr[1] "%d элемента выбрано"
+msgstr[2] "%d элементов выбрано"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:60
+#: assets/js/components/product-category-control/index.js:55
+msgid "%s, has %d product"
+msgid_plural "%s, has %d products"
+msgstr[0] "%s, содержит %d товар"
+msgstr[1] "%s, содержит %d товара"
+msgstr[2] "%s, содержит %d товаров"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Search for items"
+msgstr "Поиск по элементам"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:96
+msgid "Clear all product categories"
+msgstr "Очистить все категории товаров"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/products-by-attribute/block.js:91
+#: assets/js/blocks/handpicked-products/block.js:91
+#: assets/js/blocks/product-tag/block.js:140
+#: assets/js/blocks/product-on-sale/block.js:71
+msgid "Order By"
+msgstr "Сортировать"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/all-products-frontend.js:6 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/all-products.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/base/components/product-sort-select/index.js:59
+#: assets/js/components/product-orderby-control/index.js:14
+msgid "Order products by"
+msgstr "Сортировать товары по"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:25
+msgid "Price - low to high"
+msgstr "Цене: по возрастанию"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:18
+msgid "Newness - newest first"
+msgstr "Новизне: сначала новые"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:39
+msgid "Rating - highest first"
+msgstr "Рейтингу: сначала с высоким рейтингом"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:46
+msgid "Sales - most first"
+msgstr "Скидкам"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:53
+msgid "Title - alphabetical"
+msgstr "Алфавиту"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+#: assets/js/blocks/product-category/index.js:30
+msgid "Display a grid of products from your selected categories."
+msgstr "Показать товары из выбранных категорий."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:39
+msgid "Attribute name."
+msgstr "Название атрибута."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:163
+#: src/StoreApi/Schemas/CartItemSchema.php:213
+#: src/StoreApi/Schemas/ProductSchema.php:107
+msgid "Current product price."
+msgstr "Текущая цена товара."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:63
+msgid "Image alternative text."
+msgstr "Альтернативный текст изображения."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:31
+msgid "Image ID."
+msgstr "ID изображения."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:58
+msgid "Image name."
+msgstr "Название изображения."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:122
+#: src/StoreApi/Schemas/ProductSchema.php:166
+msgid "List of images."
+msgstr "Перечень изображений."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:188
+msgid "Meta key."
+msgstr "Ключ мета."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:194
+msgid "Meta value."
+msgstr "Значение мета."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:73
+#: src/StoreApi/Schemas/ProductSchema.php:55
+msgid "Product name."
+msgstr "Название товара."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:115
+#: src/StoreApi/Schemas/ProductSchema.php:71
+msgid "Product URL."
+msgstr "URL товара."
+
+#: src/StoreApi/Schemas/ProductSchema.php:154
+msgid "Reviews average rating."
+msgstr "Средняя оценка отзывов."
+
+#: src/StoreApi/Routes/ProductsById.php:35
+#: src/StoreApi/Routes/ProductAttributesById.php:35
+#: src/StoreApi/Routes/ProductCategoriesById.php:35
+#: src/StoreApi/Schemas/TermSchema.php:33
+#: src/StoreApi/Schemas/ProductReviewSchema.php:47
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:33
+#: src/StoreApi/Schemas/ProductSchema.php:49
+msgid "Unique identifier for the resource."
+msgstr "Уникальный идентификатор для ресурса."
+
+#: src/StoreApi/Schemas/ProductSchema.php:94
+msgid "Unique identifier."
+msgstr "Уникальный идентификатор."
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"

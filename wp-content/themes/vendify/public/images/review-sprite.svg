@@ -1,0 +1,79 @@
+<svg width="368" height="52" xmlns="http://www.w3.org/2000/svg">
+  <g fill-rule="nonzero" fill="none">
+    <g transform="translate(304 26)">
+      <circle fill="#EEE" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(342)">
+      <circle fill="#EEE" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(266 26)">
+      <circle fill="#EEE" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(228 26)">
+      <circle fill="#EEE" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(190 26)">
+      <circle fill="#EEE" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <path d="M165 52V26c-7.18 0-13 5.82-13 13s5.82 13 13 13z" fill="#FBD070"/>
+    <path d="M165 52V26c7.18 0 13 5.82 13 13s-5.82 13-13 13z" fill="#EEE"/>
+    <path fill="#FFF" d="M165 43.572l-4.326 2.028.593-4.736L158 37.38l4.693-.9L165 32.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    <g transform="translate(0 26)">
+      <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(38 26)">
+      <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(76 26)">
+      <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g transform="translate(114 26)">
+      <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+    </g>
+    <g>
+      <g transform="translate(304)">
+        <circle fill="#EEE" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <g transform="translate(266)">
+        <circle fill="#EEE" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <g transform="translate(228)">
+        <circle fill="#EEE" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <g transform="translate(190)">
+        <circle fill="#EEE" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+      <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      <g transform="translate(38)">
+        <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <g transform="translate(76)">
+        <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <g transform="translate(114)">
+        <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+      <g transform="translate(152)">
+        <circle fill="#FBD070" cx="13" cy="13" r="13"/>
+        <path fill="#FFF" d="M13 17.572L8.674 19.6l.593-4.736L6 11.38l4.693-.9L13 6.3l2.307 4.18 4.693.9-3.267 3.484.593 4.736z"/>
+      </g>
+    </g>
+  </g>
+</svg>

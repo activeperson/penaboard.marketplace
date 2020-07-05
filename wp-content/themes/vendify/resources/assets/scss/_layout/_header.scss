@@ -1,0 +1,296 @@
+// ======================================================================================
+//
+// Global header
+//
+// ======================================================================================
+
+// Header component containing navigation, search bar, and various dropdowns.
+//
+// Exists in two variations:
+// 1. White background (default)
+// 2. Transparent
+
+$header-breakpoint: 900px;
+
+.site-header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 68px;
+	z-index: 15;
+	background-color: $white;
+	box-shadow: $box-shadow;
+
+	@media (min-width:$header-breakpoint) {
+		height: auto;
+		min-height: 80px;
+	}
+
+	.custom-logo {
+		max-width: none !important;
+	}
+
+	.nav-link:hover {
+		// filter: brightness(86);
+		opacity: 0.6;
+	}
+
+	.container {
+		min-height: 80px;
+	}
+}
+
+// Statically positioned version for pages without hero
+
+.site-header--static {
+	position: relative; // I know... have to have z-index
+}
+
+.site-header .container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+	@include media-breakpoint-up(xl) {
+		width: (map_get($container-max-widths, xl) + 40);
+	}
+}
+
+.site-header--3 .container {
+	position: relative;
+
+	.nav-branding-split {
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		@include media-breakpoint-down(xl) {
+			position: static;
+		}
+	}
+
+	.site-title {
+		margin: 0 calc(10px + (100vw - 768px) * 0.012019);
+		display: flex;
+		align-items: center;
+	}
+
+	.custom-search__label--active~.custom-search__icon {
+		left: 0;
+		transform: translateX(14px);
+	}
+}
+
+.site-header--4 .menu-menu-container {
+	flex-grow: 1;
+
+	.nav {
+		justify-content: center;
+	}
+}
+
+// Navigation
+// ======================================
+
+.site-header .nav {
+	display: none;
+	flex-wrap: wrap;
+	min-height: 80px;
+
+	@media (min-width: $header-breakpoint) {
+		display: flex;
+		align-items: center;
+		align-self: stretch;
+		margin-right: $nav-link-padding-x;
+
+		.dropdown {
+			height: 100%;
+			display: flex;
+
+			> a {
+				align-self: center;
+			}
+		}
+	}
+}
+
+.site-header .nav-justified {
+	flex-grow: 1;
+}
+
+.site-header label {
+	margin-bottom: 0;
+}
+
+
+
+// Logo
+// ======================================
+
+.site-title {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.1;
+}
+
+.site-logo {
+
+	img {
+		display: block;
+	}
+}
+
+
+// Apply spacing only when positioned on the left
+// Center on small screens
+:not(.nav-link) > .site-title {
+	margin-right: $nav-spacing-half;
+
+	.site-header & {
+
+		@media (max-width: $header-breakpoint - 1) {
+			margin: auto;
+		}
+	}
+}
+
+// Dropdown customization
+// ======================================
+
+.site-header .dropdown-toggle {
+	font-size: $font-size-sm;
+
+	@include text-wide;
+}
+
+// Transparent Search
+// ======================================
+
+.site-header .form-control--transparent {
+	font-size: $font-size-base;
+	width: 150px;
+}
+
+// Transparent header
+// ======================================
+
+.site-header--transparent {
+	position: absolute;
+	top: 0;
+	background-color: transparent;
+	box-shadow: none;
+
+	@include media-breakpoint-up(lg) {
+		top: 20px;
+	}
+
+	.ico {
+		fill: rgba($white, 0.8);
+		stroke-width: 1;
+		stroke: rgba($black, 0.06);
+	}
+
+	a, button, label {
+		color: $white;
+
+		&:hover .ico {
+			color: $white;
+			fill: $white;
+			opacity: 0.6;
+		}
+	}
+
+	.nav-link {
+		background-color: $white;
+	}
+
+	.site-logo,
+	.nav-link--has-children,
+	.shop-dropdown__toggle,
+	.sh-dropdown__toggle,
+	.dropdown-toggle {
+		font-weight: $font-weight-normal;
+		background-color: transparent !important;
+		border-color: transparent !important;
+		color: $white;
+
+		&:hover {
+			color: $white;
+			opacity: 0.6;
+		}
+	}
+
+	.site-logo {
+		opacity: 0.85;
+	}
+
+	.form-control {
+		color: $white;
+		background-color: transparent !important;
+		font-weight: $font-weight-normal;
+	}
+
+	.custom-search .form-control {
+		border-color: rgba($white, 0.7);
+
+		&:focus {
+			color: $white;
+			border-color: rgba($white, 0.5);
+		}
+	}
+
+	.sh-dropdown.show
+	.sh-dropdown__toggle {
+		fill: $white;
+		.ico {
+			fill: $white;
+			filter: brightness(75%);
+		}
+	}
+}
+
+
+
+// Override responsive breakpoints
+// ======================================
+
+.site-header {
+
+	.d-md-block {
+
+		@include media-breakpoint-up(md) {
+			display: none !important;
+		}
+
+		@media (min-width: $header-breakpoint) {
+			display: block !important;
+		}
+	}
+
+	.d-md-flex {
+
+		@include media-breakpoint-up(md) {
+			display: none !important;
+		}
+
+		@media (min-width: $header-breakpoint) {
+			display: flex !important;
+		}
+	}
+
+	.d-md-none {
+
+		@include media-breakpoint-up(md) {
+			display: inherit !important;
+		}
+
+		@media (min-width: $header-breakpoint) {
+			display: none !important;
+		}
+	}
+}
+

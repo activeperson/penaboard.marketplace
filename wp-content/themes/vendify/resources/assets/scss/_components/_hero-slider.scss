@@ -1,0 +1,99 @@
+// ======================================================================================
+//
+// Hero slider
+//
+// ======================================================================================
+
+// Remove the background if any
+.hero--slider {
+
+	&::before {
+		background-image: none;
+		content: none;
+	}
+}
+
+.hero__slider,
+.hero__slide {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.hero__slide {
+	background-color: #3c3c3c;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+}
+
+// Needs an offset for centering when using transparent header.
+.site-header--transparent ~ .hero .hero__slide {
+	padding-top: 80px;
+}
+
+// To avoid flickering/repaint, hide all but first slide until Flickity inits.
+.hero__slide + .hero__slide {
+	opacity: 0;
+
+	.flickity-slider & {
+		opacity: 1;
+	}
+}
+
+
+// If the slide img is a background
+.hero__slide > img {
+	opacity: 0.5;
+	background-size: cover;
+	background-position: center center;
+	position: absolute;
+	top: 50%;
+	min-width: 100vw;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+
+	@include media-breakpoint-up(md) {
+		object-fit: cover;
+
+		&.hero-image-direction-landscape {
+			max-height: 100%;
+			max-width: none;
+		}
+
+		&.hero-image-direction-portrait {
+			max-height: none;
+			max-width: 100%;
+		}
+	}
+}
+
+// Disable clickability of the hero content, except actual clickable elements
+// to enable swiping of the underneath slider.
+.hero__slider ~ .hero__content {
+	pointer-events: none;
+
+	a,
+	.btn {
+		pointer-events: all;
+	}
+}
+
+.hero__slider .flickity-prev-next-button {
+	display: none;
+
+	@media (min-width: 1420px) {
+		display: block;
+	}
+}
+
+.hero__slider .flickity-prev-next-button.previous {
+	left: 60px;
+}
+
+.hero__slider .flickity-prev-next-button.next {
+	right: 60px;
+}

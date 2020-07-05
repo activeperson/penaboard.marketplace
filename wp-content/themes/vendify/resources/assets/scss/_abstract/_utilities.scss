@@ -1,0 +1,62 @@
+// ======================================================================================
+//
+// Utilities
+//
+// ======================================================================================
+
+
+// Text
+// ======================================
+
+.screen-reader-text {
+
+	@include vendify-screen-reader-text;
+}
+
+.text-xs {font-size: $font-size-xs !important; }
+
+.text-sm {font-size: $font-size-sm !important; }
+
+.text-lg {font-size: $font-size-lg !important; }
+
+.text-xl {font-size: $font-size-xl !important; }
+
+.text-wide {
+	text-transform: uppercase !important;
+	letter-spacing: 0.2rem !important;
+}
+
+.font-weight-very-thin {
+	font-weight: 100 !important;
+}
+
+.font-weight-thin {
+	font-weight: 200 !important;
+}
+
+.font-weight-500 {
+	font-weight: 500 !important;
+}
+
+.font-weight-bolder {
+	font-weight: 900 !important;
+}
+
+// Spacing
+// ======================================
+
+.ml-fluid {
+	margin-left: $nav-spacing;
+}
+
+.mr-fluid {
+	margin-right: $nav-spacing;
+}
+
+.ml-fluid-half {
+	margin-left: $nav-spacing-half;
+}
+
+.mr-fluid-half {
+	margin-right: $nav-spacing-half;
+}

@@ -1,0 +1,30 @@
+@each $color, $value in $colors {
+
+	.has-#{$color}-background-color {
+		background-color: $value;
+	}
+
+	.has-#{$color}-border-color {
+		border-color: $value;
+	}
+
+	.has-#{$color}-color {
+		color: $value;
+
+		&:hover {
+			color: $value;
+		}
+	}
+}
+
+// @each $color, $value in $grays {
+// 	.has-gray-#{$color}-background-color {
+// 		background-color: $value;
+// 	}
+// 	.has-gray-#{$color}-border-color {
+// 		border-color: $value;
+// 	}
+// 	.has-gray-#{$color}-color {
+// 		color: $value;
+// 	}
+// }

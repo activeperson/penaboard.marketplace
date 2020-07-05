@@ -1,0 +1,1415 @@
+# Translation of Plugins - If Menu &#8211; Visibility control for Menu Items - Development (trunk) in Ukrainian
+# This file is distributed under the same license as the Plugins - If Menu &#8211; Visibility control for Menu Items - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-17 22:05:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - If Menu &#8211; Visibility control for Menu Items - Development (trunk)\n"
+
+#: src/conditions-multiple-options.php:262
+msgid "Zimbabwe"
+msgstr "Зімбабве"
+
+#: src/conditions-multiple-options.php:261
+msgid "Zambia"
+msgstr "Замбія"
+
+#: src/conditions-multiple-options.php:260
+msgid "Yemen"
+msgstr "Ємен"
+
+#: src/conditions-multiple-options.php:259
+msgid "Samoa"
+msgstr "Самоа"
+
+#: src/conditions-multiple-options.php:258
+msgid "Western Sahara"
+msgstr "Західна Сахара"
+
+#: src/conditions-multiple-options.php:257
+msgid "Wallis and Futuna"
+msgstr "Уолліс та Футуна"
+
+#: src/conditions-multiple-options.php:256
+msgid "Vietnam"
+msgstr "В'єтнам"
+
+#: src/conditions-multiple-options.php:255
+msgid "Venezuela"
+msgstr "Венесуела"
+
+#: src/conditions-multiple-options.php:254
+msgid "Vatican"
+msgstr "Ватікан"
+
+#: src/conditions-multiple-options.php:253
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: src/conditions-multiple-options.php:252
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: src/conditions-multiple-options.php:251
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: src/conditions-multiple-options.php:250
+msgid "United States (US) Virgin Islands"
+msgstr "Віргінські острови США"
+
+#: src/conditions-multiple-options.php:249
+msgid "United States (US) Minor Outlying Islands"
+msgstr "Зовнішні малі острови США"
+
+#: src/conditions-multiple-options.php:248
+msgid "United States (US)"
+msgstr "Сполучені Штати Америки"
+
+#: src/conditions-multiple-options.php:247
+msgid "United Kingdom (UK)"
+msgstr "Великобританія "
+
+#: src/conditions-multiple-options.php:246
+msgid "United Arab Emirates"
+msgstr "Об'єднані Арабські Емірати"
+
+#: src/conditions-multiple-options.php:245
+msgid "Ukraine"
+msgstr "Україна"
+
+#: src/conditions-multiple-options.php:244
+msgid "Uganda"
+msgstr "Уганда"
+
+#: src/conditions-multiple-options.php:243
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: src/conditions-multiple-options.php:242
+msgid "Turks and Caicos Islands"
+msgstr "Теркс і Кайкос острова"
+
+#: src/conditions-multiple-options.php:241
+msgid "Turkmenistan"
+msgstr "Туркменістан"
+
+#: src/conditions-multiple-options.php:240
+msgid "Turkey"
+msgstr "Туреччина"
+
+#: src/conditions-multiple-options.php:239
+msgid "Tunisia"
+msgstr "Туніс"
+
+#: src/conditions-multiple-options.php:238
+msgid "Trinidad and Tobago"
+msgstr "Тринідад і Тобаго"
+
+#: src/conditions-multiple-options.php:237
+msgid "Tonga"
+msgstr "Тонга"
+
+#: src/conditions-multiple-options.php:236
+msgid "Tokelau"
+msgstr "Токелау"
+
+#: src/conditions-multiple-options.php:235
+msgid "Togo"
+msgstr "Того"
+
+#: src/conditions-multiple-options.php:234
+msgid "Timor-Leste"
+msgstr "Тимор-Лешті"
+
+#: src/conditions-multiple-options.php:233
+msgid "Thailand"
+msgstr "Таїланд"
+
+#: src/conditions-multiple-options.php:232
+msgid "Tanzania"
+msgstr "Танзанія"
+
+#: src/conditions-multiple-options.php:231
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: src/conditions-multiple-options.php:230
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: src/conditions-multiple-options.php:229
+msgid "Syria"
+msgstr "Сирія"
+
+#: src/conditions-multiple-options.php:228
+msgid "Switzerland"
+msgstr "Швейцарія"
+
+#: src/conditions-multiple-options.php:227
+msgid "Sweden"
+msgstr "Швеція"
+
+#: src/conditions-multiple-options.php:226
+msgid "Swaziland"
+msgstr "Свазіленд"
+
+#: src/conditions-multiple-options.php:225
+msgid "Svalbard and Jan Mayen"
+msgstr "Шпіцберген і Ян-Маєн"
+
+#: src/conditions-multiple-options.php:224
+msgid "Suriname"
+msgstr "Сурінам"
+
+#: src/conditions-multiple-options.php:223
+msgid "Sudan"
+msgstr "Судан"
+
+#: src/conditions-multiple-options.php:222
+msgid "Sri Lanka"
+msgstr "Шрі Ланка"
+
+#: src/conditions-multiple-options.php:221
+msgid "Spain"
+msgstr "Іспанія"
+
+#: src/conditions-multiple-options.php:220
+msgid "South Sudan"
+msgstr "південний Судан"
+
+#: src/conditions-multiple-options.php:219
+msgid "South Korea"
+msgstr "Південна Корея"
+
+#: src/conditions-multiple-options.php:218
+msgid "South Georgia/Sandwich Islands"
+msgstr "Південна Джорджія / Сандвічеві острови"
+
+#: src/conditions-multiple-options.php:217
+msgid "South Africa"
+msgstr "Південна Африка"
+
+#: src/conditions-multiple-options.php:216
+msgid "Somalia"
+msgstr "Сомалі"
+
+#: src/conditions-multiple-options.php:215
+msgid "Solomon Islands"
+msgstr "Соломонові острови"
+
+#: src/conditions-multiple-options.php:214
+msgid "Slovenia"
+msgstr "Словенія"
+
+#: src/conditions-multiple-options.php:213
+msgid "Slovakia"
+msgstr "Словаччина"
+
+#: src/conditions-multiple-options.php:212
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: src/conditions-multiple-options.php:211
+msgid "Sierra Leone"
+msgstr "Сьєрра-Леоне"
+
+#: src/conditions-multiple-options.php:210
+msgid "Seychelles"
+msgstr "Сейшельські острови"
+
+#: src/conditions-multiple-options.php:209
+msgid "Serbia"
+msgstr "Сербія"
+
+#: src/conditions-multiple-options.php:208
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: src/conditions-multiple-options.php:207
+msgid "Saudi Arabia"
+msgstr "Саудівська Аравія"
+
+#: src/conditions-multiple-options.php:206
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "Сан-Томе і Принсіпі"
+
+#: src/conditions-multiple-options.php:205
+msgid "San Marino"
+msgstr "Сан Маріно"
+
+#: src/conditions-multiple-options.php:204
+msgid "Saint Vincent and the Grenadines"
+msgstr "Сент-Вінсент і Гренадіни"
+
+#: src/conditions-multiple-options.php:203
+msgid "Saint Pierre and Miquelon"
+msgstr "Сен-П'єр і Мікелон"
+
+#: src/conditions-multiple-options.php:202
+msgid "Saint Martin (Dutch part)"
+msgstr "Сен-Мартен (голландський частина)"
+
+#: src/conditions-multiple-options.php:201
+msgid "Saint Martin (French part)"
+msgstr "Сен-Мартен (французька частина)"
+
+#: src/conditions-multiple-options.php:200
+msgid "Saint Lucia"
+msgstr "Сент-Люсія"
+
+#: src/conditions-multiple-options.php:199
+msgid "Saint Kitts and Nevis"
+msgstr "Сент-Кітс і Невіс"
+
+#: src/conditions-multiple-options.php:198
+msgid "Saint Helena"
+msgstr "острів Святої Єлени"
+
+#: src/conditions-multiple-options.php:197
+msgid "Saint Barth&eacute;lemy"
+msgstr "Сен-Бартелемі"
+
+#: src/conditions-multiple-options.php:196
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: src/conditions-multiple-options.php:194
+msgid "Romania"
+msgstr "Румунія"
+
+#: src/conditions-multiple-options.php:193
+msgid "Reunion"
+msgstr "Реюньйон"
+
+#: src/conditions-multiple-options.php:192
+msgid "Qatar"
+msgstr "Катар"
+
+#: src/conditions-multiple-options.php:191
+msgid "Puerto Rico"
+msgstr "Порт Ріко"
+
+#: src/conditions-multiple-options.php:190
+msgid "Portugal"
+msgstr "Португалія"
+
+#: src/conditions-multiple-options.php:189
+msgid "Poland"
+msgstr "Польща"
+
+#: src/conditions-multiple-options.php:188
+msgid "Pitcairn"
+msgstr "Піткерн"
+
+#: src/conditions-multiple-options.php:187
+msgid "Philippines"
+msgstr "Філіппіни"
+
+#: src/conditions-multiple-options.php:186
+msgid "Peru"
+msgstr "Перу"
+
+#: src/conditions-multiple-options.php:185
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: src/conditions-multiple-options.php:184
+msgid "Papua New Guinea"
+msgstr "Папуа-Нова Гвінея"
+
+#: src/conditions-multiple-options.php:183
+msgid "Panama"
+msgstr "Панама"
+
+#: src/conditions-multiple-options.php:182
+msgid "Palestinian Territory"
+msgstr "Палестинська територія"
+
+#: src/conditions-multiple-options.php:181
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: src/conditions-multiple-options.php:180
+msgid "Oman"
+msgstr "Оман"
+
+#: src/conditions-multiple-options.php:179
+msgid "Norway"
+msgstr "Норвегія"
+
+#: src/conditions-multiple-options.php:178
+msgid "North Korea"
+msgstr "Північна Корея"
+
+#: src/conditions-multiple-options.php:177
+msgid "Northern Mariana Islands"
+msgstr "Північні Маріанські острови"
+
+#: src/conditions-multiple-options.php:176
+msgid "Norfolk Island"
+msgstr "острів Норфолк"
+
+#: src/conditions-multiple-options.php:175
+msgid "Niue"
+msgstr "Ніуе"
+
+#: src/conditions-multiple-options.php:174
+msgid "Nigeria"
+msgstr "Нігерія"
+
+#: src/conditions-multiple-options.php:173
+msgid "Niger"
+msgstr "Нігер"
+
+#: src/conditions-multiple-options.php:172
+msgid "Nicaragua"
+msgstr "Нікарагуа"
+
+#: src/conditions-multiple-options.php:171
+msgid "New Zealand"
+msgstr "Нова Зеландія"
+
+#: src/conditions-multiple-options.php:170
+msgid "New Caledonia"
+msgstr "Нова Каледонія"
+
+#: src/conditions-multiple-options.php:169
+msgid "Netherlands"
+msgstr "Нідерланди"
+
+#: src/conditions-multiple-options.php:168
+msgid "Nepal"
+msgstr "Непал"
+
+#: src/conditions-multiple-options.php:167
+msgid "Nauru"
+msgstr "Науру"
+
+#: src/conditions-multiple-options.php:166
+msgid "Namibia"
+msgstr "Намібія"
+
+#: src/conditions-multiple-options.php:165
+msgid "Myanmar"
+msgstr "М'янма"
+
+#: src/conditions-multiple-options.php:164
+msgid "Mozambique"
+msgstr "Мозамбік"
+
+#: src/conditions-multiple-options.php:163
+msgid "Morocco"
+msgstr "Марокко"
+
+#: src/conditions-multiple-options.php:162
+msgid "Montserrat"
+msgstr "Монтсеррат"
+
+#: src/conditions-multiple-options.php:161
+msgid "Montenegro"
+msgstr "Чорногорія"
+
+#: src/conditions-multiple-options.php:160
+msgid "Mongolia"
+msgstr "Монголія"
+
+#: src/conditions-multiple-options.php:159
+msgid "Monaco"
+msgstr "Монако"
+
+#: src/conditions-multiple-options.php:158
+msgid "Moldova"
+msgstr "Молдова"
+
+#: src/conditions-multiple-options.php:157
+msgid "Micronesia"
+msgstr "Мікронезія"
+
+#: src/conditions-multiple-options.php:156
+msgid "Mexico"
+msgstr "Мексика"
+
+#: src/conditions-multiple-options.php:155
+msgid "Mayotte"
+msgstr "Майотта"
+
+#: src/conditions-multiple-options.php:154
+msgid "Mauritius"
+msgstr "Маврикій"
+
+#: src/conditions-multiple-options.php:153
+msgid "Mauritania"
+msgstr "Мавританія"
+
+#: src/conditions-multiple-options.php:152
+msgid "Martinique"
+msgstr "Мартініка"
+
+#: src/conditions-multiple-options.php:151
+msgid "Marshall Islands"
+msgstr "Маршаллові острови"
+
+#: src/conditions-multiple-options.php:150
+msgid "Malta"
+msgstr "Мальта"
+
+#: src/conditions-multiple-options.php:149
+msgid "Mali"
+msgstr "Малі"
+
+#: src/conditions-multiple-options.php:148
+msgid "Maldives"
+msgstr "Мальдіви"
+
+#: src/conditions-multiple-options.php:147
+msgid "Malaysia"
+msgstr "Малайзія"
+
+#: src/conditions-multiple-options.php:146
+msgid "Malawi"
+msgstr "Малаві"
+
+#: src/conditions-multiple-options.php:145
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: src/conditions-multiple-options.php:144
+msgid "Macedonia"
+msgstr "Македонія"
+
+#: src/conditions-multiple-options.php:143
+msgid "Macao S.A.R., China"
+msgstr "Особливий адміністративний район Макао, Китай"
+
+#: src/conditions-multiple-options.php:142
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: src/conditions-multiple-options.php:141
+msgid "Lithuania"
+msgstr "Литва"
+
+#: src/conditions-multiple-options.php:140
+msgid "Liechtenstein"
+msgstr "Ліхтенштейн"
+
+#: src/conditions-multiple-options.php:139
+msgid "Libya"
+msgstr "Лівія"
+
+#: src/conditions-multiple-options.php:138
+msgid "Liberia"
+msgstr "Ліберія"
+
+#: src/conditions-multiple-options.php:137
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: src/conditions-multiple-options.php:136
+msgid "Lebanon"
+msgstr "Ліван"
+
+#: src/conditions-multiple-options.php:135
+msgid "Latvia"
+msgstr "Латвія"
+
+#: src/conditions-multiple-options.php:134
+msgid "Laos"
+msgstr "Лаос"
+
+#: src/conditions-multiple-options.php:133
+msgid "Kyrgyzstan"
+msgstr "Киргизія"
+
+#: src/conditions-multiple-options.php:132
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: src/conditions-multiple-options.php:131
+msgid "Kiribati"
+msgstr "Кірібаті"
+
+#: src/conditions-multiple-options.php:130
+msgid "Kenya"
+msgstr "Кенія"
+
+#: src/conditions-multiple-options.php:129
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: src/conditions-multiple-options.php:128
+msgid "Jordan"
+msgstr "Йорданія"
+
+#: src/conditions-multiple-options.php:127
+msgid "Jersey"
+msgstr "Джерсі"
+
+#: src/conditions-multiple-options.php:126
+msgid "Japan"
+msgstr "Японія"
+
+#: src/conditions-multiple-options.php:125
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: src/conditions-multiple-options.php:124
+msgid "Ivory Coast"
+msgstr "Кот-д'Івуар"
+
+#: src/conditions-multiple-options.php:123
+msgid "Italy"
+msgstr "Італія"
+
+#: src/conditions-multiple-options.php:122
+msgid "Israel"
+msgstr "Ізраїль"
+
+#: src/conditions-multiple-options.php:121
+msgid "Isle of Man"
+msgstr "Острів Мен"
+
+#: src/conditions-multiple-options.php:120
+msgid "Ireland"
+msgstr "Ірландія"
+
+#: src/conditions-multiple-options.php:119
+msgid "Iraq"
+msgstr "Ірак"
+
+#: src/conditions-multiple-options.php:118
+msgid "Iran"
+msgstr "Іран"
+
+#: src/conditions-multiple-options.php:117
+msgid "Indonesia"
+msgstr "Індонезія"
+
+#: src/conditions-multiple-options.php:116
+msgid "India"
+msgstr "Індія"
+
+#: src/conditions-multiple-options.php:115
+msgid "Iceland"
+msgstr "Ісландія"
+
+#: src/conditions-multiple-options.php:114
+msgid "Hungary"
+msgstr "Угорщина"
+
+#: src/conditions-multiple-options.php:113
+msgid "Hong Kong"
+msgstr "Гонконг"
+
+#: src/conditions-multiple-options.php:112
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: src/conditions-multiple-options.php:111
+msgid "Heard Island and McDonald Islands"
+msgstr "Острів Херд і острови Макдональд"
+
+#: src/conditions-multiple-options.php:110
+msgid "Haiti"
+msgstr "Гаїті"
+
+#: src/conditions-multiple-options.php:109
+msgid "Guyana"
+msgstr "Гайана"
+
+#: src/conditions-multiple-options.php:108
+msgid "Guinea-Bissau"
+msgstr "Гвінея-Бісау"
+
+#: src/conditions-multiple-options.php:107
+msgid "Guinea"
+msgstr "Гвінея"
+
+#: src/conditions-multiple-options.php:106
+msgid "Guernsey"
+msgstr "Гуернсі"
+
+#: src/conditions-multiple-options.php:105
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#: src/conditions-multiple-options.php:104
+msgid "Guam"
+msgstr "Гуам"
+
+#: src/conditions-multiple-options.php:103
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+#: src/conditions-multiple-options.php:102
+msgid "Grenada"
+msgstr "Гренада"
+
+#: src/conditions-multiple-options.php:101
+msgid "Greenland"
+msgstr "Ґренландія"
+
+#: src/conditions-multiple-options.php:100
+msgid "Greece"
+msgstr "Греція"
+
+#: src/conditions-multiple-options.php:99
+msgid "Gibraltar"
+msgstr "Гібралтар"
+
+#: src/conditions-multiple-options.php:98
+msgid "Ghana"
+msgstr "Гана"
+
+#: src/conditions-multiple-options.php:97
+msgid "Germany"
+msgstr "Німеччина"
+
+#: src/conditions-multiple-options.php:96
+msgid "Georgia"
+msgstr "Грузія"
+
+#: src/conditions-multiple-options.php:95
+msgid "Gambia"
+msgstr "Гамбія"
+
+#: src/conditions-multiple-options.php:94
+msgid "Gabon"
+msgstr "Габон"
+
+#: src/conditions-multiple-options.php:93
+msgid "French Southern Territories"
+msgstr "Французькі Південні Території"
+
+#: src/conditions-multiple-options.php:92
+msgid "French Polynesia"
+msgstr "Французька Полінезія"
+
+#: src/conditions-multiple-options.php:91
+msgid "French Guiana"
+msgstr "Французька Гвіана"
+
+#: src/conditions-multiple-options.php:90
+msgid "France"
+msgstr "Франція"
+
+#: src/conditions-multiple-options.php:89
+msgid "Finland"
+msgstr "Фінляндія"
+
+#: src/conditions-multiple-options.php:88
+msgid "Fiji"
+msgstr "Фіджі"
+
+#: src/conditions-multiple-options.php:87
+msgid "Faroe Islands"
+msgstr "Фарерські острови"
+
+#: src/conditions-multiple-options.php:86
+msgid "Falkland Islands"
+msgstr "Фолклендські острови"
+
+#: src/conditions-multiple-options.php:85
+msgid "Ethiopia"
+msgstr "Ефіопія"
+
+#: src/conditions-multiple-options.php:84
+msgid "Estonia"
+msgstr "Естонія"
+
+#: src/conditions-multiple-options.php:83
+msgid "Eritrea"
+msgstr "Еритрея"
+
+#: src/conditions-multiple-options.php:82
+msgid "Equatorial Guinea"
+msgstr "Екваторіальна Гвінея"
+
+#: src/conditions-multiple-options.php:81
+msgid "El Salvador"
+msgstr "Сальвадор"
+
+#: src/conditions-multiple-options.php:80
+msgid "Egypt"
+msgstr "Єгипет"
+
+#: src/conditions-multiple-options.php:79
+msgid "Ecuador"
+msgstr "Еквадор"
+
+#: src/conditions-multiple-options.php:78
+msgid "Dominican Republic"
+msgstr "Домініканська Республіка"
+
+#: src/conditions-multiple-options.php:77
+msgid "Dominica"
+msgstr "Домінікана"
+
+#: src/conditions-multiple-options.php:76
+msgid "Djibouti"
+msgstr "Джибуті"
+
+#: src/conditions-multiple-options.php:75
+msgid "Denmark"
+msgstr "Данія"
+
+#: src/conditions-multiple-options.php:74
+msgid "Czech Republic"
+msgstr "Чеська Республіка"
+
+#: src/conditions-multiple-options.php:73
+msgid "Cyprus"
+msgstr "Кіпр"
+
+#: src/conditions-multiple-options.php:72
+msgid "Cura&ccedil;ao"
+msgstr "Кюрасао"
+
+#: src/conditions-multiple-options.php:71
+msgid "Cuba"
+msgstr "Куба"
+
+#: src/conditions-multiple-options.php:70
+msgid "Croatia"
+msgstr "Хорватія"
+
+#: src/conditions-multiple-options.php:69
+msgid "Costa Rica"
+msgstr "Коста Ріка"
+
+#: src/conditions-multiple-options.php:68
+msgid "Cook Islands"
+msgstr "Острови Кука"
+
+#: src/conditions-multiple-options.php:67
+msgid "Congo (Kinshasa)"
+msgstr "Конго (Кіншаса)"
+
+#: src/conditions-multiple-options.php:66
+msgid "Congo (Brazzaville)"
+msgstr "Конго (Браззавіль)"
+
+#: src/conditions-multiple-options.php:65
+msgid "Comoros"
+msgstr "Коморські острови"
+
+#: src/conditions-multiple-options.php:64
+msgid "Colombia"
+msgstr "Колумбія"
+
+#: src/conditions-multiple-options.php:63
+msgid "Cocos (Keeling) Islands"
+msgstr "Кокосові (Кілінг) острови"
+
+#: src/conditions-multiple-options.php:62
+msgid "Christmas Island"
+msgstr "Острів Різдва"
+
+#: src/conditions-multiple-options.php:61
+msgid "China"
+msgstr "Китай"
+
+#: src/conditions-multiple-options.php:60
+msgid "Chile"
+msgstr "Чилі"
+
+#: src/conditions-multiple-options.php:59
+msgid "Chad"
+msgstr "Чад"
+
+#: src/conditions-multiple-options.php:58
+msgid "Central African Republic"
+msgstr "Центральноафриканська Республіка"
+
+#: src/conditions-multiple-options.php:57
+msgid "Cayman Islands"
+msgstr "Кайманові острови"
+
+#: src/conditions-multiple-options.php:56
+msgid "Cape Verde"
+msgstr "Кабо-Верде"
+
+#: src/conditions-multiple-options.php:55
+msgid "Canada"
+msgstr "Канада"
+
+#: src/conditions-multiple-options.php:54
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: src/conditions-multiple-options.php:53
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: src/conditions-multiple-options.php:52
+msgid "Burundi"
+msgstr "Бурунді"
+
+#: src/conditions-multiple-options.php:51
+msgid "Burkina Faso"
+msgstr "Буркіна-Фасо"
+
+#: src/conditions-multiple-options.php:50
+msgid "Bulgaria"
+msgstr "Болгарія"
+
+#: src/conditions-multiple-options.php:49
+msgid "Brunei"
+msgstr "Бруней"
+
+#: src/conditions-multiple-options.php:48
+msgid "British Virgin Islands"
+msgstr "Британські Віргінські Острови"
+
+#: src/conditions-multiple-options.php:47
+msgid "British Indian Ocean Territory"
+msgstr "Британська територія в Індійському океані"
+
+#: src/conditions-multiple-options.php:46
+msgid "Brazil"
+msgstr "Бразилія"
+
+#: src/conditions-multiple-options.php:45
+msgid "Bouvet Island"
+msgstr "Острів Буве́"
+
+#: src/conditions-multiple-options.php:44
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: src/conditions-multiple-options.php:43
+msgid "Bosnia and Herzegovina"
+msgstr "Боснія і Герцеговина"
+
+#: src/conditions-multiple-options.php:42
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Бонайре, Сінт-Естатіус і Саба"
+
+#: src/conditions-multiple-options.php:41
+msgid "Bolivia"
+msgstr "Болівія"
+
+#: src/conditions-multiple-options.php:40
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: src/conditions-multiple-options.php:39
+msgid "Bermuda"
+msgstr "Бермудські острови"
+
+#: src/conditions-multiple-options.php:38
+msgid "Benin"
+msgstr "Бенин"
+
+#: src/conditions-multiple-options.php:37
+msgid "Belize"
+msgstr "Беліз"
+
+#: src/conditions-multiple-options.php:36
+msgid "Belau"
+msgstr "Белау"
+
+#: src/conditions-multiple-options.php:35
+msgid "Belgium"
+msgstr "Бельгія"
+
+#: src/conditions-multiple-options.php:34
+msgid "Belarus"
+msgstr "Білорусь"
+
+#: src/conditions-multiple-options.php:33
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: src/conditions-multiple-options.php:32
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: src/conditions-multiple-options.php:31
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: src/conditions-multiple-options.php:30
+msgid "Bahamas"
+msgstr "Багамські острови"
+
+#: src/conditions-multiple-options.php:29
+msgid "Azerbaijan"
+msgstr "Азербайджан"
+
+#: src/conditions-multiple-options.php:28
+msgid "Austria"
+msgstr "Австрія"
+
+#: src/conditions-multiple-options.php:27
+msgid "Australia"
+msgstr "Австралія"
+
+#: src/conditions-multiple-options.php:26
+msgid "Aruba"
+msgstr "Аруба"
+
+#: src/conditions-multiple-options.php:25
+msgid "Armenia"
+msgstr "Вірменія"
+
+#: src/conditions-multiple-options.php:24
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: src/conditions-multiple-options.php:23
+msgid "Antigua and Barbuda"
+msgstr "Антигуа і Барбуда"
+
+#: src/conditions-multiple-options.php:22
+msgid "Antarctica"
+msgstr "Антарктика"
+
+#: src/conditions-multiple-options.php:21
+msgid "Anguilla"
+msgstr "Ангілья"
+
+#: src/conditions-multiple-options.php:20
+msgid "Angola"
+msgstr "Ангола"
+
+#: src/conditions-multiple-options.php:19
+msgid "Andorra"
+msgstr "Андорра"
+
+#: src/conditions-multiple-options.php:18
+msgid "American Samoa"
+msgstr "Американське Самоа"
+
+#: src/conditions-multiple-options.php:17
+msgid "Algeria"
+msgstr "Алжир"
+
+#: src/conditions-multiple-options.php:16
+msgid "Albania"
+msgstr "Албанія"
+
+#: src/conditions-multiple-options.php:15
+msgid "&#197;land Islands"
+msgstr "Аландські острови"
+
+#: src/conditions-multiple-options.php:14
+msgid "Afghanistan"
+msgstr "Афганістан"
+
+#: src/conditions-basic.php:19 src/conditions-basic.php:28
+#: src/conditions-basic.php:39 src/conditions-basic.php:49
+#: src/conditions-multiple-options.php:267
+#: src/conditions-multiple-options.php:292
+#: src/conditions-multiple-options.php:331
+#: src/conditions-multiple-options.php:360
+msgid "User"
+msgstr "Користувач"
+
+#: if-menu.php:296
+msgid "Support"
+msgstr "Підтримка"
+
+#: if-menu.php:295
+msgid "Reviews"
+msgstr "Відгуки"
+
+#: if-menu.php:249
+msgid "Priority support"
+msgstr "Пріоритетна підтримка"
+
+#: if-menu.php:207
+msgid "Basic"
+msgstr "Basic"
+
+#: if-menu.php:206
+msgid "Free"
+msgstr "Безкоштовно"
+
+#: src/conditions-multiple-options.php:280
+msgid "Is in group"
+msgstr "У групі"
+
+#: src/conditions-multiple-options.php:12
+msgid "From country"
+msgstr "З країни"
+
+#: src/conditions-basic.php:36
+msgid "Is logged in"
+msgstr "увійшов"
+
+#: src/conditions-basic.php:13 src/conditions-basic.php:26
+msgid "Is %s"
+msgstr "Є %s"
+
+#: if-menu.php:328
+msgid "Visibility rule examples"
+msgstr "Приклади правил видимості"
+
+#: if-menu.php:294
+msgid "FAQs"
+msgstr "Часті питання"
+
+#: if-menu.php:257
+msgid "Get premium"
+msgstr "Отримайте преміум"
+
+#: if-menu.php:255
+msgid "Active until %s"
+msgstr "Активний до %s"
+
+#: if-menu.php:232
+msgid "Premium"
+msgstr "Преміум"
+
+#: if-menu.php:231
+msgid "annually"
+msgstr "щорічно"
+
+#: if-menu.php:223 if-menu.php:254
+msgid "Current plan"
+msgstr "Поточний план"
+
+#: if-menu.php:218
+msgid "Support on WordPress forum"
+msgstr "Підтримка на форумі WordPress"
+
+#: if-menu.php:215
+msgid "Visitor device - detect mobile or desktop"
+msgstr "Пристрій відвідувача - виявляє мобільний або комп'ютер"
+
+#: if-menu.php:214
+msgid "User state - visitor is logged in or out"
+msgstr "Стан користувача - відвідувач увійшов або вийшов"
+
+#: if-menu.php:213
+msgid "User role - is Admin, Editor, Author or Shop Manager"
+msgstr "Роль користувача - Адміністратор, Автор чи менеджер магазину"
+
+#: if-menu.php:211
+msgid "Basic visibility rules:"
+msgstr "Основні правила видимості:"
+
+#: if-menu.php:199
+msgid "User from country: US, UK"
+msgstr "Користувач з країни: US, UK"
+
+#: if-menu.php:181
+msgid "Use Basic plan"
+msgstr "Використовуйте \"Загальний план\""
+
+#: src/conditions-multiple-options.php:347
+msgid "WishList Membership Level"
+msgstr "Рівень підписки WishList"
+
+#: src/conditions-multiple-options.php:318
+msgid "Has active subscription"
+msgstr "Має активні підписки"
+
+#: if-menu.php:246
+msgid "Users above a Membership Level"
+msgstr "Користувачі, що перевищують рівень членства"
+
+#: if-menu.php:245
+msgid "Users are in a Group"
+msgstr "Користувачі у групі"
+
+#: if-menu.php:244
+msgid "Customer has active subscription"
+msgstr "Клієнт має активну підписку"
+
+#: if-menu.php:242
+msgid "3rd-party plugin integrations:"
+msgstr "Інтеграції плагінів третьої сторони:"
+
+#: if-menu.php:238
+msgid "Visitor location - detect visitor's country"
+msgstr "Розташування відвідувача - виявлення країни відвідувача"
+
+#: if-menu.php:236
+msgid "Advanced visibility rules:"
+msgstr "Покращені правила видимості:"
+
+#: if-menu.php:199
+msgid "Display menu item for users in US and UK:"
+msgstr "Відображати елемент меню для користувачів у США та Великобританії:"
+
+#: if-menu.php:198
+msgid "Hide menu item on mobile devices:"
+msgstr "Сховати елемент меню на мобільних пристроях:"
+
+#: if-menu.php:197
+msgid "Display Logout link for logged-in users:"
+msgstr "Відображати посилання \"Вийти\" для зареєстрованих користувачів:"
+
+#: if-menu.php:196
+msgid "Hide Login or Register links for logged-in users:"
+msgstr "Сховати посилання \"Увійти\" або \"Зареєструватися\" для зареєстрованих користувачів:"
+
+#: if-menu.php:180
+msgid "Get If Menu Premium"
+msgstr "Отримати преміум If Menu"
+
+#: if-menu.php:194
+msgid "Thanks for using <strong>If Menu</strong>! Now you can display tailored menu items to each visitor, based on visibility rules. Here are a few examples:"
+msgstr "Дякуємо за використання <strong>If Menu</strong>! Тепер ви можете показувати спеціальні пункти меню для кожного відвідувача, виходячи з правил видимості. Ось кілька прикладів:"
+
+#: if-menu.php:178
+msgid "Get <strong>If Menu Premium</strong> plan to enable integrations with third-party plugins, user location detection and priority support"
+msgstr "Отримати <strong>If Menu Преміум</strong> план, що включає інтеграцію з сторонніми плагінами, визначення місцезнаходження користувачів та пріоритетна підтримка"
+
+#: if-menu.php:177
+msgid "That's a Premium feature"
+msgstr "Це преміум-функція"
+
+#. Description of the plugin/theme
+msgid "Display tailored menu items to each visitor with visibility rules"
+msgstr "Відображати спеціальні пункти меню для кожного відвідувача з правилами видимості"
+
+#: src/conditions-multiple-options.php:195
+msgid "Russia"
+msgstr "Росія"
+
+#: if-menu.php:283
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: if-menu.php:266
+msgid "Settings"
+msgstr "Налаштування"
+
+#: if-menu.php:277
+msgid "Let administrators preview hidden menu items on website (useful for testing)"
+msgstr "Нехай адміністратори переглядають приховані елементи меню на веб-сайті (корисно для тестування)"
+
+#: if-menu.php:275
+msgid "Enable If Menu peek"
+msgstr "Включити перегляд If Menu"
+
+#: if-menu.php:272
+msgid "If Menu peek"
+msgstr "Перегляд If Menu"
+
+#: src/conditions-basic.php:91
+msgid "Language"
+msgstr "Мова"
+
+#: src/conditions-basic.php:89
+msgid "Is RTL"
+msgstr "Є RTL"
+
+#. Author URI of the plugin/theme
+msgid "https://layered.studio"
+msgstr "https://layered.studio"
+
+#. Author of the plugin/theme
+msgid "Layered"
+msgstr "Layered"
+
+#: if-menu.php:398
+msgid "and %d more rule"
+msgid_plural "and %d more rules"
+msgstr[0] "та ще %d правило"
+msgstr[1] "та ще %d правила"
+msgstr[2] "та ще %d правил"
+
+#: src/conditions-basic.php:82
+msgid "Device"
+msgstr "Пристрій"
+
+#: src/conditions-basic.php:59 src/conditions-basic.php:66
+#: src/conditions-basic.php:73
+msgid "Page type"
+msgstr "Тип сторінки"
+
+#: src/conditions-basic.php:14
+msgid "User is %s"
+msgstr "Користувач є %s"
+
+#: if-menu.php:331
+msgid "Change menu item visibility"
+msgstr "Змінити видимість елемента меню"
+
+#: if-menu.php:197 if-menu.php:199 if-menu.php:344
+msgid "Show"
+msgstr "Показати"
+
+#: src/if-menu-nav-menu.php:118 src/if-menu-nav-menu.php:120
+msgid "Edit Menu Item"
+msgstr "Редагувати пункт меню"
+
+#: src/if-menu-nav-menu-4.5.php:210 src/if-menu-nav-menu-4.7.php:200
+#: src/if-menu-nav-menu.php:206
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: src/if-menu-nav-menu-4.5.php:209 src/if-menu-nav-menu-4.7.php:199
+#: src/if-menu-nav-menu.php:205
+msgid "Remove"
+msgstr "Видалити"
+
+#: src/if-menu-nav-menu-4.5.php:196 src/if-menu-nav-menu-4.7.php:186
+#: src/if-menu-nav-menu.php:192
+msgid "Original: %s"
+msgstr "Оригінальна назва: %s"
+
+#: src/if-menu-nav-menu-4.5.php:189 src/if-menu-nav-menu-4.7.php:180
+#: src/if-menu-nav-menu.php:185
+msgid "To the top"
+msgstr "На початок"
+
+#: src/if-menu-nav-menu-4.5.php:186 src/if-menu-nav-menu-4.7.php:177
+#: src/if-menu-nav-menu.php:182
+msgid "Down one"
+msgstr "Нижче"
+
+#: src/if-menu-nav-menu-4.5.php:185 src/if-menu-nav-menu-4.7.php:176
+#: src/if-menu-nav-menu.php:181
+msgid "Up one"
+msgstr "Вище"
+
+#: src/if-menu-nav-menu-4.5.php:184 src/if-menu-nav-menu-4.7.php:175
+#: src/if-menu-nav-menu.php:180
+msgid "Move"
+msgstr "Перемістити"
+
+#: src/if-menu-nav-menu-4.5.php:172 src/if-menu-nav-menu-4.7.php:164
+#: src/if-menu-nav-menu.php:168
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "Опис може бути відображено, якщо тема підтримує таку можливість"
+
+#: src/if-menu-nav-menu-4.5.php:170 src/if-menu-nav-menu-4.7.php:162
+#: src/if-menu-nav-menu.php:166
+msgid "Description"
+msgstr "Опис"
+
+#: src/if-menu-nav-menu-4.5.php:164 src/if-menu-nav-menu-4.7.php:156
+#: src/if-menu-nav-menu.php:160
+msgid "Link Relationship (XFN)"
+msgstr "Відношення (XFN)"
+
+#: src/if-menu-nav-menu-4.5.php:158 src/if-menu-nav-menu-4.7.php:150
+#: src/if-menu-nav-menu.php:154
+msgid "CSS Classes (optional)"
+msgstr "CSS класи (необов’язково)"
+
+#: src/if-menu-nav-menu-4.5.php:153 src/if-menu-nav-menu-4.7.php:145
+msgid "Open link in a new tab"
+msgstr "Відкрити посилання у новій вкладці"
+
+#: src/if-menu-nav-menu-4.5.php:146 src/if-menu-nav-menu-4.7.php:138
+#: src/if-menu-nav-menu.php:142
+msgid "Title Attribute"
+msgstr "Атрибути заголовку"
+
+#: src/if-menu-nav-menu-4.5.php:140 src/if-menu-nav-menu-4.7.php:132
+#: src/if-menu-nav-menu.php:136
+msgid "Navigation Label"
+msgstr "Назва пункту меню"
+
+#: src/if-menu-nav-menu-4.5.php:133 src/if-menu-nav-menu-4.7.php:125
+#: src/if-menu-nav-menu.php:129
+msgid "URL"
+msgstr "URL"
+
+#: src/if-menu-nav-menu-4.5.php:124 src/if-menu-nav-menu-4.7.php:116
+msgid "Edit"
+msgstr "Редагувати"
+
+#: src/if-menu-nav-menu-4.5.php:124 src/if-menu-nav-menu-4.7.php:116
+msgid "Edit menu item"
+msgstr "Редагувати пункт меню"
+
+#: src/if-menu-nav-menu-4.5.php:120 src/if-menu-nav-menu-4.7.php:112
+#: src/if-menu-nav-menu.php:116
+msgid "Move down"
+msgstr "Перемістити вниз"
+
+#: src/if-menu-nav-menu-4.5.php:107 src/if-menu-nav-menu-4.7.php:99
+#: src/if-menu-nav-menu.php:103
+msgid "Move up"
+msgstr "Перемістити вгору"
+
+#: src/if-menu-nav-menu-4.5.php:86 src/if-menu-nav-menu-4.7.php:78
+#: src/if-menu-nav-menu.php:81
+msgid "sub item"
+msgstr "дочірній елемент"
+
+#. translators: %s: title of menu item in draft status
+#: src/if-menu-nav-menu-4.5.php:71 src/if-menu-nav-menu-4.7.php:66
+#: src/if-menu-nav-menu.php:66
+msgid "%s (Pending)"
+msgstr "%s (В очікуванні)"
+
+#. translators: %s: title of menu item which is invalid
+#: src/if-menu-nav-menu-4.5.php:67 src/if-menu-nav-menu-4.7.php:62
+#: src/if-menu-nav-menu.php:62
+msgid "%s (Invalid)"
+msgstr "%s (Некоректно)"
+
+#: src/conditions-basic.php:71
+msgid "Page"
+msgstr "Сторінка"
+
+#: src/conditions-basic.php:64
+msgid "Single Post"
+msgstr "Окремий запис"
+
+#: src/conditions-basic.php:57
+msgid "Front Page"
+msgstr "Головна сторінка"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/if-menu/"
+msgstr "https://wordpress.org/plugins/if-menu/"
+
+#. Plugin Name of the plugin/theme
+msgid "If Menu"
+msgstr "Якщо меню"
+
+#: if-menu.php:196 if-menu.php:197 if-menu.php:198 if-menu.php:199
+#: if-menu.php:347
+msgid "if"
+msgstr "якщо"
+
+#: if-menu.php:366
+msgid "OR"
+msgstr "OR"
+
+#: if-menu.php:365
+msgid "AND"
+msgstr "AND"
+
+#: if-menu.php:396
+msgid "%s if %s"
+msgstr "%s якщо %s"
+
+#: src/if-menu-nav-menu.php:149
+msgid "Open link in a new window/tab"
+msgstr "Відкрити посилання у новому вікні/вкладці"
+
+#: src/conditions-basic.php:45
+msgid "Is logged in for current site"
+msgstr "Увійшов на цей сайт"
+
+#: if-menu.php:198 src/conditions-basic.php:80
+msgid "Mobile"
+msgstr "Мобільний"
+
+#: if-menu.php:196 if-menu.php:197 src/conditions-basic.php:37
+msgid "User is logged in"
+msgstr "Користувач увійшов на сайт"
+
+#: if-menu.php:153
+msgid "<strong>If Menu</strong> detected a conflict with another plugin or theme (%s) and may not work as expected. <a href=\"%s\" target=\"_blank\">Read more about the issue here</a>"
+msgstr "<strong>If Menu</strong> виявлено конфлікт з іншим плагіном або темою (%s) і може не працювати, як очікувалося. <a href=\"%s\" target=\"_blank\">Докладніше про цю проблему читайте тут</a>"
+
+#: if-menu.php:196 if-menu.php:198 if-menu.php:345
+msgid "Hide"
+msgstr "Сховати"

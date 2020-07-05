@@ -1,0 +1,16 @@
+.style-kit-preview {
+	box-shadow: 0 0 0 3px transparent, 0px 2px 5px -1px rgba(0, 0, 0, 0.08);
+	border-radius: 3px;
+}
+#customize-control-style-kit input {
+	visibility: hidden;
+}
+#customize-control-style-kit label {
+	margin-left: 0;
+}
+#customize-control-style-kit .label {
+	display: none;
+}
+#customize-control-style-kit input:checked ~ img {
+	box-shadow: 0 0 0 3px #00a0d4;
+}

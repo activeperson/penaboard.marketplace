@@ -1,0 +1,63 @@
+// ======================================================================================
+//
+// Seller Grid
+//
+// ======================================================================================
+
+// Slider on small screens
+// Turns into grid columns above `md` breakpoint.
+
+
+// The grid
+// ======================================
+
+.seller-list {
+	margin: 10px 0;
+
+	@include make-row();
+}
+
+.seller-list__item {
+
+	@include make-col-ready();
+
+	@include media-breakpoint-up(sm) {
+
+		@include make-col(6);
+	}
+
+
+	@include media-breakpoint-up(md) {
+
+		@include make-col(4);
+	}
+
+	@include media-breakpoint-up(lg) {
+
+		@include make-col(3);
+	}
+}
+
+
+.seller-list__item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	line-height: 1.65;
+}
+
+.seller-list__img {
+	display: block;
+	width: 54px;
+	height: 54px;
+	margin-right: 18px;
+}
+
+.seller-item__rating {
+	display: flex;
+	align-items: center;
+
+	.ico {
+		fill: $yellow;
+	}
+}

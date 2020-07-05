@@ -1,0 +1,88 @@
+{
+	"permalink_structure": {
+		"id": "permalink_structure",
+		"type": "setting",
+		"priority": 0,
+		"data": "/%postname%/"
+	},
+	"blog-style": {
+		"id": "blog-style",
+		"type": "thememod",
+		"data": "card"
+	},
+	"header-style": {
+		"id": "header-style",
+		"type": "thememod",
+		"data": "1"
+	},
+	"header-account": {
+		"id": "header-account",
+		"type": "thememod",
+		"data": "user-only"
+	},
+	"background_color": {
+		"id": "background_color",
+		"type": "thememod",
+		"data": "fafafa"
+	},
+	"header-transparency": {
+		"id": "header-transparency",
+		"type": "thememod",
+		"data": true
+	},
+	"product-catalog-style": {
+		"id": "product-catalog-style",
+		"type": "thememod",
+		"data": "1"
+	},
+	"product-catalog-vendors": {
+		"id": "product-catalog-vendors",
+		"type": "thememod",
+		"data": true
+	},
+	"product-gallery-style": {
+		"id": "product-gallery-style",
+		"type": "thememod",
+		"data": "1"
+	},
+	"typography-font-pack": {
+		"id": "typography-font-pack",
+		"type": "thememod",
+		"data": "default"
+	},
+	"typography-base-font-family": {
+		"id": "typography-base-font-family",
+		"type": "thememod",
+		"data": "Montserrat"
+	},
+	"typography-headings-font-family": {
+		"id": "typography-headings-font-family",
+		"type": "thememod",
+		"data": "Montserrat"
+	},
+	"color-menu-bg": {
+		"id": "color-menu-bg",
+		"type": "thememod",
+		"data": "#ffffff"
+	},
+	"color-menu-color": {
+		"id": "color-menu-color",
+		"type": "thememod",
+		"data": "#767676"
+	},
+	"header-cart": {
+		"id": "header-cart",
+		"type": "thememod",
+		"data": "always"
+	},
+	"header-search": {
+		"id": "header-search",
+		"type": "thememod",
+		"data": true
+	},
+	"typography-headings-font-weight": {
+		"id": "typography-headings-font-weight",
+		"type": "thememod",
+		"data": "300"
+	}
+}

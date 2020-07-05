@@ -1,0 +1,62 @@
+// ======================================================================================
+//
+// Header specific dropdowns,
+// `sh-` prefix for brevity
+//
+// ======================================================================================
+
+.sh-dropdown {
+	position: relative;
+	align-self: stretch;
+	display: flex;
+
+	.menu--right &, .menu--left & {
+		display: block;
+	}
+}
+
+.sh-dropdown__toggle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: $font-size-sm;
+	background: initial;
+	border: 0;
+	transition: filter 0.2s ease-out;
+}
+
+button.sh-dropdown__toggle {
+	padding: 0;
+}
+
+.sh-dropdown__toggle-ml {
+	padding-left: $nav-link-padding-x;
+}
+
+.sh-dropdown--square {
+	align-self: stretch;
+
+	.sh-dropdown__toggle {
+		width: 80px;
+		padding: 0;
+	}
+}
+
+.sh-dropdown .dropdown-menu {
+	min-width: 250px;
+	margin-top: 0;
+	margin-right: -20px;
+	padding: 0;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04), inset 0 4px 3px -3px rgba($black, 0.1);
+	border-top: 0;
+
+	.site-header--transparent & {
+		border: 0;
+		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+	}
+}
+
+.sh-dropdown.show .sh-dropdown__toggle .ico {
+	filter: brightness( 80% );
+}

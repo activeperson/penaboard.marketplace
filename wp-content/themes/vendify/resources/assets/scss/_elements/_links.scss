@@ -1,0 +1,31 @@
+// ======================================================================================
+//
+// Links
+//
+// ======================================================================================
+
+a {
+	position: relative;
+	transition: 0.2s color ease-in-out;
+}
+
+// Custom underline
+.link {
+
+	@include link;
+}
+
+
+// Uppercase links with wider spacing. Usually used as call to actions.
+.link-cta {
+
+	@include link-cta;
+}
+
+
+// TODO: Move to utilities.
+// Vertically align any icon with text without a hassle.
+.has-icon {
+	display: inline-flex !important;
+	align-items: center !important;
+}

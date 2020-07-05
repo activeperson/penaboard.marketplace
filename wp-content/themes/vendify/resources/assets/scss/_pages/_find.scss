@@ -1,0 +1,92 @@
+// ======================================================================================
+//
+// Find
+//
+// ======================================================================================
+
+// Layout
+// ======================================
+
+.find-sidebar,
+.find-main {
+
+	@include make-col-ready();
+}
+
+.find-sidebar {
+	display: none;
+
+	@include media-breakpoint-up(md) {
+		display: block;
+	}
+}
+
+
+// Sidebar
+// ======================================
+
+.find-sidebar__heading {
+
+	@include text-wide;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-normal;
+	margin-bottom: 1rem;
+}
+
+.find-sidebar .card {
+	margin-bottom: 2rem;
+}
+
+
+
+
+// Main Column
+// ======================================
+
+
+.woocommerce-breadcrumb {
+	margin-bottom: 2rem;
+
+	.ico {
+		margin: 0 $breadcrumb-item-padding;
+	}
+}
+
+
+// Sub Navigation
+// ======================================
+
+.navigation--find {
+	margin-bottom: 40px;
+}
+
+.find__search-bar {
+	max-width: 470px;
+	margin: -20px auto 20px;
+}
+
+.find-sidebar,
+.navigation--find {
+	display: none;
+
+	@include media-breakpoint-up(md) {
+		display: block;
+	}
+}
+
+
+// Mobile navigation
+// ======================================
+
+.navigation--find-mobile {
+	position: relative;
+	height: 56px;
+
+	.nav-link {
+		padding: 13px 1.6rem; //TODO: Not nice, these should adapt to any height automatically.
+	}
+
+	@include media-breakpoint-up(md) {
+		display: none;
+	}
+}

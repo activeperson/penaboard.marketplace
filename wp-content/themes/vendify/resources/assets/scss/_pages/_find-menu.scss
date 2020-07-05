@@ -1,0 +1,109 @@
+// ======================================================================================
+//
+// Find Off Canvas Menu
+//
+// ======================================================================================
+
+.find-menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1120;
+	display: flex;
+	flex-direction: column;
+	width: $menu-width-small;
+	opacity: 0;
+	background-color: theme-color("light");
+	will-change: transform;
+	transform: translate3d(100%, 0, 0);
+	transition: all 0.4s ease;
+
+	&.is-expanded {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+	@include media-breakpoint-up(sm) {
+		width: $menu-width-large;
+	}
+}
+
+
+// Header
+// ======================================
+
+.find-menu__header {
+	position: relative;
+	flex-shrink: 0;
+	padding: 15px 30px;
+
+	@include text-wide;
+	text-align: center;
+	border-bottom: 1px solid gray("200");
+}
+
+// Place the button to the left of the header, as if it was on the backdrop
+.find-menu__header .btn-icon {
+	position: absolute;
+	right: 100%;
+	margin-right: 21px;
+	z-index: -1;
+	visibility: hidden;
+	pointer-events: none;
+	opacity: 1;
+
+	.is-expanded & {
+		visibility: visible;
+		z-index: 150;
+	}
+}
+
+
+// Content
+// ======================================
+
+.find-menu__body {
+	flex-grow: 1;
+	overflow: scroll;
+	padding: 30px 0;
+
+	.card {
+		box-shadow: none;
+	}
+}
+
+.find-menu__body .find-sidebar__heading {
+	padding: 12px 30px;
+	border-bottom: 1px solid gray("200");
+	margin-bottom: 0;
+}
+
+
+// Footer
+// ======================================
+
+.find-menu__footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px 30px;
+	border-top: 1px solid gray("200");
+	flex-shrink: 0;
+}
+
+
+// Trigger the backdrop and overflow via `body` class
+// ====================================================
+
+.find-menu-open .pusher-container {
+	overflow: hidden;
+}
+
+.find-menu-open .pusher::after {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+

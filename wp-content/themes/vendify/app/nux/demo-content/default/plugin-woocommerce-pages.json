@@ -1,0 +1,75 @@
+[
+	{
+		"id": "myaccount",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_title": "My Account",
+			"post_content": "[woocommerce_my_account]",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-title": "Purchases",
+					"menu-item-position": 40,
+					"menu-item-role": "in",
+					"menu-item-endpoint": "orders",
+					"menu_name": "Account"
+				},
+				{
+					"menu-item-title": "Sign Out",
+					"menu-item-position": 60,
+					"menu-item-role": "in",
+					"menu-item-endpoint": "customer-logout",
+					"menu_name": "Account"
+				}
+			]
+		}
+	},
+    {
+        "id": "checkout",
+        "type": "object",
+        "data": {
+            "post_type": "page",
+            "post_title": "Checkout",
+            "post_content": "[woocommerce_checkout]",
+            "meta": {
+                "_wp_page_template": "default"
+            }
+        }
+    },
+    {
+        "id": "cart",
+        "type": "object",
+        "data": {
+            "post_type": "page",
+            "post_title": "Cart",
+            "post_content": "[woocommerce_cart]"
+        }
+    },
+    {
+        "id": "shop",
+        "type": "object",
+        "data": {
+            "post_type": "page",
+            "post_title": "Shop",
+            "post_content": "",
+            "menus": {
+                "Left Menu": {
+                    "menu_name": "Left Menu",
+                    "menu-item-title": "Store",
+                    "menu-item-object-title": "Store",
+                    "menu-item-type": "post_type",
+                    "menu-item-position": 1
+                },
+                "Footer": {
+                    "menu_name": "Footer",
+                    "menu-item-title": "Store",
+                    "menu-item-object-title": "Store",
+                    "menu-item-type": "post_type",
+                    "menu-item-position": 1
+                }
+            }
+        }
+    }
+]

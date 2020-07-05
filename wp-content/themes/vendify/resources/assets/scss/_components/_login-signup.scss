@@ -1,0 +1,180 @@
+// ======================================================================================
+//
+// Sign In & Sign Up Modals
+//
+// ======================================================================================
+
+
+#vendor-dashboard-login-form {
+
+	input[type="submit"] {
+
+		@include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-sm, $btn-line-height-lg, $border-radius);
+		width: 100%;
+	}
+}
+
+
+// Left hand Slider
+// ======================================
+
+.access__column--slider {
+	display: none;
+	background-color: #3c3c3c;
+
+	@media (min-width: 1001px) {
+		display: block;
+	}
+}
+
+.access__slider,
+.access__slider__content,
+.access__slide {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.access__slide {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: theme-color("dark");
+		z-index: 0;
+	}
+}
+
+.access__slider {
+	opacity: 0;
+	transition: opacity 0.2s ease-in 0.35s;
+
+	.modal.show & {
+		opacity: 1;
+	}
+}
+
+.access__slider .flickity-page-dots {
+	bottom: 6vh;
+}
+
+.access__slider__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 50px;
+	color: $white;
+	position: relative;
+	height: 100%;
+}
+
+.access__slider__content .lead {
+	font-weight: $font-weight-extra-light;
+	margin: 4px 0 24px;
+}
+
+.access__slider__title {
+	color: $white;
+	position: relative;
+	margin-top: 30px;
+}
+
+
+
+// The Form
+// ======================================
+
+.access__column--sign-in,
+.access__column--sign-up {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.access__content {
+	position: relative;
+	padding: 0 $grid-gutter-width / 2 50px;
+
+	@media (min-width: 768px) {
+		padding: 0 50px 90px;
+	}
+
+	@media (min-width: 1420px) {
+		padding: 0 160px 90px;
+	}
+}
+
+.access__content--sign-in,
+.access__content--sign-up {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.access__header {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	z-index: 1300;
+
+	@include media-breakpoint-down(sm) {
+		position: sticky;
+		margin-left: -($grid-gutter-width / 2);
+		margin-right: -($grid-gutter-width / 2);
+		top: 0;
+		padding-top: 20px;
+
+		.btn-icon--close {
+			top: 26px;
+		}
+	}
+}
+
+.access__logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+	.site-title,
+	a,
+	img {
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+.access__form-title {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.access__terms {
+	text-align: center;
+	font-size: $font-size-sm;
+	margin-bottom: 0
+}
+
+.access__helpers {
+	margin-top: 15px;
+	font-size: $font-size-sm;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.5;
+}
+
+
+

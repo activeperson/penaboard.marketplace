@@ -1,0 +1,42 @@
+{
+    "primary-left": {
+        "id": "primary-left",
+        "type": "nav-menu",
+        "data": {
+            "name": "Left Menu",
+            "location": "primary-left"
+        }
+    },
+    "primary-more": {
+        "id": "primary-more",
+        "type": "nav-menu",
+        "data": {
+            "name": "Left Dropdown",
+            "location": "primary-more"
+        }
+    },
+    "primary-account": {
+        "id": "primary-account",
+        "type": "nav-menu",
+        "data": {
+            "name": "Account",
+            "location": "primary-account"
+        }
+    },
+    "footer": {
+        "id": "footer",
+        "type": "nav-menu",
+        "data": {
+            "name": "Footer",
+            "location": "footer"
+        }
+    },
+    "copyright": {
+        "id": "copyright",
+        "type": "nav-menu",
+        "data": {
+            "name": "Copyright Menu",
+            "location": "copyright"
+        }
+    }
+}

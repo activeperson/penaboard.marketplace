@@ -1,0 +1,133 @@
+// ======================================================================================
+//
+// Orders (Cart items)
+//
+// Appears in Checkout page and inside cart dropdown
+//
+// ======================================================================================
+
+.order-item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 20px 30px;
+	transition: all 0.2s 0.1s ease-in-out;
+	border-bottom: 1px solid gray("200");
+
+	&:last-of-type,
+	&:last-child {
+		border-bottom: 0;
+	}
+
+	&:hover {
+		background: initial;
+	}
+}
+
+.order-item .btn-icon--close {
+	position: absolute;
+	right: -16px;
+	opacity: 0;
+	transition: all 0.2s 0.1s ease-in-out;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid gray("200");
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+	padding: 8px;
+	width: auto;
+	height: auto;
+
+	.ico {
+		fill: gray("300") !important;
+	}
+
+	&:hover {
+		filter: brightness(1);
+
+		.ico {
+			fill: gray("400") !important;
+		}
+	}
+}
+
+.order-item:hover .btn-icon--close {
+	transform: translate(0);
+	opacity: 1;
+}
+
+.order-item__img {
+	width: 50px;
+	margin-right: 0.75rem;
+	flex: 0 0 50px;
+
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+.order-item__body {
+	line-height: 1.5;
+	margin-right: 10px;
+	flex: 1;
+}
+
+.order-item__name,
+.order-item__quantity,
+.order-item__body {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.order-item__name {
+	display: block;
+	line-height: 1.25;
+	color: theme-color("dark");
+}
+
+.order-item__quantity {
+	font-size: $font-size-sm;
+	display: block;
+	margin-top: 5px;
+
+	.custom-numeric-input {
+		width: 42px;
+		display: inline-block;
+
+		.form-control {
+			font-weight: bold;
+			padding: 5px;
+			font-size: 12px;
+			line-height: 1;
+			display: inline-block;
+		}
+	}
+}
+
+
+// In dropdown
+// ======================================
+
+.dropdown-menu {
+
+	.order-item {
+		width: 340px;
+		padding: 20px 30px 20px 24px;
+
+		&:hover {
+			filter: brightness(.95);
+		}
+	}
+
+	.order-item:hover .btn-icon--close {
+		transform: translate(0);
+	}
+
+	.checkout {
+
+		@include button-variant(theme-color("secondary"), theme-color("secondary"));
+	}
+}
+

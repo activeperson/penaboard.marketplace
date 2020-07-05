@@ -1,0 +1,133 @@
+// Global config.
+@import "config";
+
+.astoundify-wc-re-wrapper {
+
+	// Bootstrap components.
+	// ======================================
+
+	@import "~bootstrap/scss/reboot";
+	@import "~bootstrap/scss/type";
+	@import "~bootstrap/scss/images";
+	@import "~bootstrap/scss/grid";
+	@import "~bootstrap/scss/tables";
+	@import "~bootstrap/scss/forms";
+	@import "~bootstrap/scss/buttons";
+	@import "~bootstrap/scss/badge";
+	@import "~bootstrap/scss/transitions";
+	@import "~bootstrap/scss/dropdown";
+	@import "~bootstrap/scss/input-group";
+	@import "~bootstrap/scss/custom-forms";
+	@import "~bootstrap/scss/card";
+	@import "~bootstrap/scss/modal";
+	@import "~bootstrap/scss/media";
+	@import "~bootstrap/scss/utilities";
+
+	// Components
+	// ======================================
+
+	// Bootstrap overrides/extensions.
+	@import "_components/btn";
+	@import "_components/badge";
+	@import "_components/card";
+	@import "_components/forms";
+	@import "_components/form-group";
+	@import "_components/form-control";
+	@import "_components/custom-select";
+	@import "_components/custom-forms";
+
+	// Elements
+	// ======================================
+
+	@import "_elements/body";
+	@import "_elements/hr";
+	@import "_elements/links";
+	@import "_elements/price";
+	@import "_elements/close";
+	@import "_elements/btn-icons";
+	@import "_elements/icons";
+	@import "_elements/custom-search";
+	@import "_elements/fav-button";
+	@import "_elements/colors";
+	@import "_elements/wordpress";
+	@import "_elements/switch";
+
+	// Overrides
+	// ======================================
+
+	label,
+	.label {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.form-control__help {
+		font-size: 90%;
+		color: gray("400");
+		display: block;
+		margin: 0 0 0.5rem;
+	}
+
+	.astoundify-wc-re-tags-list {
+		margin-bottom: -0.5rem;
+
+		.btn-outline-neutral {
+			border-color: $input-border-color;
+			margin: 0 0.5rem 0.5rem 0;
+
+			&:hover {
+				background: initial;
+				border-color: $input-focus-border-color;
+			}
+		}
+	}
+
+	.custom-select {
+
+		&:focus {
+			outline: 0;
+			box-shadow: $dropdown-box-shadow !important;
+		}
+	}
+
+	.custom-select-options {
+		background: $white;
+		box-shadow: $dropdown-box-shadow;
+		border: $dropdown-border-width solid $input-focus-border-color;
+		border-top: 0;
+		position: absolute;
+		z-index: 28;
+		width: 100%;
+		top: calc(100% - 2px);
+
+		&__option {
+			color: $gray-400;
+			cursor: pointer;
+			text-align:  left;
+			width: 100%;
+			padding: $input-padding-y $input-padding-x;
+			box-shadow: initial;
+			border: 0;
+			background: initial;
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.02);
+			}
+		}
+	}
+
+	.astoundify-wc-re-tooltip-toggle {
+		padding: 0;
+		background: rgba(gray("300"), 0.50);
+	}
+}
+
+body.astoundify-wc-re {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	.astoundify-wc-re-input-suggestions {
+		border-color: $input-focus-border-color;
+		border-top: 0;
+	}
+}

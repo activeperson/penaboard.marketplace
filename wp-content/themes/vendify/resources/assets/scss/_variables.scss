@@ -1,0 +1,281 @@
+// Paths
+// ====================================
+
+$image-path: "../images";
+
+// Options
+// ======================================
+
+$enable-rounded: false;
+$enable-shadows: true;
+
+// Colors
+// ====================================
+
+$white:    #fff;
+$gray-100: #fafafa;
+$gray-200: #efefef;
+$gray-300: #d3d3d3;
+$gray-400: #9f9f9f;
+$gray-500: #767676;
+$gray-600: #4e4e4e;
+$black:    #000;
+
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #f52f4c;
+$orange:  #fa5536;
+$yellow:  #f2c663;
+$green:   #8dbd54;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+$theme-colors: (
+	primary: $black,
+	secondary: $red,
+	success: $green,
+	info: $cyan,
+	warning: $red,
+	danger: $red,
+	neutral: $gray-200,
+	light: $white,
+	dark: $black
+);
+
+// Grid
+// ======================================
+
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 1200px,
+	xl: 1600px
+);
+
+$container-max-widths: (
+	lg: 1148px,
+	xl: 1468px
+);
+
+$grid-gutter-width: 40px;
+
+$spacer: 1rem;
+
+$spacers: (
+	0: 0,
+	1: ($spacer * 0.25),
+	2: ($spacer * 0.5),
+	3: ($spacer * 0.75),
+	4: $spacer,
+	5: ($spacer * 1.5),
+	6: ($spacer * 2),
+	7: ($spacer * 2.5)
+);
+
+$sizes: (
+	25: 25%,
+	50: 50%,
+	75: 75%,
+	100: 100%
+);
+
+// Components
+// ======================================
+
+$line-height-lg: 1.5;
+$line-height-sm: 1.5;
+
+$border-width:    1px;
+
+$hr-border-width: $border-width;
+
+$border-radius:    0;
+$border-radius-lg: $border-radius;
+$border-radius-sm: $border-radius;
+
+// Fonts
+// ======================================
+
+$font-family-base:       "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: $font-family-base;
+
+$font-weight-extra-light: 200;
+
+$font-size-base: 1rem;
+$font-size-xl:   1.4666666666666666rem;
+$font-size-lg:   1.1333333333333333rem;
+$font-size-sm:   0.8666666666666667rem;
+$font-size-xs:   0.7333333333333333rem;
+
+$font-weight-thin:        100;
+$font-weight-extra-light: 200;
+$font-weight-light:       300;
+$font-weight-normal:      400;
+$font-weight-bold:        700;
+
+$headings-margin-bottom: (1rem / 2);
+$headings-font-family:   $font-family-base;
+$headings-font-weight:   $font-weight-extra-light;
+$headings-line-height:   1.1;
+$headings-font-size:     40px;
+$headings-color:         $black;
+
+$font-weight-base: $font-weight-light;
+$line-height-base: 2.134; // 32px for base size
+
+$h1-font-size: 60px;
+$h2-font-size: 40px;
+$h3-font-size: 34px;
+$h4-font-size: $font-size-xl;
+$h5-font-size: $font-size-lg;
+$h6-font-size: 15px;
+
+$display1-size: 74px;
+$display2-size: $headings-font-size;
+$display3-size: 34px;
+$display4-size: 22px;
+
+$display1-weight:     100;
+$display2-weight:     $headings-font-weight;
+$display3-weight:     $headings-font-weight;
+$display4-weight:     $headings-font-weight;
+$display-line-height: 1.5;
+
+$lead-font-size:   $font-size-xl;
+$lead-font-weight: $font-weight-extra-light;
+
+$small-font-size: $font-size-sm;
+
+// Button
+// ======================================
+
+$btn-font-weight:            $font-weight-normal;
+$btn-line-height:            24px;
+$btn-box-shadow:             none;
+$btn-focus-box-shadow:       0 2px 5px 1px rgba($black, 0.1);
+
+$btn-padding-y-sm:           11px;
+$btn-padding-x-sm:           22px;
+$btn-line-height-sm:         $btn-line-height;
+
+$btn-line-height-lg:         $btn-line-height;
+
+$input-btn-padding-y:        0.9375rem;
+$input-btn-padding-x:        1.375rem;
+$input-btn-line-height:      $btn-line-height;
+
+$input-btn-padding-y-xs:     0.3875rem;
+$input-btn-padding-x-xs:     0.975rem;
+
+$input-btn-padding-y-sm:     0.6875rem;
+$input-btn-padding-x-sm:     1.375rem;
+
+$input-btn-padding-y-lg:     1.1875rem;
+$input-btn-padding-x-lg:     2.5rem;
+
+$input-btn-border-width:     $border-width;
+
+// Forms
+// ======================================
+$input-border-color:       rgba($black, 0.08);
+$input-focus-border-color: lighten($gray-400, 14%);
+$input-box-shadow:         none;
+$input-height-inner:       52px;
+$input-height:             54px;
+
+$custom-file-height:           2.5rem !default;
+$custom-file-width:            14rem !default;
+$custom-file-focus-box-shadow: 0 0 0 .075rem $white, 0 0 0 .2rem theme-color("primary") !default;
+
+$custom-file-padding-y:     1rem !default;
+$custom-file-padding-x:     .5rem !default;
+$custom-file-line-height:   1.5 !default;
+$custom-file-bg:            $white !default;
+$custom-file-border-width:  $border-width !default;
+$custom-file-border-color:  $input-border-color !default;
+$custom-file-border-radius: $border-radius !default;
+$custom-file-box-shadow:    inset 0 .2rem .4rem rgba($black,.05) !default;
+
+$custom-control-box-shadow: 0 2px 4px -1px rgba($black, 0.04); // Checkbox, Switch, Radio
+
+$custom-control-spacer-y: .25rem !default;
+
+$custom-control-indicator-size:       1.4rem !default;
+$custom-control-indicator-bg:         $white !default;
+$custom-control-indicator-bg-size:    14px 14px !default;
+$custom-control-indicator-box-shadow: 0 2px 4px -1px rgba($black, 0.04) !default;
+
+$custom-control-indicator-checked-color:      $black !default;
+$custom-control-indicator-active-color:      $white !default;
+
+$custom-checkbox-indicator-border-radius: $border-radius !default;
+$custom-checkbox-indicator-icon-checked: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cpath fill='#{$black}' d='M2.71,6.54A1,1,0,1,0,1.29,8h0L5,11.75,12.71,4A1,1,0,0,0,11.3,2.59L5,8.75Z'/%3E%3C/svg%3E"), "#", "%23") !default;
+
+$custom-checkbox-indicator-indeterminate-bg: theme-color("primary") !default;
+$custom-checkbox-indicator-indeterminate-color: $custom-control-indicator-checked-color !default;
+$custom-checkbox-indicator-icon-indeterminate: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/%3E%3C/svg%3E"), "#", "%23") !default;
+
+$custom-radio-indicator-border-radius: 50% !default;
+$custom-radio-indicator-icon-checked: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='#{$custom-control-indicator-checked-color}'/%3E%3C/svg%3E"), "#", "%23") !default;
+
+$custom-select-border-radius:       $border-radius;
+$custom-select-font-size-sm:        $font-size-sm;
+$custom-select-padding-y:           0.375rem;
+$custom-select-padding-x:           $input-btn-padding-x-sm;
+$custom-select-indicator-padding:   0.9375rem;
+$custom-select-bg-size:             14px 14px;
+$custom-select-indicator:           str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cpath fill='#{$gray-300}' d='M2.70710678,3.54289322 C2.31658249,3.15236893 1.68341751,3.15236893 1.29289322,3.54289322 C0.902368927,3.93341751 0.902368927,4.56658249 1.29289322,4.95710678 L7,10.75 L12.7071068,4.95710678 C13.0976311,4.56658249 13.0976311,3.93341751 12.7071068,3.54289322 C12.3165825,3.15236893 11.6834175,3.15236893 11.2928932,3.54289322 L7,7.75 L2.70710678,3.54289322 Z'/%3E%3C/svg%3E"), "#", "%23");
+
+
+// Navigation
+// ======================================
+
+$nav-spacing-half: calc(10px + (100vw - 768px) * 0.012019);
+$nav-spacing:      calc(20px + (100vw - 768px) * 0.024038);
+
+$nav-link-padding-y: 0.625rem;
+$nav-link-padding-x: 1.275rem;
+
+$dropdown-box-shadow:   0 2px 4px 0 rgba(0, 0, 0, 0.04);
+$dropdown-border-width: $border-width;
+
+// Box shadow
+// ======================================
+
+$footer-box-shadow:         0 -1px 1px 0 rgba($black, 0.05);
+$page-header-box-shadow:    0 1px 0 0 #efeeee;
+
+$box-shadow:     0 1px 3px rgba($black, 0.1);
+$box-shadow-top: 0 -1px 3px rgba($black, 0.1);
+$box-shadow-md:  0 2px 5px 1px rgba($black, 0.1);
+$box-shadow-lg:  0 3px 5px rgba($black, 0.1);
+$box-shadow-xl:  0 6px 12px rgba($black, 0.14);
+
+// Links
+// ======================================
+
+$link-border:      true;
+$link-uppercase:   uppercase;
+$link-cta-spacing: 0.2em;
+
+$link-hover-decoration: none;
+
+// Card
+// ======================================
+
+$card-spacer-y:            1.25rem;
+$card-spacer-x:            1.25rem;
+$card-bg:                  $white;
+$card-box-shadow:          $box-shadow-md;
+$card-border-width:        0;
+
+// Image
+// ======================================
+
+$thumbnail-border-width: 0;
+$thumbnail-padding: 0.2em;
+$thumbnail-bg: #fff;
+$thumbnail-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);

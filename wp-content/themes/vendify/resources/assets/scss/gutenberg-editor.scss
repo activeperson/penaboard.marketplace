@@ -1,0 +1,458 @@
+// Global config.
+@import "config";
+
+// Bootstrap
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/utilities";
+
+// Elements
+@import "_elements/icons";
+
+// Helper components.
+@import "_components/has-parallax";
+@import "_components/has-background-dim";
+@import "_elements/links";
+
+// Reset block margins since Gutenberg handles this better in the backened.
+$block-margin: 0;
+
+// Everthing that is inside the editor wrapper must be styled here.
+// Just like the `add_editor_style` PHP function.
+.editor-styles-wrapper {
+
+	// Core Blocks.
+	@import "_components/blocks";
+
+	// Apply the front-end text style only to the editable elements.
+	.editor-rich-text {
+		font-size: $font-size-base;
+		font-weight: $font-weight-base;
+		line-height: $line-height-base;
+		// color: $gray-500;
+
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+
+		a {
+			text-decoration: $link-decoration;
+			background-color: transparent; // Remove the gray background on active links in IE 10.
+			-webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
+
+			&:hover {
+				text-decoration: $link-hover-decoration;
+			}
+		}
+
+		// The heading block needs to inherit the wrapper's color, we need to reset the color added
+		// by Gutenberg because is getting in our way.
+		&.wp-block-heading {
+			color: unset;
+		}
+
+		div {
+			@import "~bootstrap/scss/type";
+		}
+	}
+
+	th .block-editor-rich-text__editable.editor-rich-text__editable.wp-block-table__cell-content {
+		font-weight: bold;
+	}
+
+
+	.wp-block {
+		max-width: 1148px;
+	}
+
+	.wp-block[data-align="wide"] {
+		max-width: 1468px;
+	}
+
+	.wp-block[data-align="full"] {
+		max-width: 110%;
+	}
+
+	//
+	// Hero
+	//
+	.editor-block-list__block[data-type="vendify/hero"] {
+
+		@import "_components/block-hero";
+
+		.wp-block {
+			max-width: 1148px;
+		}
+	}
+
+	//
+	// Hero Search
+	//
+	.editor-block-list__block[data-type="vendify/hero-search"] {
+
+		@import "~bootstrap/scss/forms";
+		@import "~bootstrap/scss/custom-forms";
+
+		@import "_elements/switch";
+
+		@import "_components/hero-search";
+		@import "_components/filter";
+		@import "_components/form-control";
+
+		.form-control[disabled] {
+			margin: 0;
+			background: #fff;
+			opacity: 1;
+		}
+
+		.btn:disabled {
+			opacity: 1;
+		}
+
+		a, button {
+			pointer-events: none;
+		}
+	}
+
+	//
+	// Button
+	//
+	.wp-block[data-type="core/button"] {
+
+		.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+			border: 0 !important;
+			border-radius: 0;
+		}
+
+		.wp-block-button.is-style-outline .wp-block-button__link {
+			border-style: solid;
+			border-width: 1px;
+			border-radius: 0;
+		}
+
+		.btn-sm {
+
+			.wp-block-button__link {
+
+				@include button-size($btn-padding-y-sm, $btn-padding-x-sm, 11px, $btn-line-height-sm, $border-radius);
+			}
+		}
+
+		.btn-lg {
+
+			.wp-block-button__link {
+
+				@include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-sm, $btn-line-height-lg, $border-radius);
+			}
+		}
+	}
+
+	// Prevent the buttons from overflowing in the 4 cols layout.
+	.wc-block-top-rated-products.cols-4 {
+		.wp-block-button, .wp-block-button__link {
+			max-width: 100%;
+			letter-spacing: 1px;
+		}
+	}
+
+	// Features
+	.wp-block[data-type="vendify/features"] {
+
+		@import "_components/block-features";
+
+		.feature-block__col-image {
+			min-width: 60px;
+			min-height: 60px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.feature-block__col-title {
+			margin-bottom: 0;
+		}
+
+		.edit-image {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate3d(-50%, -50%, 0);
+			background: #fff;
+			border: 1px solid #ddd;
+			border-radius: 100%;
+		}
+	}
+
+	//
+	// Collections
+	//
+	.wp-block[data-type="vendify/collections"] {
+
+		@import "_components/block-collections";
+
+		.collection-card-edit {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.editor-url-input input[type="text"] {
+			width: 100%;
+		}
+	}
+
+	//
+	// Featured Post
+	//
+	.wp-block[data-type="vendify/featured-post"] {
+
+		@import "_components/block-featured-post";
+
+		.featured-post-card__title {
+			font-size: 28px;
+		}
+
+		.btn-primary {
+			color: #ffffff;
+		}
+	}
+
+	//
+	// Featured Vendors
+	//
+	.wp-block[data-type="vendify/featured-vendors"] {
+
+		@import "_components/seller-card";
+		@import "_components/seller-list";
+
+		.section__link-wrap {
+			text-align: center;
+		}
+
+		a {
+			pointer-events: none;
+		}
+	}
+
+	//
+	// Vendor Registration
+	//
+	.wp-block[data-type="vendify/vendor-registration"] {
+
+		@import "~bootstrap/scss/forms";
+		@import "_components/forms";
+		@import "_components/custom-forms";
+
+		.input-text {
+
+			@include vendify-form-control();
+		}
+
+		.btn {
+
+			@include button-base();
+		}
+	}
+
+	//
+	// Blog Posts
+	//
+	.wp-block[data-type="vendify/blog-posts"] {
+
+		@import "_components/blog-card";
+
+		.blog-card__title {
+			line-height: 1;
+		}
+
+		.section__link-wrap {
+			text-align: center;
+		}
+
+		a {
+			pointer-events: none;
+		}
+
+		.blog-card__author-avatar {
+			margin-top: -45px;
+			height: 42px;
+			z-index: 1;
+			position: relative;
+		}
+	}
+
+	//
+	// Testimonial
+	//
+	.wp-block[data-type="vendify/testimonial"] {
+
+		@import "_components/block-testimonial";
+
+		.testimonial-banner__author {
+			width: auto;
+
+			img {
+				max-width: 30px;
+			}
+		}
+	}
+
+	//
+	// Section
+	//
+	.wp-block[data-type="vendify/section"] {
+
+		@import "_components/block-section";
+	}
+
+	// Style WooCommerce Products blocks.
+	.wp-block .wc-block-grid {
+
+		.product-item.card {
+			padding: 0;
+		}
+
+		.astoundify-favorites-link.astoundify-favorites-link--inactive,
+		.astoundify-favorites-link.astoundify-favorites-link--active {
+			display: none;
+		}
+	}
+
+	.block-with-disabled-style {
+		opacity: 0.6;
+		cursor: not-allowed;
+		pointer-events: none;
+	}
+
+	//
+	// Vendify Sidebar
+	//
+	//.edit-post-pinned-plugins {
+	//	.vendify-logo {
+	//
+	//	}
+	//}
+
+	.wp-block:not([data-align="full"]):not([data-align="wide"]) {
+		.vendify_content_width_very-thin & {
+			max-width: 576px
+		}
+
+		.vendify_content_width_thin & {
+			max-width: 768px
+		}
+
+		//.vendify_content_width_normal & {
+		//	max-width: 979px
+		//}
+
+		.vendify_content_width_wide & {
+			max-width: 1200px
+		}
+
+		.vendify_content_width_very-wide & {
+			max-width: 1600px
+		}
+	}
+}
+
+//
+// Vendify Plugin Sidebar
+//
+.vendify-sidebar-body {
+
+	& > * {
+		padding-left: 15px;
+	}
+
+	.field-title {
+		margin-bottom: 0;
+	}
+
+	.vendify-content-width-field {
+		padding: 0;
+	}
+}
+
+.vendify_content_width_img_radio_button {
+	display: inline-block;
+	width: 50px;
+
+	&:hover label {
+		background-color: #efefef;
+	}
+
+	input {
+		margin:0;padding:0;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		visibility: hidden;
+	}
+
+	input[type="radio"]:checked+label,
+	input[type="radio"]:active+label {
+		background-color: #555d66;
+		color: #ffffff;
+	}
+
+	label {
+		width: 45px;
+		height: 45px;
+		margin: 0 5px 10px 5px;
+		padding: 0;
+		position: relative;
+		border: 1px solid #acacac;
+		border-radius: 6px;
+		display: inline-block;
+		text-indent: -990px;
+
+		&::after {
+			content: "||";
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 10;
+			font-size: 28px;
+			line-height: 40px;
+			text-align: center;
+			vertical-align: middle;
+			font-weight: 700;
+			letter-spacing: -6px;
+			text-indent: -6px;
+		}
+
+		&[for="thin"]::after {
+			content: '|||';
+		}
+
+		&[for="normal"]::after {
+			content: '||||';
+		}
+
+		&[for="wide"]::after {
+			content: '|||||';
+		}
+
+		&[for="very-wide"]::after {
+			content: '||||||';
+		}
+	}
+}
+
+// From now one, we style the elements above editor-style-wrapper.
+.post-type-post .wp-block {
+	max-width: 979px;
+}
+
+.wp-block-vendify-product-with-filter .filter-wrapper {
+	display: none;
+}
+
+.pi__header span {
+	display: none;
+}
+
+// Style WooCommerce Products blocks.
+@import "_components/product-grid";
+@import "_components/product-item";

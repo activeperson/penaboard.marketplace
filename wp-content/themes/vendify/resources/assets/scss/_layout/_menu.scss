@@ -1,0 +1,163 @@
+// ======================================================================================
+//
+// Off Canvas Menu
+//
+// ======================================================================================
+
+// This file takes care of the off canvas related layout and transitions.
+// For the content styling see _menu-content.scss
+//
+// The complexity of markup (2 extra wrappers) is there solve number of bugs with
+// Webkit, namely Safari. It ensures that the transitions of sidebar and main content
+// are in sync by animating the wrapper only, and takes care of few pesky Safari bugs.
+
+body {
+	overflow-x: hidden;
+}
+
+.pusher-container {
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	will-change: transform;
+}
+
+.menu-open .pusher-container {
+	overflow: hidden;
+}
+
+.page-wrap {
+	position: relative;
+}
+
+.menu-open .page-wrap {
+	overflow-y: scroll;
+}
+
+
+// The Menu
+// ======================================
+
+// 1. Avoid causing horizontal scroll in inactive state
+//    by giving width only when the menu is active.
+// 2. Scope to aside to avoid naming conflict with WordPress menu.
+
+$menu-width-small: calc(100vw - 70px);
+$menu-width-large: 450px;
+
+aside.menu {                 // [2]
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 100;
+	visibility: hidden;
+	width: 0;                  // [1]
+	overflow: hidden;
+	background: theme-color("light");
+	transition: transform 0.5s;
+	will-change: transform;
+	backface-visibility: hidden;
+}
+
+.menu--left {
+	transform: translate3d(-100%, 0, 0);
+	left: 0;
+}
+
+.menu--right {
+	right: 0;
+	transform: translate3d(100%, 0, 0);
+}
+
+
+
+// Animatable container
+// ======================================
+
+.pusher {
+	position: relative;
+	left: 0;
+	z-index: 99;
+	height: 100%;
+	transition: transform 0.5s;
+	will-change: transform;
+}
+
+.pusher::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1100;
+	width: 0;
+	height: 0;
+	background: rgba(0,0,0,0.9);
+	content: "";
+	opacity: 0;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+
+
+// Expanded state
+// ======================================
+
+.menu-open--left {
+
+	.pusher {
+		transform: translate3d($menu-width-small, 0, 0);
+
+		@include media-breakpoint-up(sm) {
+			transform: translate3d($menu-width-large, 0, 0);
+		}
+	}
+}
+
+.menu-open--right {
+
+	.pusher {
+		transform: translate3d(calc(-1 * (100vw - 70px)),0,0);
+
+		@include media-breakpoint-up(sm) {
+			transform: translate3d(-$menu-width-large, 0, 0);
+		}
+	}
+}
+
+.menu-open { // <body>
+	.pusher::after {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+
+	.menu {
+		width: $menu-width-small;
+		visibility: visible;
+		transition: transform 0.5s;
+		overflow: auto;
+
+		@include media-breakpoint-up(sm) {
+			width: $menu-width-large;
+		}
+	}
+
+	// Kick the header up the stack, hide it.
+	.site-header {
+		z-index: 1200; // Ignored by iOS safari, cause: -webkit-overflow-touch. Issue is around since 1970s.
+		visibility: hidden;
+		transition: z-index 0.1s;
+	}
+
+	// Show the menu toggler button, despite header being hidden.
+	.btn-icon,
+	.btn-icon{
+		visibility: visible;
+	}
+}
+
+// Instantly returning to the initial z-index will cause flickering,
+// delay until the menu is collapsed.
+.site-header {
+	transition: z-index 0.1s 0.5s;
+}
+

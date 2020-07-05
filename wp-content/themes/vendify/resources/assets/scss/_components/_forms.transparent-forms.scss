@@ -1,0 +1,49 @@
+// ======================================================================================
+//
+// Transparent Forms
+//
+// ======================================================================================
+
+// Forms with transparent fields, as seen on Login & Signup.
+// Applies to `<form>`.
+
+.form--transparent {
+
+	.form-group {
+		margin-bottom: 30px;
+	}
+
+	.label {
+		display: block;
+		margin-bottom: 0;
+		line-height: 1.1;
+	}
+
+	.form-control {
+		background-color: transparent;
+		padding-left: 0;
+		border-color: transparent transparent $input-border-color transparent;
+	}
+
+	.form-control:focus,
+	.form-control:focus ~ .input-group-addon {
+		border-color: transparent !important;
+		border-bottom-color:  $input-focus-border-color !important;
+	}
+
+	.input-group-addon {
+		padding-left: 0;
+		background-color: transparent !important;
+		border-color: transparent !important;
+		border-bottom-color:  $input-border-color !important;
+	}
+}
+
+.form-group--specs {
+
+	.input-group-addon {
+		position: relative;
+		z-index: 3;
+		width: 120px;
+	}
+}

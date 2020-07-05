@@ -1,0 +1,62 @@
+// ======================================================================================
+//
+// Product Page (Standard)
+//
+// ======================================================================================
+
+
+
+// Grid
+// ======================================
+
+.product-standard-gallery {
+
+	@include make-col-ready();
+
+	@include media-breakpoint-up(md) {
+
+		@include make-col(7);
+	}
+}
+
+.product-standard-sidebar {
+
+	@include make-col-ready();
+	margin-top: 60px;
+
+	@include media-breakpoint-up(md) {
+		margin-top: 0;
+
+		@include make-col(5);
+	}
+}
+
+.navigation--product-standard {
+	margin-top: -24px;
+	margin-bottom: 40px;
+}
+
+
+// ======================================================================================
+//
+// Product Slider (Standard)
+//
+// ======================================================================================
+
+.product-slider {
+	position: relative;
+
+	.flickity-prev-next-button .arrow {
+		fill: gray("300");
+	}
+}
+
+.product-slider__item {
+	position: absolute;
+	width: 100%;
+}
+
+
+.product-slider__item img {
+	width: 100%;
+}

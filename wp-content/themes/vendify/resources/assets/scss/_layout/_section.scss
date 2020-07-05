@@ -1,0 +1,54 @@
+// ======================================================================================
+//
+// Page section
+//
+// ======================================================================================
+
+// The main content is gray when there's only one section.
+// Multiple section will alternate between white and gray, white being the first.
+//
+// For the sake of brevity the `.section` can be applied to `<main>` element on single background layouts.
+
+@mixin section { //TODO: Move to mixins
+	padding: 40px 0;
+
+	@include media-breakpoint-up(md) {
+		padding: 70px 0;
+	}
+}
+
+.section {
+
+	@include section;
+
+	+ .section {
+		border-top: 1px solid gray("200");
+	}
+}
+
+
+
+
+// First section is white by default
+.section:nth-of-type(odd) {
+	background-color: theme-color("light");
+}
+
+
+.section__link-wrap {
+	text-align: center;
+	margin-bottom: -1.5rem;
+}
+
+// Modifier for specifying that main content is a single section
+.main-content--single-section {
+
+	@include section;
+	border: 0;
+}
+
+.section__title {
+	line-height: 1.5;
+	text-align: center;
+	margin-bottom: 40px;
+}

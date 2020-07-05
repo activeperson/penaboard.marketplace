@@ -1,0 +1,29 @@
+body .ui-datepicker {
+	border: 0;
+
+	.ui-widget-header,
+	.ui-datepicker-header {
+		background-color: theme-color("primary");
+	}
+
+	thead {
+		background-color: theme-color("dark");
+	}
+
+	td.ui-datepicker-current-day {
+		background-color: theme-color("primary");
+
+		.ui-state-default {
+			color: #fff;
+		}
+	}
+
+	td .ui-state-hover,
+	td.ui-datepicker-today {
+		background-color: darken(theme-color("primary"), 10);
+
+		.ui-state-default {
+			color: #fff;
+		}
+	}
+}

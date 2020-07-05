@@ -1,0 +1,73 @@
+// ======================================================================================
+//
+// Icons
+//
+// ======================================================================================
+
+// Generic icons are set gray("300") by default.
+// Icons with multiple colors, or the ones that don't need variations,
+// have `fill` attribute
+//
+// All icons are in a square bounding box, 1px larger than the largest side of the icon,
+// allowing to have bordered variations.
+
+
+.ico {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	flex-shrink: 0;
+	fill: gray("300");
+	vertical-align: middle;
+}
+
+// Sizes
+// ======================================
+
+.ico--xs {
+	width: 14px;
+	height: 14px;
+}
+
+.ico--sm {
+	width: 22px;
+	height: 22px;
+}
+
+.ico--lg {
+	width: 34px;
+	height: 34px;
+}
+
+.ico--xl {
+	width: 64px;
+	height: 64px;
+}
+
+
+// White variant for generic icons. Use for icons on dark/unknown backgrounds.
+// ============================================================================
+
+.ico--inverse {
+	fill: rgba($white, 0.94);
+	stroke: rgba($black, 0.06);
+	stroke-width: 1;
+	filter: drop-shadow(0 2px 4px rgba($black, 0.06));
+}
+
+.ico--white {
+	fill: $white !important;
+}
+
+a, button, label {
+
+	.ico {
+		transition: 0.2s ease-in-out;
+	}
+
+	&:hover .ico, &:hover svg {
+		fill: inherit;
+		filter: brightness(90%);
+	}
+}
+

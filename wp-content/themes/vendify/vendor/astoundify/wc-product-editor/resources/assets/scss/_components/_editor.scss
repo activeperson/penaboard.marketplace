@@ -1,0 +1,89 @@
+// ======================================================================================
+//
+// Product Editor
+//
+// ======================================================================================
+.editor {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1100;
+	width: 500px;
+}
+
+.astoundify-wc-re-body {
+	position: absolute;
+	top: $action-bar-height;
+	bottom: 0;
+	left: 100px;
+	z-index: 1200;
+	width: 400px;
+	background: #fafafa;
+	box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.1);
+	transform: translate(-100%);
+	transition: transform 0.45s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	-webkit-overflow-scrolling: touch;
+	height: calc(100vh - #{$action-bar-height});
+}
+
+.astoundify-wc-re-body.is-active {
+	transform: translate(0);
+}
+
+.astoundify-wc-re-tab {
+	display: none;
+	overflow: scroll;
+}
+
+.astoundify-wc-re-tab.is-active {
+	display: block;
+}
+
+.astoundify-wc-re-header {
+	position: sticky;
+	top: 0;
+	z-index: 1300;
+	height: 70px;
+	padding: 0 30px;
+	background-color: #fff;
+	box-shadow: 0 1px 0 0 #efefef;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	h4 {
+		margin-bottom: 0;
+		padding-right: 8px;
+		font-size: 22px;
+		color: #000;
+		line-height: 34px;
+	}
+}
+
+.astoundify-wc-re-content {
+	height: calc(100vh - #{$action-bar-height} - 70px);
+	padding: 30px;
+}
+
+.editor-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	opacity: 0;
+	background-color: #000;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 0.2s ease-in-out;
+
+	&.is-active {
+		pointer-events: auto;
+		opacity: 0.15;
+		display: block;
+		visibility: visible;
+		z-index: 1040;
+	}
+}

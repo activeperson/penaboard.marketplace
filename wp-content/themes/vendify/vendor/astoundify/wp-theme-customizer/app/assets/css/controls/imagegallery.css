@@ -1,0 +1,15 @@
+.image-gallery-attachments {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.image-gallery-thumbnail-wrapper {
+	width: 30%;
+	cursor: move;
+	margin: 0 5px 5px 0;
+
+	&:nth-child(3n) {
+		margin-right: 0;
+	}
+}

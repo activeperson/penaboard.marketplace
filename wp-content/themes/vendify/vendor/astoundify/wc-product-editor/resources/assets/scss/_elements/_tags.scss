@@ -1,0 +1,56 @@
+// ======================================================================================
+//
+// Tags
+//
+// ======================================================================================
+
+.astoundify-wc-re-tags-list {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+
+	.btn.btn-outline-neutral {
+
+		.close {
+			margin-left: 7px;
+		}
+	}
+}
+
+.astoundify-wc-re-input-suggestions {
+	position: absolute;
+	background: white;
+	width: 100%;
+	z-index: 1000;
+	border-width: 1px;
+	border-style: solid;
+	top: 100%;
+}
+
+.astoundify-wc-re-input-suggestion {
+	width: 100%;
+	background: none;
+	padding: 15px 22px;
+	text-align: left;
+	border: 0;
+	transition: 0.3s;
+
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.02);
+	}
+}
+
+.form-control__add-tag {
+	background: black;
+	border-radius: 100%;
+	color: white;
+	font-weight: 800;
+	width: 30px;
+	height: 30px;
+	border: 0;
+	font-size: 28px;
+	line-height: 1;
+	position: absolute;
+	right: 13px;
+	bottom: 13px;
+}

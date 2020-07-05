@@ -1,0 +1,150 @@
+[
+  {
+    "id": "astoundify",
+    "type": "term",
+    "data": {
+      "meta": {
+        "vendor_data": {
+          "logo": "",
+          "admins": [
+            "1"
+          ],
+          "featured": "1",
+          "commission_type": "percentage",
+          "timezone": "UTC-5",
+          "per_product_shipping": "yes",
+          "enable_bookings": "no",
+          "instant_payout": "no"
+        },
+        "vendor_featured": "1"
+      },
+      "taxonomy": "wcpv_product_vendors",
+      "name": "Astoundify"
+    }
+  },
+  {
+    "id": "barbescobeardco",
+    "type": "term",
+    "data": {
+      "meta": {
+        "vendor_data": {
+          "logo": "",
+          "profile": "<div class=\"shop-name-and-title-container mb-xs-2\"> Our small cottage business began back in November 2015. It started with Movember; I grew a mustache and beard and tried to raise money for the charity. But at the end of the month, I decided not to shave and to see how long I could grow a beard. As my beard grew, I realized that just like my hair, it wasn't going to look after itself, and that's when I began looking into beard care products. The market was saturated, but I knew it hadn't reached its peak; there was plenty of fragrance choice, but that was all I could find. I already had a cosmetic background, having worked as a scientist in the laboratory of a company that produced cosmetics for all the world's big names. So I began researching various natural and organic oils and their properties. After one year, we launched 3 oils; the difference, each one tailored to a different skin type. We now have a Beard Salve and a beard oil available for dry skin, normal skin and oily skin and a convenient little mustache wax to compliment the 3. All are packed full of prized organic oils; we might not be the cheapest, but neither is the price of our raw ingredients. All our organic ingredients are soil association certified organic. Now, 2 years on, we have a range of male grooming items focused on leather and wood, natural and made in-house. </div>",
+          "email": "BarbescoBeardCo@astoundify.com",
+          "admins": [
+            "1"
+          ],
+          "commission": "70",
+          "commission_type": "percentage",
+          "paypal": "BarbescoBeardCo@astoundify.com",
+          "timezone": "America/Toronto",
+          "per_product_shipping": "yes",
+          "featured": "1",
+          "enable_bookings": "no",
+          "instant_payout": "no"
+        },
+        "vendor_name": [
+          "BarbescoBeardCo"
+        ],
+        "vendor_location": [
+          "Bridgend, United Kingdom"
+        ],
+        "vendor_profile": [
+          "<div class=\"shop-name-and-title-container mb-xs-2\"> Our small cottage business began back in November 2015. It started with Movember; I grew a mustache and beard and tried to raise money for the charity. But at the end of the month, I decided not to shave and to see how long I could grow a beard. As my beard grew, I realized that just like my hair, it wasn't going to look after itself, and that's when I began looking into beard care products. The market was saturated, but I knew it hadn't reached its peak; there was plenty of fragrance choice, but that was all I could find. I already had a cosmetic background, having worked as a scientist in the laboratory of a company that produced cosmetics for all the world's big names. So I began researching various natural and organic oils and their properties. After one year, we launched 3 oils; the difference, each one tailored to a different skin type. We now have a Beard Salve and a beard oil available for dry skin, normal skin and oily skin and a convenient little mustache wax to compliment the 3. All are packed full of prized organic oils; we might not be the cheapest, but neither is the price of our raw ingredients. All our organic ingredients are soil association certified organic. Now, 2 years on, we have a range of male grooming items focused on leather and wood, natural and made in-house. </div>"
+        ],
+        "vendor_tagline": [
+          "Premium Organic Male Grooming. Respect it. Groom it."
+        ],
+        "shipping_policy": [
+          "Processing time The time I need to prepare an order for shipping varies. For details, see individual items. Estimated shipping times North America: 5-7 business days Europe: 3-5 business days Australia, New Zealand and Oceania: 10-15 business days I'll do my best to meet these shipping estimates but can't guarantee them. Actual delivery time will depend on the shipping method you choose. Customs and import taxes Buyers are responsible for any customs and import taxes that may apply. I'm not responsible for delays due to customs."
+        ],
+        "return_policy": [
+          "I gladly accept returns, exchanges, and cancellations Contact me within: 14 days of delivery Ship items back within: 30 days of delivery Request a cancellation: before the item has shipped The following items can't be returned or exchanged Because of the nature of these items, unless they arrive damaged or defective, I can't accept returns for: Custom or personalized orders Perishable products (like food or flowers) Digital downloads Intimate items (for health/hygiene reasons) Conditions of return Buyers are responsible for return shipping costs. If the item is not returned in its original condition, the buyer is responsible for any loss in value."
+        ],
+        "vendor_featured": "1"
+      },
+      "taxonomy": "wcpv_product_vendors",
+      "name": "BarbescoBeardCo"
+    }
+  },
+  {
+    "id": "mod-party",
+    "type": "term",
+    "data": {
+      "meta": {
+        "vendor_data": {
+          "logo": "",
+          "profile": "Bridesmaid Gifts, Wedding Favors &amp; Decorations",
+          "email": "modparty@astoundify.com",
+          "admins": [
+            "1"
+          ],
+          "commission": "70",
+          "commission_type": "percentage",
+          "paypal": "modparty@astoundify.com",
+          "timezone": "UTC-4",
+          "per_product_shipping": "yes",
+          "featured": "1",
+          "enable_bookings": "no",
+          "instant_payout": "no"
+        },
+        "vendor_featured": "1"
+      },
+      "taxonomy": "wcpv_product_vendors",
+      "name": "Mod Party"
+    }
+  },
+  {
+    "id": "planner-kate",
+    "type": "term",
+    "data": {
+      "meta": {
+        "vendor_data": {
+          "logo": "",
+          "profile": "Your Perfect way to Plan.",
+          "email": "pk1@astoundify.com",
+          "admins": [
+            "1"
+          ],
+          "commission": "70",
+          "commission_type": "percentage",
+          "timezone": "UTC-4",
+          "featured": "1",
+          "enable_bookings": "no",
+          "per_product_shipping": "no",
+          "instant_payout": "no"
+        },
+        "vendor_featured": "1"
+      },
+      "taxonomy": "wcpv_product_vendors",
+      "name": "Planner Kate"
+    }
+  },
+  {
+    "id": "skeggox",
+    "type": "term",
+    "data": {
+      "meta": {
+        "vendor_data": {
+          "logo": "",
+          "profile": "SKEGGOX - WOODEN BEARD COMBS, MINIMALIST WALLETS",
+          "email": "Skeggox@astoundify.com",
+          "admins": [
+            "1"
+          ],
+          "commission": "70",
+          "commission_type": "percentage",
+          "paypal": "Skeggox@astoundify.com",
+          "timezone": "UTC-4",
+          "featured": "1",
+          "enable_bookings": "no",
+          "per_product_shipping": "no",
+          "instant_payout": "no"
+        },
+        "vendor_featured": "1"
+      },
+      "taxonomy": "wcpv_product_vendors",
+      "name": "Skeggox"
+    }
+  }
+]

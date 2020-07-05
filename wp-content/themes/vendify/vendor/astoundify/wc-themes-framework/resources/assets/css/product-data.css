@@ -1,0 +1,46 @@
+#woocommerce-product-data ul.wc-tabs li.attendees_options a::before {
+	content: "\f484";
+}
+
+#woocommerce-product-data ul.wc-tabs li.lineup_options a::before {
+	content: "\f482";
+}
+
+#woocommerce-product-data ul.wc-tabs li.sponsors_options a::before {
+	content: "\f487";
+}
+
+#woocommerce-product-data ul.wc-tabs li.schedule_options a::before {
+	content: "\f508";
+}
+
+#woocommerce-product-data ul.wc-tabs li.location_options a::before {
+	content: "\f230";
+}
+
+#astoundify-wc-themes-attendee-items,
+#astoundify-wc-themes-lineup-items,
+#astoundify-wc-themes-sponsor-items {
+	max-height: 700px;
+	overflow-y: scroll;
+}
+
+.wc-metaboxes-wrapper#attendees_product_data #filter,
+.wc-metaboxes-wrapper#lineup_product_data #filter,
+.wc-metaboxes-wrapper#sponsors_product_data #filter {
+	float: right;
+	margin-right: 12px;
+}
+
+.wc-metaboxes-wrapper#attendees_product_data .expand-close,
+.wc-metaboxes-wrapper#lineup_product_data .expand-close,
+.wc-metaboxes-wrapper#sponsors_product_data .expand-close,
+.wc-metaboxes-wrapper#schedule_product_data .expand-close {
+	float: right;
+	line-height: 28px;
+}
+
+.form-row input[type="date"],
+.form-row input[type="time"] {
+	width: 100%;
+}

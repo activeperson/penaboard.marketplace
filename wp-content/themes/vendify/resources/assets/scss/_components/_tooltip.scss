@@ -1,0 +1,130 @@
+// ======================================================================================
+//
+// Tooltip
+//
+// ======================================================================================
+
+
+.tooltip {
+	position: relative;
+}
+
+.tooltip::before,
+.tooltip::after {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1500;
+	pointer-events: none;
+	transition: 0.15s 0.1s ease-in-out;
+}
+
+.tooltip.show::before,
+.tooltip.show::after,
+.tooltip:hover::before,
+.tooltip:hover::after {
+	visibility: visible;
+	opacity: 1;
+}
+
+// Arrow
+// ======================================
+
+.tooltip::before {
+	position: absolute;
+	background-color: transparent;
+	z-index: 1501;
+	content: "";
+}
+
+
+// Tooltip body
+// ======================================
+
+.tooltip::after {
+	width: 170px;
+	padding: 10px 20px;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-normal;
+	color: $white;
+	line-height: 1.65;
+	background-color: theme-color("dark");
+	box-shadow: $box-shadow;
+	content: attr(aria-label);
+}
+
+
+// Top
+
+.tooltip--top::after {
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	bottom: 100%;
+	margin-bottom: 15px;
+}
+
+.tooltip--top::before {
+	left: calc(50% - 10px);
+	margin-bottom: 8px;
+	bottom: 100%;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 7px solid theme-color("dark");
+}
+
+
+// Left
+
+.tooltip--left::after {
+	top: 50%;
+	right: 100%;
+	transform: translate3d(0, -50%, 0);
+	margin-right: 15px;
+}
+
+.tooltip--left::before {
+	top: calc(50% - 10px);
+	margin-right: 8px;
+	right: 100%;
+	border-left: 7px solid theme-color("dark");
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+
+
+// Right
+
+.tooltip--right::after {
+	top: 50%;
+	left: 100%;
+	transform: translate3d(0, -50%, 0);
+	margin-left: 15px;
+}
+
+.tooltip--right::before {
+	top: calc(50% - 10px);
+	margin-left: 8px;
+	left: 100%;
+	border-right: 7px solid theme-color("dark");
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+
+
+// Bottom
+
+.tooltip--bottom::after {
+	left: 50%;
+	transform: translate3d(-50%, 0, 0);
+	top: 100%;
+	margin-top: 15px;
+}
+
+.tooltip--bottom::before {
+	left: calc(50% - 10px);
+	margin-top: 8px;
+	top: 100%;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 7px solid theme-color("dark");
+}

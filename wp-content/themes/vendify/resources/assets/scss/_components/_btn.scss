@@ -1,0 +1,56 @@
+.btn {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: $btn-font-weight;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+
+	// Don't override Bootstrap's generated sizes since this appears after.
+	&:not(.btn-sm):not(.btn-lg) {
+
+		@include button-size($input-btn-padding-y, $input-btn-padding-x, $font-size-sm, $input-btn-line-height, initial);
+	}
+
+	// Size.
+	&-lg {
+
+		@include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-sm, $btn-line-height-lg, initial);
+	}
+
+	&-sm {
+
+		@include button-size($btn-padding-y-sm, $btn-padding-x-sm, 11px, $btn-line-height-sm, initial);
+	}
+
+	&-success {
+		color: $white;
+	}
+
+	// Appearance.
+	&--blank {
+		color: inherit;
+		background: unset;
+		border: 0;
+		box-shadow: unset;
+	}
+
+	&-light {
+		@include box-shadow($box-shadow);
+	}
+
+		// Outline variation.
+	@each $color, $value in $theme-colors {
+
+		&-outline-#{$color}:hover {
+			background-color: transparent;
+		}
+	}
+
+}
+
+// Remove box shadow on anything with an outline class.
+[class*="outline"] {
+	box-shadow: unset;
+}

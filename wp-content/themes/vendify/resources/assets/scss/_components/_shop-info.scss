@@ -1,0 +1,199 @@
+// ======================================================================================
+//
+// Shop info
+//
+// ======================================================================================
+
+// Shop information widget. Appears in the hero.
+// Multiple variations are available
+//
+// 1. Logo, name, and buttons
+// 2. Logo, name, short description or slogan, and inner widget containing
+// more info and statistics (Locations, sales count, etc.)
+
+.shop-info {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	text-align: center;
+	padding-top: $grid-gutter-width;
+	padding-bottom: $grid-gutter-width;
+
+	@include media-breakpoint-up(md) {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-end;
+		height: auto;
+		text-align: left;
+		padding-top: 160px;
+		padding-bottom: 33px;
+	}
+
+	.btn {
+		display: inline-block;
+
+		& + .btn {
+			margin-left: 12px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			
+			display: flex;
+			width: 170px;
+			align-self: center;
+			margin: 0 auto;
+
+			& + .btn {
+				margin-left: 0;
+				margin-top: 12px;
+			}
+		}
+
+		
+	}
+}
+
+.shop-info__logo {
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.10);
+
+	@include media-breakpoint-up(md) {
+		margin-right: 24px;
+	}
+
+	img {
+
+		@include border-radius();
+	}
+}
+
+.shop-info__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	@include media-breakpoint-up(md) {
+		flex-direction: row;
+		justify-content: space-between;
+		flex-grow: 1;
+	}
+
+	@include media-breakpoint-up(lg) {
+
+		.tax-wcpv_product_vendors & {
+			margin-left: 290px;
+		}
+	}
+}
+
+
+
+
+// Primary block (left)
+// ======================================
+
+.shop-info__primary {
+	line-height: 1.25;
+	color: theme-color("light");
+
+	.shop-info__name {
+		line-height: 1.1;
+	}
+}
+
+.shop-info__name {
+	color: theme-color("light");
+	margin: 20px 0 11px;
+	font-weight: 200;
+
+	@include media-breakpoint-up(md) {
+		margin: 0 0 4px;
+	}
+}
+
+.shop-info__description {
+	display: none;
+	font-weight: $font-weight-extra-light;
+
+	@media (min-width: 1001px){
+		display: block;
+	}
+}
+
+.shop-info__stats {
+
+	@include list-unstyled;
+	display: flex;
+	margin: 20px 0;
+	font-size: $font-size-sm;
+
+	@include media-breakpoint-up(md) {
+		margin: 15px 0 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		justify-content: center;
+	}
+}
+
+.shop-info__stats li {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	font-weight: 400;
+}
+
+.shop-info__stats .ico {
+	margin-right: 8px;
+}
+
+
+
+
+// Secondary block (right)
+// ======================================
+
+.shop-info__secondary {
+	display: flex;
+
+	@include media-breakpoint-up(md) {
+		align-self: flex-end;
+	}
+
+	@include media-breakpoint-down(sm) {
+		flex-direction: column;
+		.btn + .btn {
+			margin-left: 0;
+			margin-top: 12px;
+		}
+	}
+}
+
+
+
+
+// Large variation with hanging logo
+// ======================================
+
+.shop-info--large {
+
+	.shop-info__logo {
+		width: 94px;
+	}
+
+	@include media-breakpoint-up(lg) {
+
+		.shop-info__logo {
+			position: absolute;
+			bottom: -75px;
+			width: 180px;
+			height: 180px;
+			margin-right: 30px;
+			margin-left: 75px;
+		}
+	}
+}

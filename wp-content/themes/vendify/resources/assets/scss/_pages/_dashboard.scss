@@ -1,0 +1,262 @@
+// ======================================================================================
+//
+// Dashboard pages
+//
+// ======================================================================================
+
+
+.dashboard__main-column,
+.dashboard__sidebar {
+
+	@include make-col-ready();
+}
+
+.dashboard__main-column {
+
+	@media (min-width: 1001px) {
+
+		@include make-col(8);
+	}
+
+	@include media-breakpoint-up(lg) {
+		margin-left: auto;
+
+		@include make-col(7);
+	}
+}
+
+.dashboard__only-column {
+
+	@include make-col(12);
+
+	@media (min-width: 1001px) {
+
+		@include make-col(12);
+	}
+
+	@include media-breakpoint-up(lg) {
+
+		@include make-col(8);
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.dashboard__sidebar {
+
+	@media (min-width: 1001px) {
+
+		@include make-col(4);
+	}
+
+	@include media-breakpoint-up(lg) {
+		margin-right: auto;
+
+		@include make-col(3);
+	}
+}
+
+// TODO: Rethink this.
+.navigation--dashboard {
+	background-color: theme-color("light");
+	margin: 0;
+
+	@include media-breakpoint-up(xl) {
+		overflow: visible;
+	}
+
+	.container {
+		position: relative;
+
+		@include media-breakpoint-down(sm) {
+			padding: 0;
+		}
+	}
+}
+
+#astoundify-simple-social-login-woocommerce-profile-wrap h2,
+.wc-social-login-profile h2,
+.dashboard__subheading {
+	margin-bottom: 45px;
+	border-bottom: 1px solid gray("300");
+	padding-bottom: 15px;
+	font-weight: 200;
+
+	@include media-breakpoint-down(sm) {
+		margin-bottom: 30px;
+		font-size: $h4-font-size;
+	}
+}
+
+.dashboard__subheading:not(:first-of-type) {
+	margin-top: 60px;
+}
+
+.dashboard__messages {
+	margin-bottom: 30px;
+
+	.msg-preview {
+		padding: 20px 0 20px 24px;
+
+		@include media-breakpoint-up(lg) {
+			padding-left: 0;
+		}
+	}
+}
+
+
+// Settings
+// ======================================
+
+.dashboard__submit-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10px;
+	padding-top: 30px;
+	border-top: 1px solid gray("200");
+
+	@include media-breakpoint-up(md) {
+		margin-top: 40px;
+		padding-top: 40px;
+	}
+}
+
+.woocommerce-EditAccountForm + #astoundify-simple-social-login-woocommerce-profile-wrap {
+	margin-top: 40px;
+	border-top: 0;
+	padding: 0;
+}
+
+.astoundify-simple-social-login--link-unlink-buttons {
+	padding: 0;
+}
+
+
+// Billing
+// ======================================
+
+.navigation--dashboard-billing {
+	margin-bottom: 40px;
+	box-shadow: none;
+
+	@include media-breakpoint-down(md) {
+		margin-top: -20px;
+	}
+}
+
+// Orders
+// ======================================
+
+.account-orders-table td {
+	font-size: 14px;
+	position: relative;
+}
+
+.woocommerce-orders-table__cell-order-number {
+	display: flex;
+	align-items: center;
+
+	img {
+		max-width: 60px;
+		margin-right: 10px;
+	}
+
+	a {
+		color: theme-color("dark");
+		font-size: 15px;
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	span {
+		font-size: 13px;
+	}
+
+	div {
+		line-height: 1;
+	}
+}
+
+.woocommerce-orders-table__cell-actions,
+.woocommerce-orders-table__header-actions {
+	text-align: center;
+}
+
+.vendors-order-section {
+	margin-top: 2rem;
+}
+
+// Notifications
+// ======================================
+
+.form--dashboard-notifications {
+
+	.dashboard__submit-wrap {
+		margin-top: 0;
+	}
+
+	label {
+		display: block;
+		margin-bottom: 30px;
+	}
+}
+
+
+// Add/Create Button
+// ======================================
+
+@keyframes addSlide {
+	from {
+		transform: translate3d(0, 20px, 0);
+	}
+
+	to {
+		transform: translate3d(0, 5px, 0);
+	}
+}
+
+.btn-add {
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	background-color: theme-color("primary");
+	border-radius: 50%;
+	border: 0;
+	box-shadow: $box-shadow-md;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+	transform: translate3d(0, 20px, 0);
+	animation: addSlide 0.50s forwards;
+
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+
+	@include media-breakpoint-up(sm) {
+		line-height: 56px;
+		width: 56px;
+		height: 56px;
+	}
+}
+
+.btn-add .ico {
+	fill: $white !important; // Override default darkening on hover
+	width: 15px;
+	height: 15px;
+	margin-top: -2px;
+
+	@include media-breakpoint-up(sm) {
+		margin-top: 0;
+		width: 22px;
+		height: 22px;
+	}
+}
+
+// General layout
+// ====================================
+
+.woocommerce-account .woocommerce-MyAccount-content {
+	width: 100%;
+	float: none;
+}

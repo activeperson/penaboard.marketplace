@@ -1,0 +1,38 @@
+// ======================================================================================
+//
+// Scoped Typography
+//
+// ======================================================================================
+
+// Applies specific styling to a section with body copy (blog posts, articles, etc.),
+// https://dbushell.com/2012/04/18/scoping-typography-css/
+// https://css-tricks.com/opt-in-typography/
+
+.text {
+
+	a {
+
+		@extend .link;
+	}
+
+	h1, .h1,
+	h2, .h2,
+	h3, .h3,
+	h4, .h4,
+	h5, .h5 {
+		margin: 30px 0 15px;
+	}
+
+	.ico {
+		position: relative;
+		top: -1px;
+		margin-right: 3px;
+	}
+
+	ul, ol {
+		padding-left: 0;
+		margin-left: 0.1em;
+		list-style-position: inside;
+	}
+
+}

@@ -1,0 +1,49 @@
+// ======================================================================================
+//
+// Shop Listing
+//
+// ======================================================================================
+
+.shop-info--listing {
+	padding-bottom: 40px;
+}
+
+
+// Navigation
+// ======================================
+
+.navigation--shop-listing {
+	margin-bottom: 40px;
+	width: 100vw;
+
+	.nav-tabs {
+		justify-content: center;
+	}
+}
+
+.filter-bar--shop-listing {
+	height: 70px;
+}
+
+.filter-bar--shop-listing  .filter__search,
+.filter-bar--shop-listing  .filter__location {
+	align-self: stretch;
+	border-left: 1px solid gray("200");
+}
+
+.shop-listing-search-bar {
+	display: flex;
+	margin: -20px 0 24px;
+
+	.filter__search {
+		flex-grow: 1;
+	}
+
+	.form-control {
+		width: 100%;
+	}
+
+	.filter__location  .form-control {
+		border-left: 0;
+	}
+}

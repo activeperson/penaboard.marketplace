@@ -1,0 +1,178 @@
+// ======================================================================================
+//
+// Activity List
+//
+// ======================================================================================
+
+
+.activity {
+	background-color: theme-color("light");
+	box-shadow: $box-shadow;
+	font-size: $font-size-base;
+
+	@include border-radius();
+
+	@include media-breakpoint-down(md) {
+		margin-bottom: 40px;
+		font-size: $font-size-sm;
+	}
+}
+
+
+// Header
+// ======================================
+
+.activity__header {
+	padding: 30px 15px 0;
+	background-color: rgba(250, 250, 250, 0.5);
+	box-shadow: inset 0 -1px 0 0 #efefef;
+
+	@include border-top-radius($border-radius);
+	@include media-breakpoint-up(md) {
+		padding: 30px 30px 0;
+	}
+}
+
+.activity__header .navigation {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.activity__header h3 {
+
+	@include media-breakpoint-down(md) {
+		font-size: $h4-font-size;
+		font-weight: $font-weight-light;
+	}
+}
+
+
+// Body
+// ======================================
+
+.activity__body {
+	padding: 15px 0;
+
+	@include border-bottom-radius($border-radius);
+}
+
+
+// Separated cards with shadow
+.activity__body--separate {
+	padding: 0;
+
+	.activity__item {
+		padding: 1.5rem;
+		box-shadow: $box-shadow;
+	}
+
+	.activity__item + .activity__item {
+		margin-top: 12px;
+	}
+
+	.activity__logo img {
+		width: 20px;
+		height: auto;
+	}
+}
+
+
+// TODO: This is dumb. Both .activity and items has background color,
+// TODO: modifiers should apply to .activity instead of .activity__body
+.activity__body--transparent {
+
+	.activity__item {
+		padding: 30px 0;
+		background-color: transparent;
+	}
+
+	.activity__item + .activity__item {
+		border-top: 1px solid gray("200");
+	}
+}
+
+
+// Single item
+// ======================================
+
+.activity__item {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	background-color: theme-color("light");
+
+	@include media-breakpoint-up(md) {
+		padding: 15px 30px;
+	}
+}
+
+.activity__item .ico {
+
+	@include media-breakpoint-down(md) {
+		transform: scale(0.8);
+	}
+}
+
+.activity__item--favorite .ico  { fill: $red }
+
+.activity__item--review .ico    { fill: $yellow }
+
+.activity__item--purchase .ico  { fill: $green }
+
+.activity__item--follow .ico    { fill: $black }
+
+
+.activity__item__content {
+	flex: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 15px;
+	display: flex;
+	align-items: center;
+
+	a {
+
+		@include link;
+	}
+}
+
+.activity__quantity {
+	margin-right: 15px;
+}
+
+.activity__logo {
+	display: flex;
+	flex: 0 0 26px;
+	align-items: center;
+
+	img {
+		width: 26px;
+		height: 26px;
+		display: block;
+	}
+}
+
+.activity__logo + .activity__text {
+	margin-left: 12px;
+}
+
+.activity__thumbnail {
+
+	@extend .img-thumbnail;
+
+	width: 50px;
+	margin: 0 0 0 15px;
+
+	@include border-radius();
+}
+
+.activity__date {
+	margin-left: auto;
+	color: gray("300");
+}
+
+.activity__none {
+	margin: 0;
+	padding: 0 30px;
+}

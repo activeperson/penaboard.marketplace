@@ -1,0 +1,82 @@
+@mixin vendify-content {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 {
+		position: relative;
+		margin: 1.7rem 0;
+	}
+
+	img {
+		max-width: 100%;
+		display: block;
+	}
+
+	p,
+	ul,
+	ol {
+		//margin-bottom: 1.7rem;
+		margin-bottom: 0.85rem;
+		margin-top: 0.85rem;
+	}
+
+	figure {
+		max-width: 100% !important;
+
+		&.alignwide, &.alignfull {
+			max-width: none !important;
+		}
+
+		//@media (min-width: 1001px) {
+		//	margin-left: -20px;
+		//	margin-right: -20px;
+		//}
+	}
+
+	figcaption {
+		display: block;
+		margin-top: 12px;
+		text-align: center;
+		font-size: $font-size-sm;
+		font-weight: $font-weight-base;
+	}
+
+	// Custom bullets on unordered lists
+	ul:not([class]) {
+		padding-left: 30px;
+
+		li {
+			padding: 0 0 0 16px;
+			position: relative;
+			list-style: none;
+
+			&::before {
+				width: 4px;
+				height: 4px;
+				border-radius: 50%;
+				background-color: theme-color("dark");
+				position: absolute;
+				left: 0;
+				top: 16px;
+				content: "";
+			}
+		}
+	}
+
+	ul:not([class]) ul,
+	ol:not([class]) ol {
+		margin-bottom: 0;
+	}
+
+	code {
+		color: theme-color("danger");
+		word-wrap: break-word;
+		opacity: 0.5;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

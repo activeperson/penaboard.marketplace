@@ -1,0 +1,26 @@
+.price {
+
+	ins {
+		text-decoration: none;
+	}
+
+	del {
+		display: none;
+	}
+}
+
+.amount {
+	line-height: 1.1;
+	flex-shrink: 0;
+}
+
+// Only in sidebar where price is larger.
+.product-sidebar__price .woocommerce-Price-currencySymbol {
+	top: -0.25em;
+	font-size: 70%;
+	opacity: 0.5;
+	margin-right: 0.2em;
+	vertical-align: baseline;
+	line-height: 0;
+	position: relative;
+}

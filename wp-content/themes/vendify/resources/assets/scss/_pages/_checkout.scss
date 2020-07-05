@@ -1,0 +1,292 @@
+// ======================================================================================
+//
+// Checkout Page
+//
+// ======================================================================================
+
+
+// Header
+// ======================================
+
+.checkout__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 32px $grid-gutter-width / 2;
+	background-color: theme-color("light");
+	box-shadow: $box-shadow;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+
+.checkout__header .lead {
+
+	@include media-breakpoint-down(xs) {
+		line-height: 1.65;
+	}
+}
+
+.checkout__logo {
+	display: block;
+	margin-bottom: 1rem;
+
+	@include media-breakpoint-up(md) {
+		margin-bottom: 3rem;
+	}
+}
+
+.checkout__title {
+
+	margin-bottom: 1rem;
+}
+
+.checkout__cta {
+	font-size: $font-size-xs;
+
+	@include text-wide;
+
+	@include media-breakpoint-down(xs) {
+
+		span {
+			display: block;
+		}
+	}
+}
+
+
+
+// Layout
+// ======================================
+
+.checkout__main,
+.checkout__sidebar {
+
+	@include make-col-ready();
+}
+
+.checkout__main {
+	order: 1;
+
+	@include media-breakpoint-up(lg) {
+		order: 0;
+
+		@include make-col(8);
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.checkout__main--has-sidebar {
+
+	@include media-breakpoint-up(lg) {
+		order: 0;
+
+		@include make-col(8);
+	}
+
+	@include media-breakpoint-up(xl) {
+		flex: 0 0 55%;
+		max-width: 55%;
+		margin-left: auto;
+		padding-right: 51px;
+	}
+}
+
+.checkout__sidebar {
+
+	@include media-breakpoint-up(lg) {
+
+		@include make-col(4);
+	}
+
+	@include media-breakpoint-up(xl) {
+		margin-right: auto;
+		flex: 0 0 28%;
+		max-width: 28%;
+	}
+}
+
+
+
+// Navigation
+// ======================================
+
+.navigation--checkout {
+	margin-bottom: 60px;
+
+	@include media-breakpoint-down(md) {
+		margin: -20px -40px 60px;
+	}
+
+	@include media-breakpoint-down(sm) {
+		margin: -20px -24px 60px;
+	}
+
+}
+
+// Forms
+// ======================================
+.payment-method-toggles, .payment-method-toggles + ul {
+	padding-inline-start: 0;
+	position: relative;
+}
+
+.payment-method-toggles, .payment-method-toggles + ul, ul.woocommerce_error {
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.woocommerce-checkout,
+.form--checkout {
+
+	fieldset {
+		margin-bottom: 2rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid gray("200");
+	}
+}
+
+.woocommerce legend.form--checkout__title {
+	margin-bottom: 2rem;
+	border-bottom: 0;
+}
+
+.woocommerce-shipping-fields,
+.form--checkout-billing-address {
+	padding: 1rem 0 2.5rem !important;
+	margin-bottom: 40px;
+
+	h3,
+	label {
+		margin-bottom: 0;
+	}
+}
+
+.form--checkout-submit-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn--checkout-submit {
+
+	@include media-breakpoint-up(md) {
+		width: 40%;
+	}
+}
+
+.btn--checkout-method {
+	margin: 0 10px 10px;
+
+	.ico {
+		margin-right: 0.8rem;
+		filter: #{ "grayscale("1")" };
+		opacity: 0.32;
+		transition: all 0.2s ease-in-out;
+	}
+}
+
+[name="payment_method"]:checked + label {
+
+	.btn {
+		box-shadow: 0 0 0 2px theme-color("dark");
+	}
+}
+
+.shipping_address,
+form.woocommerce-checkout {
+	padding-top: 2rem;
+}
+
+[name="payment_method"] {
+	display: none;
+}
+
+// Sidebar
+// ======================================
+
+.checkout__sidebar {
+
+	@include media-breakpoint-down(lg) {
+		margin-bottom: 3rem;
+	}
+}
+
+.checkout__sidebar__header {
+	padding: 2rem 0 1.5rem;
+	border-bottom: 1px solid gray("200");
+	text-align: center;
+
+	@include text-wide;
+	font-size: $font-size-sm;
+}
+
+
+.checkout-receipt {
+	border-top: 1px solid gray("200");
+}
+
+.checkout-receipt__main {
+	padding: 20px 0;
+}
+
+.checkout-receipt__item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	font-size: $font-size-sm;
+
+	& + & {
+		margin-top: 15px;
+	}
+}
+
+.checkout-receipt__total {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 30px 20px;
+	border-top: 1px solid gray("200");;
+	color: theme-color("dark");
+
+	@include text-wide;
+}
+
+.checkout-receipt__item--shipping {
+	flex-wrap: wrap;
+
+	p {
+		display: block;
+	}
+}
+
+.checkout_coupon {
+	display: block !important;
+}
+
+.woocommerce-terms-and-conditions-wrap {
+	margin-top: 2rem;
+	padding-top: 2rem;
+	border-top: 1px solid gray("200");
+
+	.custom-control-description{
+		line-height: 3;
+	}
+}
+
+// Stripe
+// ======================================
+
+.stripe-card-group, .wc-stripe-elements-field, .wc-stripe-iban-element-field {
+	width: 100%;
+}
+
+.stripe-source-errors {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	top: 100%;
+}

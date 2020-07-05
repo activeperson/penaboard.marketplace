@@ -1,0 +1,18 @@
+// General config.
+@import "~bootstrap/scss/functions";
+@import "variables";
+@import "~bootstrap/scss/variables";
+
+// Mixins.
+@import "~bootstrap/scss/mixins";
+@import "_mixins/vendify-link";
+@import "_mixins/vendify-button";
+@import "_mixins/vendify-badge";
+@import "_mixins/vendify-form-control";
+@import "_mixins/vendify-content";
+@import "_mixins/vendify-screen-reader-text";
+
+@import "_mixins/text-wide"; // @todo update.
+
+// @todo
+@import "_abstract/utilities";

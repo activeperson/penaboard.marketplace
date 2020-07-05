@@ -1,0 +1,73 @@
+// ======================================================================================
+//
+// Products with filter
+//
+// ======================================================================================
+
+.wp-block-vendify-product-with-filter {
+
+	.pi__author {
+
+		.mr-2,
+		.link-cta {
+			display: inline-block;
+			vertical-align: bottom;
+		}
+
+	}
+
+	.product-item {
+		border-radius: 3px;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+		background-color: #fff;
+
+		.pi__content {
+			padding: 12px;
+		}
+	}
+
+	.category-wrap {
+		overflow: hidden;
+	}
+
+	.product-categories {
+		border-bottom: 1px solid #EDEAED;
+		list-style: none;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: inline-block;
+		}
+
+		a {
+			color: #a4a4a4;
+			display: block;
+			text-align: left;
+			padding: 15px;
+		}
+
+		.all {
+			color: #5064f9;
+			border-bottom: 1px solid #5064f9;
+		}
+	}
+
+	.product-sort {
+		overflow: hidden;
+		padding: 1.85rem 0;
+	}
+
+	.product-count {
+		float: left;
+		font-size: $h4-font-size;
+		width: 80%;
+	}
+
+	.woocommerce-ordering {
+		float: right;
+		width: 20%;
+	}
+
+}

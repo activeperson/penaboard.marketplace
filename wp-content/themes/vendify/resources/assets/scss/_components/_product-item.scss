@@ -1,0 +1,443 @@
+// ======================================================================================
+//
+// Product Card
+//
+// Children are prefixed with 'pi__' for brevity
+// ======================================================================================
+
+
+.product-item {
+	position: relative;
+	margin-bottom: 40px;
+	min-height: 120px;
+}
+
+.product-item.card {
+	transition: box-shadow 0.2s ease-in-out;
+
+	&:hover {
+		box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.16);
+	}
+}
+
+
+// Product Link
+// ======================================
+
+// Faux link that makes the entire card clickable.
+// Use when you have to nest other interactive elements inside the card, since nesting actual
+// anchors isn't legal – https://www.w3.org/TR/html401/struct/links.html#h-12.2.2
+//
+// 1. Place the overlay link above gradient overlays
+// 2. Force higher z-index on all nested interactive elements.
+
+.product-item__link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 3; // [1]
+}
+
+.product-item .link,
+.product-item button,
+.product-item .badge {
+	position: relative;
+	z-index: 10; // [2]
+}
+
+// Optional gradient overlay from top
+// ===============================================
+
+.pi__img-holder.has-gradient--top::after,
+.pi__img-holder.has-gradient--bottom::after {
+	position: absolute;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	content: "";
+}
+
+.pi__img-holder.has-gradient--top::after {
+	top: 0;
+	height: 50%;
+	background-image: linear-gradient(to bottom, rgba($black, 0.5) 0%, rgba($black, 0) 100%);
+}
+
+.pi__img-holder.has-gradient--bottom::after {
+	bottom: 0;
+	height: 30%;
+	background-image: linear-gradient(to top, rgba($black, 0.16) 0%, rgba($black, 0) 100%);
+}
+
+
+
+
+// Header
+// ======================================
+
+.pi__header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	color: $white;
+	font-weight: $font-weight-normal;
+	z-index: 10;
+}
+
+.product-item-style--2 .pi__sale-badge,
+.product-item-style--3 .pi__sale-badge {
+	position: absolute;
+	right: 15px;
+	top: 55px;
+}
+
+
+// Header interactive elements
+// ======================================
+
+// Single elements in header are right-aligned by default
+.pi__header > *:only-child {
+	margin-left: auto;
+}
+
+// Generic header .btn styling
+.pi__header .btn {
+	font-size: $font-size-sm;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	padding: 7px 14px;
+	color: $white;
+}
+
+.pi__header .btn .ico {
+	margin-right: 8px;
+	transition: fill 0.2s ease-in-out;
+}
+
+// Square favorite button
+.btn--product-favorite {
+	background-color: transparent;
+
+	&:hover .ico {
+		fill: $white;
+		stroke-width: 0;
+	}
+}
+
+// Simple heart favorite button
+
+.btn-icon--favorite {
+
+	&:hover .ico {
+		fill: $white;
+		filter: drop-shadow(0 2px 4px rgba($black, 0.1));
+	}
+}
+
+// Price tag
+.badge--price-tag {
+	position: relative;
+}
+
+
+
+// Product image
+// ======================================
+
+.pi__img-holder {
+	position: relative;
+	overflow: hidden;
+
+	@include border-radius();
+
+	img {
+		display: block;
+		width: 100%;
+		transition: transform 0.5s cubic-bezier(0.12, 0.26, 0, 0.93);
+		transition-delay: 0.15s;
+		will-change: transform;
+		height: auto;
+	}
+
+	img + img {
+		position: absolute;
+		top: 0;
+		opacity: 0;
+		transition: opacity 0.15s 0.15s ease-in-out;
+	}
+}
+
+
+// Product content
+// ======================================
+
+.pi__content {
+	display: flex;
+	align-items: center;
+	margin-top: auto;
+	padding: 12px 0 0;
+	font-size: $font-size-sm;
+
+	.pi__name,
+	.pi__content__body {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin: 0 8px 0 0;
+		width: 100%;
+	}
+}
+
+.pi__content .link {
+	font-size: $font-size-xs;
+}
+
+.pi__content .btn {
+	margin-top: 8px;
+	padding: 3px 10px;
+	font-size: $font-size-sm;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-transform: none;
+
+	.ico {
+		fill: gray("300");
+		stroke-width: 2;
+	}
+}
+
+.pi__author {
+	margin-top: 6px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pi__author-logo {
+	margin-right: 0.5rem;
+	display: inline-block;
+	vertical-align: middle;
+
+	img {
+		display: block;
+	}
+}
+
+.card .pi__content {
+	padding: 20px;
+}
+
+// Variation with Shop image shifted up
+.pi__content--up {
+	position: relative;
+	z-index: 5;
+	margin-top: -30px;
+	align-items: flex-end;
+}
+
+
+.pi__content--centered {
+	position: relative;
+	z-index: 5;
+	flex-direction: column;
+	margin-top: -40px;
+	margin-bottom: 10px;
+
+	.pi__content__body {
+		margin-top: 8px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pi__name {
+		margin: 12px 0 0;
+		order: 1;
+		width: 100%;
+	    text-align: center;
+	}
+}
+
+.pi__triple-logo {
+	display: inline-block;
+	margin-left: 8px;
+	position: relative;
+	top: 3px;
+}
+
+.pi__triple-logo img {
+	position: relative;
+	z-index: 3;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+
+	+ img {
+		z-index: 2;
+		margin-left: -10px;
+	}
+
+	+ img + img {
+		z-index: 1;
+	}
+}
+
+.pi__price {
+
+	del {
+		display: none;
+	}
+
+	ins {
+		text-decoration: none;
+	}
+}
+
+
+// Smaller variation (on Product page sidebar)
+// =============================================
+
+.product-item--small {
+	margin-bottom: 10px;
+
+	.pi__content {
+		padding: 12px 12px 10px;
+		align-items: flex-start;
+	}
+
+	.pi__name {
+		margin-bottom: 0;
+	}
+
+	.link {
+		font-size: $font-size-sm;
+	}
+}
+
+
+// Animation types
+// ======================================
+
+// Scale animation when there's one image
+.product-item--scale:hover .pi__img-holder img {
+	transform: scale(1.2);
+}
+
+.product-item--switch:hover .pi__img-holder img + img{
+	opacity: 1;
+}
+
+
+// Product header filter (with dropdown and search/results)
+// ======================================
+
+// TODO: replace with existing .filter from Find
+
+.filter-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: $font-size-xl;
+	font-weight: $font-weight-extra-light;
+
+	strong {
+		font-weight: $font-weight-base; // Native `bolder` not working for some reason
+	}
+
+	.custom-select {
+		width: 150px;
+		height: 48px;
+		font-size: $font-size-sm;
+	}
+}
+
+
+// Card 1 style
+.product-item-style--1 {
+	.pi__content {
+		display: block;
+		align-items: center;
+		margin-top: auto;
+		font-size: $font-size-sm;
+
+		.pi__name,
+		.pi__content__body,
+		.pi__content__title {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			margin: 0 8px 0 0;
+			width: 100%;
+		}
+
+		.pi__content__body {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			flex-direction: row;
+
+			.badge {
+				justify-content: flex-end;
+				flex-shrink: 0;
+			}
+		}
+	}
+
+	.pi__author {
+		width: auto;
+		overflow: hidden;
+
+		.link.link-cta {
+			width: calc( 100% - 28px);
+			line-height: 2.5; /* We need a bigger line height since we can't use overflow-x:hidden on safari */
+			vertical-align: middle;
+			white-space: nowrap; /* Needed for the ellipsis to work. */
+			-o-text-overflow: ellipsis; /* Opera */
+			text-overflow: ellipsis; /* IE, Safari (WebKit) */
+			overflow: hidden;
+
+			&:after {
+				bottom: .2em; /* Needed because we can't use overflow-x:hidden on safari */
+				width: 90%;
+			}
+		}
+	}
+}
+
+// Specially introduced for Tasti style.
+.product-item-style--6 {
+
+	.pi__content {
+		flex-direction: column;
+	}
+
+	.pi__content__title {
+		margin-bottom: 10px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+
+		.pi__name {
+			line-height: 2;
+		}
+	}
+
+	.pi__price {
+		white-space: nowrap;
+	}
+
+	.pi__content__body {
+		white-space: normal;
+		height: 60px;
+	}
+}

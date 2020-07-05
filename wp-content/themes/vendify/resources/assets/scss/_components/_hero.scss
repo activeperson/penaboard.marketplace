@@ -1,0 +1,274 @@
+// ======================================================================================
+//
+// Hero
+//
+// ======================================================================================
+
+
+// Generic Hero Styling
+// ======================================
+
+.hero {
+	position: relative;
+	line-height: 1.65;
+	background-color: #3c3c3c;
+	display: flex;
+	min-height: 220px;
+
+	&.has-background-dim:before {
+		z-index: 2;
+	}
+}
+
+// Next to a transparent header.
+.site-header--transparent ~ .hero {
+	padding-top: 80px;
+
+	&.hero--page {
+		min-height: 320px;
+	}
+}
+
+.hero .link {
+	color: $white;
+}
+
+// Actual background image is placed as a pseudoelement to allow adding
+// opacity and animations.
+
+
+.hero__image-holder {
+	overflow: hidden;
+}
+
+.hero__image-holder,
+.hero__image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	display: block;
+}
+
+.hero__image {
+	opacity: 0.4;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+// Optional animations
+//
+// Triggered by `.is-animating` state, the class is being added after
+// the image is loaded.
+
+.hero--animatable .hero__image {
+	opacity: 0;
+	will-change: transform, opacity;
+	transform: scale(1);
+	transform-origin: center bottom;
+	transition: transform 0.8s cubic-bezier(0.15, 0.11, 0, 0.74), opacity 0.8s cubic-bezier(0.15, 0.11, 0, 0.74);
+}
+
+.hero--animatable.is-animating .hero__image {
+	opacity: 0.5;
+	transform: scale(1.1);
+}
+
+
+// Account for transparent header padding offset.
+.site-header--transparent ~ .hero .hero__content--blog {
+	margin-top: -80px;
+}
+
+
+
+
+// Page specific tweaks
+// ======================================
+
+.hero--profile {
+	min-height: 195px;
+}
+
+.hero--dashboard {
+
+	.hero__content {
+		align-items: center;
+
+		.page-title {
+			color: #fff;
+			font-weight: 200;
+		}
+	}
+
+	&__logo {
+		width: 64px;
+		height: 64px;
+		margin-right: calc(1vw + 7px);
+
+		img {
+
+			@include border-radius();
+		}
+	}
+}
+
+
+
+// Find
+
+.hero--find {
+	min-height: 400px;
+	background-color: black;
+	display: block;
+	overflow: visible;
+
+	&::before {
+		background-image: none;
+		content: none;
+	}
+
+	@include media-breakpoint-up(md) {
+		min-height: 600px;
+	}
+}
+
+
+// Open a Shop Hero v1
+
+.hero--open-a-shop--v1 {
+	min-height: 350px;
+
+	@include media-breakpoint-up(md) {
+		min-height: 500px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		min-height: 600px;
+	}
+}
+
+
+
+
+// Open a Shop Hero v2
+
+.hero--open-a-shop--v2 {
+	min-height: 350px;
+
+	@include media-breakpoint-up(md) {
+		background-size: auto 400px;
+		min-height: 500px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		min-height: 600px;
+	}
+
+	&::before {
+		background-image: none;
+		content: none;
+	}
+}
+
+.hero--open-a-shop--v2 .hero__content {
+	top: 0 !important;
+
+	.display-1 {
+
+		@include media-breakpoint-down(xs) {
+			font-size: $display3-size;
+		}
+	}
+}
+
+
+// Shop Listing
+
+.hero--shop-listing {
+	min-height: 400px;
+	background-color: black;
+
+	&::before {
+		background-image: none;
+		content: none;
+	}
+
+	@include media-breakpoint-up(md) {
+		min-height: 550px;
+	}
+}
+
+
+// Blog
+
+.hero--blog {
+	min-height: 400px;
+	background-color: transparent;
+
+	@include media-breakpoint-up(md) {
+		min-height: 600px;
+	}
+
+	@include media-breakpoint-up(xl) {
+		min-height: 700px;
+	}
+}
+
+.hero--blog-post {
+	padding: 70px 0;
+	background: initial;
+	display: block;
+
+	.link {
+		color: initial;
+	}
+}
+
+// Page
+
+.hero--page,
+.hero--archive,
+.hero--blog-post {
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	position: relative;
+	z-index: 2;
+
+	&:after {
+		display: none;
+	}
+
+	.hero__content {
+		align-items: center;
+	}
+}
+
+.hero--product {
+	min-height: 300px;
+}
+
+// Split screen Hero
+// ======================================
+
+.hero--split {
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+
+	@include media-breakpoint-up(sm) {
+		flex-direction: row;
+	}
+
+	@include media-breakpoint-up(md) {
+	}
+
+	@include media-breakpoint-up(lg) {
+		min-height: 600px;
+	}
+}

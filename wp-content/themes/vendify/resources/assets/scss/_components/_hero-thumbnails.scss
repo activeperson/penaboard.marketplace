@@ -1,0 +1,43 @@
+// ======================================================================================
+//
+// Hero Thumbnails
+//
+// ======================================================================================
+
+.product-thumbnail {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80px;
+	height: 80px;
+	font-size: $font-size-sm;
+	line-height: 1.25;
+	text-align: center;
+	background-color: theme-color("light");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid theme-color("light");
+	overflow: hidden;
+	transition: background-size 0.2s ease-in-out;
+
+	& + & {
+		margin-left: 28px;
+	}
+
+	@include border-radius();
+
+	@media (max-width: 1000px) { // TODO: Remove
+		display: none;
+	}
+}
+
+.product-thumbnail:hover {
+	color: theme-color("dark");
+}
+
+.product-thumbnail__count {
+	display: block;
+	font-size: $font-size-lg;
+	color: theme-color("dark");
+}

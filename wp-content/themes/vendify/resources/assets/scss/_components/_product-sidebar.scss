@@ -1,0 +1,224 @@
+// ======================================================================================
+//
+// Product page sidebar (selection area)
+//
+// ======================================================================================
+
+.product-sidebar__info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	line-height: 1.25;
+	margin-bottom: 15px;
+}
+
+.product-sidebar__status {
+	margin-top: -2px;
+	font-size: $font-size-sm;
+
+	&.in-stock {
+		color: theme-color("green");
+	}
+
+	&.out-of-stock {
+		color: theme-color("danger");
+	}
+}
+
+.product-sidebar__name {
+	font-size: 30px;
+	font-weight: 200;
+
+	@include media-breakpoint-up(lg) {
+		font-size: 36px;
+	}
+
+	@include media-breakpoint-up(xl) {
+		font-size: 40px;
+	}
+}
+
+.product-sidebar__price {
+	margin-top: 1rem;
+	margin-bottom: 24px;
+	font-size: $font-size-lg;
+	color: theme-color("dark");
+}
+
+.woocommerce-product-details__short-description,
+.product-sidebar__description {
+	margin-bottom: 24px;
+}
+
+.product-sidebar__size-selector,
+.product-sidebar_color-selector {
+	margin-top: 20px;
+	display: flex;
+}
+
+
+// Buy
+// ======================================
+
+.product-sidebar__buy {
+	margin-top: 20px;
+
+	.form-group {
+		margin-bottom: 18px;
+		display: flex;
+	}
+
+	.custom-numeric-input {
+		width: 100%;
+
+		@include media-breakpoint-up(lg) {
+			width: 130px;
+		}
+
+		// Match button size
+		.form-control {
+			padding-top: 19px;
+			padding-bottom: 19px;
+		}
+	}
+
+	.btn {
+		width: 100%;
+
+		@include media-breakpoint-up(lg) {
+			width: 60%;
+			max-width: 190px;
+		}
+	}
+
+	// Shrink when quantity selector is present.
+	.custom-numeric-input + .btn {
+		margin-left: 1rem;
+	}
+}
+
+.product-sidebar__buy-label {
+	display: block;
+	font-size: 13px;
+	line-height: 3;
+	text-align: center;
+	color: gray("400");
+
+	span {
+		vertical-align: middle;
+	}
+}
+
+// Grouped
+.woocommerce-grouped-product-list {
+	margin: 20px 0;
+
+	td {
+		vertical-align: middle;
+	}
+
+	.woocommerce-grouped-product-list-item__quantity {
+		min-width: 130px;
+		max-width: 170px;
+	}
+
+	.woocommerce-grouped-product-list-item__label {
+		line-height: 1;
+		padding: 0 20px;
+
+		label {
+			font-size: 13px;
+			margin-bottom: 0;
+		}
+
+		.amount {
+			margin-top: 3px;
+			display: block;
+		}
+	}
+}
+
+// Variable
+.variation {
+	position: relative;
+
+	label {
+		text-transform: uppercase !important;
+		letter-spacing: 0.2em !important;
+		line-height: 1;
+		font-size: 11px;
+		font-weight: normal;
+		margin-bottom: 1rem;
+	}
+}
+
+.reset_variations {
+	position: absolute;
+	top: 20px;
+	right: 46px;
+	z-index: 10;
+}
+
+
+// TODO: Separate to different partial
+
+// Product details
+// ======================================
+
+.product-details {
+	padding-top: 50px;
+}
+
+.product_meta {
+
+	@include link-cta;
+	margin: 1rem 0;
+	font-size: $font-size-xs;
+
+	> span {
+		display: block;
+		margin-bottom: 0.5rem;
+	}
+}
+
+
+// Product specs
+// ======================================
+
+.card--specs {
+
+	table.shop_attributes {
+		margin-bottom: 0;
+		width: 100%;
+		max-width: 100%;
+		background-color: transparent;
+		border-top: 0;
+
+		th,
+		td {
+			font-weight: normal;
+			font-style: normal;
+			padding: 18px 0;
+			width: 50%;
+		}
+
+		th {
+			font-weight: $font-weight-light;
+			padding-left: 40px;
+			color: theme-color("dark");
+		}
+
+		td {
+			padding-right: 40px;
+		}
+
+		tr:nth-child(even) td,
+		tr:nth-child(even) th {
+			background: initial;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+}

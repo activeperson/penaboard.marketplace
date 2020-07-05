@@ -1,0 +1,90 @@
+// ======================================================================================
+//
+// Avatar/Page Header Upload
+//
+// ======================================================================================
+
+// Custom elements within a label that triggers `<input type="file"> on click`
+
+
+.astoundify-wc-re-upload {
+	position: relative;
+	display: inline-block;
+	width: 90px;
+	height: 110px;
+	vertical-align: middle;
+	cursor: pointer;
+
+	&:hover {
+
+		.editor-upload__placeholder {
+			box-shadow: 0 1px 5px 1px rgba(#000, 0.15);
+		}
+	}
+}
+
+.editor-upload__placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.10);
+	transition: box-shadow 0.2s ease-in-out;
+
+	&::before {
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		margin-left: -20px;
+		background-color: red;
+		border-radius: 50%;
+		content: "";
+	}
+
+	&::after {
+		position: absolute;
+		bottom: -6px;
+		left: 50%;
+		margin-left: -6px;
+
+		content: "";
+	}
+}
+
+.astoundify-wc-re-upload--header {
+	width: 100%;
+	height: 90px;
+
+	.editor-upload__placeholder {
+		width: 100%;
+		height: 90px;
+
+		&::before {
+			bottom: 50%;
+			left: 50%;
+			margin-left: -20px;
+			margin-bottom: -20px;
+		}
+
+		&::after {
+			bottom: 50%;
+			left: 50%;
+			margin-bottom: -6px;
+			margin-left: -6px;
+		}
+	}
+}
+
+.astoundify-wc-re-upload-hint {
+	display: inline-block;
+	width: 200px;
+	margin-top: -20px;
+	margin-left: 25px;
+	vertical-align: middle;
+	line-height: 1.83;
+}

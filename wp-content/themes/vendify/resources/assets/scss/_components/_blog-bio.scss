@@ -1,0 +1,57 @@
+// ======================================================================================
+//
+// Blog post author block
+//
+// ======================================================================================
+
+.blog-bio {
+	max-width: 735px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 24px;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.blog-bio__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 16px;
+	line-height: 1.75;
+}
+
+
+.blog-bio__author {
+	display: flex;
+	align-items: center;
+}
+
+.blog-bio__avatar {
+	width: 54px;
+	height: 54px;
+	margin-right: 16px;
+
+	@media (max-width: 320px) {
+		display: none;
+	}
+}
+
+.blog-bio__author__name {
+	font-size: $font-size-lg;
+	color: $black;
+}
+
+.blog-bio__author__details {
+	font-size: $font-size-sm;
+}
+
+.blog-bio__social__link + .blog-bio__social__link {
+	margin-left: 8px;
+
+	@include media-breakpoint-up(md) {
+		margin-left: 20px;
+	}
+}

@@ -1,0 +1,157 @@
+// ======================================================================================
+//
+// Nav
+//
+// ======================================================================================
+
+// Navigation used in header, footer, and various other elements
+// Extends upon Bootstrap `.nav` component, to match the design and few necessary features.
+//
+// Markup:
+//
+// <ul class="nav">
+//  <li class="nav-item"><a class="nav-link" href="">STORE</a></li>
+//   <li class="nav-item"><a class="nav-link" href="">START A SHOP</a></li>
+//   <li class="nav-item"><a class="nav-link" href="">BLOG</a></li>
+// </ul>
+
+
+.nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.nav-link {
+	display: block;
+	padding: $nav-link-padding-y $nav-link-padding-x;
+	font-size: $font-size-sm;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	white-space: nowrap;
+	transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+	cursor: pointer;
+
+	@include hover-focus {
+		text-decoration: none;
+	}
+
+	.dropdown-menu & {
+		font-size: $font-size-base;
+		text-transform: none;
+		letter-spacing: normal;
+	}
+}
+
+//
+// Justified variants
+// ======================================
+
+.nav-fill {
+
+	.nav-item {
+		flex: 1 1 auto;
+		text-align: center;
+	}
+}
+
+.nav.nav-justified {
+
+	.nav-link {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.nav-item {
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+
+// Centered Variant
+// ======================================
+
+.nav-center {
+
+	@include media-breakpoint-up(md) {
+		justify-content: center;
+	}
+}
+
+
+// Stretched variant, gets the full height of the flex parent
+// ======================================
+
+.nav--tall {
+	align-self: stretch;
+	align-items: stretch;
+
+	.nav-item {
+		display: flex;
+		align-items: stretch;
+	}
+
+	.nav-link {
+		display: flex;
+		align-items: center;
+	}
+}
+
+
+// Vertical Navigation spacing
+// ======================================
+
+.nav.flex-column {
+
+	.nav-item {
+		line-height: 26px;
+	}
+	
+	.nav-link {
+		padding: 0;
+	}
+
+	.nav-item + .nav-item {
+		margin-top: 32px;
+	}
+}
+
+
+// Tabbable tabs
+//
+// Hide tabbable panes to start, show them when `.active`
+// ======================================
+
+.tab-content {
+
+	> .tab-pane {
+		display: none;
+	}
+
+	> .active {
+		display: block;
+	}
+}
+
+// Footer copyright
+// ======================================
+
+.nav--copyright {
+	flex-wrap: wrap;
+
+	li {
+
+		padding: $nav-link-padding-y 1rem;
+
+		a {
+			font-size: 13px;
+			text-transform: uppercase;
+			letter-spacing: 2.5px;
+			white-space: nowrap;
+		}
+	}
+}

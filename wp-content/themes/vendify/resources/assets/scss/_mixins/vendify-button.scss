@@ -1,0 +1,37 @@
+@mixin button-base( $colors: true ) {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: $btn-font-weight;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	cursor: pointer;
+	border: $btn-border-width solid transparent;
+
+	@include button-size($input-btn-padding-y, $input-btn-padding-x, $font-size-sm, $input-btn-line-height, initial );
+
+	transition: all 0.25s ease-in-out;
+
+	// Share hover and focus styles
+	@include hover-focus {
+		text-decoration: none;
+		opacity: 0.7;
+	}
+
+	// Disabled comes first so active can properly restyle
+	&.disabled,
+	&:disabled {
+
+		@include box-shadow(none);
+		opacity: 0.65;
+	}
+
+	&:active,
+	&.active {
+		background-image: none;
+	}
+}

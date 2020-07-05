@@ -1,0 +1,25 @@
+.has-background-dim {
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	&:before {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		transition: all 0.5s 0.1s cubic-bezier(0.12, 0.38, 0.56, 0.81);
+	}
+}
+
+@for $i from 10 through 90 {
+	@if ( $i % 5 == 0 ) {
+		.has-background-dim.has-background-dim-#{ $i * 1 }:before {
+			background-color: rgba($black, $i * 0.01);
+		}
+	}
+}

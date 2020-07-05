@@ -1,0 +1,14 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>percentage</title>
+  <rect id="Rectangle-6" x="4" y="7.5" width="56" height="3" fill="#f0eeee"/>
+  <path d="M13,12.5H2v11A11,11,0,0,0,13,12.5Z" fill="#f0eeee"/>
+  <path d="M2,43.5v11H13A11,11,0,0,0,2,43.5Z" fill="#f0eeee"/>
+  <path d="M51,12.5a11,11,0,0,0,11,11v-11Z" fill="#f0eeee"/>
+  <path d="M51,54.5H62v-11A11,11,0,0,0,51,54.5Z" fill="#f0eeee"/>
+  <path id="Rectangle-16" d="M2,12.5v42H62v-42Zm-2-2H64v46H0Z" fill="#d3d3d3"/>
+  <g id="Group-2">
+    <path id="Oval-5" d="M25,28.5a2,2,0,1,0-2-2A2,2,0,0,0,25,28.5Zm0,2a4,4,0,1,1,4-4A4,4,0,0,1,25,30.5Z" fill="#010101"/>
+    <path id="Oval-5-2" d="M39,42.5a2,2,0,1,0-2-2A2,2,0,0,0,39,42.5Zm0,2a4,4,0,1,1,4-4A4,4,0,0,1,39,44.5Z" fill="#010101"/>
+    <path id="Line" d="M23.38,43.88l19-19a1.25,1.25,0,0,0-1.77-1.77h0l-19,19a1.25,1.25,0,0,0,1.77,1.77Z" fill="#010101"/>
+  </g>
+</svg>

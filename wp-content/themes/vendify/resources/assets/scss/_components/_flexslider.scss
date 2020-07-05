@@ -1,0 +1,42 @@
+.flex-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+}
+
+.woocommerce-product-gallery--2 .flex-control-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	li {
+		margin: 0 8px;
+	}
+
+	a {
+		font-size: 0;
+		width: 10px;
+		height: 10px;
+		background: gray("300");
+		border-radius: 50%;
+		display: block;
+		transition: transform 0.2s ease-in;
+
+		&.flex-active {
+			transform: scale(1.2);
+			background-color: #000;
+		}
+	}
+}

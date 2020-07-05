@@ -1,0 +1,284 @@
+// ======================================================================================
+//
+// Reviews section
+//
+// ======================================================================================1
+
+.reviews {
+	max-width: 675px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.reviews__header {
+	margin-bottom: 40px;
+	text-align: center;
+
+	h2 {
+		font-size: 54px;
+		margin-bottom: 15px;
+	}
+}
+
+
+// Product Single
+// ===================================
+
+.woocommerce-review-link {
+	display: none;
+}
+
+
+// Form
+// ======================================
+
+.review-form {
+	margin-bottom: 70px;
+
+	.form-group {
+		margin-bottom: 15px;
+	}
+
+	textarea.form-control {
+		height: 75px;
+	}
+}
+
+
+
+// Tabs
+// ======================================
+
+.reviews__tabs {
+	margin-bottom: 24px;
+}
+
+.reviews__tab {
+	text-align: center;
+}
+
+.btn-submit-review {
+	display: block;
+	width: 290px;
+	margin: 30px auto 0;
+}
+
+// Badge
+// ======================================
+
+.review-badge {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	padding: 6px 8px;
+	font-size: $font-size-sm;
+	line-height: 1;
+	letter-spacing: normal;
+	border: 1px solid rgba($black, 0.1);
+}
+
+.review-badge .ico {
+	margin-right: 4px;
+}
+
+.review-badge.active {
+	background-color: $yellow;
+	border-color: transparent;
+	color: theme-color("light");
+
+	.ico {
+		fill: theme-color("light");
+	}
+}
+
+.nav-link .review-badge {
+	margin-left: 6px;
+}
+
+
+
+// Actual reviews
+// ======================================
+
+.review-list {
+	margin-bottom: 30px;
+}
+
+.review-item + .review-item {
+	margin-top: 15px;
+}
+
+.review-item__header {
+	padding: 15px 24px;
+	display: flex;
+	align-items: center;
+}
+
+.review-item__logo {
+	width: 24px;
+	height: 24px;
+	margin-right: 12px;
+
+	img {
+		vertical-align: initial;
+	}
+}
+
+.review-item__author {
+	color: theme-color("dark");
+}
+
+.review-item__date {
+	font-size: $font-size-sm;
+	color: gray("400");
+	margin-left: auto;
+
+	a {
+		color: gray("400");
+	}
+}
+
+.review__item {
+	position: relative;
+
+	&::before {
+		position: absolute;
+		left: 28px;
+		top: -9px;
+		display: block;
+		width: 20px;
+		height: 10px;
+		background-image: url("#{$image-path}/comment-triangle.png");
+		background-position: 0 0;
+		background-size: 20px 20px;
+		content: "";
+	}
+
+	.single-vendor-tabs & {
+
+		&::after,
+		&::before {
+			position: absolute;
+			left: 28px;
+			top: -7px;
+			width: 0;
+			height: 0;
+			content: "";
+			border-left: 8px solid transparent;
+			border-right: 8px solid transparent;
+			border-bottom: 8px solid theme-color("light");
+			background: initial;
+		}
+
+		&:before {
+			z-index: 2;
+		}
+
+		&:after {
+			border-bottom: 8px solid gray("200");
+			top: -8px;
+		}
+	}
+}
+
+.review-item__body {
+	padding: 24px 30px;
+	font-size: $font-size-lg;
+	background-color: theme-color("light");
+	box-shadow: $box-shadow;
+
+	*:last-child {
+		margin-bottom: 0;
+	}
+
+	.single-vendor-tabs & {
+		border: 1px solid gray("200");
+		box-shadow: none;
+	}
+}
+
+.review-item__footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 15px;
+	background-color: theme-color("light");
+	box-shadow: $box-shadow;
+	font-size: $font-size-sm;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+	@include media-breakpoint-up(md) {
+		justify-content: space-between;
+		padding: 30px 45px;
+	}
+
+	.single-vendor-tabs & {
+		box-shadow: none;
+		border: 1px solid gray("200");
+		border-top: 0;
+	}
+}
+
+.review-item__category {
+	font-size: 13px;
+	font-weight: 400;
+	color: theme-color("dark");
+
+	@include media-breakpoint-down(md) {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+// Star selector
+// ======================================
+
+.comment-form-rating {
+	margin: 2rem 0;
+	text-align: center;
+
+	label {
+		display: block;
+		font-size: 17px;
+		letter-spacing: 0 !important;
+		line-height: 36px;
+		text-transform: unset !important;
+	}
+}
+
+p.stars {
+	display: inline-block;
+	margin: 0;
+
+	a {
+		text-indent: -999em;
+		margin-right: 10px;
+		font-size: 10px;
+		display: inline-block;
+		width: 2.6em;
+		height: 2.6em;
+		background: url("#{$image-path}/review-sprite.svg") no-repeat -19em 0;
+		background-size: 36.85em 5.2em;
+	}
+
+	&.selected {
+
+		a.active {
+			background-position: 0 0;
+
+			~ a {
+				background-position: -19em 0;
+			}
+		}
+
+		a:not(.active) {
+			background-position: 0 0;
+		}
+	}
+}
+
+#rating + .select2 {
+	display: none;
+}

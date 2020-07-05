@@ -1,0 +1,18 @@
+<wpml-config>
+  <admin-texts>
+    <key name="theme_mods_vendify">
+      <key name="login-register-icon"/>
+      <key name="login-register-content"/>
+      <key name="login-register-title-login"/>
+      <key name="login-register-title-register"/>
+      <key name="login-register-title"/>
+    </key>
+		<key name="theme_mods_vendify-child">
+			<key name="login-register-icon"/>
+			<key name="login-register-content"/>
+			<key name="login-register-title-login"/>
+			<key name="login-register-title-register"/>
+			<key name="login-register-title"/>
+		</key>
+  </admin-texts>
+</wpml-config>

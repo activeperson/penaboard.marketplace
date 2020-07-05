@@ -1,0 +1,22 @@
+.page-content, .blog-post {
+
+	.vendify_content_width_very-thin & {
+		max-width: 576px;
+	}
+
+	.vendify_content_width_thin & {
+		max-width: 768px;
+	}
+
+	.vendify_content_width_normal & {
+		max-width: 979px;
+	}
+
+	.vendify_content_width_wide & {
+		max-width: 1200px;
+	}
+
+	.vendify_content_width_very-wide & {
+		max-width: 1600px;
+	}
+}

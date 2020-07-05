@@ -1,0 +1,34 @@
+// ======================================================================================
+//
+// Product Social section (Favorite, Share)
+//
+// ======================================================================================
+
+.product-sidebar__social {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 8px;
+	padding-top: 15px;
+	border-top: 1px solid gray("200");
+
+	span {
+		vertical-align: middle;
+	}
+}
+
+.product-sidebar__social-link {
+	font-weight: 300;
+	transition: filter 0.2s ease-in-out;
+
+	.ico {
+		margin-right: 8px;
+		// Force a small size.
+		width: 22px;
+		height: 22px;
+	}
+}
+
+
+.dropdown--share .dropdown-menu {
+	width: 180px;
+}

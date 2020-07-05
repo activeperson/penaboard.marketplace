@@ -1,0 +1,84 @@
+// ======================================================================================
+//
+// Filter Bar
+//
+// ======================================================================================
+
+
+.filter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 12px;
+	margin: -20px 0 10px;
+
+	@include media-breakpoint-up(md) {
+		margin-bottom: 30px;
+		border-bottom: 1px solid gray("200");
+	}
+}
+
+.filter__location label,
+.filter__search button,
+.filter__search label {
+	position: absolute;
+	left: 20px;
+	background: initial;
+
+	.ico {
+		display: block;
+	}
+}
+
+.filter__search button {
+	left: 1px;
+	padding: 11px;
+}
+
+.filter__location,
+.filter__search {
+	position: relative;
+	align-items: center;
+	display: flex;
+
+	.form-control {
+		display: inline-block;
+		padding-left: 64px;
+	}
+
+	.btn-icon {
+		display: inline-block;
+	}
+
+	.btn-icon--close {
+		position: absolute;
+		top: 50%;
+		margin-top: -7px;
+		right: 22px;
+	}
+}
+@include media-breakpoint-up(md) {
+	.filter__search {
+		width: calc(100% - 50px);
+	}
+}
+
+.filter__dropdown {
+	+ .select2 {
+		display: none;
+	}
+
+	@include media-breakpoint-up(md) {
+		+ .select2 {
+			display: block;
+		}
+	}
+}
+
+.filter__results {
+	display: block;
+
+	@include media-breakpoint-up(md) {
+		display: none;
+	}
+}

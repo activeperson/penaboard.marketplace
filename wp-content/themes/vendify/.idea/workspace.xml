@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d70823ad-31fe-4523-b9a3-dd39b4eab394" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/js/editor-blocks.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/editor-blocks.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/astoundify/wc-themes-framework" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/astoundify/wc-themes-framework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/astoundify/wp-content-importer" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/astoundify/wp-content-importer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/astoundify/wp-theme-customizer" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/astoundify/wp-theme-customizer" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-setup-guide" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-content-importer" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/themeforest-updater" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wc-themes-framework" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wc-product-editor" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-plugin-installer" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-theme-customizer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1bs4rTprCNzuOCsVHDimLxW3AMv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d70823ad-31fe-4523-b9a3-dd39b4eab394" name="Default Changelist" comment="" />
+      <created>1589407666311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589407666311</updated>
+      <workItem from="1589407668929" duration="17082000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="784" y="413" key="MultipleFileMergeDialog" timestamp="1589507184927">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="784" y="413" key="MultipleFileMergeDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1589507184927" />
+    <state x="541" y="244" key="VCS.ChangeListViewerDialog" timestamp="1589505147539">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="541" y="244" key="VCS.ChangeListViewerDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1589505147538" />
+    <state x="68" y="277" width="1724" height="518" key="find.popup" timestamp="1589506859111">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="68" y="277" width="1724" height="518" key="find.popup/0.23.1792.1033@0.23.1792.1033" timestamp="1589506859111" />
+  </component>
+</project>

@@ -1,0 +1,65 @@
+// ======================================================================================
+//
+// Editor Footer
+//
+// ======================================================================================
+.astoundify-wc-re-action-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 30px;
+	z-index: 1300;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #fff;
+	line-height: 1.83;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	height: $action-bar-height;
+
+	.btn + .btn {
+		margin-left: 22px;
+	}
+
+	&__back {
+		margin-right: auto;
+		text-decoration: none;
+		color: black;
+		font-weight: 300;
+		padding-left: 1.5em;
+		position: relative;
+
+		&::before {
+			content: "";
+			transform: rotate(90deg) translateX(-50%);
+			position: absolute;
+			left: 0;
+			top: 50%;
+
+			@include icon-xs();
+			@include icon-xs--caret();
+		}
+	}
+
+	&__info {
+		margin-right: 30px;
+		padding: 11px 30px;
+		border-right: 1px solid #efefef;
+
+		&--label {
+			font-size: 13px;
+			color: #9f9f9f;
+			letter-spacing: 0;
+			line-height: 24px;
+			display: block;
+		}
+
+		&--date {
+			font-size: 15px;
+			color: black;
+			line-height: 32px;
+			text-transform: capitalize
+		}
+	}
+}

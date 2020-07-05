@@ -1,0 +1,106 @@
+// ======================================================================================
+//
+// Tabs
+//
+// ======================================================================================
+
+// Extension of `.nav`,
+
+
+// Turns into a horizontally scrollable navigation whenever items don't fit in viewport
+
+// 1. Hides the scrollbar by increasing the height via padding-bottom
+// 2. Hard-coded line-height and px-based padding ensures 70px height.
+// 3. Borders are replaced with box shadows to achieve perfect positioning.
+
+.navigation {
+	position: relative;
+	height: 70px;
+	box-shadow: inset 0 -1px 0 gray("200");
+
+	&:not(.alignwide) {
+		margin-right: -24px;
+		margin-left: -24px;
+	}
+
+	&:not(.alignwide) {
+		@include media-breakpoint-up(md) {
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
+}
+
+.nav-tabs {
+	padding-bottom: 20px; // [1]
+	border: 0;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+
+	.nav-item {
+		margin-bottom: -$nav-tabs-border-width;
+	}
+
+	.nav-link {
+		display: inline-flex;
+		align-items: center;
+		padding: 20px 24px; // [2]
+		line-height: 30px; // [2]
+		border: 0;
+		transition: 0.2s all ease-in-out;
+		background-color: transparent;
+
+		&.disabled {
+			cursor: text;
+			color: $nav-link-disabled-color;
+			background-color: transparent;
+			border-color: transparent;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+
+		> * {
+			pointer-events: none;
+		}
+	}
+
+	.nav-link .badge {
+		margin-left: 7px;
+		letter-spacing: normal;
+	}
+
+	.dropdown-menu {
+		// Make dropdown border overlap tab border
+		margin-top: -$nav-tabs-border-width;
+		// Remove the top rounded corners here since there is a hard edge above the menu
+		@include border-top-radius(0);
+	}
+}
+
+.nav-tabs--flush {
+	padding-bottom: 1px;
+}
+
+// WooCommerce
+.woocommerce-tabs {
+	width: 100%;
+}
+
+.woocommerce-Tabs-panel > h2:first-child {
+	display: none;
+}
+@include media-breakpoint-down(md) {
+	.nav.nav-tabs:after {
+		content: "";
+		pointer-events: none;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 68px;
+		width: 30px;
+		background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
+	}
+}

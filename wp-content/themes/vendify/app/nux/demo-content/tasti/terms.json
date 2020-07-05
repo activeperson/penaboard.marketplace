@@ -1,0 +1,18 @@
+[
+	{
+		"id": "occasions",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Occasions"
+		}
+	},
+	{
+		"id": "shopping-guides",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Shopping Guides"
+		}
+	}
+]

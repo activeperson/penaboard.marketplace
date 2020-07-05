@@ -1,0 +1,86 @@
+// ======================================================================================
+//
+// Chart
+//
+// ======================================================================================
+
+.chart {
+	background-color: theme-color("light");
+	margin-bottom: 50px;
+}
+
+.chart--transparent {
+	margin-bottom: 75px;
+	background-color: transparent;
+}
+
+.chart__header {
+	display: flex;
+	height: 70px;
+	box-shadow: $box-shadow;
+	overflow: hidden;
+
+	@include media-breakpoint-up(md) {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+.chart__header .nav {
+	flex-grow: 1;
+}
+
+.chart__timepicker {
+	font-size: $font-size-sm;
+	margin: 11px 18px 0 auto;
+	white-space: nowrap;
+
+	.dashboard__subheading & {
+		margin: 0 0 0 auto;
+	}
+
+	@include media-breakpoint-up(lg) {
+		display: block;
+	}
+}
+
+.chart__timepicker .form-control {
+	display: inline-block;
+	width: 125px;
+	height: 48px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.chart__body {
+	margin-top: 4px;
+	height: 200px;
+	box-shadow: $box-shadow;
+	padding: 20px;
+
+	@include media-breakpoint-up(md) {
+		height: 300px;
+	}
+}
+
+.nav-tabs .nav-link--metric {
+	font-size: $font-size-xs;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 70px;
+	line-height: 1.1rem;
+	padding: 20px 30px;
+}
+
+.nav-link__metric__value {
+	font-size: $font-size-lg;
+	letter-spacing: normal;
+	margin-bottom: 5px;
+}
+
+.nav-link__metric__name {
+
+	.active & {
+		font-weight: $font-weight-normal;
+	}
+}

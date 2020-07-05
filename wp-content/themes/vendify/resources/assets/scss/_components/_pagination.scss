@@ -1,0 +1,44 @@
+.woocommerce-pagination,
+.pagination {
+	text-align: center;
+	margin: 0 auto 0;
+	height: auto;
+	box-shadow: none;
+	clear: both;
+
+	a,
+	.current,
+	.page-number {
+		margin: 15px auto 15px;
+	}
+}
+
+.woocommerce-pagination {
+
+	a {
+		margin: 0 5px;
+	}
+}
+
+.woocommerce-pagination,
+//.page-numbers,
+.nav-links {
+
+	a,
+	.current,
+	.page-number {
+
+		@include button-base();
+		@include button-size($input-btn-padding-y, $input-btn-padding-x, $font-size-sm, $input-btn-line-height, $border-radius);
+
+		padding: 10px 20px;
+		box-shadow: none;
+	}
+
+	.current {
+
+		@include button-outline-variant(rgba(theme-color("primary"), 0.7), transparent, transparent );
+		background-color: transparent !important;
+		box-shadow: none;
+	}
+}

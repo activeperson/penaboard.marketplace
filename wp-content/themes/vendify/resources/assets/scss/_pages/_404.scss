@@ -1,0 +1,55 @@
+// ======================================================================================
+//
+// 404 page style
+//
+// ======================================================================================
+
+.header__404 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 32px $grid-gutter-width / 2;
+	background-color: theme-color("light");
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.checkout__header {
+	box-shadow: none;
+}
+
+.error404 {
+	.hero {
+		background-color: $white;
+		box-shadow: 0 2px rgba(0,0,0,.1);
+
+		& .hero__content p {
+			max-width: 100%;
+			font-size: 17px;
+		}
+
+		& .page-title {
+			line-height: 1.5;
+		}
+	}
+
+	.icon__item {
+		position: relative;
+
+		@include media-breakpoint-up(md) {
+			padding: 30px 30px 25px;
+		}
+
+		&::before {
+			position: relative;
+			display: block;
+			width: 831px;
+			height: 369px;
+			margin:0 auto;
+			background-image: url("#{$image-path}/404-icon.png");
+			background-size: cover;
+			content: "";
+		}
+	}
+}

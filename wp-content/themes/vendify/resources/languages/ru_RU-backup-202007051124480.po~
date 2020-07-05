@@ -1,0 +1,2389 @@
+# Copyright (C) 2020 Astoundify
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Vendify 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/vendify\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-03 14:01+0000\n"
+"PO-Revision-Date: 2020-07-03 15:27+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: vendify\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#. Theme Name of the theme
+msgid "Vendify"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://astoundify.com/vendify/"
+msgstr ""
+
+#. Description of the theme
+msgid "Community marketplace theme."
+msgstr ""
+
+#. Author of the theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://astoundify.com/"
+msgstr ""
+
+#: 404.php:21
+msgid "This page is lost"
+msgstr "Эта страница не найдена."
+
+#: 404.php:22
+msgid ""
+"This page was not found. You may have mistyped the address or the page may "
+"have moved."
+msgstr ""
+"Эта страница не была найдена. Возможно, вы ошиблись при вводе адреса или "
+"страница была перемещена."
+
+#: 404.php:29
+msgid "Go back home"
+msgstr "Вернуться на главную"
+
+#: app/class-bootstrap-menu-walker.php:352
+msgid "Add a menu"
+msgstr ""
+
+#: app/customize/control-groups/color-scheme.php:18
+#: app/customize/control-groups/typography-font-pack.php:18
+#: app/customize/controls/custom-logo-alt.php:43
+msgid "Default"
+msgstr ""
+
+#: app/customize/control-groups/color-scheme.php:36
+#: app/customize/control-groups/style-kit.php:30
+msgid "Royale"
+msgstr ""
+
+#: app/customize/control-groups/style-kit.php:18
+msgid "Classic"
+msgstr ""
+
+#: app/customize/control-groups/style-kit.php:57
+msgid "Beige Oval"
+msgstr ""
+
+#: app/customize/control-groups/style-kit.php:64
+msgid "Pink Pastel"
+msgstr ""
+
+#: app/customize/control-groups/style-kit.php:71
+msgid "Firey Red"
+msgstr ""
+
+#: app/customize/control-groups/style-kit.php:78
+msgid "Green Watermelon"
+msgstr ""
+
+#: app/customize/control-groups/typography-font-pack.php:40
+msgid "Roboto Slab"
+msgstr ""
+
+#: app/customize/control-groups/typography-font-pack.php:54
+msgid "Work Sans"
+msgstr ""
+
+#: app/customize/control-groups/typography-font-pack.php:68
+msgid "Poppins"
+msgstr ""
+
+#: app/customize/control-groups/typography-font-pack.php:82
+msgid "Roboto"
+msgstr ""
+
+#: app/customize/controls/background_color.php:17
+msgctxt "customizer control label"
+msgid "Background"
+msgstr ""
+
+#: app/customize/controls/blog-style.php:27
+msgctxt "customizer control label"
+msgid "Blog Card Style"
+msgstr ""
+
+#: app/customize/controls/color-scheme.php:30
+msgctxt "customizer control title"
+msgid "Color Scheme"
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:31
+msgid "Alternative Logo"
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:32
+msgid "Used on pages with a transparent header."
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:40
+#: app/customize/controls/custom-logo-alt.php:45
+msgid "Select logo"
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:41
+msgid "Change logo"
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:42
+#: app/integrations/favorites/views/dashboard-favorite-item.php:67
+#: app/integrations/favorites/views/dashboard-list-item.php:52
+#: app/integrations/favorites/views/form-favorite-edit.php:33
+#: app/integrations/favorites/views/form-list-edit.php:35
+msgid "Remove"
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:44
+msgid "No logo selected"
+msgstr ""
+
+#: app/customize/controls/custom-logo-alt.php:46
+msgid "Choose logo"
+msgstr ""
+
+#: app/customize/controls/header-search.php:32
+msgctxt "customizer control label"
+msgid "Display search form"
+msgstr ""
+
+#: app/customize/controls/header-style.php:32
+msgctxt "customizer control label"
+msgid "Header Style"
+msgstr ""
+
+#: app/customize/controls/header-transparency.php:27
+msgctxt "customizer control label"
+msgid "Use transparent header"
+msgstr ""
+
+#: app/customize/controls/header-transparency.php:28
+msgid "Use transparent header on available pages."
+msgstr ""
+
+#: app/customize/controls/hero-images.php:29
+msgctxt "customizer control label"
+msgid "Hero Images"
+msgstr ""
+
+#: app/customize/controls/hero-images.php:30
+msgid ""
+"Fallback images for pages that do not have a set Featured Image. Multiple "
+"images will randomly be shown."
+msgstr ""
+
+#: app/customize/controls/hero-images.php:32
+#: app/customize/controls/hero-images.php:35
+#: app/customize/controls/hero-images.php:36
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:36
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:39
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:40
+msgid "Select images"
+msgstr ""
+
+#: app/customize/controls/hero-images.php:33
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:37
+msgid "Choose images"
+msgstr ""
+
+#: app/customize/controls/hero-images.php:34
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:38
+msgid "Remove images"
+msgstr ""
+
+#: app/customize/controls/hero-images.php:37
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:41
+msgid "No images selected"
+msgstr ""
+
+#: app/customize/controls/style-kit.php:29
+msgctxt "customizer control title"
+msgid "Style Kit"
+msgstr ""
+
+#: app/customize/controls/typography-font-pack.php:26
+msgctxt "customizer control title"
+msgid "Font Pack"
+msgstr ""
+
+#: app/customize/customize.php:55
+msgctxt "customizer section title"
+msgid "Global"
+msgstr ""
+
+#: app/customize/customize.php:56
+msgctxt "customizer section title"
+msgid "Headings"
+msgstr ""
+
+#: app/customize/customize.php:72
+msgid "Font Family"
+msgstr ""
+
+#: app/customize/customize.php:73
+msgid "Search for a font..."
+msgstr ""
+
+#: app/customize/customize.php:76
+msgid "Font Size"
+msgstr ""
+
+#: app/customize/customize.php:79
+msgid "Font Weight"
+msgstr ""
+
+#: app/customize/customize.php:80
+msgid "Not all font families support all weights"
+msgstr ""
+
+#: app/customize/customize.php:91
+msgid "Line Height"
+msgstr ""
+
+#: app/customize/customize.php:106
+msgctxt "customizer control label"
+msgid "Primary"
+msgstr ""
+
+#: app/customize/customize.php:107
+msgctxt "customizer control label"
+msgid "Secondary"
+msgstr ""
+
+#: app/customize/customize.php:108
+msgctxt "customizer control label"
+msgid "Light"
+msgstr ""
+
+#: app/customize/customize.php:109
+msgctxt "customizer control label"
+msgid "Dark"
+msgstr ""
+
+#: app/customize/customize.php:110
+msgctxt "customizer control label"
+msgid "Success"
+msgstr ""
+
+#: app/customize/customize.php:111
+msgctxt "customizer control label"
+msgid "Information"
+msgstr ""
+
+#: app/customize/customize.php:112
+msgctxt "customizer control label"
+msgid "Warning"
+msgstr ""
+
+#: app/customize/customize.php:113
+msgctxt "customizer control label"
+msgid "Danger"
+msgstr ""
+
+#: app/customize/customize.php:117
+msgctxt "customizer control label"
+msgid "Text"
+msgstr ""
+
+#: app/customize/customize.php:118
+msgctxt "customizer control label"
+msgid "Menu Background"
+msgstr ""
+
+#: app/customize/customize.php:119
+msgctxt "customizer control label"
+msgid "Menu Text"
+msgstr ""
+
+#: app/customize/customize.php:138
+msgctxt "customizer control label"
+msgid "Base"
+msgstr ""
+
+#: app/customize/customize.php:139
+msgctxt "customizer control label"
+msgid "Headings"
+msgstr ""
+
+#: app/customize/panels/colors.php:19
+msgctxt "customizer panel title"
+msgid "Colors"
+msgstr ""
+
+#: app/customize/panels/layout.php:19
+msgctxt "customizer panel title"
+msgid "Layout"
+msgstr ""
+
+#: app/customize/panels/typography.php:19
+msgctxt "customizer panel title"
+msgid "Typography"
+msgstr ""
+
+#: app/customize/sections/color-scheme.php:19
+msgctxt "customizer section title (colors)"
+msgid "Scheme"
+msgstr ""
+
+#: app/customize/sections/colors-colors.php:19
+msgctxt "customizer section title (colors)"
+msgid "Palette"
+msgstr ""
+
+#: app/customize/sections/colors-global.php:19
+msgctxt "customizer section title (colors)"
+msgid "Elements"
+msgstr ""
+
+#: app/customize/sections/layout-blog.php:19
+msgctxt "customizer section title (colors)"
+msgid "Blog"
+msgstr ""
+
+#: app/customize/sections/layout-header.php:19
+msgctxt "customizer section title (colors)"
+msgid "Header &amp; Navigation"
+msgstr ""
+
+#: app/customize/sections/layout-hero.php:19
+msgctxt "customizer section title (colors)"
+msgid "Page Headers"
+msgstr ""
+
+#: app/customize/sections/layout-login-register.php:19
+msgctxt "customizer section title"
+msgid "Login & Register Overlay"
+msgstr ""
+
+#: app/customize/sections/style-kit.php:19
+msgid "Style Kit"
+msgstr ""
+
+#: app/customize/sections/typography-font-pack.php:19
+msgctxt "customizer section title"
+msgid "Font Pack"
+msgstr ""
+
+#: app/customize/sections/woocommerce-single-product.php:19
+#: app/integrations/woocommerce/customize/sections/woocommerce-single-product.php:19
+msgctxt "customizer section title (colors)"
+msgid "Product Page"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:140
+#: app/integrations/astoundify-wc-themes/template-functions.php:305
+msgid "View"
+msgstr "Просмотреть"
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:145
+msgid "Manage"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:150
+msgid "Trash"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:180
+msgid "Order"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:181
+msgid "Purchased"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:182
+msgid "Date"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:183
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-report-by-date.php:34
+msgid "Earnings"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:184
+msgid "Actions"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:215
+msgid "Order #%d"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:218
+#: resources/views/single.php:29
+msgid "By %s"
+msgstr "Создано %s"
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:275
+msgid "Mark Unfulfilled"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:286
+msgid "Mark Fulfilled"
+msgstr ""
+
+#. Translators: %s Star rating.
+#: app/integrations/astoundify-wc-themes/template-functions.php:328
+#: app/integrations/astoundify-wc-themes/template-functions.php:366
+#: app/integrations/astoundify-wc-themes/template-functions.php:370
+#: app/integrations/woocommerce/views/order/order-details-customer.php:30
+#: app/integrations/woocommerce/views/order/order-details-customer.php:51
+#: app/integrations/woocommerce/views/vendors/seller-list.php:48
+msgid "N/A"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:331
+msgid "Unpaid"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:335
+msgid "Paid"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:339
+msgid "Void"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:362
+msgid "Unfulfilled"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/template-functions.php:364
+msgid "Fulfilled"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-activities.php:27
+#: app/integrations/woocommerce/views/myaccount/dashboard.php:37
+msgid "Recent Activity"
+msgstr "Недавняя активность"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-activities.php:56
+#: app/integrations/woocommerce/views/myaccount/dashboard.php:80
+msgid "No activity found."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-overview.php:37
+#: app/integrations/woocommerce/views/myaccount/partials/stats.php:28
+msgid "Weekly Average"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-overview.php:49
+msgid "Items Sold"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-overview.php:61
+#: app/integrations/woocommerce/views/myaccount/partials/stats.php:52
+msgid "Average Rating"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-overview.php:73
+#: app/integrations/woocommerce/views/myaccount/partials/stats.php:64
+msgid "Total Reviews"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-report-by-date.php:41
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/products-item.php:48
+msgid "Sales"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-report-by-date.php:48
+#: app/integrations/woocommerce/views/myaccount/dashboard.php:49
+msgid "Purchases"
+msgstr "Покупки"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/dashboard-report-by-date.php:55
+#: app/integrations/woocommerce/views/myaccount/dashboard.php:55
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/form-login-register.php:32
+#: app/integrations/woocommerce/views/modals/login-register.php:76
+#: app/integrations/woocommerce/views/myaccount/form-login.php:37
+#: resources/views/partials/nav/right-offcanvas.php:105
+msgid "Sign In"
+msgstr "Авторизация"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/form-login-register.php:38
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/form-login-register.php:57
+#: app/integrations/woocommerce/views/modals/login-register.php:162
+#: app/integrations/woocommerce/views/myaccount/form-login.php:78
+#: app/integrations/woocommerce/views/vendors/form-register.php:49
+msgid "Sign Up"
+msgstr "Регистрация"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/form-login-register.php:65
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/form-login.php:35
+#: app/integrations/woocommerce/views/global/form-login.php:64
+#: app/integrations/woocommerce/views/modals/login-register.php:80
+#: app/integrations/woocommerce/views/myaccount/form-login.php:65
+msgid "Lost your password?"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/navigation.php:46
+#: app/integrations/woocommerce/views/myaccount/navigation.php:48
+msgid "Messages"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/navigation.php:58
+msgid "Logout"
+msgstr "Выход"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/orders.php:23
+msgid "Manage Orders"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/orders.php:28
+msgid "No orders have been made yet."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/orders.php:47
+msgid "Not found"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/products-item.php:65
+msgid "Earned"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/products.php:26
+msgid "My Products"
+msgstr "Мои товары"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/products.php:30
+msgid "You have no products yet."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:35
+msgid "Avatar &amp; Cover Image"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:44
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:45
+msgid "Upload Logo"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:44
+msgid "Add logo"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:61
+#: app/integrations/woocommerce/views/myaccount/form-edit-account-avatar.php:95
+msgid "300px &times; 300px square recommended."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:67
+#: app/integrations/woocommerce/views/shop-featured-vendors.php:45
+msgid "Cover image."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:72
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:73
+msgid "Upload Cover Image"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:72
+msgid "Add cover image"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:89
+msgid "1200px &times; 300px rectangle recommended."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:93
+msgid "Store Information"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:96
+#: app/theme/comments.php:142 app/theme/comments.php:146
+msgid "Name"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:102
+msgid "Store Tagline"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:109
+msgid "Store Description"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:122
+msgid "Store Shipping Policy"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:137
+msgid "Store Return Policy"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:152
+msgid "Location"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:159
+msgid "Contact Email"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:175
+msgid "Timezone"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:181
+msgid "Payment Settings"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:184
+msgid "Paypal Email"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:188
+msgid "Security"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:191
+msgid "Current Password"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:196
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:202
+msgid "Confirm New Password"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/store-settings.php:207
+msgid "Update"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-404.php:23
+msgid "Order not found."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-add-note.php:23
+msgid "Add note"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-add-note.php:28
+msgid "Private note"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-add-note.php:29
+msgid "Note to customer"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-add-note.php:32
+msgid "Add Note"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:35
+#: app/integrations/woocommerce/views/myaccount/view-order.php:31
+msgid "Order #%1$s Details"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:44
+#: app/integrations/woocommerce/views/myaccount/view-order.php:38
+msgid "Order Status"
+msgstr "Статус заказа"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:58
+msgid "Note"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:64
+#: app/integrations/woocommerce/views/checkout/form-billing.php:22
+#: app/integrations/woocommerce/views/order/order-details-customer.php:27
+msgid "Billing Address"
+msgstr "Адрес для выставления счета"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:76
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:108
+msgid "No shipping address set."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:81
+#: app/theme/comments.php:155
+msgid "Email"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:87
+msgid "Phone"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:96
+#: app/integrations/woocommerce/views/checkout/form-shipping.php:26
+#: app/integrations/woocommerce/views/order/order-details-customer.php:49
+msgid "Shipping Address"
+msgstr "Адрес доставки"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:129
+msgid "Back to Orders"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-details.php:146
+#: app/integrations/woocommerce/views/myaccount/view-order.php:64
+msgid "Order Updates"
+msgstr "Обновления по заказу"
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-items.php:21
+msgid "Order Items"
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-items.php:33
+msgid "No order has been made yet."
+msgstr ""
+
+#: app/integrations/astoundify-wc-themes/views/vendor-dashboard/view-order-notes.php:30
+msgid "No notes"
+msgstr ""
+
+#: app/integrations/favorites/template-functions.php:112
+msgid "Favorited"
+msgstr ""
+
+#: app/integrations/favorites/template-functions.php:114
+msgid "Favorite"
+msgstr ""
+
+#: app/integrations/favorites/views/dashboard-favorite-item.php:24
+#: app/integrations/woocommerce/views/product-cards/card-2.php:47
+#: app/integrations/woocommerce/views/product-cards/card-3.php:47
+msgid "Logo"
+msgstr ""
+
+#: app/integrations/favorites/views/dashboard-favorite-item.php:55
+#: app/integrations/favorites/views/dashboard-list-item.php:40
+#: app/integrations/favorites/views/form-favorite-edit.php:20
+#: app/integrations/woocommerce/views/myaccount/my-address.php:67
+msgid "Edit"
+msgstr "Редактировать"
+
+#. Translators: %s is favorites.
+#: app/integrations/favorites/views/dashboard-favorites.php:29
+#: app/integrations/favorites/views/dashboard-lists.php:29
+msgid "You currently have no %s"
+msgstr ""
+
+#: app/integrations/favorites/views/dashboard-list-item.php:59
+msgid "%s items in this list"
+msgstr ""
+
+#: app/integrations/favorites/views/dashboard-view-tabs.php:34
+#: app/integrations/favorites/views/form-list-edit.php:20
+msgid "New List"
+msgstr ""
+
+#: app/integrations/favorites/views/form-favorite-edit.php:32
+#: app/integrations/favorites/views/form-list-edit.php:33
+#: app/integrations/woocommerce/views/myaccount/form-reset-password.php:48
+msgid "Save"
+msgstr ""
+
+#. Template Name of the theme
+#: app/integrations/woocommerce/views/myaccount/dashboard.php:62
+#: app/nux/content-importer.php:123 app/nux/plugin-installer.php:94
+#: app/nux/plugin-installer.php:95
+msgid "Favorites"
+msgstr ""
+
+#: app/integrations/favorites/views/page-template.php:20
+msgid "Please reactivate the Favorites plugin."
+msgstr ""
+
+#: app/integrations/private-messages/customize/controls/header-private-messages.php:32
+msgctxt "customizer control label"
+msgid "Display recent messages"
+msgstr ""
+
+#: app/integrations/private-messages/customize/controls/header-private-messages.php:36
+#: app/integrations/woocommerce/customize/controls/header-account.php:36
+#: app/integrations/woocommerce/customize/controls/header-cart.php:36
+msgid "Always"
+msgstr ""
+
+#: app/integrations/private-messages/customize/controls/header-private-messages.php:37
+#: app/integrations/woocommerce/customize/controls/header-account.php:37
+#: app/integrations/woocommerce/customize/controls/header-cart.php:37
+msgid "Logged-in Only"
+msgstr ""
+
+#: app/integrations/private-messages/customize/controls/header-private-messages.php:38
+#: app/integrations/woocommerce/customize/controls/header-account.php:38
+#: app/integrations/woocommerce/customize/controls/header-cart.php:38
+#: app/integrations/woocommerce/views/order/order-downloads.php:64
+msgid "Never"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-compose-message.php:20
+msgid "To:"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-compose-message.php:31
+msgid "Select a Recipient"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-compose-message.php:37
+msgid "Subject:"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-compose-message.php:38
+msgid "Subject"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-compose-message.php:52
+#: app/integrations/private-messages/views/frontend/dashboard-compose-reply.php:25
+msgid "Attachments:"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:23
+#: app/integrations/woocommerce-product-vendors/template-functions.php:480
+msgid "Newest"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:29
+msgid "Oldest"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:46
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:58
+msgid "Starred"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:73
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:85
+msgid "Unread"
+msgstr ""
+
+#: app/integrations/private-messages/views/frontend/dashboard-filters.php:96
+msgid "New Message"
+msgstr ""
+
+#. Translators: %s message date.
+#. Translators: 1: Time ago
+#. Translators: %s human readable time.
+#: app/integrations/private-messages/views/frontend/dashboard-messages-overview.php:17
+#: app/integrations/private-messages/views/frontend/dashboard-view-message.php:97
+#: app/integrations/woocommerce/template-functions.php:536
+#: app/theme/comments.php:54
+#: resources/views/partials/blog/card-style-card.php:37
+#: resources/views/partials/blog/card-style-classic.php:35
+#: resources/views/partials/blog/card-style-dark.php:33
+msgid "%s ago"
+msgstr "%s назад"
+
+#: app/integrations/private-messages/views/frontend/dashboard-messages.php:19
+msgid "No Messages"
+msgstr ""
+
+#: app/integrations/private-messages/views/message-list.php:32
+msgid "Recent Messages"
+msgstr ""
+
+#: app/integrations/private-messages/views/message-list.php:36
+#: resources/views/partials/nav/private-messages.php:44
+msgid "You have no messages."
+msgstr ""
+
+#. Template Name of the theme
+#: app/nux/content-importer.php:128 app/nux/plugin-installer.php:135
+#: app/nux/plugin-installer.php:136
+msgid "Private Messages"
+msgstr ""
+
+#: app/integrations/private-messages/views/page-template.php:20
+msgid "Please reactivate the Private Messages plugin."
+msgstr ""
+
+#: app/integrations/woocommerce-product-vendors/template-functions.php:36
+msgctxt "page template title"
+msgid "Find Vendors"
+msgstr ""
+
+#: app/integrations/woocommerce-product-vendors/template-functions.php:487
+msgid "Best Sellers"
+msgstr ""
+
+#: app/integrations/woocommerce-product-vendors/template-functions.php:584
+msgid "Policies"
+msgstr ""
+
+#: app/integrations/woocommerce/customize.php:31
+msgid "Maximum products per row"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/header-account.php:32
+msgctxt "customizer control label"
+msgid "Display account avatar"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/header-cart.php:32
+msgctxt "customizer control label"
+msgid "Display mini cart"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-content.php:28
+msgctxt "customizer control label"
+msgid "Content"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-gallery-autoplay.php:31
+msgid "Autoplay delay (seconds)"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-gallery-autoplay.php:32
+msgid "0 to disable"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-gallery-overlay.php:31
+msgid "Overlay Dim"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-gallery.php:34
+msgctxt "customizer control label"
+msgid "Image Slider"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-icon.php:29
+msgctxt "customizer control label"
+msgid "Icon"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-title-login.php:28
+msgctxt "customizer control label"
+msgid "\"Sign In\" Form Label"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-title-register.php:28
+msgctxt "customizer control label"
+msgid "\"Sign Up\" Form Label"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/login-register-title.php:28
+msgctxt "customizer control label"
+msgid "Title"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/optimized-checkout.php:27
+msgctxt "customizer control label"
+msgid "Optimize checkout flow."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/optimized-checkout.php:28
+msgid "Skip the cart page and send users directly to the checkout."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:31
+msgctxt "customizer control label"
+msgid "Product Style"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:32
+msgid "Product catalog result card style."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:58
+msgctxt "customizer control label"
+msgid "Show Shop Title."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:80
+msgctxt "customizer control label"
+msgid "Show Featured Vendors."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:81
+msgid ""
+"Display a Featured Vendors slider as the first element on the Shop page."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:103
+msgctxt "customizer control label"
+msgid "Show Page Content."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-style.php:104
+msgid "You can choose to show the page content from the designate Shop page."
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-catalog-vendors.php:27
+msgctxt "customizer control label"
+msgid "Display Vendor Tabs"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-gallery-style.php:31
+msgctxt "customizer control label"
+msgid "Gallery style"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-gallery-style.php:35
+msgid "Style 1"
+msgstr ""
+
+#: app/integrations/woocommerce/customize/controls/product-gallery-style.php:36
+msgid "Style 2"
+msgstr ""
+
+#: app/integrations/woocommerce/shortcodes.php:38
+#: app/integrations/woocommerce/views/myaccount/dashboard.php:43
+#: resources/views/partials/block/products-with-filter.php:62
+msgid "All"
+msgstr "Все"
+
+#. Translators: %d Number of items in the cart.
+#: app/integrations/woocommerce/template-functions.php:102
+#: resources/views/partials/nav/right--icons.php:48
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: rating 2: rating count
+#: app/integrations/woocommerce/template-functions.php:139
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %s: rating
+#: app/integrations/woocommerce/template-functions.php:142
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:288
+#: app/integrations/woocommerce/views/taxonomy-wcpv_product_vendors.php:50
+msgid "Shop"
+msgstr "Магазин"
+
+#. Translators: 1: comment date, 2: comment time
+#: app/integrations/woocommerce/template-functions.php:533
+#: app/theme/comments.php:52
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:556
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: app/integrations/woocommerce/template-functions.php:582
+#: app/theme/comments.php:115
+msgid "Comment"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:583
+msgid "Leave a review..."
+msgstr "Оставить отзыв"
+
+#. Translators: %s product title.
+#: app/integrations/woocommerce/template-functions.php:592
+msgid "Give your rating for %s"
+msgstr "Оставьте свою оценку для %s"
+
+#: app/integrations/woocommerce/template-functions.php:598
+msgid "Rate&hellip;"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:599
+msgid "Perfect"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:600
+msgid "Good"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:601
+msgid "Average"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:602
+msgid "Not that bad"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:603
+msgid "Very poor"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:609
+msgid "Submit Review"
+msgstr "Оставить отзыв"
+
+#: app/integrations/woocommerce/template-functions.php:628
+msgid "%1$sI've read and accept the %2$sterms & conditions%3$s"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:646
+msgid ""
+"Please read and accept the terms and conditions to proceed with your "
+"registration."
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:677
+msgid "Share"
+msgstr "Поделиться"
+
+#: app/integrations/woocommerce/template-functions.php:691
+msgid "Twitter"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:703
+msgid "Facebook"
+msgstr ""
+
+#: app/integrations/woocommerce/template-functions.php:715
+msgid "Pinterest"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Find Vendors"
+msgstr ""
+
+#: app/integrations/woocommerce/views/archive-vendor.php:20
+#: app/integrations/woocommerce/views/vendor-dashboard.php:20
+msgid "Please reactivate the WooCommerce Product Vendors plugin."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Cart"
+msgstr ""
+
+#: app/integrations/woocommerce/views/cart/cart-empty.php:40
+msgid "Return to shop"
+msgstr ""
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:28
+#: app/integrations/woocommerce/views/cart/cart-totals.php:112
+#: app/integrations/woocommerce/views/cart/cart-totals.php:113
+#: app/integrations/woocommerce/views/order/order-details-item.php:54
+msgid "Total"
+msgstr "Итог"
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:34
+msgid "Coupon:"
+msgstr ""
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:35
+#: app/integrations/woocommerce/views/checkout/form-coupon.php:31
+msgid "Coupon code"
+msgstr "Код купона"
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:41
+msgid "Apply"
+msgstr ""
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:51
+#: app/integrations/woocommerce/views/cart/cart-totals.php:52
+msgid "Subtotal"
+msgstr "Подытог"
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:73
+#: app/integrations/woocommerce/views/cart/cart-totals.php:74
+msgid "Shipping"
+msgstr ""
+
+#: app/integrations/woocommerce/views/cart/cart-totals.php:90
+msgid "(estimated for %s)"
+msgstr ""
+
+#: app/integrations/woocommerce/views/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/form-billing.php:46
+msgid "Create an account?"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/form-coupon.php:35
+msgid "Apply coupon"
+msgstr "Применить купон"
+
+#: app/integrations/woocommerce/views/checkout/form-shipping.php:33
+msgid "Ship to a different address?"
+msgstr "Доставить по другому адресу?"
+
+#: app/integrations/woocommerce/views/checkout/form-shipping.php:69
+msgid "Additional information"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/partials/step-1.php:31
+msgid "Back to Store"
+msgstr "Назад в магазин"
+
+#: app/integrations/woocommerce/views/checkout/partials/step-1.php:36
+msgid "Continue"
+msgstr "Продолжить"
+
+#: app/integrations/woocommerce/views/checkout/partials/tabs.php:27
+msgid "Addresses"
+msgstr "Адреса"
+
+#: app/integrations/woocommerce/views/checkout/partials/tabs.php:34
+msgid "Payment"
+msgstr "Оплата"
+
+#: app/integrations/woocommerce/views/checkout/partials/tabs.php:41
+msgid "Confirmation"
+msgstr "Подтверждение"
+
+#: app/integrations/woocommerce/views/checkout/partials/title.php:30
+msgid "I already have an account"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/partials/title.php:34
+msgid "OR"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/partials/title.php:37
+msgid "I have a discount code"
+msgstr "У меня есть скидочный купон"
+
+#: app/integrations/woocommerce/views/checkout/partials/title.php:41
+msgid "Thank you for your purchase!"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/payment.php:62
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/payment.php:62
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/payment.php:72
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your order."
+" You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/payment.php:73
+msgid "Update totals"
+msgstr ""
+
+#: app/integrations/woocommerce/views/checkout/payment.php:89
+msgid "Back to Addresses"
+msgstr "Вернуться к адресам"
+
+#: app/integrations/woocommerce/views/checkout/review-order.php:23
+msgid "Your Order"
+msgstr "Ваш заказ"
+
+#: app/integrations/woocommerce/views/checkout/terms.php:37
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\" "
+"class=\"woocommerce-terms-and-conditions-link\">terms &amp; conditions</a>"
+msgstr ""
+"Я прочитаю и <a href=\"%s\" target=\"_blank\" class=\"woocommerce-terms-and-"
+"conditions-link\">принимаю условия</a>"
+
+#: app/integrations/woocommerce/views/content-product_cat.php:34
+msgid "%d Items"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Dashboard"
+msgstr "Панель"
+
+#: app/integrations/woocommerce/views/customer-dashboard.php:20
+msgid "Please reactivate the WooCommerce plugin."
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/form-login.php:35
+#: app/integrations/woocommerce/views/modals/login-register.php:49
+msgid "Username or email"
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/form-login.php:42
+#: app/integrations/woocommerce/views/modals/login-register.php:56
+#: app/integrations/woocommerce/views/modals/login-register.php:150
+#: app/integrations/woocommerce/views/myaccount/form-login.php:48
+#: app/integrations/woocommerce/views/myaccount/form-login.php:101
+msgid "Password"
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/form-login.php:53
+#: app/integrations/woocommerce/views/modals/login-register.php:69
+#: app/integrations/woocommerce/views/myaccount/form-login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/form-login.php:60
+#: app/integrations/woocommerce/views/myaccount/form-login.php:63
+msgid "Login"
+msgstr ""
+
+#. Translators: %s: Quantity.
+#: app/integrations/woocommerce/views/global/quantity-input.php:23
+msgid "%s quantity"
+msgstr ""
+
+#. Translators: %s: Quantity.
+#: app/integrations/woocommerce/views/global/quantity-input.php:23
+msgid "Quantity"
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/quantity-input.php:41
+msgid "Qty"
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/quantity-input.php:51
+#: app/integrations/woocommerce/views/global/quantity-input.php:71
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: app/integrations/woocommerce/views/global/social-login.php:60
+msgid "Or"
+msgstr ""
+
+#: app/integrations/woocommerce/views/loop/orderby.php:24
+msgid "Shop order"
+msgstr ""
+
+#: app/integrations/woocommerce/views/loop/pagination.php:30
+msgid "Previous"
+msgstr "Предыдущие товары"
+
+#: app/integrations/woocommerce/views/loop/pagination.php:34
+#: resources/views/partials/content/pagination.php:20
+msgid "Next"
+msgstr ""
+
+#: app/integrations/woocommerce/views/loop/sale-flash.php:27
+msgid "On Sale"
+msgstr "В продаже"
+
+#: app/integrations/woocommerce/views/modals/coupon.php:23
+msgid "Apply a Discount"
+msgstr "Применить скидку"
+
+#: app/integrations/woocommerce/views/modals/login-register.php:30
+#: app/integrations/woocommerce/views/modals/login-register.php:112
+msgid "Close"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:50
+msgid "Your Username"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:57
+msgid "Your Password"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:85
+msgid "Don't have an account?"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:136
+#: app/integrations/woocommerce/views/myaccount/form-login.php:87
+#: app/integrations/woocommerce/views/vendors/form-register.php:19
+msgid "Username"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:143
+#: app/integrations/woocommerce/views/myaccount/form-login.php:94
+msgid "Email address"
+msgstr "Email адрес"
+
+#: app/integrations/woocommerce/views/modals/login-register.php:144
+msgid "example@example.com"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:151
+msgid "*********"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:175
+msgid "I have an account"
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:184
+msgid "Registration is disabled."
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:204
+msgid "Register Icon."
+msgstr ""
+
+#: app/integrations/woocommerce/views/modals/login-register.php:206
+msgid "Shop Icon."
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/downloads.php:40
+msgid "No downloads available yet."
+msgstr "Нет доступных загрузок."
+
+#: app/integrations/woocommerce/views/myaccount/downloads.php:43
+msgid "Go shop"
+msgstr "Перейти в магазин"
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-account-avatar.php:39
+msgid "Choose an Avatar"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-account-avatar.php:40
+msgid "Set as avatar"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-account-avatar.php:63
+msgid "Account Photo"
+msgstr "Фотография аккаунта"
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-account-avatar.php:67
+msgid "User Avatar."
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-account-avatar.php:73
+msgid "Upload Photo"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-address.php:20
+#: app/integrations/woocommerce/views/myaccount/my-address.php:29
+#: app/integrations/woocommerce/views/myaccount/my-address.php:38
+msgid "Billing address"
+msgstr "Адрес для выставления счета"
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-address.php:20
+#: app/integrations/woocommerce/views/myaccount/my-address.php:30
+msgid "Shipping address"
+msgstr "Адрес доставки"
+
+#: app/integrations/woocommerce/views/myaccount/form-edit-address.php:53
+msgid "Save address"
+msgstr "Сохранить адрес"
+
+#: app/integrations/woocommerce/views/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr "Имя пользователя или адрес электронной почты"
+
+#: app/integrations/woocommerce/views/myaccount/form-login.php:107
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-login.php:115
+msgid "Register"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-lost-password.php:40
+msgid "Reset password"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-reset-password.php:29
+msgid "New password"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/form-reset-password.php:36
+msgid "Re-enter new password"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/my-address.php:63
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/partials/activity/favorite.php:33
+msgid "You favorited %s"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/partials/activity/order.php:32
+msgid "You placed a %1$s for %2$s"
+msgstr "Вы купили "
+
+#: app/integrations/woocommerce/views/myaccount/partials/activity/order.php:38
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: app/integrations/woocommerce/views/myaccount/partials/activity/review.php:34
+msgid "You left a %1$s star review on %2$s"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/partials/stats.php:40
+msgid "Total Sales"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/view-order.php:50
+msgid "Note:"
+msgstr ""
+
+#: app/integrations/woocommerce/views/myaccount/view-order.php:83
+msgid "No updates for this order."
+msgstr "Нет обновлений для этого заказа."
+
+#: app/integrations/woocommerce/views/order/order-again.php:25
+msgid "Order again"
+msgstr "Заказать снова"
+
+#: app/integrations/woocommerce/views/order/order-details-customer.php:39
+#: app/integrations/woocommerce/views/vendors/form-register.php:24
+#: app/theme/comments.php:159
+msgid "Email Address"
+msgstr "Email адрес"
+
+#: app/integrations/woocommerce/views/order/order-details-item.php:28
+msgid "Product"
+msgstr ""
+
+#: app/integrations/woocommerce/views/order/order-downloads.php:26
+msgid "Downloads"
+msgstr ""
+
+#: app/integrations/woocommerce/views/order/order-downloads.php:58
+msgid "&infin;"
+msgstr ""
+
+#: app/integrations/woocommerce/views/product-cards/card-1.php:55
+#: app/integrations/woocommerce/views/single-product/hero/hero.php:24
+#: app/integrations/woocommerce/views/single-product/vendor-profile.php:27
+#: app/integrations/woocommerce/views/single-vendor/hero.php:27
+#: app/integrations/woocommerce/views/vendors/seller-list-top.php:50
+#: app/integrations/woocommerce/views/vendors/seller-list.php:26
+#: app/nux/plugin-installer.php:67 app/nux/setup-guide.php:66
+msgid "Logo."
+msgstr ""
+
+#: app/integrations/woocommerce/views/product-cards/card-4.php:53
+msgid "Author Logo."
+msgstr ""
+
+#: app/integrations/woocommerce/views/product-searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: app/integrations/woocommerce/views/product-searchform.php:29
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: app/integrations/woocommerce/views/product-searchform.php:33
+msgid "Search products&hellip;"
+msgstr "Найти товары.."
+
+#: app/integrations/woocommerce/views/shop-featured-vendors.php:60
+msgid "Visit Seller"
+msgstr ""
+
+#: app/integrations/woocommerce/views/shop-featured.php:46
+msgid "View product"
+msgstr ""
+
+#: app/integrations/woocommerce/views/shop-filters--mobile.php:37
+msgid "Filters"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product-reviews.php:42
+msgid "0 Reviews"
+msgstr "0 отзывов"
+
+#: app/integrations/woocommerce/views/single-product-reviews.php:42
+msgid "1 Review"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product-reviews.php:42
+msgid "% Reviews"
+msgstr "% Отзывов"
+
+#: app/integrations/woocommerce/views/single-product-reviews.php:67
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product-reviews.php:77
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Только зарегистрированные пользователи, которые приобрели этот продукт, "
+"могут оставлять отзывы."
+
+#: app/integrations/woocommerce/views/single-product/add-to-cart/variable.php:33
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/hero/primary.php:29
+msgid "View Profile"
+msgstr "Просмотреть профиль"
+
+#: app/integrations/woocommerce/views/single-product/hero/secondary.php:46
+msgid "more"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/product-image.php:50
+msgid "Awaiting product image"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/rating.php:36
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: app/integrations/woocommerce/views/single-product/related.php:26
+msgid "Related products"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/tabs/policies.php:31
+msgid "Shipping Policy"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/tabs/policies.php:43
+msgid "Return Policy"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/tabs/policies.php:53
+msgid "Payment Options"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/tabs/policies.php:65
+msgid ""
+"%s keeps your payment information secure. Below are available payment "
+"options:"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/up-sells.php:28
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-product/vendor-profile.php:63
+#: resources/views/partials/nav/private-messages.php:82
+msgid "View All"
+msgstr "Показать все"
+
+#. Translators: %d number of sales.
+#: app/integrations/woocommerce/views/single-vendor/hero.php:60
+msgid "%d Sale"
+msgid_plural "%d Sales"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: app/integrations/woocommerce/views/single-vendor/hero.php:63
+msgid "d-none"
+msgstr ""
+
+#. Translators: %s number of stars out of 5.
+#. Translators: %s Star rating.
+#: app/integrations/woocommerce/views/single-vendor/hero.php:73
+#: app/integrations/woocommerce/views/vendors/seller-list.php:48
+msgid "%s Stars"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-vendor/hero.php:87
+msgid "Contact Seller"
+msgstr ""
+
+#: app/integrations/woocommerce/views/single-vendor/reviews.php:54
+msgid "No reviews."
+msgstr "Отзывов нет"
+
+#: app/integrations/woocommerce/views/taxonomy-wcpv_product_vendors.php:79
+msgid "<div class=\"vendor-ratings-count\">&#40; %s &#41;</div>"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Vendor Dashboard"
+msgstr "Панель продавца"
+
+#: app/integrations/woocommerce/views/vendor-dashboard.php:36
+msgid ""
+"Hey there! The vendor registration form is not showing since you're logged "
+"in as an Administrator. If you'd like to verify the form is working, please "
+"log out and view this page again."
+msgstr ""
+"Привет всем! Форма регистрации поставщика не отображается, поскольку вы "
+"вошли в систему как администратор. Если вы хотите убедиться, что форма "
+"работает, пожалуйста, выйдите из системы и снова просмотрите эту страницу."
+
+#: app/integrations/woocommerce/views/vendor-dashboard/hero.php:31
+msgid "Create Product"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/form-register.php:7
+msgid "First Name"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/form-register.php:12
+msgid "Last Name"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/form-register.php:29
+msgid "Confirm Email"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/form-register.php:36
+msgid "Vendor Name"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/form-register.php:38
+msgid ""
+"This is the name that customers see when purchasing your products.  Please "
+"choose carefully."
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/form-register.php:42
+msgid "Describe what you sell"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/search-results.php:64
+msgid "No vendors found."
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/search.php:26
+#: resources/views/partials/block/hero-search.php:45
+msgid "Search"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/search.php:29
+msgid "Find a vendor..."
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/seller-list-top.php:38
+msgid ""
+"<div class=\"seller-item__img--content\" style=\"background-image:url(%s);\">"
+"</div>"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/seller-list-top.php:59
+msgid "%d Products"
+msgstr ""
+
+#: app/integrations/woocommerce/views/vendors/tabs.php:70
+#: resources/views/partials/block/featured-vendors.php:29
+msgid "No matching vendors."
+msgstr ""
+
+#: app/integrations/woocommerce/widget-functions.php:24
+msgid "Shop Sidebar"
+msgstr ""
+
+#: app/nux/content-importer.php:35
+msgid "Child Theme"
+msgstr ""
+
+#: app/nux/content-importer.php:36
+msgid "User"
+msgstr ""
+
+#: app/nux/content-importer.php:36
+msgid "Users"
+msgstr ""
+
+#: app/nux/content-importer.php:37
+msgid "Setting"
+msgstr ""
+
+#: app/nux/content-importer.php:37
+msgid "Settings"
+msgstr ""
+
+#: app/nux/content-importer.php:38
+msgid "Theme Customization"
+msgstr ""
+
+#: app/nux/content-importer.php:38
+msgid "Theme Customizations"
+msgstr ""
+
+#: app/nux/content-importer.php:39
+msgid "Term"
+msgstr ""
+
+#: app/nux/content-importer.php:39
+msgid "Terms"
+msgstr ""
+
+#: app/nux/content-importer.php:40
+msgid "Navigation Menu"
+msgstr ""
+
+#: app/nux/content-importer.php:40
+msgid "Navigation Menus"
+msgstr ""
+
+#: app/nux/content-importer.php:41
+msgid "Navigation Menu Item"
+msgstr ""
+
+#: app/nux/content-importer.php:41
+msgid "Navigation Menu Items"
+msgstr ""
+
+#: app/nux/content-importer.php:42
+msgid "Content"
+msgstr ""
+
+#: app/nux/content-importer.php:43
+msgid "Widget"
+msgstr ""
+
+#: app/nux/content-importer.php:43
+msgid "Widgets"
+msgstr ""
+
+#: app/nux/content-importer.php:46
+msgid "Import Complete!"
+msgstr ""
+
+#: app/nux/content-importer.php:49
+msgid "Reset Complete!"
+msgstr ""
+
+#: app/nux/content-importer.php:52
+msgid "Invalid process action."
+msgstr ""
+
+#: app/nux/content-importer.php:53
+msgid "Invalid process type."
+msgstr ""
+
+#: app/nux/content-importer.php:54
+msgid "Iteration process failed."
+msgstr ""
+
+#: app/nux/content-importer.php:55
+msgid "You do not have permission to manage content."
+msgstr ""
+
+#: app/nux/content-importer.php:103
+msgid "Product Blocks"
+msgstr ""
+
+#: app/nux/content-importer.php:108
+msgid "Product Vendors"
+msgstr ""
+
+#: app/nux/content-importer.php:113
+msgid "If Menu"
+msgstr ""
+
+#: app/nux/content-importer.php:118
+msgid "Safe SVG"
+msgstr ""
+
+#: app/nux/plugin-installer.php:37 app/nux/plugin-installer.php:74
+#: app/nux/plugin-installer.php:103 app/nux/plugin-installer.php:144
+msgid "Active"
+msgstr ""
+
+#: app/nux/plugin-installer.php:38
+msgid "Error"
+msgstr ""
+
+#. Translators: %s Plugin name.
+#: app/nux/plugin-installer.php:40
+msgid "Activation failed: %s"
+msgstr ""
+
+#. Translators: %s Plugin name.
+#: app/nux/plugin-installer.php:41
+msgid "Invalid plugin supplied."
+msgstr ""
+
+#: app/nux/plugin-installer.php:42
+msgid "Invalid nonce supplied."
+msgstr ""
+
+#: app/nux/plugin-installer.php:43
+msgid "You do not have permission to install plugins on this site."
+msgstr ""
+
+#: app/nux/plugin-installer.php:44
+msgid "Install and Activate All"
+msgstr ""
+
+#: app/nux/plugin-installer.php:45
+#: app/nux/setup-guide-steps/theme-updater.php:28
+msgid "Complete"
+msgstr ""
+
+#: app/nux/plugin-installer.php:66
+msgid "WooCommerce Product Vendors"
+msgstr ""
+
+#: app/nux/plugin-installer.php:75
+msgid "More information about WooCommerce"
+msgstr ""
+
+#: app/nux/plugin-installer.php:75
+msgid "More Details"
+msgstr ""
+
+#: app/nux/plugin-installer.php:77 app/nux/plugin-installer.php:105
+#: app/nux/plugin-installer.php:146
+msgid "Download"
+msgstr ""
+
+#: app/nux/plugin-installer.php:78 app/nux/plugin-installer.php:106
+#: app/nux/plugin-installer.php:147
+msgid "Install"
+msgstr ""
+
+#: app/nux/plugin-installer.php:83
+msgid ""
+"Set up a multi-vendor marketplace that allows vendors to manage their own "
+"products and earn commissions By Automattic."
+msgstr ""
+
+#: app/nux/plugin-installer.php:84
+msgid "By"
+msgstr "Создано"
+
+#: app/nux/plugin-installer.php:84
+msgid "Automattic"
+msgstr ""
+
+#: app/nux/plugin-installer.php:112
+msgid "Create organized lists of favorited products and vendors."
+msgstr ""
+
+#: app/nux/plugin-installer.php:119 app/nux/plugin-installer.php:160
+msgid ""
+"Please %1$sdownload%3$s and %2$sinstall%3$s this plugin purchase from "
+"Astoundify.com"
+msgstr ""
+
+#: app/nux/plugin-installer.php:153
+msgid ""
+"Allow your users to easily communicate one-on-one by sending private "
+"messages to each other directly."
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:17
+msgid ""
+"Manage the appearance and behavior of various theme components with the live "
+"customizer."
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:20
+msgid "Choose a Style Kit"
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:20
+#: app/nux/setup-guide-steps/customize-theme.php:21
+msgid "or"
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:20
+msgid "change colors"
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:21
+msgid "Choose a Font Pack"
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:21
+msgid "change typography"
+msgstr ""
+
+#: app/nux/setup-guide-steps/customize-theme.php:24
+msgid "Launch Customizer"
+msgstr ""
+
+#: app/nux/setup-guide-steps/import-content.php:51
+msgid ""
+"Vendify requires the following plugins to be active in order to import "
+"content."
+msgstr ""
+
+#: app/nux/setup-guide-steps/import-content.php:65
+msgid "Demo content for this plugin will not be imported."
+msgstr ""
+
+#: app/nux/setup-guide-steps/import-content.php:71
+msgid ""
+"Want extra features on your site? Activate the following plugins for even "
+"more demo content; saving you setup time! Visit your %1$splugins page%2$s to "
+"activate any premium plugins you have installed."
+msgstr ""
+
+#: app/nux/setup-guide-steps/import-content.php:86
+msgid "Demo content will not be imported for this inactive plugin"
+msgstr ""
+
+#: app/nux/setup-guide-steps/support-us.php:17
+msgid ""
+"Help improve Vendify by translating the theme to as many languages as "
+"possible!"
+msgstr ""
+
+#: app/nux/setup-guide-steps/support-us.php:20
+msgid "Translate Vendify"
+msgstr ""
+
+#: app/nux/setup-guide-steps/support-us.php:25
+msgid "Move this guide under the \"Appearance\" menu item"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:26
+msgid "in"
+msgstr ""
+
+#. Translators: %s Theme name.
+#: app/nux/setup-guide-steps/theme-updater.php:26 app/nux/setup-guide.php:44
+msgid "Completed"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:26
+#: app/nux/setup-guide-steps/theme-updater.php:30 app/nux/setup-guide.php:45
+msgid "Not Complete"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:34
+msgid ""
+"In order to receive automatic updates for your purchase please generate a "
+"personal token from ThemeForest."
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:36
+msgid "Generate a Token"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:38
+msgid "Once generated, add the token below:"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:42
+msgid "Personal Token:"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:44
+msgid "Save Token"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:45
+msgid "Remove Token"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:52
+msgid "API Connection:"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:59
+msgid "Purchase Status:"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:62
+#: app/nux/setup-guide-steps/theme-updater.php:110
+msgid "Valid"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:64
+#: app/nux/setup-guide-steps/theme-updater.php:114
+msgid "Invalid"
+msgstr ""
+
+#: app/nux/setup-guide-steps/theme-updater.php:126
+msgid ""
+"Are you sure that you want to delete the token? Do not forget to keep a copy "
+"of the token, because Envato does not provide a way to recover it."
+msgstr ""
+
+#: app/nux/setup-guide-steps/_step-list.php:22
+msgid "Enable Automatic Theme Updates"
+msgstr ""
+
+#: app/nux/setup-guide-steps/_step-list.php:29
+msgid "Install Plugins"
+msgstr ""
+
+#: app/nux/setup-guide-steps/_step-list.php:36
+msgid "Choose Site Content"
+msgstr ""
+
+#: app/nux/setup-guide-steps/_step-list.php:43
+msgid "Customize Your Site"
+msgstr ""
+
+#: app/nux/setup-guide-steps/_step-list.php:49
+msgid "Get Involved"
+msgstr ""
+
+#. Translators: %s Theme name.
+#: app/nux/setup-guide.php:39
+msgid "Setup %s"
+msgstr ""
+
+#. Translators: %s Theme name.
+#: app/nux/setup-guide.php:40
+msgid "Getting Started"
+msgstr ""
+
+#: app/nux/setup-guide.php:41
+msgid "Setup Guide"
+msgstr ""
+
+#. Translators: %s Theme name.
+#: app/nux/setup-guide.php:43
+msgid "🎉 Welcome to %s"
+msgstr ""
+
+#: app/nux/setup-guide.php:62
+msgid "Use the steps below to finish setting up your new website."
+msgstr ""
+
+#: app/nux/setup-guide.php:70
+msgid "Search Documentation"
+msgstr ""
+
+#: app/nux/setup-guide.php:71
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: app/nux/themeforest-updater.php:112
+msgid "Cheating?"
+msgstr ""
+
+#: app/nux/themeforest-updater.php:113
+msgid "An API token is required."
+msgstr ""
+
+#: app/nux/themeforest-updater.php:114
+msgid "API error."
+msgstr ""
+
+#: app/nux/themeforest-updater.php:115
+msgid "Connected"
+msgstr ""
+
+#: app/nux/themeforest-updater.php:116
+msgid "Disconnected"
+msgstr ""
+
+#: app/theme/comments.php:81
+msgid "View Replies"
+msgstr ""
+
+#: app/theme/comments.php:116
+msgid "Leave a reply..."
+msgstr "Оставьте ответ..."
+
+#: app/theme/comments.php:120
+msgid "Submit"
+msgstr ""
+
+#: app/theme/comments.php:167
+msgid "URL"
+msgstr ""
+
+#: app/theme/comments.php:181
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: app/theme/gutenberg.php:95
+msgid "Neutral"
+msgstr ""
+
+#: app/theme/nav-menus.php:26 app/theme/nav-menus.php:39
+#: app/theme/nav-menus.php:44
+msgid "Primary"
+msgstr ""
+
+#: app/theme/nav-menus.php:27 app/theme/nav-menus.php:40
+#: app/theme/nav-menus.php:45
+msgid "Primary \"&hellip;\" Dropdown"
+msgstr ""
+
+#: app/theme/nav-menus.php:28 app/theme/nav-menus.php:32
+#: app/theme/nav-menus.php:41 app/theme/nav-menus.php:46
+msgid "Account Dropdown"
+msgstr ""
+
+#: app/theme/nav-menus.php:31
+msgid "Primary Dropdown"
+msgstr ""
+
+#: app/theme/nav-menus.php:35
+msgid "Primary Left"
+msgstr ""
+
+#: app/theme/nav-menus.php:36
+msgid "Primary Right"
+msgstr ""
+
+#: app/theme/nav-menus.php:53
+msgid "Footer"
+msgstr ""
+
+#: app/theme/nav-menus.php:54
+msgid "Copyright"
+msgstr ""
+
+#: app/theme/svg.php:61
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: app/theme/template-tags.php:257
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: app/theme/template-tags.php:259
+msgid "Password:"
+msgstr ""
+
+#: app/theme/template-tags.php:260
+msgctxt "post password form"
+msgid "Enter"
+msgstr ""
+
+#. Translators: Widget column number.
+#: app/theme/widgets.php:28
+msgid "Footer Widgets"
+msgstr ""
+
+#: app/theme/widgets.php:30
+msgid "Widgets assigned to the footer area."
+msgstr ""
+
+#. translators: %s Minimum PHP version required for theme to run.
+#: functions.php:59
+msgid ""
+"Vendify requires PHP version <code>%s</code> or above to be active. Please "
+"contact your web host to upgrade."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Headerless Page"
+msgstr ""
+
+#: resources/blocks/library/featured-post/index.php:48
+msgid "View More"
+msgstr ""
+
+#: resources/blocks/library/vendor-dashboard/index.php:37
+msgid "Please use vendor dashboard block only on selected page."
+msgstr ""
+"Пожалуйста, используйте блок панели инструментов поставщика только на "
+"выбранной странице."
+
+#: resources/views/partials/block/hero-search.php:37
+msgid "Products"
+msgstr "Товары"
+
+#: resources/views/partials/block/hero-search.php:39
+msgid "Vendors"
+msgstr ""
+
+#: resources/views/partials/block/products-with-filter.php:76
+msgid " Results"
+msgstr ""
+
+#: resources/views/partials/blog/card-style-card.php:56
+#: resources/views/partials/blog/card-style-classic.php:53
+msgid "Read More"
+msgstr "Читать далее"
+
+#: resources/views/partials/blog/sticky.php:36
+msgid "Hero slide image."
+msgstr ""
+
+#: resources/views/partials/blog/sticky.php:43
+msgid "Read more"
+msgstr "Читать далее"
+
+#: resources/views/partials/comments.php:25
+msgid "Discussion"
+msgstr "Обсуждения"
+
+#: resources/views/partials/comments.php:26
+msgid "0 people talking"
+msgstr "0 человек говорят"
+
+#: resources/views/partials/comments.php:26
+msgid "1 person talking"
+msgstr ""
+
+#: resources/views/partials/comments.php:26
+msgid "% people talking"
+msgstr ""
+
+#: resources/views/partials/comments.php:36
+msgid "Cancel"
+msgstr ""
+
+#: resources/views/partials/comments.php:45
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: resources/views/partials/comments.php:66
+msgid "Comment navigation"
+msgstr ""
+
+#: resources/views/partials/comments.php:67
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: resources/views/partials/comments.php:68
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: resources/views/partials/content/none.php:18
+msgid "No results found."
+msgstr ""
+
+#: resources/views/partials/content/pagination.php:19
+msgid "Prev"
+msgstr ""
+
+#: resources/views/partials/content/tags.php:29
+#: resources/views/partials/content/tags.php:31
+msgid "Tags:"
+msgstr ""
+
+#: resources/views/partials/header/style-1.php:20
+#: resources/views/partials/header/style-2.php:21
+#: resources/views/partials/header/style-3.php:20
+#: resources/views/partials/header/style-4.php:20
+#: resources/views/partials/header/style-5.php:20
+msgid "Toggle the navigation"
+msgstr ""
+
+#: resources/views/partials/nav/right-offcanvas.php:80
+msgid "Guest"
+msgstr ""
+
+#: resources/views/partials/nav/right-offcanvas.php:102
+msgid "Sign Out"
+msgstr ""
+
+#: resources/views/partials/nav/right.php:37
+msgid "Toggle user dropdown"
+msgstr ""
+
+#: resources/views/partials/searchform-header.php:44
+#: resources/views/partials/searchform.php:34
+msgid "Search..."
+msgstr "Поиск"
+
+#: resources/blocks/library/products-with-filter/index.js:80
+msgid "Product with filter"
+msgstr ""

@@ -1,0 +1,9 @@
+.has-parallax {
+	background-attachment: initial;
+}
+
+@include media-breakpoint-up(md) {
+	.has-parallax {
+		background-attachment: fixed;
+	}
+}

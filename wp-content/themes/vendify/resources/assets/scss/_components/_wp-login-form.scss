@@ -1,0 +1,41 @@
+#vendor-dashboard-login-form,
+.wp-login-form {
+
+	p {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 1.8rem;
+	}
+
+	label {
+		font-size: 11px;
+		color: theme-color("dark");
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+
+	[type="text"],
+	[type="password"] {
+
+		@include vendify-form-control();
+	}
+
+	[type="submit"] {
+
+		@include button-base();
+	}
+
+	.login-submit {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		padding-top: 30px;
+		border-top: 1px solid gray("200");
+
+		@include media-breakpoint-up(md) {
+			margin-top: 40px;
+			padding-top: 40px;
+		}
+	}
+}

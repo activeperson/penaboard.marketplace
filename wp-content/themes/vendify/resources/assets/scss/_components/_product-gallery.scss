@@ -1,0 +1,269 @@
+// ======================================================================================
+//
+// Product Gallery
+//
+// ======================================================================================
+
+//
+// 3 variations
+//
+// 1. Left side thumbnails
+// 2. Bottom thumbnails (has directional navigation)
+// 3. No thumbnails (offers bullet points and directional navigation instead)
+//
+//
+
+.product-gallery {
+	align-self: flex-start;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	img {
+		display: block;
+		width: 100%;
+
+		@include border-radius();
+	}
+
+	@include media-breakpoint-down(sm) {
+		flex-direction: column;
+	}
+}
+
+.product-gallery__thumbnails-list {
+	order: 1;
+	display: flex;
+	justify-content: space-between;
+
+	@include media-breakpoint-up(md) {
+		display: block;
+		order: 0;
+		width: 50px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		width: 80px;
+	}
+}
+
+.product-gallery__thumbnail {
+	display: block;
+	opacity: 0.7;
+	transition: opacity 0.2s ease-in-out;
+	width: calc(25% - 8px);
+	margin-top: 8px;
+
+	@include media-breakpoint-up(md) {
+		width: auto;
+
+		& + & {
+			margin-top: 20px;
+		}
+	}
+
+	&:hover {
+		opacity: 0.875;
+	}
+
+	&.is-active {
+		opacity: 1;
+	}
+
+	img {
+
+		@include border-radius();
+	}
+}
+
+
+// 1. Wrapper for the slider that takes up available horizontal space
+// 2. Calculated aspect-ratio of the slider main image, ensures pre-set height
+//    at any viewport size, since the images inside are absolutely positioned.
+
+.product-gallery__body {
+	width: 100%;
+
+	@include media-breakpoint-up(md) {
+		width: calc(100% - 65px);
+	}
+
+	@include media-breakpoint-up(lg) {
+		width: calc(100% - 100px);
+	}
+}
+
+.product-gallery__slider {
+	position: relative;
+
+	.flickity-viewport {
+		overflow: visible;
+	}
+
+	.flickity-slider {
+		transform: none !important;
+	}
+}
+
+.product-gallery__slider__item {
+	position: absolute;
+	top: 0;
+	left: 0 !important;
+	opacity: 0;
+	transition: opacity 0.45s ease-in-out;
+	z-index: -1;
+	width: 100%;
+}
+
+.product-gallery__slider__item.is-selected {
+	opacity: 1;
+	z-index: 5;
+}
+
+// WooCommerce markup.
+.woocommerce-product-gallery {
+	align-self: flex-start;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: relative;
+	width: 100%;
+	margin-bottom: 50px;
+
+	@include media-breakpoint-down(sm) {
+		flex-direction: column;
+	}
+
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+		box-shadow: none;
+	}
+
+	.woocommerce-product-gallery__wrapper {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.flex-viewport {
+		order: 0;
+		width: 100%;
+	}
+
+	&.woocommerce-product-gallery--1 .flex-viewport {
+
+		@include media-breakpoint-up(md) {
+			order: 1;
+			width: calc(100% - 65px);
+		}
+
+		@include media-breakpoint-up(lg) {
+			width: calc(100% - 100px);
+		}
+	}
+
+	.woocommerce-product-gallery__image {
+		display: block;
+	}
+
+	.flex-control-thumbs {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		order: 1;
+
+		@include media-breakpoint-up(md) {
+			margin: 0 20px 0 0;
+			order: 0;
+			width: 50px;
+			flex: 1 0 50px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			width: 80px;
+			flex: 1 0 80px;
+		}
+
+		li {
+			list-style: none;
+			cursor: pointer;
+			display: block;
+			opacity: 0.7;
+			transition: opacity 0.2s ease-in-out;
+			width: calc(25% - 8px);
+			margin: 8px 8px 0 0;
+
+			@include media-breakpoint-up(md) {
+				width: 100%;
+				margin: 0 0 20px;
+			}
+
+			img {
+				opacity: 0.5;
+				transition: all, ease, 0.2s;
+
+				&.flex-active {
+					opacity: 1;
+				}
+			}
+
+			&:hover {
+
+				img {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	.pi__sale-badge {
+		position: absolute;
+		z-index: 2;
+		top: 20px;
+		right: 20px;
+	}
+}
+
+.woocommerce-product-gallery__trigger {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 2em;
+	z-index: 9;
+	width: 36px;
+	height: 36px;
+	background: #fff;
+	text-indent: -9999px;
+	border-radius: 100%;
+	box-sizing: content-box;
+
+	&:before {
+		content: "";
+		display: block;
+		width: 12px;
+		height: 12px;
+		border: 1px solid gray("400");
+		border-radius: 100%;
+		position: absolute;
+		top: 9px;
+		left: 9px;
+		box-sizing: content-box;
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		width: 1px;
+		height: 7px;
+		background: gray("400");
+		border-radius: 6px;
+		position: absolute;
+		top: 20px;
+		left: 22px;
+		transform: rotate(-45deg);
+		box-sizing: content-box;
+	}
+}

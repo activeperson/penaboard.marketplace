@@ -1,0 +1,442 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-08 10:13:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/checkout.js:1 build/featured-product.js:1
+#: build/product-categories-legacy.js:1 build/product-search-legacy.js:1
+#: build/blocks.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/product-search.js:1
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/blocks-legacy.js:1
+#: build/attribute-filter.js:1 build/product-new.js:1 build/single-product.js:1
+#: build/product-categories.js:1 build/all-reviews-legacy.js:1
+#: build/active-filters.js:1 build/cart.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/all-reviews.js:1 build/featured-category.js:1
+#: build/price-filter.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/index.js:21
+#: assets/js/blocks/attribute-filter/index.js:21
+#: assets/js/blocks/product-search/index.js:22
+#: assets/js/blocks/products/all-products/index.js:24
+#: assets/js/blocks/products-by-attribute/index.js:25
+#: assets/js/blocks/product-top-rated/index.js:27
+#: assets/js/blocks/handpicked-products/index.js:25
+#: assets/js/blocks/product-categories/index.js:22
+#: assets/js/blocks/single-product/index.js:27
+#: assets/js/blocks/product-category/index.js:29
+#: assets/js/blocks/featured-product/index.js:28
+#: assets/js/blocks/reviews/reviews-by-product/index.js:26
+#: assets/js/blocks/reviews/all-reviews/index.js:28
+#: assets/js/blocks/reviews/reviews-by-category/index.js:27
+#: assets/js/blocks/product-tag/index.js:25
+#: assets/js/blocks/product-new/index.js:25
+#: assets/js/blocks/product-on-sale/index.js:25
+#: assets/js/blocks/featured-category/index.js:28
+#: assets/js/blocks/active-filters/index.js:21
+#: assets/js/blocks/product-best-sellers/index.js:25
+#: assets/js/blocks/cart-checkout/checkout/index.js:23
+#: assets/js/blocks/cart-checkout/cart/index.js:26
+#: assets/js/blocks/price-filter/index.js:21
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+#: assets/js/blocks/product-category/index.js:23
+msgid "Products by Category"
+msgstr "Товари за категорією"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/products-by-attribute/block.js:91
+#: assets/js/blocks/handpicked-products/block.js:91
+#: assets/js/blocks/product-tag/block.js:140
+#: assets/js/blocks/product-on-sale/block.js:71
+msgid "Order By"
+msgstr "Сортувати за"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Product Category"
+msgstr "Категорія товарів"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+#: assets/js/blocks/product-category/index.js:30
+msgid "Display a grid of products from your selected categories."
+msgstr "Відображення сітки продуктів з вибраних категорій."
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:60
+msgid "Menu Order"
+msgstr "Порядок меню"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/all-products-frontend.js:6 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/all-products.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/base/components/product-sort-select/index.js:59
+#: assets/js/components/product-orderby-control/index.js:14
+msgid "Order products by"
+msgstr "Замовити товари по"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:38
+msgid "Search for products to display"
+msgstr "Пошук продуктів для відображення"
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/single-product.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:100
+#: assets/js/components/products-control/index.js:33
+#: assets/js/components/product-control/index.js:40
+msgid "Products"
+msgstr "Товари"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/attribute-filter.js:1
+#: build/single-product.js:1 build/all-reviews-legacy.js:1 build/cart.js:1
+#: build/products-by-attribute.js:1 build/all-products.js:1
+#: build/all-reviews.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/attribute-filter/edit.js:55
+#: assets/js/blocks/products-by-attribute/block.js:171
+#: assets/js/blocks/handpicked-products/block.js:171
+#: assets/js/blocks/single-product/edit/editor-block-controls.js:18
+#: assets/js/blocks/reviews/edit-utils.js:27
+#: assets/js/blocks/product-tag/block.js:272
+#: assets/js/blocks/cart-checkout/cart/edit.js:158
+msgid "Edit"
+msgstr "Змінити"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/single-product.js:1
+#: build/product-top-rated.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/products-by-attribute/block.js:43
+#: assets/js/blocks/product-top-rated/block.js:33
+#: assets/js/blocks/handpicked-products/block.js:42
+#: assets/js/blocks/single-product/edit/layout-editor.js:49
+#: assets/js/blocks/product-tag/block.js:118
+#: assets/js/blocks/product-new/block.js:33
+#: assets/js/blocks/product-on-sale/block.js:49
+#: assets/js/blocks/product-best-sellers/block.js:33
+msgid "Layout"
+msgstr "Розмітка"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 assets/js/components/grid-layout-control/index.js:40
+msgid "Rows"
+msgstr "Рядки"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:53
+msgid "Title - alphabetical"
+msgstr "Назва - алфавітний"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:46
+msgid "Sales - most first"
+msgstr "Продажі - найперше"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:39
+msgid "Rating - highest first"
+msgstr "Рейтинг - найвищий перший"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:32
+msgid "Price - high to low"
+msgstr "Ціна - від вищої до нижчої"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:25
+msgid "Price - low to high"
+msgstr "Ціна - від нижчої до вищої"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:18
+msgid "Newness - newest first"
+msgstr "Новинка - спочатку новітня"
+
+#: build/all-products.js:1 assets/js/blocks/products/edit.js:36
+msgid "Order Products By"
+msgstr "Замовлення товарів за"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:46
+#: assets/js/components/grid-layout-control/index.js:28
+msgid "Columns"
+msgstr "Стовпці"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/index.js:82
+#: assets/js/base/components/product-list/no-matching-products.js:19
+msgid "No products found"
+msgstr "Товарів не знайдено"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-category-legacy.js:1 build/checkout.js:1
+#: build/featured-product.js:1 build/product-tag-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/checkout-frontend.js:14
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/attribute-filter.js:1
+#: build/single-product.js:1 build/products-by-attribute.js:1
+#: build/all-products.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/base/components/cart-checkout/place-order-button/index.js:34
+#: assets/js/blocks/attribute-filter/edit.js:373
+#: assets/js/blocks/products-by-attribute/block.js:149
+#: assets/js/blocks/handpicked-products/block.js:149
+#: assets/js/blocks/single-product/edit/index.js:83
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:147
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:159
+#: assets/js/blocks/product-tag/block.js:206
+#: assets/js/blocks/featured-category/block.js:218
+msgid "Done"
+msgstr "Зроблено"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Search results updated."
+msgstr "Результати пошуку оновлено."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Search for items"
+msgstr "Пошук елементів"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No results for %s"
+msgstr "Немає результатів для %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No items found."
+msgstr "Нічого не знайдено."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Results"
+msgstr "Результати"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all selected items"
+msgstr "Очистити всі вибрані елементи"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all"
+msgstr "Очистити все"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/all-products-frontend.js:6 build/single-product-frontend.js:6
+#: build/single-product.js:1 build/all-products.js:1
+#: assets/js/previews/products.js:51 assets/js/previews/products.js:52
+msgid "Add to cart"
+msgstr "Додати у кошик"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:119
+msgid "Category search results updated."
+msgstr "Оновлені результати пошуку категорії."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:105
+msgid "Search for product categories"
+msgstr "Шукати категорії продуктів"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:101
+msgid "Your store doesn't have any product categories."
+msgstr "У вашому магазині немає категорій продуктів."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:100
+msgid "Product Categories"
+msgstr "Категорії товарів"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:96
+msgid "Clear all product categories"
+msgstr "Очистити всі категорії продуктів"
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "Блоки WooCommerce для редактора Гутенберга."
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "Блоки WooCommerce"
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:194
+msgid "Meta value."
+msgstr "Мета значення."
+
+#: src/StoreApi/Schemas/CartShippingRateSchema.php:188
+msgid "Meta key."
+msgstr "Мета ключ."
+
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:39
+msgid "Attribute name."
+msgstr "Назва атрибуту."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:63
+msgid "Image alternative text."
+msgstr "Альтернативний текст зображення."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:58
+msgid "Image name."
+msgstr "Назва зображення."
+
+#: src/StoreApi/Schemas/ImageAttachmentSchema.php:31
+msgid "Image ID."
+msgstr "Ідентифікатор зображення."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:122
+#: src/StoreApi/Schemas/ProductSchema.php:166
+msgid "List of images."
+msgstr "Список зображень."
+
+#: src/StoreApi/Schemas/ProductSchema.php:154
+msgid "Reviews average rating."
+msgstr "Середня оцінка відгуків."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:163
+#: src/StoreApi/Schemas/CartItemSchema.php:213
+#: src/StoreApi/Schemas/ProductSchema.php:107
+msgid "Current product price."
+msgstr "Поточна ціна товару."
+
+#: src/StoreApi/Schemas/ProductSchema.php:94
+msgid "Unique identifier."
+msgstr "Унікальний ідентифікатор."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:115
+#: src/StoreApi/Schemas/ProductSchema.php:71
+msgid "Product URL."
+msgstr "URL товару."
+
+#: src/StoreApi/Schemas/CartItemSchema.php:73
+#: src/StoreApi/Schemas/ProductSchema.php:55
+msgid "Product name."
+msgstr "Назва товару."
+
+#: src/StoreApi/Routes/ProductsById.php:35
+#: src/StoreApi/Routes/ProductAttributesById.php:35
+#: src/StoreApi/Routes/ProductCategoriesById.php:35
+#: src/StoreApi/Schemas/TermSchema.php:33
+#: src/StoreApi/Schemas/ProductReviewSchema.php:47
+#: src/StoreApi/Schemas/ProductAttributeSchema.php:33
+#: src/StoreApi/Schemas/ProductSchema.php:49
+msgid "Unique identifier for the resource."
+msgstr "Унікальний ідентифікатор для ресурсу."
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Автоматично"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"

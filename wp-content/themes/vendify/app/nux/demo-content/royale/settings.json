@@ -1,0 +1,127 @@
+{
+	"header-transparency": {
+		"id": "header-transparency",
+		"type": "thememod",
+		"data": ""
+	},
+	"header-style": {
+		"id": "header-style",
+		"type": "thememod",
+		"data": "5"
+	},
+	"header-account": {
+		"id": "header-account",
+		"type": "thememod",
+		"data": "user-only"
+	},
+	"header-cart": {
+		"id": "header-cart",
+		"type": "thememod",
+		"data": "always"
+	},
+	"header-search": {
+		"id": "header-search",
+		"type": "thememod",
+		"data": "1"
+	},
+	"custom_logo": {
+		"id": "custom_logo",
+		"type": "thememod",
+		"data": 57
+	},
+	"typography-font-pack": {
+		"id": "typography-font-pack",
+		"type": "thememod",
+		"data": "roboto"
+	},
+	"typography-base-font-family": {
+		"id": "typography-base-font-family",
+		"type": "thememod",
+		"data": "Roboto"
+	},
+	"typography-base-font-weight": {
+		"id": "typography-base-font-weight",
+		"type": "thememod",
+		"data": "400"
+	},
+	"typography-headings-font-family": {
+		"id": "typography-headings-font-family",
+		"type": "thememod",
+		"data": "Roboto"
+	},
+	"typography-base-font-size": {
+		"id": "typography-base-font-size",
+		"type": "thememod",
+		"data": "14"
+	},
+	"typography-headings-font-weight": {
+		"id": "typography-headings-font-weight",
+		"type": "thememod",
+		"data": "500"
+	},
+	"color-body-color": {
+		"id": "color-body-color",
+		"type": "thememod",
+		"data": "#767676"
+	},
+	"color-menu-color": {
+		"id": "color-menu-color",
+		"type": "thememod",
+		"data": "#717171"
+	},
+	"color-primary": {
+		"id": "color-primary",
+		"type": "thememod",
+		"data": "#000000"
+	},
+	"color-secondary": {
+		"id": "color-secondary",
+		"type": "thememod",
+		"data": "#5064f9"
+	},
+	"color-dark": {
+		"id": "color-dark",
+		"type": "thememod",
+		"data": "#000000"
+	},
+	"color-light": {
+		"id": "color-light",
+		"type": "thememod",
+		"data": "#ffffff"
+	},
+	"color-success": {
+		"id": "color-success",
+		"type": "thememod",
+		"data": "#8dbd54"
+	},
+	"color-danger": {
+		"id": "color-danger",
+		"type": "thememod",
+		"data": "#ff656b"
+	},
+	"color-information": {
+		"id": "color-information",
+		"type": "thememod",
+		"data": "#17a2b8"
+	},
+	"blog-style": {
+		"id": "blog-style",
+		"type": "thememod",
+		"data": "card"
+	},
+	"product-catalog-style": {
+		"id": "product-catalog-style",
+		"type": "thememod",
+		"data": "4"
+	},
+	"color-scheme": {
+		"id": "color-scheme",
+		"type": "thememod",
+		"data": "royale"
+	},
+	"style-kit": {
+		"id": "style-kit",
+		"type": "thememod",
+		"data": "royale"
+	}
+}

@@ -1,0 +1,181 @@
+
+// ======================================================================================
+//
+// View Order Page
+//
+// ======================================================================================
+
+
+
+// Layout
+// ======================================
+
+.view-order__main,
+.view-order__sidebar {
+
+	@include make-col-ready();
+}
+
+.view-order__main {
+	order: 1;
+
+	@include media-breakpoint-up(lg) {
+
+		@include make-col(9);
+		order: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.view-order__sidebar {
+
+	@include media-breakpoint-up(lg) {
+
+		@include make-col(3);
+	}
+}
+
+// Order Updates
+// ======================================
+
+.order-updates-title {
+	font-size: $h4-font-size;
+}
+
+.order-updates {
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.order-update {
+	position: relative;
+	display: flex;
+	padding: 20px 0;
+	font-size: $font-size-sm;
+	line-height: 1.25;
+	border-bottom: 1px solid gray("200");
+}
+
+.order-update__content {
+	flex: 1 1 0%;
+	overflow: hidden;
+
+	p:last-child,
+	p:only-child {
+		margin-bottom: 0;
+	}
+}
+
+.order-update__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.order-update-body {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.order-update__date {
+	color: gray("400");
+	margin-top: -1px;
+}
+
+.order-update-add {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	.custom-select,
+	.select2 {
+		margin-bottom: 1rem;
+	}
+}
+
+// Order Overivew card
+// ======================================
+
+.order-card {
+	flex-grow: 1;
+	box-shadow: $box-shadow-md, 0 -1px 3px 0 rgba($black, 0.06);
+	background-color: theme-color("light");
+	margin-bottom: 1rem;
+
+	@include border-radius();
+}
+
+.order-card__header {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	height: 60px;
+	padding: 1rem;
+	border-bottom: 1px solid gray("200");
+	line-height: 1.25;
+
+	@include border-top-radius($border-radius);
+
+	@include media-breakpoint-up(md) {
+		height: 110px;
+		padding: 1.5rem 2rem;
+		line-height: 1.65;
+	}
+
+	h2 {
+		font-size: 34px;
+		margin: 0;
+		font-weight: 200;
+	}
+}
+
+.order-card__body {
+	padding: 2rem;
+	background: theme-color("light");
+
+	@include border-bottom-radius($border-radius);
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.order-card__heading {
+	font-size: 17px;
+	margin: 0 0 0.5rem;
+}
+
+
+// Order details and downloads
+// ======================================
+
+.woocommerce-order-details,
+.woocommerce-order-downloads {
+	margin: 45px 0;
+}
+
+.wc-item-meta {
+	margin: 1rem 0 0;
+	padding: 1rem 0 0;
+	list-style: none;
+	display: flex;
+	border-top: 1px solid gray("200");
+	width: 100%;
+	text-align: left;
+
+	li {
+		margin-right: 2rem;
+	}
+
+	p {
+		font-size: 14px;
+		margin: 0;
+	}
+}

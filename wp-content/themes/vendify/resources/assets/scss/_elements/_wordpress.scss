@@ -1,0 +1,177 @@
+.alignnone {
+
+}
+
+.aligncenter {
+	margin: 0 auto;
+}
+
+.alignfull,
+.alignwide {
+	margin-left: calc( -100vw / 2 + 100% / 2 );
+	margin-right: calc( -100vw / 2 + 100% / 2 );
+	max-width: 100vw;
+
+	iframe,
+	img {
+		width: 100%;
+	}
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+@include media-breakpoint-up(lg) {
+
+	.alignwide {
+		margin-left: -5%;
+		margin-right: -5%;
+		width: 110%;
+	}
+}
+
+.post-password-form {
+
+	input[type="password"] {
+
+		@include vendify-form-control();
+	}
+
+	input[type="submit"] {
+
+		@include button-base();
+	}
+}
+
+.wp-caption {
+	text-align: center;
+
+	a:hover {
+		border-bottom: 0;
+	}
+
+	&.alignright,
+	&.alignleft {
+		margin-top: 0;
+	}
+
+	&.alignleft {
+		margin-right: 2rem;
+	}
+
+	&.alignright {
+		margin-left: 2rem;
+	}
+
+	iframe,
+	embed {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.wp-caption-text {
+	font-size: 16px;
+}
+
+.gallery {
+	margin: 2rem 0 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery-item {
+	margin: 0 0 1rem;
+	width: calc(50% - 0.5rem);
+}
+
+.gallery-columns-1 .gallery-item {
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 48%;
+}
+
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus,
+.widget-area .gallery-item a,
+.widget-area .gallery-item a:hover,
+.widget-area .gallery-item a:focus {
+	border: 0;
+	display: block;
+	max-width: 100%;
+}
+
+.gallery-icon,
+.gallery-item {
+
+	a {
+
+		img {
+			display: block;
+			transition: filter 0.2s ease-in;
+			backface-visibility: hidden;
+			width: 100%;
+			height: auto;
+		}
+
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}
+
+.gallery-caption {
+	display: block;
+	text-align: left;
+	padding: 0 10px 0 0;
+	margin-bottom: 0;
+}
+
+.wp-embed {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+
+	iframe,
+	object,
+	embed,
+	video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.columns-vertical-align-middle {
+	.wp-block-column{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.post_tags {
+	border-top: 1px solid;
+	padding-top: 25px;
+	margin-top: 25px;
+	margin-bottom: -25px;
+	clear: both; // Make sure the tags are the last row.
+
+	@include media-breakpoint-down(sm) {
+		padding-top: 15px;
+		margin-top: 15px;
+		margin-bottom: -15px;
+	}
+}

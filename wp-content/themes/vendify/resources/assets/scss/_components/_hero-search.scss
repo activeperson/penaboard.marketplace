@@ -1,0 +1,113 @@
+// ======================================================================================
+//
+// Hero Search Bar
+//
+// ======================================================================================
+
+.hero-search {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+}
+
+.hero-search__bar {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 745px;
+
+	.form-control {
+		background-clip: border-box;
+	}
+
+	@include media-breakpoint-down(md) {
+
+		.form-control {
+			font-size: $font-size-base;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		display: block;
+		width: 300px;
+		margin-top: 12px;
+
+		.ico {
+			width: 22px;
+		}
+
+		.form-control {
+			padding: 12px 22px;
+			font-size: $font-size-base;
+
+			&:focus {
+				border-color: $input-border-color;
+			}
+		}
+
+		.btn {
+			display: block;
+			width: 100%;
+			margin-top: 8px;
+			padding: 12px 22px;
+		}
+	}
+}
+
+.hero-search__switch {
+	background-color: $white;
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	padding: 0 22px;
+
+	@include media-breakpoint-down(sm) {
+		justify-content: center;
+		width: 100%;
+		padding: 14px 22px;
+	}
+}
+
+.hero-search .filter__search,
+.hero-search .filter__location {
+	flex: 1;
+}
+
+.hero-search .filter__search {
+	@include media-breakpoint-up(sm) {
+		.form-control {
+			line-height: 1.7;
+		}
+	}
+
+	@include media-breakpoint-up(lg) {
+		& ~ .btn {
+			line-height: 2.2;
+		} 
+	}
+}
+
+.hero-search .filter__location {
+
+	@include media-breakpoint-down(sm) {
+
+		.form-control {
+			border-top: 0;
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		margin-left: -2px;
+	}
+}
+
+.hero-search__categories {
+	display: none;
+	justify-content: center;
+	margin-top: 30px;
+
+	@include media-breakpoint-up(md) {
+		display: flex;
+	}
+}
+

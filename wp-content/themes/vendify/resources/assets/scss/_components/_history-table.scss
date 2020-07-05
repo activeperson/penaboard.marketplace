@@ -1,0 +1,117 @@
+// ======================================================================================
+//
+// History Table // TODO: Weird name?
+//
+// ======================================================================================
+
+// 1. Cancel the extra margins caused by border-spacing
+
+.table--history {
+	border-collapse: separate;
+	border-spacing: 0 15px;
+	margin-top: -15px; //[1]
+
+	@include media-breakpoint-down(md) {
+
+		thead {
+			display: none;
+		}
+	}
+
+	tbody {
+
+		tr:first-child {
+
+			td:first-child {
+				border-top: 0;
+			}
+		}
+
+		th {
+			display: none;
+		}
+	}
+
+	tbody {
+
+		tr {
+			background: $white;
+			font-weight: $font-weight-light;
+			transition: box-shadow 0.2s ease-in-out;
+
+			&:hover {
+				box-shadow: $box-shadow-md;
+			}
+		}
+	}
+
+	td,
+	thead th {
+		border: 0;
+		padding: 14px 25px;
+		white-space: nowrap;
+		vertical-align: middle;
+
+		@include media-breakpoint-down(md) {
+			padding: 14px 5px;
+		}
+	}
+
+	thead th {
+
+		@include text-wide;
+		font-size: $font-size-xs;
+		font-weight: $font-weight-normal;
+		color: gray("400");
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	&:last-child {
+		margin-bottom: -15px; // [1]
+	}
+}
+
+.history__item__product {
+	display: flex;
+	align-items: center;
+	line-height: 1.5;
+	width: 200px;
+}
+
+.history__item__product > div,
+.history__item__name,
+.history__item__quantity {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.history__item__thumbnail {
+	width: 60px;
+	margin-right: 12px;
+}
+
+.history__item__name {
+	color: theme-color("dark");
+}
+
+.history__item__quantity {
+	display: block;
+	font-size: $font-size-sm;
+	color: gray("400");
+}
+
+.history__item__date {
+	font-size: $font-size-sm;
+}
+
+.history__item__note {
+	padding-right: 0 !important;
+	font-size: $font-size-sm;
+}
+
+.history__item__card {
+	vertical-align: middle;
+	margin-right: 12px;
+}

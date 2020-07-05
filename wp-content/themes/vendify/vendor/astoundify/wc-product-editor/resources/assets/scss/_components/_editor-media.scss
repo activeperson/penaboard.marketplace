@@ -1,0 +1,194 @@
+// ======================================================================================
+//
+// Editor Media tab
+//
+// ======================================================================================
+.astoundify-wc-re-media {
+
+	.astoundify-wc-re-form-text {
+		margin-top: 22px;
+		line-height: 1.83;
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.astoundify-wc-re-media__body {
+	position: relative;
+
+	.close {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		filter: brightness(1.3);
+
+		&:hover {
+			filter: brightness(1);
+		}
+	}
+}
+
+.astoundify-wc-re-media__thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 12px -6px 24px;
+}
+
+.astoundify-wc-re-media__thumbnail {
+	width: calc(25% - 12px);
+	margin: 0 6px 12px;
+	border: 3px solid #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .10);
+	transition: box-shadow 0.2s ease-in-out;
+
+	&:hover {
+		box-shadow: 0 1px 5px 1px rgba(0, 0, 0, .15);
+	}
+}
+
+//Custom upload thumbnail
+.astoundify-wc-re-media-upload {
+	background: #fff;
+	position: relative;
+	cursor: pointer;
+}
+
+.upload-input {
+	width: calc(25% - 12px);
+	height: 100%;
+	opacity: 0;
+	z-index: -1;
+}
+
+.upload-input-indicator {
+	top: -1px;
+	right: -3px;
+	left: -1px;
+	bottom: -3px;
+	position: absolute;
+	width: 100%;
+	background-image: url("images/editor-upload-thumbnail.svg");
+	background-repeat: no-repeat;
+}
+
+.astoundify-wrp-media-dropzone {
+	cursor: pointer;
+	display: flex;
+	flex-flow: column;
+	border: 1px dashed #cdd6de;
+	background: white;
+	text-align: center;
+	min-height: 225px;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+
+	span {
+		color: theme-color("secondary");
+	}
+}
+
+.astoundify-wc-re-downloads_fields {
+
+	fieldset {
+		border-radius: 4px;
+		display: block;
+		padding: 0;
+		margin: 6px 0;
+
+		input {
+			flex: 1;
+			margin: 4px;
+			padding: 6px 4px;
+			display: inline-flex;
+		}
+
+		[name="attachment_name"] {
+			width: 100px;
+		}
+
+		[name="attachment_url"] {
+			width: 160px;
+		}
+	}
+}
+
+.astoundify-wc-re-add_download {
+	width: 100%;
+	border-radius: 4px;
+	margin: 15px 0;
+}
+
+.astoundify-wc-re-remove_download {
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+	pointer-events: all;
+
+	& svg {
+		pointer-events: none;
+	}
+}
+
+.astoundify-wc-re-gallery-size {
+	font-size: 0.90em;
+}
+
+.astoundify-wrp-media-dropzone-icon {
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.astoundify-wc-re-gallery {
+
+	&__image {
+		width: 100%;
+		position: relative;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	&__thumbnails {
+		margin-top: 12px;
+		display: flex;
+	}
+
+	&__thumbnail {
+		display: flex;
+		width: 70px;
+		height: 70px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin-right: 1em;
+		position: relative;
+	}
+
+	&__image-btn {
+		width: 100%;
+		height: 100%;
+		background: none;
+		border: 0;
+		margin: 0;
+	}
+
+	&__delete {
+		position: absolute;
+		top: 2px;
+		right: 5px;
+		width: 24px;
+		height: 27px;
+		line-height: 1;
+		background: none;
+		border: 0;
+		padding: 0;
+	}
+}

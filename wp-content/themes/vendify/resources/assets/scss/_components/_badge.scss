@@ -1,0 +1,51 @@
+.badge {
+
+	@include vendify-badge();
+
+	// Styles.
+	&--pill {
+		padding: 3px 12px;
+		border-radius: 10em;
+	}
+
+	// Sizes.
+	&--xs {
+		padding: 1px 12px;
+		font-size: $font-size-xs;
+		font-weight: normal;
+	}
+
+	&--sm {
+		font-size: $font-size-xs;
+		padding: 3px 10px;
+	}
+
+	&--lg {
+		padding: 10px 16px;
+	}
+
+	// Spacing
+	&--spaced {
+
+		@include text-wide();
+		font-size: $font-size-xs;
+	}
+
+	// Outline variation.
+	@each $color, $value in $theme-colors {
+
+		&-outline-#{$color} {
+			background-color: transparent;
+		}
+	}
+
+	&--processing,
+	&--on-hold,
+	&--pending,
+	&--unfulfilled,
+	&--failed,
+	&--refunded,
+	&--cancelled {
+		background-color: transparent;
+	}
+}

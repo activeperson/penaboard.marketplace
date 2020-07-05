@@ -1,0 +1,64 @@
+// ======================================================================================
+//
+// Button icons
+//
+// ======================================================================================
+
+.close {
+
+	@include icon-xs;
+	@include icon-xs--close;
+	transition: 0.2s ease-in-out;
+
+	&:hover {
+		filter: brightness(0.8);
+	}
+
+	&:focus {
+		filter: brightness(0.6);
+		outline: none;
+	}
+}
+
+// Reset button styling
+// TODO: Too many of those. btn.icon--*?
+// TODO: Search by btn.icon to find duplicates & refactor
+button.close {
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+
+
+[class*="btn-icon--"],
+.btn-icon {
+	padding: 0;
+	border: 0;
+	flex-shrink: 0;
+	-webkit-appearance: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		filter: brightness(0.8);
+	}
+
+	&:focus {
+		filter: brightness(0.6);
+		outline: none;
+	}
+}
+
+.btn-icon--plus { //TODO: Replace custom numeric inputs with this
+
+	@include icon-xs;
+	@include icon-xs--plus;
+}
+
+.btn-icon--minus {
+
+	@include icon-xs;
+	@include icon-xs--minus;
+}

@@ -1,0 +1,61 @@
+[
+    {
+        "id": "my-dashboard",
+        "type": "object",
+        "data": {
+            "post_type": "page",
+            "post_title": "My Dashboard",
+            "post_content": "<!-- wp:vendify/vendor-dashboard /-->",
+            "meta": {
+                "_wp_page_template": "app/integrations/woocommerce/views/vendor-dashboard.php"
+            },
+            "menus": {
+                "Account": {
+                    "menu_name": "Account",
+                    "menu-item-title": "Dashboard",
+                    "menu-item-object-title": "Dashboard",
+                    "menu-item-type": "post_type",
+                    "menu-item-position": 2,
+                    "meta": {
+                        "if_menu_enable": [
+                            "1",
+                            "or",
+                            "or",
+                            "or"
+                        ],
+                        "if_menu_condition_type": [
+                            "show",
+                            "show",
+                            "show",
+                            "show"
+                        ],
+                        "if_menu_condition": [
+                            "user-is-wc_product_vendors_pending_vendor",
+                            "user-is-wc_product_vendors_admin_vendor",
+                            "user-is-shop_manager",
+                            "user-is-wc_product_vendors_manager_vendor"
+                        ],
+                        "if_menu_options": [
+                            "0",
+                            "0",
+                            "0",
+                            "0"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "id": "login",
+        "type": "object",
+        "data": {
+            "post_type": "page",
+            "post_title": "Login",
+            "post_content": "<!-- wp:vendify/vendor-dashboard /-->",
+            "meta": {
+                "_wp_page_template": "default"
+            }
+        }
+    }
+]

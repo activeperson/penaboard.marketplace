@@ -1,0 +1,33 @@
+.form-control {
+
+	&--search {
+		border-radius: 50%;
+	}
+
+	&--transparent {
+		background-color: transparent !important;
+		border-color: transparent !important;
+		box-shadow: none !important;
+	}
+}
+
+.form-control::-webkit-input-placeholder {
+	color: gray("300");
+}
+
+.form-control::placeholder {
+	color: gray("300");
+}
+
+.form-control::-ms-input-placeholder {
+	color: gray("300");
+}
+
+.form-control::input-placeholder {
+	color: gray("300");
+}
+
+textarea {
+
+	@include vendify-form-control();
+}

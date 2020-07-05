@@ -1,0 +1,89 @@
+// ======================================================================================
+//
+// Product Card Grid
+//
+// ======================================================================================
+
+.product-grid, .wc-block-grid__products {
+
+	margin: 0;
+	padding: 0;
+
+	@include make-row();
+
+	&[data-columns="2"], .has-2-columns & {
+
+		.product {
+
+			@include media-breakpoint-up(sm) {
+
+				@include make-col(6);
+			}
+		}
+	}
+
+	&[data-columns="3"], .has-3-columns & {
+
+		.product {
+
+			@include media-breakpoint-up(sm) {
+
+				@include make-col(6);
+			}
+
+			@include media-breakpoint-up(lg) {
+
+				@include make-col(4);
+			}
+		}
+	}
+
+	&[data-columns="4"], .has-4-columns & {
+
+		.product {
+
+			@include media-breakpoint-up(sm) {
+
+				@include make-col(6);
+			}
+
+			@include media-breakpoint-up(md) {
+
+				@include make-col(4);
+			}
+
+			@include media-breakpoint-up(lg) {
+
+				@include make-col(3);
+			}
+		}
+	}
+
+	.product {
+
+		@include make-col-ready();
+		@include make-col(12);
+	}
+
+	@each $breakpoint in map-keys($grid-breakpoints) {
+
+		@include media-breakpoint-up( $breakpoint ) {
+
+			&--small {
+				margin: 0 -6px;
+
+				.product {
+					padding: 0 6px;
+				}
+
+				.product-item {
+					margin-bottom: 12px;
+				}
+			}
+		}
+	}
+}
+
+.navigation + .product-grid, .navigation + .wc-block-grid__products {
+	margin-top: 30px;
+}

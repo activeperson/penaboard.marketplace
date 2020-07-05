@@ -1,0 +1,50 @@
+// ======================================================================================
+//
+// Custom Numeric Input
+//
+// ======================================================================================
+
+// Numeric input with custom "+" and "-" controls
+//
+// <div class="custom-numeric-input">
+//   <label for="quantity" class="sr-only">Quantity</label>
+//   <input type="text" id="quantity" class="form-control form-control-numeric" value="1">
+//   <button class="btn-icon btn-icon--minus" aria-label="Decrease">
+//     <svg class="ico ico--xs">
+//       <use xlink:href="/assets/images/icons.svg#minus"></use>
+//     </svg>
+//   </button>
+//   <button class="btn-icon btn-icon--plus" aria-label="Increase">
+//     <svg class="ico ico--xs">
+//       <use xlink:href="/assets/images/icons.svg#plus"></use>
+//     </svg>
+//   </button>
+// </div>
+
+
+.custom-numeric-input {
+	position: relative;
+
+	.form-control {
+		text-align: center;
+		-webkit-appearance: none;
+		margin: 0;
+	}
+}
+
+.custom-numeric-input [class*="btn-icon--"],
+.custom-numeric-input [class*="btn-icon--"] {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -6px;
+	transform: translate(-50%);
+}
+
+.custom-numeric-input .btn-icon--minus {
+	margin-left: -40px;
+}
+
+.custom-numeric-input .btn-icon--plus {
+	margin-left: 40px;
+}

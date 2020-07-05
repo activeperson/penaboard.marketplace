@@ -1,0 +1,17 @@
+2020-06-17T20:32:16+00:00 DEBUG New Order #29 created. Init sub order.
+2020-06-17T20:32:16+00:00 DEBUG 1 vendor only, skipping sub order.
+2020-06-17T20:34:17+00:00 DEBUG New Order #30 created. Init sub order.
+2020-06-17T20:34:17+00:00 DEBUG 1 vendor only, skipping sub order.
+2020-06-17T20:58:09+00:00 DEBUG New Order #37 created. Init sub order.
+2020-06-17T20:58:09+00:00 DEBUG Got 2 vendors, starting sub order.
+2020-06-17T20:58:09+00:00 DEBUG Creating sub order for vendor: #2
+2020-06-17T20:58:09+00:00 DEBUG #38 - Creating Shipping.
+2020-06-17T20:58:09+00:00 DEBUG #38 - No shipping method found. Aborting.
+2020-06-17T20:58:09+00:00 DEBUG Created sub order : #38
+2020-06-17T20:58:10+00:00 DEBUG Creating sub order for vendor: #1
+2020-06-17T20:58:10+00:00 DEBUG #39 - Creating Shipping.
+2020-06-17T20:58:10+00:00 DEBUG #39 - No shipping method found. Aborting.
+2020-06-17T20:58:10+00:00 DEBUG Created sub order : #39
+2020-06-17T20:58:10+00:00 DEBUG Completed sub order for #37.
+2020-06-17T21:14:06+00:00 DEBUG New Order #103 created. Init sub order.
+2020-06-17T21:14:06+00:00 DEBUG 1 vendor only, skipping sub order.

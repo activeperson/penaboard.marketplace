@@ -1,0 +1,156 @@
+# Translation of Plugins - Cyr-To-Lat - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Cyr-To-Lat - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-27 07:27:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Cyr-To-Lat - Stable (latest release)\n"
+
+#: classes/class-settings.php:176
+msgid "he_IL Table"
+msgstr "Таблиця he_IL"
+
+#: classes/class-converter.php:129
+msgid "Cyr To Lat completed conversion of existing post slugs."
+msgstr "Cyr To Lat завершив конвертацію існуючих посилань записів."
+
+#: classes/class-converter.php:136
+msgid "Cyr To Lat completed conversion of existing term slugs."
+msgstr "Cyr To Lat завершив конвертацію існуючих посилань термінів."
+
+#: classes/background-processes/class-post-conversion-process.php:72
+msgid "Post slug converted:"
+msgstr "Посилання запису конвертовано:"
+
+#: classes/background-processes/class-post-conversion-process.php:197
+msgid "Post slugs conversion completed."
+msgstr "Конвертація посилань записів завершена."
+
+#: classes/class-converter.php:228
+msgid "Cyr To Lat started conversion of existing post slugs."
+msgstr "Cyr To Lat почав конвертацію існуючих посилань записів."
+
+#: classes/class-converter.php:265
+msgid "Term slugs conversion started."
+msgstr "Розпочато конвертацію посилань термінів."
+
+#: classes/class-converter.php:267
+msgid "Cyr To Lat started conversion of existing term slugs."
+msgstr "Cyr To Lat почав конвертацію існуючих посилань термінів."
+
+#: classes/class-converter.php:253
+msgid "Cyr To Lat has not found existing term slugs for conversion."
+msgstr "Cyr To Lat не знайшов існуючих посилань термінів для конвертації."
+
+#: classes/class-converter.php:226
+msgid "Post slugs conversion started."
+msgstr "Розпочато конвертація посилань записів."
+
+#: classes/background-processes/class-term-conversion-process.php:83
+msgid "Term slugs conversion completed."
+msgstr "Конвертація посилань термінів завершена."
+
+#: classes/background-processes/class-term-conversion-process.php:71
+msgid "Term slug converted:"
+msgstr "Посилання терміну конвертовано:"
+
+#: classes/class-converter.php:122
+msgid "Cyr To Lat converts existing term slugs in the background process."
+msgstr "Cyr To Lat конвертує існуючі посилання термінів у фоновому процесі."
+
+#: classes/class-converter.php:115
+msgid "Cyr To Lat converts existing post slugs in the background process."
+msgstr "Cyr To Lat конвертує існуючі посилання записів у фоновому процесі."
+
+#: classes/class-converter.php:214
+msgid "Cyr To Lat has not found existing post slugs for conversion."
+msgstr "Cyr To Lat не знайшов існуючих посилань записів для конвертації."
+
+#: classes/class-settings.php:315
+msgid "Donate"
+msgstr "Пожертвувати"
+
+#: classes/class-settings.php:294
+msgid "Cyr To Lat Plugin Options"
+msgstr "Опції плагіну Cyr To Lat"
+
+#: classes/class-settings.php:273 classes/class-settings.php:274
+msgid "Cyr To Lat"
+msgstr "Cyr To Lat"
+
+#: classes/class-settings.php:173
+msgid "kk Table"
+msgstr "Таблиця kk"
+
+#: classes/class-settings.php:170
+msgid "ka_GE Table"
+msgstr "Таблиця ka_GE"
+
+#: classes/class-settings.php:158
+msgid "mk_MK Table"
+msgstr "Таблиця mk_MK"
+
+#: classes/class-settings.php:155
+msgid "bg_BG Table"
+msgstr "Таблиця bg_BG"
+
+#: classes/class-settings.php:152
+msgid "uk Table"
+msgstr "Таблиця uk"
+
+#: classes/class-settings.php:149
+msgid "bel Table"
+msgstr "Таблиця bel"
+
+#: classes/class-settings.php:146
+msgid "ISO9 Table"
+msgstr "Таблиця ISO9"
+
+#: classes/class-settings.php:130
+msgid "Settings"
+msgstr "Налаштування"
+
+#: classes/class-settings.php:129
+msgid "View Cyr To Lat settings"
+msgstr "Подивитися налаштування Cyr To Lat"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/sergeybiryukov/"
+msgstr "https://profiles.wordpress.org/sergeybiryukov/"
+
+#. Author of the plugin
+msgid "Sergey Biryukov, Mikhail Kobzarev, Igor Gergel"
+msgstr "Сергій Бірюков, Михайло Кобзаров, Ігор Гергель"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/cyr2lat/"
+msgstr "https://uk.wordpress.org/plugins/cyr2lat/"
+
+#. Plugin Name of the plugin
+msgid "Cyr-To-Lat"
+msgstr "Cyr-To-Lat"
+
+#: classes/class-settings.php:332
+msgid "Your appreciation"
+msgstr "Ваша оцінка"
+
+#: classes/class-settings.php:318
+msgid "Would you like to support the advancement of this plugin?"
+msgstr "Хочете підтримати розвиток цього плагіну?"
+
+#: classes/class-settings.php:337
+msgid "Leave a ★★★★★ plugin review on WordPress.org"
+msgstr "Залиште ★★★★★ огляд плагіну на WordPress.org"
+
+#. Description of the plugin
+msgid "Converts Cyrillic characters in post and term slugs to Latin characters. Useful for creating human-readable URLs. Based on the original plugin by Anton Skorobogatov."
+msgstr "Перетворює кириличні символи в посиланнях записів, сторінок і рубрик в латинські. Корисно для створення людинозрозумілих URL. Засноване на оригінальному плагіні Rus-To-Lat від Антона Скоробогатова."
+
+#: classes/class-settings.php:309
+msgid "Convert Existing Slugs"
+msgstr "Конвертувати існуючі посилання"

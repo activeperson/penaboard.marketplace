@@ -1,0 +1,173 @@
+// ======================================================================================
+//
+// Testimonial banner
+//
+// ======================================================================================
+
+
+
+.testimonial-banner {
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@include media-breakpoint-up(md) {
+		height: 500px;
+	}
+}
+
+.testimonial-banner__content {
+	color: $white;
+	padding: 15px 0;
+	text-align: center;
+
+	@include media-breakpoint-up(md) {
+		margin-left: 15px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 500px;
+		text-align: left;
+	}
+}
+
+.testimonial-banner__author {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	margin-left: -36px;
+	width: 30px;
+
+	@include media-breakpoint-up(md) {
+		margin-left: 0;
+	}
+
+	// Custom M Dash
+	&:before {
+		margin-right: 10px;
+		content: "—";
+	}
+
+	img {
+		margin-right: 10px;
+	}
+}
+
+.testimonial-banner__author-name {
+	color: $white;
+	font-size: $font-size-sm;
+	display: inline-block;
+	line-height: 1.67;
+	text-transform: $link-uppercase;
+	letter-spacing: $link-cta-spacing;
+	color: $white;
+
+	a {
+		font-weight: normal;
+		color: $white;
+		margin-left: 0;
+
+		@include link();
+		@include link-cta();
+
+		&:after {
+			border-bottom-color: rgba(255, 255, 255, 0.2);
+		}
+
+		&:hover {
+			color: $white;
+
+			&:after {
+				border-bottom-color: $white;
+			}
+		}
+	}
+}
+
+.testimonial-banner__quote {
+	position: relative;
+
+	p {
+		color: $white;
+		font-size: $display2-size;
+		font-weight: $display2-weight;
+		line-height: $display-line-height;
+	}
+
+	// Custom quote
+	&::before {
+		position: absolute;
+		left: -27px;
+		top: 16px;
+		width: 15px;
+		height: 12px;
+		background: url("#{$image-path}/blockquote-quote.svg");
+		content: "";
+	}
+
+	@include media-breakpoint-up(md) {
+		width: 70%;
+	}
+
+	@include media-breakpoint-up(lg) {
+		width: 50%;
+	}
+}
+
+.testimonial-banner__logo {
+	width: 26px;
+	height: 26px;
+	margin: 0 12px;
+}
+
+.testimonial-banner__watch {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+	padding-top: 76px;
+	color: $white !important;
+	font-size: 11px;
+	z-index: 100;
+
+	@include text-wide;
+
+	@include media-breakpoint-up(md) {
+		position: absolute;
+		top: 50%;
+		margin: -32px 0 0;
+		right: 30px;
+
+		.alignwide &,
+		.alignfull & {
+			right: 0;
+		}
+	}
+
+	&:before {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 64px;
+		height: 64px;
+		margin-left: -32px;
+		background-color: $white;
+		border-radius: 50%;
+		box-shadow: $box-shadow;
+		transition: all 0.2s ease-in-out;
+		content: "";
+	}
+
+	&:after {
+		position: absolute;
+		top: 22px;
+		left: 50%;
+		margin-left: -4px;
+		width: 0;
+		height: 0;
+		border-left: 14px solid gray("300");
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		content: "";
+	}
+}

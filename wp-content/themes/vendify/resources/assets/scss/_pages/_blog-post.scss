@@ -1,0 +1,57 @@
+// ======================================================================================
+//
+// Blog post typography
+//
+// ======================================================================================
+
+.blog-post {
+	font-size: $font-size-lg;
+	max-width: 979px;
+
+	padding-top: 40px;
+
+	@include media-breakpoint-up(md) {
+		padding-top: 70px;
+	}
+
+	.container {
+		max-width: 979px;
+	}
+
+	@include vendify-content;
+	@include clearfix;
+}
+
+.ribbon {
+	position: absolute;
+	top: 5px;
+	left: -50px;
+	display: inline-block;
+	width: 34px;
+	height: 47px;
+	background-color: $black;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-normal;
+	line-height: 50px;
+	text-align: center;
+	color: theme-color("light");
+
+	@include media-breakpoint-down(sm) {
+		position: relative;
+		left: 0;
+		top: -2px;
+		margin-right: -4px;
+	}
+
+	&::after {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		display: block;
+		height: 3px;
+		background-image: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='3' viewBox='0 0 34 3'%3E%3Cpath fill='#{$black}' d='M0,0H34V3L17,0,0,3'/%3E%3C/svg%3E"), "#", "%23");
+		background-repeat: no-repeat;
+		background-size: 100% 3px;
+		content: "";
+	}
+}

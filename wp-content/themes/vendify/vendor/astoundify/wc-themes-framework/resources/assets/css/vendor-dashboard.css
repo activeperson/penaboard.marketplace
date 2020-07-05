@@ -1,0 +1,100 @@
+/**
+ * Vendor Dashboard CSS
+ *
+ * @since 1.0.0
+ */
+
+#astoundify-wc-themes-dashboard-activities,
+#astoundify-wc-themes-dashboard-report-by-date,
+#astoundify-wc-themes-dashboard-overview {
+	margin-bottom: 3em;
+}
+
+/* Login */
+.vendor-dashboard-login-form #user_login,
+.vendor-dashboard-login-form #user_pass {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Settings */
+.vendor-store-settings label {
+	font-weight: bold; /* temp */
+}
+
+.vendors-upload-field:after {
+	content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+
+.vendors-upload-thumbnail {
+	display: inline-block;
+}
+
+.vendors-upload-remove {
+	display: inline-block;
+}
+
+#insert-media-button {
+	padding: 5px 10px;
+}
+
+/* Temp: Media Modal */
+.astoundify-wc-themes-vendor-dashboard .media-button-select {
+	margin-top: 20px !important;
+}
+
+.astoundify-wc-themes-vendor-dashboard .media-button-select[disabled] {
+	line-height: 16px !important;
+}
+
+/* Dashboard */
+.vendor-dashboard-activity-list {
+	list-style: none;
+	margin: 0;
+}
+
+.vendor-dashboard-activity-list li:after {
+	content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+
+.vendor-dashboard-activity-list li {
+	margin-bottom: 20px;
+}
+
+.vendor-dashboard-activity-list .vendor-activity-thumbnail {
+	float: left;
+	margin: 5px 10px 0 0;
+	width: 32px;
+	height: auto;
+}
+
+.vendor-dashboard-activity-list .review-meta {
+	color: #999;
+	margin: 0 0 0 42px;
+}
+
+.vendor-dashboard-activity-list .review-content {
+	margin: 0 0 0 42px;
+}
+
+/* Chart */
+.chart-placeholder {
+	width: 100%;
+	height: 300px;
+}
+
+/* Date Picker Fix */
+#ui-datepicker-div {
+	z-index: 100 !important;
+}
+
+/* Column Thumb */
+.vendor-dashboard-column-thumbnail-link {
+	display: block;
+}
+
+.vendor-dashboard-column-thumbnail-link img {
+	display: block;
+	width: 50px;
+	height: auto;
+}

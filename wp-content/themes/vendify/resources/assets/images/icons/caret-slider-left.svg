@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d3d3d3;
+      }
+    </style>
+  </defs>
+  <title>caret-slider-left</title>
+  <path id="caret-slider-left" class="cls-1" d="M25.53,30.59a1.42,1.42,0,0,1,0,2,1.4,1.4,0,0,1-2,0L8.06,17,23.55,1.41a1.4,1.4,0,0,1,2,0,1.42,1.42,0,0,1,0,2L12,17Z"/>
+</svg>

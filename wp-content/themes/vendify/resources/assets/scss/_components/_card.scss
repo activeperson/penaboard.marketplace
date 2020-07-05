@@ -1,0 +1,28 @@
+.card {
+
+	@include box-shadow($card-box-shadow);
+}
+
+.card--fancy {
+	position: relative;
+
+	&::before,
+	&::after {
+		position: absolute;
+		left: 0;
+		bottom: 100%;
+		background-image: url("#{$image-path}/triangle-pattern.png");
+		background-size: contain;
+		background-repeat: repeat-x;
+		background-position: 0 bottom;
+		height: 10px;
+		width: 100%;
+		content: "";
+	}
+
+	&:after {
+		bottom: auto;
+		top: 100%;
+		transform: rotate(180deg);
+	}
+}

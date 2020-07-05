@@ -1,0 +1,16 @@
+version: '3'
+services:
+  build-php:
+    image: composer
+    volumes:
+      - './:/app'
+    command: bash -c "cd /app && composer install"
+  build-node:
+    image: node:carbon
+    environment:
+      - NODE_PATH=src/
+    volumes:
+      - './:/app'
+    depends_on:
+      - build-php
+    command: bash -c "cd /app/resources/editor && yarn && yarn build && cd /app && yarn && yarn ci"

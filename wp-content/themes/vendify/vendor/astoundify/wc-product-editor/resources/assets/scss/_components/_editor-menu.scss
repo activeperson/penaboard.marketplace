@@ -1,0 +1,57 @@
+// ======================================================================================
+//
+// Editor vertical menu
+//
+// ======================================================================================
+.astoundify-wc-re-editor-menu {
+	position: absolute;
+	top: $action-bar-height;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	background-color: #000;
+	z-index: 1300;
+}
+
+.astoundify-wc-re-editor-menu__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 90px;
+	font-size: 90%;
+	font-weight: normal;
+	line-height: 1;
+	color: rgba(#767676, 0.85);
+	transition: 0.2s color ease-in-out, 0.2s background-color ease-in-out;
+	text-decoration: none;
+
+	&:hover {
+		background-color: rgba(#767676, 0.25);
+		color: #4e4e4e;
+
+		& svg {
+			opacity: 0.3;
+		}
+	}
+
+	&.is-active {
+		background-color: rgba(#767676, 0.4);
+		color: #9f9f9f;
+
+		& svg {
+			opacity: 1;
+		}
+	}
+}
+
+// Menu Icons
+.astoundify-wc-re-editor-menu__item svg {
+	display: block;
+	width: 26px;
+	height: 26px;
+	margin-bottom: 12px;
+	opacity: 0.23;
+	transition: opacity 0.2s ease-in-out;
+}

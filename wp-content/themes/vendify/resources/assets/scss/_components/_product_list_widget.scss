@@ -1,0 +1,34 @@
+.widget > .product_list_widget {
+
+	li,
+	.widget-product {
+		display: flex;
+		align-items: center;
+		padding: 15px 30px;
+	}
+
+	.wp-post-image,
+	.widget-product__link {
+		width: 80px;
+		margin-right: 15px;
+		float: none;
+	}
+
+	.product-title {
+		color: theme-color("dark");
+		line-height: 1;
+		font-weight: 300;
+		display: block;
+	}
+
+	.star-rating {
+		display: block;
+		width: 100%;
+		line-height: 1;
+	}
+}
+
+// Mini cart.
+.order-item--empty {
+	padding: 15px 30px;
+}

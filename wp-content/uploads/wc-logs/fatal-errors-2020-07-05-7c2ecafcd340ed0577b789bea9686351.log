@@ -1,0 +1,27 @@
+2020-07-05T11:07:03+00:00 CRITICAL Uncaught Error: Call to undefined function Astoundify\Vendify\get_ID() in C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\blog\card-style-card.php:32
+Stack trace:
+#0 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(46): include()
+#1 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(77): Astoundify\Vendify\view(Array, Array)
+#2 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(59): Astoundify\Vendify\get_partial('blog/card-style...', Array)
+#3 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\content.php(30): Astoundify\Vendify\partial('blog/card-style...')
+#4 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(46): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.p в C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\blog\card-style-card.php на строке 32
+
+2020-07-05T11:07:04+00:00 CRITICAL Uncaught Error: Call to undefined function Astoundify\Vendify\get_ID() in C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\blog\card-style-card.php:32
+Stack trace:
+#0 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(46): include()
+#1 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(77): Astoundify\Vendify\view(Array, Array)
+#2 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(59): Astoundify\Vendify\get_partial('blog/card-style...', Array)
+#3 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\content.php(30): Astoundify\Vendify\partial('blog/card-style...')
+#4 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(46): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.p в C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\blog\card-style-card.php на строке 32
+
+2020-07-05T11:08:31+00:00 CRITICAL Uncaught Error: Call to undefined function Astoundify\Vendify\get_ID() in C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\blog\card-style-card.php:32
+Stack trace:
+#0 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(46): include()
+#1 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(77): Astoundify\Vendify\view(Array, Array)
+#2 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(59): Astoundify\Vendify\get_partial('blog/card-style...', Array)
+#3 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\content.php(30): Astoundify\Vendify\partial('blog/card-style...')
+#4 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.php(46): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\app\theme\views.p в C:\xampp\htdocs\sites\all\penoboard.marketplace\wp-content\themes\vendify\resources\views\partials\blog\card-style-card.php на строке 32
+

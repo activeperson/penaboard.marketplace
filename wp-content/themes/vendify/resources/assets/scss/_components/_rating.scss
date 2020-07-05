@@ -1,0 +1,50 @@
+
+// ======================================================================================
+//
+// Rating stars
+//
+// ======================================================================================
+
+
+// All properties are specified in `em` units, allowing to easily change
+// the size of the entire block without affecting the icon placement
+.rating__stars {
+	font-size: 10px;
+	display: inline-block;
+	width: 17.75em;
+	height: 2.6em;
+	background: url("#{$image-path}/review-sprite.svg") no-repeat 0 0;
+	background-size: 36.85em 5.2em;
+}
+
+.product_list_widget .rating__stars,
+.product-sidebar__info .rating__stars,
+.rating__stars__small {
+	font-size: 7px;
+}
+
+.rating__stars--0-0 { background-position: (-3.8em * 5) 0;  }
+
+.rating__stars--1-0 { background-position: (-3.8em * 4) 0;  }
+
+.rating__stars--2-0 { background-position: (-3.8em * 3) 0;  }
+
+.rating__stars--3-0 { background-position: (-3.8em * 2) 0;  }
+
+.rating__stars--4-0 { background-position: (-3.8em * 1) 0;  }
+
+.rating__stars--5-0 { background-position:  0           0;  }
+
+.rating__stars--0-5 { background-position: (-3.8em * 4) -2.6em;  }
+
+.rating__stars--1-5 { background-position: (-3.8em * 3) -2.6em;  }
+
+.rating__stars--2-5 { background-position: (-3.8em * 2) -2.6em;  }
+
+.rating__stars--3-5 { background-position: (-3.8em * 1) -2.6em;  }
+
+.rating__stars--4-5 { background-position:  0           -2.6em;  }
+
+.rating__score { margin-bottom: 4px; }
+
+.rating__count { display: block; }

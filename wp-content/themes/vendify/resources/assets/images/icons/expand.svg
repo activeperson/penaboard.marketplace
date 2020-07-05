@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d3d3d3;
+      }
+    </style>
+  </defs>
+  <title>expand</title>
+  <path id="Expand-_icon_-Copy" data-name="Expand-(icon)-Copy" class="cls-1" d="M5.25,15.25,2,12v6.5A1.5,1.5,0,0,0,3.5,20H10L6.75,16.75l10-10L20,10V3.5A1.5,1.5,0,0,0,18.5,2H12l3.25,3.25Z"/>
+</svg>

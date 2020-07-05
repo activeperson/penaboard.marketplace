@@ -1,0 +1,47 @@
+.alignfull,
+.alignwide {
+
+	&,
+	.site-primary--full & {
+		margin-left: calc(-100vw / 2 + 100% / 2);
+		margin-right: calc(-100vw / 2 + 100% / 2);
+		width: 100vw;
+	}
+
+	iframe,
+	img {
+		min-width: 100%;
+	}
+}
+
+@include media-breakpoint-up("xl", $container-max-widths) {
+
+	.alignwide {
+
+		.site-primary--full & {
+			margin-left: -($grid-gutter-width * 2);
+			margin-right: -($grid-gutter-width * 2);
+			width: calc(100% + #{$grid-gutter-width * 4});
+			transform: none;
+		}
+	}
+}
+
+@include media-breakpoint-up("xl", $grid-breakpoints) {
+
+	.alignwide {
+		margin-left: 50%;
+		width: 75vw;
+		transform: translate3d(-50%, 0, 0);
+	}
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1em;
+}
+
+.alignright {
+	float: right;
+	margin-left: 1em;
+}

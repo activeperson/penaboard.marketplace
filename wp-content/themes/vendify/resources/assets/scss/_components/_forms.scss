@@ -1,0 +1,36 @@
+.form-row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.form-row--submit {
+	margin-bottom: 0 !important;
+}
+
+label,
+.label {
+  font-size: $font-size-xs;
+	font-weight: $font-weight-normal;
+  color: theme-color("dark");
+
+  @include text-wide();
+
+  &--required {
+    position: relative;
+
+    &:after {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      margin: -6px 0 0 3px;
+      background-color: theme-color("danger");
+      border-radius: 50%;
+      vertical-align: middle;
+      content: "";
+    }
+
+    abbr {
+      display: none;
+    }
+  }
+}

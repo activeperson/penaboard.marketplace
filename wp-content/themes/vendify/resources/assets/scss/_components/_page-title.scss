@@ -1,0 +1,14 @@
+.page-title {
+	color: theme-color("dark");
+	font-family: $headings-font-family;
+	font-size: 24px;
+	margin: 0 0 0 15px;
+
+	@include media-breakpoint-up(sm) {
+		font-size: 34px;
+	}
+
+	@include media-breakpoint-up(md) {
+		font-size: $headings-font-size;
+	}
+}

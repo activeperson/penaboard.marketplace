@@ -1,0 +1,163 @@
+// ======================================================================================
+//
+// Generic Hero contents
+//
+// Centered or left-aligned text with call to action links
+// ======================================================================================
+
+.hero .container {
+	z-index: 5;
+	display: flex;
+}
+
+.hero__content {
+	position: relative;
+	z-index: 2;
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+}
+
+.hero__content .lead,
+.hero__content p {
+	font-size: $font-size-xl;
+
+	@include media-breakpoint-up(lg) {
+		max-width: 50%;
+	}
+}
+
+
+.hero__content .display-1 {
+	color: $white;
+}
+
+// Call to action buttons
+// ======================================
+
+
+.hero__cta {
+	margin-top: 15px;
+
+	.btn {
+
+		@include media-breakpoint-down(xs) {
+
+			@include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-xs, $input-btn-line-height, $border-radius);
+		}
+	}
+
+	.btn + .btn {
+		margin-left: 15px;
+	}
+}
+
+
+
+
+// Restore the horizontal context instead of stacking
+// ======================================================
+
+.hero__content--horizontal {
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+
+
+// Centered variation
+// ======================================
+
+.hero__content--center {
+	align-items: center;
+	align-self: center;
+	justify-self: center;
+	text-align: center;
+}
+
+
+
+
+// Page specific
+// ======================================
+
+
+// Home
+
+.hero__cta--home {
+
+	.btn:not(:only-child) {
+		width: 180px;
+
+		@include media-breakpoint-down(xs) {
+			width: 120px;
+		}
+	}
+}
+
+
+// Blog
+
+.hero__content--blog {
+
+	@include media-breakpoint-up(lg) {
+		max-width: 60%;
+	}
+}
+
+.hero--blog-post__title {
+	font-weight: 200;
+	a {
+		color: $white;
+	}
+}
+
+.hero--blog-post__tag {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	margin: 0 auto 12px;
+
+	@include text-wide;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-normal;
+
+	&::before,
+	&::after {
+		display: inline-block;
+		margin: 0 12px;
+		width: 60px;
+		height: 1px;
+		background-color: rgba($black, 0.1);
+		content: "";
+	}
+
+	a {
+		color: initial;
+	}
+}
+
+.hero--blog-post__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: $font-size-sm;
+}
+
+.hero--blog-post__info img {
+	width: 54px;
+	height: 54px;
+
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+}
+
+.hero--blog-post__info a {
+	margin: 10px 0;
+
+	@include media-breakpoint-up(md) {
+		margin-bottom: 20px;
+	}
+}

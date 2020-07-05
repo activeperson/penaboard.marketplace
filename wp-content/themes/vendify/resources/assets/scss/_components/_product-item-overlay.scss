@@ -1,0 +1,98 @@
+// ======================================================================================
+//
+// Product item Edit overlay
+//
+// ======================================================================================
+
+.btn-icon--more {
+	// Invisible space around for easier tapping/clicking.
+	margin-top: -8px;
+	padding: 8px 0;
+}
+
+.product-item--editable {
+
+	&:hover .pi__overlay {
+		opacity: 1;
+		transition-delay: 0.1s;
+	}
+}
+
+.pi__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	background-color: rgba($black, 0.5);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: opacity 0.2s 0.2s ease-in-out;
+}
+
+.pi__overlay .btn {
+	font-weight: $font-weight-normal;
+}
+
+.pi__stats {
+	position: absolute;
+	bottom: 40px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	color: $white;
+}
+
+.pi__stat {
+	width: 40%;
+	padding: 0 24px;
+	text-align: right;
+	line-height: 1.65;
+
+	> span {
+		display: block;
+	}
+}
+
+.pi__stat + .pi__stat {
+	text-align: left;
+	border-left: 1px solid rgba($white, 0.3);
+}
+
+.pi__stat__value {
+	font-weight: $font-weight-normal;
+}
+
+.pi__stat__name {
+	font-size: $font-size-sm;
+	color: rgba($white, 0.7);
+}
+
+
+// Dropdown customization
+// ======================================
+
+.dropdown--edit-pi {
+	margin-right: 10px;
+
+	.dropdown-menu {
+		width: 180px;
+		margin: 10px -10px 0 0;
+	}
+}
+
+.dropdown-item--delete {
+	border-top: 1px solid gray("200");
+	color: theme-color("danger");
+}
+
+.dropdown-item--delete .ico {
+	fill: theme-color("danger");
+}
+
+.dropdown-item--delete:hover .ico {
+	fill: darken(theme-color("danger"), 12%);
+}

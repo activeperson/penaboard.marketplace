@@ -1,0 +1,19 @@
+@mixin vendify-badge {
+
+	@extend .badge;
+
+	display: inline-flex;
+	align-items: center;
+	font-size: $font-size-sm;
+	font-weight: 300;
+	border: 1px solid transparent;
+	line-height: 18px;
+	padding: 6px 12px;
+	vertical-align: middle;
+
+	@include border-radius();
+
+	+ .badge {
+		margin-left: 6px;
+	}
+}

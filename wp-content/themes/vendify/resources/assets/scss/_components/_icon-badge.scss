@@ -1,0 +1,23 @@
+// ======================================================================================
+//
+// Icon badge
+//
+// ======================================================================================
+
+// Tiny badges used on header dropodown toggles to indicate number of cart items or messages.
+
+.icon-badge {
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-top: -50%;
+	margin-left: 40%;
+	background-color: theme-color("secondary");
+	border-radius: 50%;
+	color: $white;
+	font-size: 9px;
+	font-weight: $font-weight-normal;
+	text-align: center;
+	line-height: 16px;
+}

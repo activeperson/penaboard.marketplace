@@ -1,0 +1,126 @@
+// ======================================================================================
+//
+// Sign In & Sign Up Animation
+//
+// ======================================================================================
+
+
+
+// Layout
+// ======================================
+
+
+$slider-duration: 0.6s;
+$slider-delay: 0.25s;
+$slider-easing: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+$form-duration: 0.45s;
+$form-delay: 0.3s;
+$form-easing: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+$slider-transition: transform $slider-duration  $slider-delay  $slider-easing;
+$form-transition: opacity $form-duration $form-easing;
+$form-transition-delayed: opacity $form-duration  $form-delay  $form-easing;
+
+.access__column {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+
+	@media (min-width: 1001px) {
+		width: 50%;
+	}
+}
+
+
+//  Large screens
+// ======================================
+
+// Sign Up, Sign In, and Slider are half-width columns,
+// the first being placed next to each other, and the Slider
+// hovering over them revealing one or the other.
+
+@media (min-width: 1001px) {
+
+	// Initial positioning
+
+	.access__column--slider {
+		left: 0;
+		will-change: transform;
+		transition: $slider-transition
+	}
+
+	.access__column--sign-in {
+		will-change: opacity;
+		transition: $form-transition;
+		left: 0;
+	}
+
+	.access__column--sign-up {
+		will-change: opacity;
+		transition: $form-transition;
+		right: 0;
+	}
+
+
+	// Sign In screen:
+	// Slider on the right, Sign up hidden.
+	.modal-content.sign-in {
+
+		.access__column--slider {
+			transform: translate3d(100%, 0, 0);
+		}
+
+		.access__column--sign-up {
+			opacity: 0;
+		}
+
+		.access__column--sign-in {
+			transition: $form-transition-delayed;
+		}
+	}
+
+
+	// Sign Up state
+	// Slider on the right, Sign up hidden.
+
+	.modal-content.sign-up {
+
+		.access__column--slider {
+			transform: translate3d(0, 0, 0);
+		}
+
+		.access__column--sign-in {
+			opacity: 0;
+		}
+
+		.access__column--sign-up {
+			transition: $form-transition-delayed;
+		}
+	}
+}
+
+
+// Small Screens
+// ======================================
+
+// Simple switching with no animations.
+// Display: block/none used to make scrolling target screen to top possible upon switching.
+
+@media (max-width: 1000px) {
+
+	.access__column--sign-in,
+	.access__column--sign-up {
+		opacity: 0;
+		z-index: -1;
+		pointer-events: none;
+	}
+
+	.modal-content.sign-in .access__column--sign-in,
+	.modal-content.sign-up .access__column--sign-up {
+		opacity: 1;
+		z-index: 1;
+		pointer-events: auto;
+	}
+}

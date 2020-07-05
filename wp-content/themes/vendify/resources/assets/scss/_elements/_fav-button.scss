@@ -1,0 +1,137 @@
+// ======================================================================================
+//
+// Favorite button with heart animation
+//
+// ======================================================================================
+
+// Achieved with two SVG icons.
+//
+// Markup:
+//
+// <a href="" class="fav-button">
+//   <svg class="ico ico--sm">
+//     <use class="fav-heart" xlink:href="/assets/images/icons.svg#heart-outline"></use>
+//     <use class="fav-heart-inner" xlink:href="/assets/images/icons.svg#heart"></use>
+//   </svg>
+// </a>
+
+// TODO: Rename to avoid confusing with the fav button in hero
+
+
+.astoundify-favorites-link {
+	transition: all 0.15s ease-in-out;
+
+	.ico {
+		transition: all 0.2s ease-in-out;
+	}
+}
+
+.pi__header .astoundify-favorites-link {
+
+	&:hover .ico {
+		fill: $white;
+	}
+
+	// Force inverse.
+	.ico {
+		fill: rgba($white, 0.94);
+		stroke: rgba($black, 0.06);
+		stroke-width: 1;
+		filter: drop-shadow(0 2px 4px rgba($black, 0.06));
+	}
+
+	span {
+		display: none;
+	}
+}
+
+.fav-heart-inner {
+	fill: $red;
+	transform-origin: 11px 11px;
+	transform: scale(0.4);
+	opacity: 0;
+	transition: opacity 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.astoundify-favorites-link.astoundify-favorites-link--active {
+
+	.fav-heart {
+		fill: $red;
+	}
+
+	// Active state for vendor Favorite.
+	&.btn-outline-secondary {
+		border-color: rgba($white, 0.5);
+	}
+
+	.fav-heart-inner {
+		opacity: 1;
+		transform: scale(0.85);
+		transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.4, 0.41, 0.1, 2.65);
+	}
+}
+
+// CSS overrides for the plugin.
+
+.mfp-content .astoundify-favorites-popup {
+	background: initial;
+	padding: 0;
+}
+
+.astoundify-favorites-form-list-edit [type="text"],
+.astoundify_favorites_list_new [type="text"],
+.astoundify-favorites-note-field {
+
+	@include vendify-form-control;
+}
+
+.astoundify-favorites-submit-field {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&:after {
+		display: none;
+	}
+}
+
+.astoundify-favorites-submit-field .astoundify-favorites-remove-favorite {
+	color: theme-color("danger");
+	float: none;
+}
+
+.astoundify-favorites-notices {
+	font-size: 14px;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	position: relative;
+	z-index: 1;
+	margin-bottom: 2rem;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.astoundify-favorites-notice,
+.astoundify-favorites-notice.astoundify-favorites-notice-success {
+	background: initial;
+	border: 0;
+	padding: 0;
+
+	a {
+
+		@include link;
+	}
+}
+
+.astoundify-favorite-note {
+
+	p:last-child,
+	p:only-child {
+		margin-bottom: 0;
+	}
+}
+
+.msg-preview__date .sh-dropdown__toggle {
+	height: 10px;
+}

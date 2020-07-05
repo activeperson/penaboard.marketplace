@@ -1,0 +1,920 @@
+# Copyright (C) 2017 astoundify-wc-themes
+# This file is distributed under the same license as the astoundify-wc-themes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: astoundify-wc-themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %1$s minimum PHP version, %2$s current PHP version.
+#: astoundify-wc-themes.php:53
+msgid "The extra functionality provided by this Astoundify plugin requires at least PHP %1$s. You are running PHP %2$s. Please upgrade and try again."
+msgstr ""
+
+#. translators: %1$s minimum WP version, %2$s current PHP version.
+#: astoundify-wc-themes.php:79
+msgid "The extra functionality provided by this Astoundify plugin requires WordPress version %1$s or newer. You are running version %2$s. Please upgrade and try again."
+msgstr ""
+
+#: app/functions-template.php:41
+msgid "%s does not exist."
+msgstr ""
+
+#: app/events/class-geocoder.php:340, app/events/class-geocoder.php:361
+msgid "Invalid request."
+msgstr ""
+
+#: app/events/class-geocoder.php:367
+msgid "Invalid geocoding results."
+msgstr ""
+
+#: app/events/functions-archive-page.php:32
+msgid "Events page"
+msgstr ""
+
+#: app/events/functions-archive-page.php:33
+msgid "Select page as events archive page."
+msgstr ""
+
+#: app/events/functions-archive-page.php:39
+msgid "This sets the base page of your events products - this is where your events archive will be."
+msgstr ""
+
+#: app/events/functions-external.php:26
+msgid "Select a provider&hellip;"
+msgstr ""
+
+#: app/events/functions-external.php:27
+msgid "Ticketmaster"
+msgstr ""
+
+#: app/events/functions-external.php:28
+msgid "Eventbrite"
+msgstr ""
+
+#: app/events/functions-location.php:37
+msgid "Sort by distance"
+msgstr ""
+
+#: app/events/functions-permalink.php:28
+msgid "Event permalinks"
+msgstr ""
+
+#: app/events/functions-permalink.php:49
+msgid "These settings control the permalinks used specifically for event products."
+msgstr ""
+
+#: app/events/functions-permalink.php:55
+msgid "Default"
+msgstr ""
+
+#: app/events/functions-permalink.php:56
+msgid "Use product permalink structure."
+msgstr ""
+
+#: app/events/functions-permalink.php:62
+msgid "Event Base"
+msgstr ""
+
+#: app/events/functions-product.php:26
+msgid "Event product"
+msgstr ""
+
+#: app/events/functions-product.php:108, app/events/admin/functions-location.php:27, resources/templates/admin/panel-location.php:39, resources/templates/admin/tmpl-attendees.php:68
+msgid "Location"
+msgstr ""
+
+#: app/events/functions-product.php:121, app/events/admin/functions-schedule.php:27
+msgid "Schedule"
+msgstr ""
+
+#: app/events/functions-product.php:134, app/events/admin/functions-attendees.php:27
+msgid "Attendees"
+msgstr ""
+
+#: app/events/functions-product.php:147, app/events/admin/functions-sponsors.php:27
+msgid "Sponsors"
+msgstr ""
+
+#: app/events/functions-product.php:160, app/events/admin/functions-lineup.php:27
+msgid "Lineup"
+msgstr ""
+
+#: app/events/functions-product.php:220
+msgid "Event Search"
+msgstr ""
+
+#: app/events/functions-product.php:224
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: app/events/functions-setup.php:27
+msgid "Events Setup"
+msgstr ""
+
+#: app/events/functions-setup.php:49
+msgid "Events Page Setup"
+msgstr ""
+
+#: app/events/functions-setup.php:53
+msgid "Events page is set. You can edit the settings in <a target=\"_blank\" href=\"%s\">WooCommerce Product Display Settings</a>."
+msgstr ""
+
+#: app/events/functions-setup.php:57
+msgid "With Astoundify WC Themes you can create Event Product in WooCommerce. In this step you can sets the base page of your events products - this is where your events archive will be."
+msgstr ""
+
+#: app/events/functions-setup.php:62, app/vendors/functions-setup.php:62
+msgid "Page Title"
+msgstr ""
+
+#: app/events/functions-setup.php:67, app/events/functions-setup.php:90, app/events/admin/functions-settings.php:26
+msgid "Events"
+msgstr ""
+
+#: app/events/functions-setup.php:72
+msgid "Or you can skip this step, and create and select the page manually in <a target=\"_blank\" href=\"%s\">WooCommerce Product Display Settings</a>."
+msgstr ""
+
+#: app/events/functions-setup.php:120
+msgid "Events page successfully created."
+msgstr ""
+
+#: app/events/functions-setup.php:126
+msgid "Fail to create event page. Please select the page manually in <a target=\"_blank\" href=\"%s\">WooCommerce Product Display Settings</a>."
+msgstr ""
+
+#: app/vendors/functions-dashboard-activities.php:189
+msgid "{{user}} gave %s star rating for {{product}}."
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:23
+msgid "Order"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:24, app/vendors/functions-dashboard-orders.php:29, app/vendors/functions-dashboard-orders.php:49
+msgid "Status"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:25, resources/templates/admin/tmpl-schedule.php:73
+msgid "Date"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:26
+msgid "Shipping"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:27
+msgid "Purchased"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:28, app/vendors/functions-dashboard-orders.php:48
+msgid "Commision"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:30, app/vendors/functions-dashboard-orders.php:50
+msgid "Paid Date"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:31, app/vendors/functions-dashboard-orders.php:51
+msgid "Fulfillment"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:32, app/vendors/functions-dashboard-orders.php:52, app/vendors/functions-dashboard-products.php:29
+msgid "Actions"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:47
+msgid "Product"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:133
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:199
+msgid "Via %s"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:219
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/vendors/functions-dashboard-orders.php:281, app/vendors/functions-dashboard-orders.php:335, app/vendors/functions-dashboard-orders.php:345
+msgid "N/A"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:284
+msgid "UNPAID"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:287
+msgid "PAID"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:290
+msgid "VOID"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:339
+msgid "Unfulfilled"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:342
+msgid "Fulfilled"
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:433
+msgid "You do not have permission to update this order."
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:444
+msgid "Order fulfillment status updated."
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:446
+msgid "Sorry there was a problem updating order fulfillment status."
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:499
+msgid "Note added."
+msgstr ""
+
+#: app/vendors/functions-dashboard-orders.php:501
+msgid "Sorry there was a problem adding note."
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:23
+msgid "Image"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:24, resources/templates/admin/tmpl-attendees.php:59, resources/templates/admin/tmpl-lineup.php:67, resources/templates/admin/tmpl-sponsors.php:67
+msgid "Name"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:25
+msgid "SKU"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:26
+msgid "Stock"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:27
+msgid "Price"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:28
+msgid "Type"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:142
+msgid "Grouped"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:144
+msgid "External/Affiliate"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:148
+msgid "Virtual"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:150
+msgid "Downloadable"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:152
+msgid "Simple"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:155
+msgid "Variable"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:184
+msgid "View"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:188
+msgid "Edit"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:192
+msgid "Trash"
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:224
+msgid "Unable to delete product. Product not found."
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:228
+msgid "Product deleted."
+msgstr ""
+
+#: app/vendors/functions-dashboard-products.php:230
+msgid "Unable to delete product."
+msgstr ""
+
+#: app/vendors/functions-dashboard-store-setting.php:37
+msgid "Settings updated."
+msgstr ""
+
+#: app/vendors/functions-dashboard-store-setting.php:39
+msgid "There was an error updating your settings."
+msgstr ""
+
+#: app/vendors/functions-dashboard.php:215
+msgid "Dashboard"
+msgstr ""
+
+#: app/vendors/functions-dashboard.php:216, app/vendors/admin/functions-dashboard-settings.php:84
+msgid "Orders"
+msgstr ""
+
+#: app/vendors/functions-dashboard.php:217, app/vendors/admin/functions-dashboard-settings.php:111
+msgid "Products"
+msgstr ""
+
+#: app/vendors/functions-dashboard.php:218
+msgid "Store Settings"
+msgstr ""
+
+#. translators: %s: page.
+#: app/vendors/functions-dashboard.php:302
+msgid "Orders (page %d)"
+msgstr ""
+
+#: app/vendors/functions-dashboard.php:321
+msgid "Order %s"
+msgstr ""
+
+#: app/vendors/functions-dashboard.php:513
+msgid "Lost your password?"
+msgstr ""
+
+#: app/vendors/functions-setup.php:27
+msgid "Vendors Setup"
+msgstr ""
+
+#: app/vendors/functions-setup.php:49
+msgid "Vendors Page Setup"
+msgstr ""
+
+#: app/vendors/functions-setup.php:53
+msgid "Vendor dashboard page is set. You can edit the settings in <a target=\"_blank\" href=\"%s\">WooCommerce Product Display Settings</a>."
+msgstr ""
+
+#: app/vendors/functions-setup.php:57
+msgid "You can create dashboard page for your Vendors using the form below."
+msgstr ""
+
+#: app/vendors/functions-setup.php:63
+msgid "Content Shortcode"
+msgstr ""
+
+#: app/vendors/functions-setup.php:64
+msgid "Register Form"
+msgstr ""
+
+#: app/vendors/functions-setup.php:69, app/vendors/functions-setup.php:94
+msgid "My Dashboard"
+msgstr ""
+
+#: app/vendors/functions-setup.php:76
+msgid "Or you can skip this step, and create and select the page manually in <a target=\"_blank\" href=\"%s\">WooCommerce Vendors Dashboard Settings</a>."
+msgstr ""
+
+#: app/vendors/functions-setup.php:131
+msgid "Vendor dashboard page successfully created."
+msgstr ""
+
+#: app/vendors/functions-setup.php:137
+msgid "Fail to create vendor dashboard page. Please select the page manually in <a target=\"_blank\" href=\"%s\">WooCommerce Product Display Settings</a>."
+msgstr ""
+
+#: app/vendors/functions-shortcodes.php:19
+msgid "Please use vendor dashboard shortcode only on selected page."
+msgstr ""
+
+#: app/vendors/functions-shortcodes.php:44
+msgid "Hey there! The vendor registration form is not showing since you're logged in as an Administrator. If you'd like to verify the form is working, please log out and view this page again."
+msgstr ""
+
+#: app/vendors/functions-shortcodes.php:49
+msgid "Great! You're already a vendor! Perhaps you want to go to the %1$sVendor Dashboard?%2$s"
+msgstr ""
+
+#: app/api/vendors/class-dashboard-overview-rest-controller.php:62, app/api/vendors/class-dashboard-report-by-date-rest-controller.php:71
+msgid "Sorry, you cannot view this data."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-overview-rest-controller.php:132
+msgid "Average weekly earnings for the vendor."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-overview-rest-controller.php:138
+msgid "Total number of items sold by the vendor."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-overview-rest-controller.php:144
+msgid "Average rating value for the vendor."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-overview-rest-controller.php:150
+msgid "Total reviews for the vendor."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-report-by-date-rest-controller.php:153
+msgid "Data to build a chart based on comission data."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-report-by-date-rest-controller.php:159
+msgid "Total commission earnings for time period."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-report-by-date-rest-controller.php:165
+msgid "Total items sold for time period."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-report-by-date-rest-controller.php:171
+msgid "Total orders for the time period."
+msgstr ""
+
+#: app/api/vendors/class-dashboard-report-by-date-rest-controller.php:177
+msgid "Total reviews for the time period."
+msgstr ""
+
+#: app/events/admin/functions-external.php:30
+msgid "External Event"
+msgstr ""
+
+#: app/events/admin/functions-external.php:31
+msgid "Enable if external event."
+msgstr ""
+
+#: app/events/admin/functions-settings.php:48
+msgid "External Tickets"
+msgstr ""
+
+#: app/events/admin/functions-settings.php:54
+msgid "Ticketmaster URL"
+msgstr ""
+
+#: app/events/admin/functions-settings.php:55
+msgid "Add affiliate ID to all Ticketmaster events URL."
+msgstr ""
+
+#: app/events/admin/functions-settings.php:62
+msgid "Eventbrite URL"
+msgstr ""
+
+#: app/events/admin/functions-settings.php:63
+msgid "Add affiliate ID to all Eventbrite events URL."
+msgstr ""
+
+#: app/events/products/class-event.php:151, app/events/products/class-event.php:166
+msgid "External products cannot be stock managed."
+msgstr ""
+
+#: app/events/products/class-event.php:181
+msgid "External products cannot be backordered."
+msgstr ""
+
+#: app/events/products/class-event.php:218
+msgid "Buy Now"
+msgstr ""
+
+#: app/events/products/class-event.php:218
+msgid "Add to cart"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:22
+msgid "My Account"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:23
+msgid "Vendor Dashboard"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:46
+msgid "Vendor dashboard pages"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:52
+msgid "Vendor dashboard page"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:53
+msgid "Page contents: [astoundify_vendor_dashboard]"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:63
+msgid "Vendor registration"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:64
+msgid "Enable vendor registration on the \"Vendor Dashboard\" page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:77
+msgid "Vendor dashboard endpoints"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:80
+msgid "Endpoints are appended to your page URLs to handle specific actions on the vendor dashboard pages. They should be unique and cannot use the same endpoints as my account page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:85
+msgid "Endpoint for the \"Vendor Dashboard &rarr; Orders\" page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:93
+msgid "View orders"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:94
+msgid "Endpoint for the \"Vendor Dashboard &rarr; View order\" page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:102
+msgid "Reports"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:103
+msgid "Endpoint for the \"Vendor Dashboard &rarr; Reports\" page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:112
+msgid "Endpoint for the \"Vendor Dashboard &rarr; Products\" page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:120
+msgid "Store settings"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:121
+msgid "Endpoint for the \"Vendor Dashboard &rarr; Store settings\" page."
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:129
+msgid "Support"
+msgstr ""
+
+#: app/vendors/admin/functions-dashboard-settings.php:130
+msgid "Endpoint for the \"Vendor Dashboard &rarr; Support\" page."
+msgstr ""
+
+#: resources/templates/admin/panel-general-external.php:38
+msgid "Ticket URL"
+msgstr ""
+
+#: resources/templates/admin/panel-general-external.php:41
+msgid "Enter the external URL to purchase the ticket."
+msgstr ""
+
+#: resources/templates/admin/panel-lineup.php:25, resources/templates/admin/panel-sponsors.php:25
+msgid "Choose an image"
+msgstr ""
+
+#: resources/templates/admin/panel-lineup.php:26
+msgid "Set avatar"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:46
+msgid "Formatted Address"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:48
+msgid "Optional display address. Will use location input if empty."
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:54
+msgid "Address 1"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:59
+msgid "Address 2"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:64
+msgid "City"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:69
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:74
+msgid "Country"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:77
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:83
+msgid "State / County"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:89
+msgid "Latitude"
+msgstr ""
+
+#: resources/templates/admin/panel-location.php:94
+msgid "Longitude"
+msgstr ""
+
+#: resources/templates/admin/panel-sponsors.php:26
+msgid "Set sponsor image"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:22
+msgid "External User"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:23
+msgid "Registered User"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:26
+msgid "Add Attendee"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:29, resources/templates/admin/tmpl-lineup.php:25, resources/templates/admin/tmpl-schedule.php:44, resources/templates/admin/tmpl-sponsors.php:25
+msgid "Expand"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:29, resources/templates/admin/tmpl-lineup.php:25, resources/templates/admin/tmpl-schedule.php:44, resources/templates/admin/tmpl-sponsors.php:25
+msgid "Close"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:32, resources/templates/admin/tmpl-lineup.php:28, resources/templates/admin/tmpl-sponsors.php:28
+msgid "Filter..."
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:43, resources/templates/admin/tmpl-lineup.php:39, resources/templates/admin/tmpl-schedule.php:56, resources/templates/admin/tmpl-sponsors.php:39
+msgid "Remove"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:44, resources/templates/admin/tmpl-lineup.php:40, resources/templates/admin/tmpl-schedule.php:57, resources/templates/admin/tmpl-sponsors.php:40
+msgid "Click to toggle"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:45
+msgid "Attendee"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:63, resources/templates/admin/tmpl-lineup.php:76, resources/templates/admin/tmpl-sponsors.php:72
+msgid "Email"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:87
+msgid "Select user"
+msgstr ""
+
+#: resources/templates/admin/tmpl-attendees.php:88
+msgid "Guest"
+msgstr ""
+
+#: resources/templates/admin/tmpl-lineup.php:22
+msgid "Add Person"
+msgstr ""
+
+#: resources/templates/admin/tmpl-lineup.php:41
+msgid "Person"
+msgstr ""
+
+#: resources/templates/admin/tmpl-lineup.php:72
+msgid "Title"
+msgstr ""
+
+#: resources/templates/admin/tmpl-lineup.php:82, resources/templates/admin/tmpl-sponsors.php:77
+msgid "URL"
+msgstr ""
+
+#: resources/templates/admin/tmpl-schedule.php:41
+msgid "Add Day"
+msgstr ""
+
+#: resources/templates/admin/tmpl-schedule.php:79
+msgid "Start Time"
+msgstr ""
+
+#: resources/templates/admin/tmpl-schedule.php:84
+msgid "End Time"
+msgstr ""
+
+#: resources/templates/admin/tmpl-sponsors.php:22
+msgid "Add Sponsor"
+msgstr ""
+
+#: resources/templates/admin/tmpl-sponsors.php:41
+msgid "Sponsor"
+msgstr ""
+
+#: resources/templates/product-filters/field-date.php:19
+msgid "Date From:"
+msgstr ""
+
+#: resources/templates/product-filters/field-date.php:24
+msgid "Date To:"
+msgstr ""
+
+#: resources/templates/product-filters/field-keyword.php:18
+msgid "Keyword:"
+msgstr ""
+
+#: resources/templates/product-filters/field-keyword.php:19
+msgid "Search event&hellip;"
+msgstr ""
+
+#: resources/templates/product-filters/field-location.php:18
+msgid "Location:"
+msgstr ""
+
+#: resources/templates/product-filters/field-location.php:24
+msgid "Radius:"
+msgstr ""
+
+#: resources/templates/product-filters/product-filters.php:35
+msgid "Update Results"
+msgstr ""
+
+#: resources/templates/product-tabs/schedule.php:26
+msgid "%1$s (%2$s - %3$s)"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-activities.php:22
+msgid "Latest Activity"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-activities.php:36
+msgid "No activity found."
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-overview.php:24
+msgid "Overview"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-overview.php:30
+msgid "Weekly Earnings Average: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-overview.php:36
+msgid "Total Sales: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-overview.php:42
+msgid "Average Ratings: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-overview.php:47
+msgid "Total Reviews: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-report-by-date.php:25
+msgid "Reports By Date"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-report-by-date.php:35
+msgid "Earnings: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-report-by-date.php:38
+msgid "Sales: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-report-by-date.php:41
+msgid "Orders: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/dashboard-report-by-date.php:44
+msgid "Reviews: %s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/orders.php:21, resources/templates/vendor-dashboard/view-order-items.php:33
+msgid "No order has been made yet."
+msgstr ""
+
+#: resources/templates/vendor-dashboard/orders.php:40
+msgid "Not found"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/products.php:23
+msgid "You have no product yet."
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:30
+msgid "Store Logo"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:34, resources/templates/vendor-dashboard/store-settings.php:34
+msgid "Upload Logo"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:34
+msgid "Add logo"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:37
+msgid "Click to remove image"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:43
+msgid "Store Description"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:56
+msgid "Contact Email"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:63
+msgid "Paypal Email"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:70
+msgid "Timezone"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/store-settings.php:77
+msgid "Update"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-404.php:23
+msgid "Order not found."
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-add-note.php:22
+msgid "Add Note"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-add-note.php:28
+msgid "Private note"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-add-note.php:29
+msgid "Note to customer"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-add-note.php:31
+msgid "Add"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:27
+msgid "General Details"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:32
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:41
+msgid "Billing Details"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:46, resources/templates/vendor-dashboard/view-order-details.php:50, resources/templates/vendor-dashboard/view-order-details.php:73, resources/templates/vendor-dashboard/view-order-details.php:77
+msgid "Address"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:50, resources/templates/vendor-dashboard/view-order-details.php:77
+msgid "No shipping address set."
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:56
+msgid "Email:"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:61
+msgid "Phone:"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-details.php:68
+msgid "Shipping Details"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-items.php:22
+msgid "Order Items"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-note.php:27
+msgid "Added on %1$s by %2$s"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-notes.php:27
+msgid "Order Notes"
+msgstr ""
+
+#: resources/templates/vendor-dashboard/view-order-notes.php:30
+msgid "No notes"
+msgstr ""

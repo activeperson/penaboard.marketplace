@@ -1,0 +1,34 @@
+// ======================================================================================
+//
+// Open a Shop Banner
+//
+// ======================================================================================
+
+.banner-open-a-shop {
+	height: 350px;
+	padding: 40px 30px 0;
+	background-color: theme-color("primary");
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: $white;
+	text-align: center;
+
+	@include media-breakpoint-up(md) {
+		padding-top: 65px;
+		background-size: auto 400px;
+		height: 400px;
+	}
+}
+
+.banner-open-a-shop .display-2 {
+	line-height: 1.3;
+}
+
+.banner-open-a-shop .lead {
+	font-weight: $font-weight-extra-light;
+}
+
+.banner-open-a-shop .btn {
+	margin-top: 12px;
+}

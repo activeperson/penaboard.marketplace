@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-setup-guide" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-content-importer" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/themeforest-updater" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wc-themes-framework" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wc-product-editor" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-plugin-installer" />
+      <path value="$PROJECT_DIR$/vendor/astoundify/wp-theme-customizer" />
+    </include_path>
+  </component>
+</project>

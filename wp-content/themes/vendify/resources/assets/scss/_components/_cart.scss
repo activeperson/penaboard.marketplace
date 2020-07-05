@@ -1,0 +1,14 @@
+.cart-item__product {
+	display: flex;
+	align-items: center;
+}
+
+.woocommerce-page table.cart img {
+	width: 75px;
+	height: auto;
+	margin: 0 10px;
+}
+
+.woocommerce-cart-form__contents.table--history tbody tr {
+	background: transparent;
+}

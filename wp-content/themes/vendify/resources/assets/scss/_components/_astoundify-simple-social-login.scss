@@ -1,0 +1,89 @@
+.wc-social-login {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: -10px;
+
+	&--checkout {
+		display: block;
+	}
+}
+
+.login-or {
+	text-transform: uppercase;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 30px;
+	position: relative;
+	border-width: 1px 0 0;
+	border-style: solid;
+	margin: 3rem 0;
+}
+
+.login-or span {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	font-size: .73333rem;
+	line-height: 34px;
+	background-color: #fafafa;
+	border: 1px solid #efefef;
+	border-radius: 50%;
+	margin-top: 0;
+	text-transform: uppercase!important;
+	letter-spacing: .2em!important;
+}
+
+// Modal
+.modal:not(.modal--fullscreen) #astoundify-simple-social-login-woocommerce-wrap {
+
+	.login-or span {
+		background-color: $modal-content-bg;
+	}
+}
+
+// Login/Register overlay.
+.access__content {
+
+	#astoundify-simple-social-login-woocommerce-wrap {
+		padding-top: 1rem;
+	}
+
+	.login-or {
+		margin: 3rem 0 4rem;
+	}
+
+	.login-or span & {
+		background-color: $modal-content-bg;
+	}
+}
+
+body {
+
+	a.button-social-login {
+
+		@include button-base($colors: false);
+		margin: 0 10px 20px;
+		min-width: 34%;
+
+		svg {
+			fill: #fff;
+			width: 18px;
+			height: 18px;
+			margin: 0 10px 0 0;
+
+		}
+
+		&:hover {
+			color: #fff;
+		}
+
+		&:hover svg {
+			fill: #fff;
+		}
+	}
+}

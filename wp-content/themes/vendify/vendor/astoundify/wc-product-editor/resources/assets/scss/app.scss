@@ -1,0 +1,82 @@
+$action-bar-height: 80px;
+
+body.astoundify-wc-re {
+	overflow: hidden;
+
+	@import "_elements/tags";
+	@import "_elements/icons";
+	@import "_elements/btn-icons";
+
+	@import "_components/toasts";
+	@import "_components/react-select";
+	@import "_components/tooltip";
+
+	@import "_components/editor";
+	@import "_components/editor-action-bar";
+	@import "_components/editor-menu";
+	@import "_components/editor-media";
+	@import "_components/editor-avatar-upload";
+	@import "_components/editor-stock";
+	@import "_components/editor-media";
+	@import "_components/preview";
+
+	.form-group {
+
+		&--flex {
+			display: flex;
+			flex-flow: row wrap;
+			width: 100%;
+
+			.form-group {
+				flex: 1 1 auto;
+				margin-bottom: 0;
+			}
+		}
+
+		&--space-between {
+			justify-content: space-between;
+		}
+
+		&--variation,
+		&--attribute {
+			align-items: center;
+
+			.form-group {
+				margin-right: 1rem;
+			}
+		}
+
+		&--submit {
+			margin-top: 2rem;
+		}
+	}
+
+	.custom-control {
+		margin-bottom: 0;
+	}
+
+	.custom-control-description {
+		font-weight: normal;
+	}
+	
+	hr {
+		margin: 2rem 0;
+	}
+
+	.astoundify-wc-re-tags-list {
+		margin-bottom: 15px;
+		display: flex;
+		flex-flow: row wrap;
+		width: 100%;
+	}
+
+	#query-monitor,
+	#adminmenumain,
+	#screen-meta,
+	#screen-meta-links,
+	#wpfooter,
+	.update-nag,
+	div.woocommerce-message {
+		display: none !important;
+	}
+}

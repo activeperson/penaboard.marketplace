@@ -1,0 +1,72 @@
+// ======================================================================================
+//
+//  Profile page
+//
+// ======================================================================================
+
+
+// Layout
+// ======================================
+
+.profile-sidebar,
+.profile-main {
+
+	@include make-col-ready();
+}
+
+.profile-sidebar {
+	display: none;
+
+	@include media-breakpoint-up(md) {
+		display: block;
+
+		@include make-col(4);
+	}
+
+	@include media-breakpoint-up(xl) {
+
+		@include make-col(3);
+	}
+}
+
+.profile-main {
+
+	@include media-breakpoint-up(md) {
+
+		@include make-col(8);
+	}
+
+	@include media-breakpoint-up(xl) {
+
+		@include make-col(9);
+	}
+}
+
+
+// Sidebar Description
+// ======================================
+
+//  Navigation
+// ======================================
+
+.navigation--profile { // TODO: Almost Repeats the dashboard, make a white full-width variant as a class?
+	position: relative;
+	z-index: 3;
+	background-color: theme-color("light");
+	margin: 0;
+
+	.container {
+
+		@include media-breakpoint-down(sm) {
+			padding: 0;
+		}
+	}
+
+	.nav {
+
+		@include media-breakpoint-up(lg) {
+			padding-left: 289px;
+			padding-right: 0;
+		}
+	}
+}

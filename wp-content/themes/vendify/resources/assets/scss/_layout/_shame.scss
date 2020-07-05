@@ -1,0 +1,42 @@
+// Container
+// ======================================
+
+.container {
+	padding-left: 24px;
+	padding-right: 24px;
+
+	// Slightly more generous side gutter on mid-sized viewports
+	@media (min-width: 920px) and (max-width: 1199px) {
+		padding-right: $grid-gutter-width;
+		padding-left: $grid-gutter-width;
+	}
+}
+
+// Small gutter option. Applies to `row`.
+.gutter-sm {
+	margin-right: -5px;
+	margin-left: -5px;
+
+	[class^=col-] {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+}
+
+// overwrite bolder font-weight
+b, strong {
+	font-weight: bold;
+}
+
+.page-content, .blog-post {
+
+	td, th {
+		padding: 5px 10px;
+		border: 1px solid #000;
+	}
+}
+
+// helper class to hide text
+.text-hidden {
+	text-indent: -9999px;
+}

@@ -1,0 +1,82 @@
+.woocommerce-page,
+.woocommerce {
+
+	@include clearfix;
+
+	legend,
+	.title h3 {
+
+		@extend .dashboard__subheading;
+		color: theme-color("dark");
+		line-height: 1.1;
+	}
+
+	.u-columns {
+
+		@include make-row();
+	}
+
+	.col-1,
+	.col-2 {
+		float: none;
+		max-width: none;
+		flex: none;
+	}
+
+	.form-row {
+		margin-bottom: $form-group-margin-bottom;
+
+		&.woocommerce-SavedPaymentMethods-saveNew {
+			input[type="checkbox"] {
+				margin: 5px;
+			}
+		}
+	}
+
+	.woocommerce-input-wrapper {
+		width: 100%;
+
+		.custom-checkbox-privacy {
+			display: inline-flex !important;
+			margin-bottom: 0;
+		}
+
+		.custom-control-description > * {
+			vertical-align: middle;
+		}
+
+		.select2-container {
+			width: 100% !important;
+		}
+	}
+
+	.select2-container--default .select2-results__option[aria-selected=true] {
+		color: $white;
+	}
+}
+
+.input-text {
+
+	@include vendify-form-control();
+}
+
+.woocommerce-store-notice {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	width: 100%;
+	font-size: 1em;
+	padding: 1em 0;
+	text-align: center;
+	background-color: theme-color("warning");
+	color: theme-color("light");
+	z-index: 99998;
+	display: none;
+
+	a {
+		color: $white;
+		text-decoration: underline;
+	}
+}

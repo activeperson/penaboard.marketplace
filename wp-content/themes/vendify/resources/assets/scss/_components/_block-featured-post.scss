@@ -1,0 +1,72 @@
+// ======================================================================================
+//
+// Featured Post Block
+//
+// ======================================================================================
+
+.wp-block-vendify-featured-post {
+	display: block;
+
+	@include media-breakpoint-down(lg) {
+
+		.featured-post-card__thumbnail {
+			height: 400px;
+		}
+
+		.featured-post-card__title {
+			font-size: 28px;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		
+		.featured-post-card__title {
+			font-size: 18px;
+			max-height: 80px;
+			overflow: hidden;
+		}
+
+		.featured-post-content {
+			max-height: 400px;
+		}
+	}
+}
+
+.featured-post-content {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 30px auto;
+}
+
+h4.featured-post-card__title {
+	margin: 0.7rem 0;
+}
+
+.featured-post-excerpt {
+	max-height: 125px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+
+.featured-post-categories {
+	line-height: 11px;
+
+	a {
+		font-size: 11px;
+		text-transform: uppercase;
+		line-height: 11px;
+		letter-spacing: 2.54px;
+		font-weight: 400;
+	}
+}
+
+.featured-post-card__thumbnail {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	flex:2;
+	height: 600px;
+}

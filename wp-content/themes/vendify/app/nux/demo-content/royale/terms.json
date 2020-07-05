@@ -1,0 +1,66 @@
+[
+	{
+		"id": "inspiration",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "inspiration"
+		}
+	},
+	{
+		"id": "occasions",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Occasions"
+		}
+	},
+	{
+		"id": "shopping-guides",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Shopping Guides"
+		}
+	},
+	{
+		"id": "electronic-accesories",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Electronic &amp; Accesories"
+		}
+	},
+	{
+		"id": "fonts",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Fonts"
+		}
+	},
+	{
+		"id": "graphics",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Graphics"
+		}
+	},
+	{
+		"id": "mens",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Mens"
+		}
+	},
+	{
+		"id": "personal-care",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Personal Care"
+		}
+	}
+]

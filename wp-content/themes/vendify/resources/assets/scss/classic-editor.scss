@@ -1,0 +1,19 @@
+@import "config";
+
+body#tinymce.wp-editor { 
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	font-weight: $font-weight-base;
+	line-height: $line-height-base;
+	// color: $gray-500;
+
+	a {
+		text-decoration: $link-decoration;
+		background-color: transparent; // Remove the gray background on active links in IE 10.
+		-webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
+
+		&:hover {
+			text-decoration: $link-hover-decoration;
+		}
+	}
+}

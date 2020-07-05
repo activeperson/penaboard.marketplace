@@ -1,0 +1,711 @@
+[
+	{
+		"id": "katahdin-bold-clean",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Katahdin Bold - Clean",
+			"post_content": "Katahdin Bold - Clean Font",
+			"post_excerpt": "Katahdin Bold - Clean font",
+			"terms": {
+				"product_cat": [
+					"fonts"
+				],
+				"wcpv_product_vendors": [
+					"planner-kate"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"meta": {
+				"_regular_price": "43",
+				"_price": "43"
+			}
+		}
+	},
+	{
+		"id": "buttercup-duo-font",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "ButterCup Duo Font",
+			"post_content": "",
+			"terms": {
+				"product_cat": [
+					"fonts"
+				],
+				"wcpv_product_vendors": [
+					"barbescobeardco"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"meta": {
+				"_sku": "648-64854-1-1-4",
+				"_regular_price": "56",
+				"_price": "56",
+				"_stock": "6"
+			}
+		}
+	},
+	{
+		"id": "handmade-pattern-collection",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Handmade Pattern Collection",
+			"post_content": "",
+			"terms": {
+				"product_cat": [
+					"gifts-mementos"
+				],
+				"wcpv_product_vendors": [
+					"skeggox"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"meta": {
+				"_sku": "648-64854-1-1-3",
+				"_regular_price": "23",
+				"_price": "23",
+				"_weight": "20",
+				"_length": "16",
+				"_width": "16",
+				"_height": "2",
+				"_stock": "4"
+			}
+		}
+	},
+	{
+		"id": "uncode-creative-multiuse-theme",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Uncode - Creative Multiuse theme",
+			"post_content": "",
+			"terms": {
+				"product_cat": [
+					"graphics"
+				],
+				"wcpv_product_vendors": [
+					"planner-kate"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"meta": {
+				"_sku": "648-64854-1-1-2",
+				"_regular_price": "42",
+				"_price": "42",
+				"_weight": "20",
+				"_length": "16",
+				"_width": "16",
+				"_height": "1",
+				"_stock": "6"
+			}
+		}
+	},
+	{
+		"id": "hurley-breezy-tank-top",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Hurley Breezy Tank Top",
+			"post_content": "Hurley Breezy printed Tank Top, has a round neck, short sleeves.",
+			"post_excerpt": "Hurley Breezy printed Tank Top, has a round neck, short sleeves.",
+			"terms": {
+				"product_cat": [
+					"graphics"
+				],
+				"wcpv_product_vendors": [
+					"mod-party"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"meta": {
+				"_sku": "648-64854-1-1-1",
+				"_regular_price": "34",
+				"_price": "34",
+				"_weight": "20",
+				"_length": "16",
+				"_width": "16",
+				"_height": "1",
+				"_stock": "5"
+			}
+		}
+	},
+	{
+		"id": "uncode-creative-multiuse-kit",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Uncode - Creative Multiuse Kit",
+			"post_content": "Dashboard UI kit 2017",
+			"post_excerpt": "<p class=\"p1\">Uncode - Creative Multiuse kit</p>",
+			"terms": {
+				"product_cat": [
+					"fonts"
+				],
+				"wcpv_product_vendors": [
+					"planner-kate"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"meta": {
+				"_regular_price": "35",
+				"_price": "35"
+			}
+		}
+	},
+	{
+		"id": "marquise-emerald-ring-copy",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Princess Cut Ring",
+			"post_content": "Green Sapphire and Diamond Ring, Triple Ring, Princess Cut Ring handcrafted in 14k gold.\r\nThis beautiful piece is made with solid gold and is set with sparkling diamonds on the side.\r\nBack of the ring holds tiny \u2665 - symbol of Love.\r\n\r\nCENTRAL STONE:\r\n*natural, Earth mined sapphire\r\n*princess cut\r\n*green",
+			"post_excerpt": "Green Sapphire and Diamond Ring, Triple Ring, Princess Cut Ring handcrafted in 14k gold.",
+			"terms": {
+				"product_cat": [
+					"jewellery"
+				],
+				"product_tag": [
+					"diamond",
+					"engagement-rings",
+					"gold",
+					"halo-ring",
+					"rings",
+					"rose-gold",
+					"wedding",
+					"white-gold"
+				],
+				"wcpv_product_vendors": [
+					"mod-party"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "648-64854-1-1-1",
+				"_regular_price": "34",
+				"_price": "34",
+				"_weight": "5",
+				"_length": "2",
+				"_width": "2",
+				"_height": "2",
+				"_stock": "24",
+				"_astoundify_favorites_count": "1"
+			}
+		}
+	},
+	{
+		"id": "double-camera-harness",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Double Camera Harness",
+			"post_content": "Custom personalized real leather Double Camera Harness Strap, it's 100 % Handmade and hand dyed. Perfect personalized gift for a photographer, your wife, husband, girlfriend, boyfriend, brother or sister :)\r\nAn Aztec pattern stamp will make this stylish DSLR Shoulder Camera Harness a perfect gift for a wedding photographer, event photographer both for beginners and professionals. Suitable for new DSLR Cameras or even vintage SLR 35mm Film Cameras! Unique Birthday gift, Wedding, Shower, graduation gift!\r\n\r\n&gt;&gt; Personalize your camera strap by choosing your initials/name and stain color!!! Send me a convo with the details of your order :)\r\n\r\n&gt;&gt; COLOR Please use the drop-down menu to select the Stain color and a name tag color (you can see a color chart on the last image of the Preview)\r\nI used Lt. Brown for the camera strap on the preview, it's a lovely color but it looks different in different light as any other color will ;)\r\n\r\n&gt;&gt; PATTERN Please put your choice of the pattern stamp in the note to a seller (you can see my stamp collection on the last preview image)\r\nAztec pattern will be used as default choice\r\n\r\n&gt;&gt; TEXT Write in the note to seller your choice of text / initials / name/ date that will go on the leather name tag.",
+			"post_excerpt": "Custom personalized real leather Double Camera Harness Strap, it's 100 % Handmade and hand dyed.",
+			"terms": {
+				"product_cat": [
+					"electronic-accesories"
+				],
+				"product_tag": [
+					"camera",
+					"case",
+					"leather",
+					"minimalist",
+					"strap-gift"
+				],
+				"wcpv_product_vendors": [
+					"mod-party"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "129846-1",
+				"_regular_price": "45",
+				"_price": "45",
+				"_weight": "5",
+				"_length": "46",
+				"_width": "1",
+				"_height": "1",
+				"_stock": "29"
+			}
+		}
+	},
+	{
+		"id": "mens-wallet-slim",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Mens Wallet SLIM",
+			"post_content": "Men`s slim wallet. Minimalist wallet. Money Clip. Credit card case. All this describes SKEGGOX wooden wallet!\r\nThis minimalist wallet is made from the one of the most luxurious hardwood - Santos Polisander.\r\nThis wooden wallet consisting of two plates, which are connected with strong, elastic band. The plates are made by using unique laminating technology, which is using only by me. This lamination technique allows me to produce thinnest and strongest wooden wallet on all market!\r\n\r\nBE SURE TO READ IT!!!\r\nWHY IS THIS WALLET THE BEST ON THE MARKET?\r\nPlease do not be lazy and enlarge the photo. Take a careful look at the wooden plates, these are extremely thin (but also very strong). All corners, edges and all surfaces are sanded by hand to avoid sharpness. Also, you will not find any charred edges, which is very often made by cutting laser. Another very important thing is both plates are connected by the band, you NEVER lose one of the plates! And finally, my wallets are finished with natural beeswax!\r\nAll these things guarantee that you can have very luxurious, strong and reliable wooden wallet!\r\nSo please when you choosing your wallet, pay attention to my listed points and choose the best wallet!\r\n\r\nIf you decided to choose this wallet you can ask to personalize it! (but please write me about it before you purchase it)",
+			"post_excerpt": "Men`s slim wallet. Minimalist wallet. Money Clip. Credit card case.",
+			"terms": {
+				"product_cat": [
+					"wallet-and-money-clips"
+				],
+				"product_tag": [
+					"case",
+					"gift",
+					"gift-for-men",
+					"minimalist",
+					"money-clip",
+					"organic",
+					"slim",
+					"wallet",
+					"wood"
+				],
+				"wcpv_product_vendors": [
+					"skeggox"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "5514-8218",
+				"_sale_price": "35.97",
+				"_regular_price": "39.97",
+				"_price": "35.97",
+				"_weight": "5",
+				"_length": "4",
+				"_width": "2",
+				"_height": "1",
+				"_stock": "12"
+			}
+		}
+	},
+	{
+		"id": "small-beard-comb",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Small Beard Comb",
+			"post_content": "This is the highest quality, small handcrafted beard and mustache comb. This should be in every bearded man pocket. Antistatic, made from finest walnut! Waxed with organic, handmade beeswax. You can smell honey then you brush your mustache!\r\n\r\nShipping with tracking number!",
+			"post_excerpt": "This is the highest quality, small handcrafted beard and mustache comb.",
+			"terms": {
+				"product_cat": [
+					"personal-care"
+				],
+				"product_tag": [
+					"beard-comb",
+					"case",
+					"comb",
+					"gift-for-men",
+					"grooming",
+					"minimalist",
+					"slim",
+					"wood"
+				],
+				"wcpv_product_vendors": [
+					"skeggox"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "5514-635",
+				"_sale_price": "14.39",
+				"_regular_price": "15.99",
+				"_price": "14.39",
+				"_weight": "5",
+				"_length": "4",
+				"_width": "2",
+				"_height": "1",
+				"_stock": "8"
+			}
+		}
+	},
+	{
+		"id": "wooden-beard-and-mustache-comb",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "WOODEN Beard and Mustache Comb",
+			"post_content": "Gift for Men, Handmade wooden Beard and mustache comb\n\nWe are proud to introduce you the Beginning of the Brand SKEGGOX - universal comb, suitable for both beard and mustache. The universality and comfortable usage became the key points while developing and improving the Comb design \u2013 it doesn\u2019t matter how long your beard or mustache is, how thick and dense the hair is, you will still feel the easy slide while brushing it. What is more, it will easily fit in your tiniest pocket.\n\nCombs are made using a special technology of laminating, which makes it possible to create incredibly thin but at the same time extremely firm products, what allows you to use it even for tangled hair without worrying to hack the teeth. Combs are made of five layers of the highest quality walnut. Hand-glued polished and waxed with natural beeswax they give a sense of luxury and quality.",
+			"post_excerpt": "Gift for Men, Handmade wooden Beard and mustache comb",
+			"terms": {
+				"product_cat": [
+					"personal-care"
+				],
+				"product_tag": [
+					"beard-comb",
+					"case",
+					"comb",
+					"gift-for-men",
+					"grooming",
+					"minimalist",
+					"slim",
+					"wood"
+				],
+				"wcpv_product_vendors": [
+					"skeggox"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "5514-6341-1",
+				"_sale_price": "17.27",
+				"_regular_price": "19.18",
+				"_price": "17.27",
+				"_weight": "5",
+				"_length": "4",
+				"_width": "2",
+				"_height": "1",
+				"_stock": "9"
+			}
+		}
+	},
+	{
+		"id": "wooden-wallet",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "WOODEN Wallet",
+			"post_content": "Wallet, money clip, card case \u2013 this is what describes the unique, wooden SKEGGOX Wallet best. Due to used special technology of laminating incredibly thin, light but at the same time extremely firm Wooden Wallet will surprise you how capacious it is. After easily accommodating of up to 10 credit cards as well as banknotes, just boldly put The Wallet in any pocket without fear of breaking neither The Wallet as itself, nor the cards inside it.",
+			"post_excerpt": "Wooden Wallet\u00a0Hand-waxed with natural beeswax.",
+			"terms": {
+				"product_cat": [
+					"wallet-and-money-clips"
+				],
+				"product_tag": [
+					"card",
+					"case",
+					"minimalist",
+					"money-clip",
+					"slim",
+					"wallet",
+					"wood"
+				],
+				"wcpv_product_vendors": [
+					"skeggox"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "5514-6341",
+				"_sale_price": "28.64",
+				"_regular_price": "31.83",
+				"_price": "28.64",
+				"_weight": "5",
+				"_length": "4",
+				"_width": "2",
+				"_height": "1",
+				"_stock": "11"
+			}
+		}
+	},
+	{
+		"id": "solomons-seal-root",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Solomon's Seal Root",
+			"post_content": "Traditionally eaten widely by Native Americans to promote excellent connective tissue health. This root has an affinity for injuries surrounding joints or spine. Assists one in feeling \"juicier\" and less \"dried out\".\nTraditionally used for the emotional body when fluids so depleted that tears can't come and the emotion gets stuck. Moistens airways in respiratory infections. Lubricates your being at all levels.\n\nGathered in the wild of the Westen North Carolina where the Smoky Mountains meet the Blue Ridge Mountains. *Only the middle section of these roots were taken for use. I always replant the two end pieces of Solomon's Seal roots so that the plant may continue to live.*\n(Fall 2017 Harvest)\nHarvested 1/2 mile from the nearest road, which means the area was completely undisturbed and free of chemicals.\nTinctured in 80 proof alcohol within 3 hours of harvest, which means this is a FRESH plant tincture.\n*FRESH PLANT TINCTURE is far preferable in herbal action on the body vs DRIED plant tincture. 80 proof vodka is also much softer on the body than higher alcohol content tinctures.\n\nAll of my tinctures are kept in a very large medicine cabinet and are always kept away from light and electromagnetic frequencies.\nThe image of the jar is the actual amount of Solomon's Seal Root tincture available. I never over-harvest an area and all of the tinctures are made in extremely small batches.\n\nBuy with confidence that every aspect of this tincture has been carefully planned, harvested, prepared and stored.",
+			"post_excerpt": "This root has an affinity for injuries surrounding joints or spine. Assists one in feeling \"juicier\" and less \"dried out\".",
+			"terms": {
+				"product_cat": [
+					"personal-care"
+				],
+				"product_tag": [
+					"health",
+					"herbs",
+					"joints",
+					"organic",
+					"tendons",
+					"wild"
+				],
+				"wcpv_product_vendors": [
+					"wisewildharvest"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "987654-65456",
+				"_price": "15.08",
+				"_weight": "1",
+				"_length": "1",
+				"_width": "1",
+				"_height": "1",
+				"_stock": "212"
+			}
+		}
+	},
+	{
+		"id": "marble-macbook-decal",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Marble MacBook Decal",
+			"post_content": "This glitter agate MacBook decal in blue, yellow, mint and gold is made of vinyl and is sure to add a whole new element of style to your laptop. Each marble decal is hand designed using spray paint and glitter and then photographed and printed on premium high-quality vinyl.\r\n\r\n*Please read all the details before purchasing*\r\n\r\nEach laptop skin is made to stick like glue and won\u2019t leave any residue. It\u2019s easy to put on and easy to take off. Did I mention that they\u2019re also extremely silky soft and if you\u2019re always eating food at your laptop - like me - it\u2019s easy to wipe and the ink wont smudge. Just use water please! You could probably even use your laptop skin as a plate, but we really don\u2019t recommend doing so as it will stain the beautiful colour of the skin.\r\n\r\n&nbsp;",
+			"post_excerpt": "Beautiful marble MacBook decal is made of vinyl.",
+			"terms": {
+				"product_cat": [
+					"electronic-accesories"
+				],
+				"product_tag": [
+					"decals",
+					"laptop-skin",
+					"leaf",
+					"marble",
+					"marble-decal"
+				],
+				"wcpv_product_vendors": [
+					"skeggox"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "5634-6684-8-1-1",
+				"_regular_price": "56",
+				"_price": "56",
+				"_weight": "11",
+				"_length": "11.8",
+				"_width": "7.75",
+				"_stock": "212"
+			}
+		}
+	},
+	{
+		"id": "rise-and-shine-macbook-decal",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Rise and Shine MacBook Decal",
+			"post_content": "This Rise and Shine MacBook decal is made of vinyl and is sure to add a whole new element of style to your laptop. Each black laptop sticker is hand designed which is then put on high-quality removable vinyl. These decals are perfect for your laptop, windows, water bottle, wall or any flat surface.\r\n\r\n*Please read all the details before purchasing*\r\n\r\n+ DETAILS\r\n\r\n\u2022 Each decal is made of high quality matte vinyl that can be applied to laptops, walls, cars, windows, water bottles or any other flat surface.\r\n\u2022 Decals aren't permanent so you will have comfort knowing they won't leave anything behind when you're ready to take it off.\r\n\u2022 Each design is handcrafted in Canada - so yes, polar bears helped in the creation of each piece.\r\n\u2022 Each skin comes with an instruction card and the application process is very easy to follow.\r\n\u2022 Ships internationally. Bonjour, Hola, Hallo!",
+			"post_excerpt": "Rise and Shine quote for MacBook is a decal made of vinyl.",
+			"terms": {
+				"product_cat": [
+					"electronic-accesories"
+				],
+				"product_tag": [
+					"decal",
+					"laptop",
+					"quote",
+					"quote-decal"
+				],
+				"wcpv_product_vendors": [
+					"barbescobeardco"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "648-645346",
+				"_regular_price": "45",
+				"_price": "45",
+				"_weight": "2",
+				"_length": "6",
+				"_width": "4",
+				"_stock": "212"
+			}
+		}
+	},
+	{
+		"id": "bridesmaid-gift-pink-glasses",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Bridesmaid Gift Pink Glasses",
+			"post_content": "Personalized Champagne Flutes are a unique gift idea for bridesmaid gifts! These metallic gold rim glasses can be used for a wedding morning toast or bachelorette party too! Glasses can double as seating cards &amp; drinking glasses! Your girls will love these and use them well beyond the wedding day.\r\n\r\n***Details***\r\n\r\n1 Personalized Glass Flute - Personalized with a Name OR Script Monogram Initial in Metallic GOLD Vinyl.\r\n\r\nGlasses have a metallic gold rim top - choose glass color from clear, pink or mint.\r\n\r\nListing is for 1 glass - no other items are included. Tissue stuffed inside glass NOT included. Straws &amp; Swizzle Sticks sold separately.\r\n\r\nMade of HEAVY GLASS.\r\n\r\n8.5 oz\r\n\r\nSize: 5.75\" Height x 2.25\" Width",
+			"post_excerpt": "Personalized Champagne Flutes are a unique gift idea for bridesmaid gifts!",
+			"terms": {
+				"product_cat": [
+					"gifts-mementos"
+				],
+				"product_tag": [
+					"bachelorette-favors",
+					"bag",
+					"bridesmaid-gifts",
+					"gift-box",
+					"glasses",
+					"wedding"
+				],
+				"wcpv_product_vendors": [
+					"mod-party"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_price": "12.33"
+			}
+		}
+	},
+	{
+		"id": "bridesmaid-gift-bag",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Bridesmaid Gift Bag",
+			"post_content": "Personalized Make Up Bags make a great gift for bridesmaids, maid of honor, flower girl, mom and more. Personalize each bag with the Name &amp; Title of each member of your bridal party. Cosmetic Bags are lined on the inside and have a gold zipper. White, Pink &amp; Aqua have black text. Black Bags have metallic gold foil text.\r\n\r\n***Details***\r\n\r\nThis listing is for 1 Personalized Makeup Bag with NAME.\r\n\r\nSize of Bag: 6\" H x 8.5\" W\r\n\r\n100% Cotton Canvas\r\n\r\nLISTING IS FOR Makeup Bags ONLY - NO OTHER ITEMS WILL BE SHIPPED.",
+			"post_excerpt": "Personalized Make Up Bags make a great gift for bridesmaids, maid of honor, flower girl, mom and more.",
+			"terms": {
+				"product_cat": [
+					"gifts-mementos"
+				],
+				"product_tag": [
+					"bachelorette-favors",
+					"bag",
+					"bridesmaid-gifts",
+					"purse",
+					"wedding"
+				],
+				"wcpv_product_vendors": [
+					"mod-party"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_price": "13.70",
+				"_astoundify_favorites_count": "1"
+			}
+		}
+	},
+	{
+		"id": "headphone-dock",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Headphone Dock",
+			"post_content": "Headphone holder / stand / dock / office organizer minimalist design printed in Wood\n\nNo longer leave dragging your precious headphone and keep it to next to you thanks to this headphone holder printed in wood.\n\nThis headphone holder keeps your headphone suspended.\n\nIt is also an original gift for your loved ones music fans!\n\nThis product is designed and manufactured in France, using a blend of recycled wood and bioplastic. An environmentally friendly and fully biodegradable material!\n\nDimensions: Height 21 cm x Width 13,5 cm",
+			"post_excerpt": "Headphone holder / stand / dock / office organizer minimalist design printed in Wood",
+			"terms": {
+				"product_cat": [
+					"electronic-accesories"
+				],
+				"product_tag": [
+					"docking-stands",
+					"geometric",
+					"minimalist",
+					"wood"
+				],
+				"wcpv_product_vendors": [
+					"minimum-design"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "12123-1545",
+				"_regular_price": "49.78",
+				"_price": "49.78",
+				"_weight": "10",
+				"_length": "5",
+				"_width": "5",
+				"_height": "10",
+				"_stock": "212"
+			}
+		}
+	},
+	{
+		"id": "barbesco-luxury-beard-grooming-kit-2",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Barbesco Luxury Beard Grooming Kit",
+			"post_content": "The perfect gift for every Bearded guy. This is currently our most luxurious Kit; read on to find out why.\r\n\r\nThis entire kit is stored within a Leather Dopp Kit / Toiletry bag hand made from UK sourced leather. The leather is full grain and vegetable tanned which has a rugged look. It is extremely hard wearing and will stand the test of time. The seams have been double stitched and it comes with a handy carry strap at one end. The attention to detail is brilliant. The bag alone retails for $55\r\n\r\nIncluded in the kit:\r\n***\r\nLarge 50ml smashproof aluminium bottle of Premium organic Beard Oil available in a choice of 3 skin types - Dry, Normal, or Oily (if you are not sure of which skin type, then ask us or go for Normal skin) and with our trademark Bosque fragrance - we haven't met anyone yet that doesn't love the smell - seriously!\r\n***\r\n60g Tub of Barbesco Organic Beard Salve available in a choice of 3 skin types - Dry, Normal, or Oily (if you are not sure of which skin type, then ask us or go for Normal skin) and with our trademark Bosque fragrance\r\n***\r\nMedium hold Organic Mustache Wax that doubles as a hair tamer - helps to control rogue hairs.\r\n***\r\nBarbesco Green Sandalwood &amp; Ox bone comb. Anti-static and natural in every way, this comb is perfect for de-tangling and distributing our oils and salve through your mane.\r\n***\r\nBarbers scissors; trim your mustache and stray hairs like a pro with these stainless barber shears.\r\n***\r\nAll in a large handmade leather toiletry bag with plenty of room for the rest of your gear.\r\n\r\n***Huge savings when you buy in this kit - all items available individually in our store***\r\n\r\nFor more details about each of the products, please take a look at the individual listings in our shop.",
+			"post_excerpt": "The perfect gift for every Bearded guy. This is currently our most luxurious Kit; read on to find out why.\r\n\r\nThis entire kit is stored within a Leather Dopp Kit / Toiletry bag hand made from UK sourced leather. The leather is full grain and vegetable tanned which has a rugged look. It is extremely hard wearing and will stand the test of time. The seams have been double stitched and it comes with a handy carry strap at one end. The attention to detail is brilliant. The bag alone retails for \u00a364.95",
+			"terms": {
+				"product_cat": [
+					"mens"
+				],
+				"product_tag": [
+					"barbers-scissors",
+					"beard-oil",
+					"grooming",
+					"men",
+					"mustache-wax",
+					"ox-bone-comb",
+					"toiletry-bag"
+				],
+				"wcpv_product_vendors": [
+					"barbescobeardco"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "12123-1-1-1",
+				"_price": "45",
+				"_weight": "11",
+				"_length": "12",
+				"_width": "14",
+				"_height": "8",
+				"_stock": "57.000000",
+				"_astoundify_favorites_count": "1"
+			}
+		}
+	},
+	{
+		"id": "barbesco-personalized-handmade-wash-bag",
+		"type": "object",
+		"data": {
+			"post_type": "product",
+			"post_title": "Groomsman gift Barbesco Personalized Handmade Wash Bag",
+			"post_content": "The perfect gift for every Bearded guy. This is currently our most luxurious Kit; read on to find out why.\r\n\r\nThis entire kit is stored within a Leather Dopp Kit / Toiletry bag hand made from UK sourced leather. The leather is full grain and vegetable tanned which has a rugged look. It is extremely hard wearing and will stand the test of time. The seams have been double stitched and it comes with a handy carry strap at one end. The attention to detail is brilliant. The bag alone retails for $99\r\n\r\nIncluded in the kit:\r\n***\r\nLarge 50ml smashproof aluminium bottle of Premium organic Beard Oil available in a choice of 3 skin types - Dry, Normal, or Oily (if you are not sure of which skin type, then ask us or go for Normal skin) and with our trademark Bosque fragrance - we haven't met anyone yet that doesn't love the smell - seriously!\r\n***\r\n60g Tub of Barbesco Organic Beard Salve available in a choice of 3 skin types - Dry, Normal, or Oily (if you are not sure of which skin type, then ask us or go for Normal skin) and with our trademark Bosque fragrance\r\n***\r\nMedium hold Organic Mustache Wax that doubles as a hair tamer - helps to control rogue hairs.\r\n***\r\nBarbesco Green Sandalwood &amp; Ox bone comb. Anti-static and natural in every way, this comb is perfect for de-tangling and distributing our oils and salve through your mane.\r\n***\r\nBarbers scissors; trim your mustache and stray hairs like a pro with these stainless barber shears.\r\n***\r\nAll in a large handmade leather toiletry bag with plenty of room for the rest of your gear.\r\n\r\n***Huge savings when you buy in this kit - all items available individually in our store***\r\n\r\nFor more details about each of the products, please take a look at the individual listings in our shop.",
+			"post_excerpt": "The perfect gift for every Bearded guy. This is currently our most luxurious Kit; read on to find out why.\r\n\r\nThis entire kit is stored within a Leather Dopp Kit / Toiletry bag hand made from UK sourced leather. The leather is full grain and vegetable tanned which has a rugged look. It is extremely hard wearing and will stand the test of time. The seams have been double stitched and it comes with a handy carry strap at one end. The attention to detail is brilliant. The bag alone retails for \u00a364.95",
+			"terms": {
+				"product_cat": [
+					"mens"
+				],
+				"product_tag": [
+					"barbers-scissors",
+					"beard-oil",
+					"grooming",
+					"men",
+					"mustache-wax",
+					"ox-bone-comb",
+					"toiletry-bag"
+				],
+				"wcpv_product_vendors": [
+					"barbescobeardco"
+				]
+			},
+			"featured_image": "http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png",
+			"media": [
+				"http://sandbox-vendify-demos.astoundify.com/democontent/wp-content/uploads/sites/8/2019/02/53191137-0a63d180-35d9-11e9-9087-d840cf435c93.png"
+			],
+			"meta": {
+				"_sku": "12123-1",
+				"_price": "74.99",
+				"_weight": "11",
+				"_length": "12",
+				"_width": "14",
+				"_height": "8",
+				"_stock": "64",
+				"_astoundify_favorites_count": "1"
+			}
+		}
+	}
+]

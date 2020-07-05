@@ -1,0 +1,84 @@
+// ======================================================================================
+//
+// Discussion
+//
+// ======================================================================================
+
+
+.discussion {
+	max-width: 735px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 24px;
+}
+
+.discussion__header {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.discussion__title {
+	font-size: 54px;
+}
+
+.comment-respond {
+	border-bottom: 1px solid gray("200");
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+
+	.woocommerce-Reviews & {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.woocommerce-Reviews .comment-list {
+	margin-top: 3rem;
+}
+
+.comment-field {
+	height: 56px;
+	padding-right: 54px;
+	line-height: 24px !important;
+	resize: none;
+}
+
+.comment-field ~ .btn-icon {
+	position: absolute;
+	bottom: 14px;
+	right: 20px;
+	opacity: 0.6;
+
+	&:hover,
+	&:focus {
+		opacity: 0.8;
+	}
+
+	&:active {
+		opacity: 1;
+	}
+}
+
+.form-group.comment-form-cookies-consent {
+
+	input[type="checkbox"] {
+		left: 0;
+		box-sizing: border-box;
+		padding: 0;
+		top: 6px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.custom-control-input {
+		z-index: 1;
+	}
+
+	.custom-control-description {
+		line-height: 3;
+		letter-spacing: 0.16em;
+	}
+}
+

@@ -1,0 +1,114 @@
+.wcpv-registration-message,
+.woocommerce-error,
+.woocommerce-notice,
+.woocommerce-success,
+.notice {
+	font-size: 14px;
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	position: relative;
+	z-index: 1;
+	margin-bottom: 2rem;
+	padding: 20px;
+	display: flex;
+
+	// Fake spacing on links in messages.
+	a {
+		margin: 0 3px;
+	}
+
+	@include media-breakpoint-up(md) {
+		align-items: center;
+		padding: 10px 10px 10px 20px;
+	}
+
+	strong {
+		color: theme-color("dark");
+
+		&:first-of-type {
+			margin-right: 3px;
+		}
+	}
+
+	svg {
+		margin-top: 5px;
+		margin-right: 15px;
+		width: 29px;
+		height: 29px;
+
+		@include media-breakpoint-up(md) {
+			margin-top: 0;
+		}
+	}
+
+	ul {
+		margin: 0 !important;
+		padding: 0;
+		width: 100%;
+
+		li {
+			padding: 0 0 0 16px;
+			position: relative;
+			list-style: none;
+			display: flex;
+			align-items: flex-start;
+			flex-wrap: wrap;
+
+			@include media-breakpoint-up(md) {
+				align-items: center;
+			}
+
+			&::before {
+				width: 4px;
+				height: 4px;
+				border-radius: 50%;
+				background-color: theme-color("dark");
+				position: absolute;
+				left: 0;
+				top: 16px;
+				content: "";
+			}
+		}
+
+		a.wc-forward {
+			@include button-base();
+			@include button-variant(theme-color("success"), theme-color("success"));
+			@include button-size($btn-padding-y-sm, $btn-padding-x-sm, 11px, $btn-line-height-sm, $border-radius);
+			color: #fff;
+			width: 100%;
+			order: 2;
+			margin-top: 10px;
+
+			@include media-breakpoint-up(sm) {
+				margin-left: auto;
+				margin-top: 0;
+				width: auto;
+			}
+		}
+
+		li:before {
+			top: 12px;
+		}
+
+		li:only-of-type {
+			padding: 0;
+			list-style: none;
+
+			&:before {
+				display: none;
+			}
+		}
+	}
+}
+
+.woocommerce-NoticeGroup {
+	width: 100%;
+}
+
+.wcpv-registration-message {
+	display: block;
+
+	span {
+		display: block;
+	}
+}

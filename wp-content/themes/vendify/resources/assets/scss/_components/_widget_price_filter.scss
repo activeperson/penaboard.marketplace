@@ -1,0 +1,113 @@
+.widget_price_filter {
+
+	.price_slider_wrapper {
+		padding: 1.5rem 0 0;
+		position: relative;
+	}
+
+	.price_slider {
+		position: absolute;
+		top: 74px;
+		left: 2rem;
+		right: 2rem;
+		width: calc(100% - 4rem);
+	}
+
+	.price_slider_amount {
+		display: flex;
+		flex-direction: column;
+		height: 145px;
+
+		.price_label {
+			text-align: center;
+
+			span {
+				font-size: 17px;
+				color: theme-color("dark");
+			}
+		}
+
+		button {
+			@include link-cta;
+			cursor: pointer;
+			font-size: 11px;
+			width: 100%;
+			padding: $card-spacer-y $card-spacer-x;
+			background-color: $gray-100;
+			border: 0;
+			border-top: $card-border-width solid $gray-200;
+			box-shadow: none;
+			order: 2;
+			margin-top: auto;
+		}
+	}
+
+	.price_slider_wrapper .ui-widget-content {
+		background: gray("200") !important;
+		box-shadow: inset 0 1px 1px #f0f0f0, 0 3px 6px -5px #bbb;
+
+		@include border-radius();
+	}
+
+	.ui-slider .ui-slider-handle {
+		position: absolute;
+		z-index: 2;
+		cursor: ew-resize;
+		outline: none;
+		width: 4px;
+		height: 20px;
+		margin-top: -7px;
+		opacity: 1;
+		background: $white;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+		border: solid 1px rgba(0, 0, 0, 0.1);
+		cursor: default;
+
+		@include border-radius();
+
+		&:focus {
+			outline: none;
+		}
+
+		// Dummy space around the handle to make it more easily clickable.
+		&:before,
+		&:after {
+			position: absolute;
+			width: 12px;
+			height: 100%;
+			display: inline-block;
+			background: transparent;
+			content: "";
+		}
+	}
+
+	.ui-slider .ui-slider-range {
+		position: absolute;
+		z-index: 1;
+		font-size: 0.7em;
+		display: block;
+		border: 0;
+		background: theme-color("primary");
+	}
+
+	.price_slider_wrapper .ui-widget-content {
+		background: rgba(0,0,0,0.1);
+	}
+
+	.ui-slider-horizontal {
+		height: 6px;
+	}
+
+	.ui-slider-horizontal .ui-slider-range {
+		top: 0;
+		height: 100%;
+	}
+
+	.ui-slider-horizontal .ui-slider-range-min {
+		left: -1px;
+	}
+
+	.ui-slider-horizontal .ui-slider-range-max {
+		right: -1px;
+	}
+}

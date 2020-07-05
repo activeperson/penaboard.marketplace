@@ -1,0 +1,86 @@
+// ======================================================================================
+//
+// Switch
+//
+// ======================================================================================
+
+// Pure CSS customized checkbox that looks like a on/off switch button.
+//
+// Markup:
+//
+// <label for="" class="switch">
+//   <input type="checkbox">
+//   <span class="switch__indicator"></span>
+// </label>
+
+
+.switch {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+.switch__input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+
+  &:checked ~ .switch__indicator {
+    background: darken($gray-200, 4%);
+
+    &::before {
+      transform: translate(16px);
+      background-color: $green;
+      border-color: rgba($white, 0.2);
+      box-shadow: none;
+    }
+  }
+
+  &:checked + .switch__label {
+    color: $gray-400;
+  }
+
+  &:checked ~ .switch__label:last-child {
+    color: $gray-600;
+  }
+
+  &:disabled {
+    ~ .switch__indicator {
+      opacity: 0.5;
+    }
+  }
+}
+
+.switch__indicator {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 10px;
+  background: $gray-200;
+  border-radius: 100px;
+  margin: 0 12px;
+
+  &::before {
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: $white;
+    border: solid 1px rgba($black, 0.1);
+    border-radius: 50%;
+    box-shadow: $custom-control-box-shadow;
+    transition: transform 0.3s, background-color 0.3s;
+    content: "";
+  }
+}
+
+.switch__label {
+  font-size: $font-size-base;
+  letter-spacing: normal;
+  text-transform: none;
+  transition: color 0.2s ease-in-out;
+}

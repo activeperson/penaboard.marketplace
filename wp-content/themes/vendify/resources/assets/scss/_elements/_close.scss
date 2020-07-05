@@ -1,0 +1,40 @@
+// ======================================================================================
+//
+// Close button
+//
+// ======================================================================================
+
+// Close button used in modals, popups, editor interface
+//
+// Usage example:
+// <span class="icon-14 icon-14-plus"></span>
+//
+// Nest into buttons and links like so:
+//
+
+.btn-icon--close {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+
+	&:hover {
+		filter: brightness(0.8);
+	}
+
+	&:focus {
+		filter: brightness(0.6);
+		outline: none;
+	}
+}
+
+// Reset button styling
+button.btn-icon--close {
+	padding: 0;
+	border: 0;
+	flex-shrink: 0;
+	-webkit-appearance: none;
+	transition: 0.2s ease-in-out;
+	background-color: transparent;
+	cursor: pointer;
+}
+

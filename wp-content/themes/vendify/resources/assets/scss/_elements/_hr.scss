@@ -1,0 +1,43 @@
+// ======================================================================================
+//
+// HR – Horizontal separator
+//
+// ======================================================================================
+
+.hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: $hr-border-width solid $gray-200;
+}
+
+.hr--lg {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.hr--xl {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.hr--or {
+	position: relative;
+
+	&::after {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: inline-block;
+		width: 34px;
+		height: 34px;
+		text-align: center;
+		font-size: $font-size-xs;
+		line-height: 34px;
+
+		@include text-wide;
+		border: 1px solid gray("200");
+		border-radius: 50%;
+		content: "OR";
+	}
+}

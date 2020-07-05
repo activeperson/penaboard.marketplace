@@ -1,0 +1,48 @@
+[
+	{
+		"id": "purchases",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Account",
+			"menu-item-title": "Purchases",
+			"menu-item-object-title": "Purchases",
+			"menu-item-type": "custom",
+			"menu-item-endpoint": "/myaccount/orders",
+			"menu-item-position": 2,
+			"meta": {
+				"if_menu_enable": [
+					"1"
+				],
+				"if_menu_condition_type": [
+					"show"
+				],
+				"if_menu_condition": [
+					"User is logged in"
+				]
+			}
+		}
+	},
+	{
+		"id": "sign-out",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Account",
+			"menu-item-title": "Sign Out",
+			"menu-item-object-title": "Sign Out",
+			"menu-item-type": "custom",
+			"menu-item-endpoint": "/myaccount/customer-logout",
+			"menu-item-position": 3,
+			"meta": {
+				"if_menu_enable": [
+					"1"
+				],
+				"if_menu_condition_type": [
+					"show"
+				],
+				"if_menu_condition": [
+					"User is logged in"
+				]
+			}
+		}
+	}
+]

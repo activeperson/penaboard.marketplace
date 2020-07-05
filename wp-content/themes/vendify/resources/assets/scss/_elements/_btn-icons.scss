@@ -1,0 +1,29 @@
+
+
+[class*="btn-icon--"],
+.btn-icon {
+	padding: 0;
+	border: 0;
+	flex-shrink: 0;
+	-webkit-appearance: none;
+	transition: 0.2s ease-in-out;
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+	cursor: pointer;
+
+	&:hover {
+		box-shadow: none;
+		border: 0;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}
+
+[class*="btn-icon--"] .ico,
+.btn-icon .ico {
+	// TODO: pointer-events: none
+	display: block;
+}

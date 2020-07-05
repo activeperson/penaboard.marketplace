@@ -1,0 +1,165 @@
+// ======================================================================================
+//
+// Icons
+//
+// ======================================================================================
+
+// Tiny (14x14)
+// ======================================
+
+@mixin icon-xs {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: transparent;
+	background-image: url("../images/sprite.svg");
+	background-repeat: no-repeat;
+	background-size: 300px 12px;
+	border: 0;
+	vertical-align: middle;
+}
+
+@mixin icon-xs--white {
+	filter: brightness(2);
+}
+
+@mixin icon-xs--reply {
+	background-position: (0 * 12px) 0;
+}
+
+@mixin icon-xs--minus {
+	background-position: (-1 * 12px) 0;
+}
+
+@mixin icon-xs--plus {
+	background-position: (-2 * 12px) 0;
+}
+
+@mixin icon-xs--caret {
+	background-position: (-3 * 12px) 0;
+}
+
+@mixin icon-xs--close {
+	background-position: (-4 * 12px) 0;
+}
+
+@mixin icon-xs--left-arrow {
+	background-position: (-5 * 12px) 0;
+}
+
+@mixin icon-xs--right-arrow {
+	background-position: (-6 * 12px) 0;
+}
+
+@mixin icon-xs--check {
+	background-position: (-7 * 12px) 0;
+}
+
+@mixin icon-xs--help {
+	background-position: (-8 * 12px) 0;
+}
+
+@mixin icon-xs--star {
+	background-position: (-9 * 12px) 0;
+}
+
+@mixin icon-xs--arrow {
+	background-position: (-10 * 12px) 0;
+}
+
+@mixin icon-xs--lock {
+	background-position: (-11 * 12px) 0;
+}
+
+@mixin icon-xs--unread {
+	background-position: (-12 * 12px) 0;
+}
+
+// Small (22x22)
+// ======================================
+
+@mixin icon-sm {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-color: transparent;
+	background-image: url("images/icons/icon-sprite-sm@2x.png");
+	background-repeat: no-repeat;
+	background-size: 500px 66px;
+	border: 0;
+	vertical-align: middle;
+}
+
+@mixin icon-sm--white {
+	background-position-y: -22px;
+}
+
+@mixin icon-sm--pin {
+	background-position: (0 * 22px) 0;
+}
+
+@mixin icon-sm--sales {
+	background-position: (-1 * 22px) 0;
+}
+
+@mixin icon-sm--sales--active {
+	background-position: (-1 * 22px) -44px;
+}
+
+@mixin icon-sm--heart {
+	background-position: (-2 * 22px) 0;
+}
+
+@mixin icon-sm--heart--active {
+	background-position: (-2 * 22px) -44px;
+}
+
+@mixin icon-sm--star {
+	background-position: (-3 * 22px) 0;
+}
+
+@mixin icon-sm--star--active {
+	background-position: (-3 * 22px) -44px;
+}
+
+@mixin icon-sm--zoom {
+	background-position: (-4 * 22px) 0;
+}
+
+@mixin icon-sm--message {
+	background-position: (-6 * 22px) 0;
+}
+
+@mixin icon-sm--message--active {
+	background-position: (-6 * 22px) -44px;
+}
+
+@mixin icon-sm--send {
+	background-position: (-7 * 22px) 0;
+}
+
+@mixin icon-sm--attach {
+	background-position: (-8 * 22px) 0;
+}
+
+@mixin icon-sm--checkbox {
+	background-position: (-9 * 22px) 0;
+}
+
+@mixin icon-sm--warning--active {
+	background-position: (-11 * 22px) -44px;
+}
+
+// Medium (28x28)
+// ======================================
+
+@mixin icon-md {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-color: transparent;
+	background-image: url("images/icons/icon-sprite-md@2x.png");
+	background-repeat: no-repeat;
+	background-size: 500px 84px;
+	border: 0;
+}
